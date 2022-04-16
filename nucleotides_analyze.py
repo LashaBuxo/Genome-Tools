@@ -2,6 +2,7 @@ import genome_tools as genome
 import plotly.express as px
 import pandas as pd
 import time
+
 start_time = time.time()
 
 total_freq_by_regions = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
@@ -10,7 +11,7 @@ chromosomes_dict = [None] * 6
 nucleotide_dict = [None] * 6
 counts_dict = [None] * 6
 
-for chr_id in range(1, 25):
+for chr_id in range(22, 23):
     genome.preprocess_annotation_for_chr(chr_id)
     genes_cnt = genome.genes_count_on_chr(chr_id)
 
@@ -21,7 +22,7 @@ for chr_id in range(1, 25):
     for i in range(0, genes_cnt):
         gene = genome.gene_by_ind(chr_id, i)
         total_length += gene.end - gene.start + 1
-        freq_by_regions_for_gene = genome.analyze_gene_composition(chr_id, gene)
+        freq_by_regions_for_gene = genome.analyze_gene_occurrences(chr_id, gene)
         for sub_reg in range(0, 6):
             for nucleotide in range(0, 4):
                 total_freq_by_regions_on_chr[sub_reg][nucleotide] += freq_by_regions_for_gene[sub_reg][nucleotide]

@@ -1,3 +1,5 @@
+# Lasha
+# Specific tools for working with Ensembl annotation and with sequence data
 from os.path import exists
 import gffutils
 from Bio import SeqIO
@@ -91,6 +93,15 @@ def are_genes_overlapped(gene_feature_A: Feature, gene_feature_B: Feature) -> bo
     return False
 
 
+def get_genes_overlap(gene_feature_A: Feature, gene_feature_B: Feature):
+    l_a, r_a = gene_feature_A.start, gene_feature_A.end
+    l_b, r_b = gene_feature_B.start, gene_feature_B.end
+    if l_a <= l_b <= r_a: return l_b, min(r_a, r_b)
+    if l_a <= r_b <= r_a: return max(l_a, l_b), r_b
+    if l_b <= l_a <= r_b: return l_a, l_b
+    return False
+
+
 def max_fragments_overlap_length(fragments_A: list[Feature], fragments_B: list[Feature]) -> int:
     if len(fragments_A) == 0 or len(fragments_B) == 0: return False
 
@@ -134,9 +145,9 @@ def preprocess_feature_by_type(dict_to_fill, feature: Feature, feature_type):
     if feature.featuretype != feature_type: return
 
     if not feature.attributes.__contains__('Parent'):
-        print("Fuck You!")
+        print("Lasha some issue found!")
     if len(feature.attributes['Parent']) != 1:
-        print("Fuck You!")
+        print("Lasha some issue found!")
 
     # parent_gene_id for mRNA and parent_transcript_id for CDS/UTR5'/UTR3'/Exon
     parent_id = feature.attributes['Parent'][0]
@@ -189,7 +200,7 @@ def preprocess_annotation_for_chr(chr_id, use_only_cds=False):
 
 # if sequence for specific chromosome is not loaded then loads it.
 # if its already loaded retrieves it.
-def retrieve_sequence(chr_id) -> SeqRecord:
+def retrieve_sequence_record(chr_id) -> SeqRecord:
     if __sequences[chr_id] is None:
         sequence_path = get_sequence_file_path(chr_id)
         __sequences[chr_id] = next(SeqIO.parse(sequence_path, 'fasta'))
@@ -197,18 +208,49 @@ def retrieve_sequence(chr_id) -> SeqRecord:
     return __sequences[chr_id]
 
 
-def retrieve_feature_sequence(chr_id, feature: Feature) -> SeqRecord:
-    seq_record = retrieve_sequence(chr_id)
-    return seq_record[feature.start - 1:feature.end]
+def retrieve_feature_sequence(chr_id, feature: Feature) -> str:
+    seq_record = retrieve_sequence_record(chr_id)
+    feature_record = seq_record[feature.start - 1:feature.end]
+    if feature.strand == '-':
+        feature_record = feature_record.reverse_complement()
+    return str(feature_record.seq)
 
 
-def retrieve_interval_sequence(chr_id, start, end) -> SeqRecord:
-    seq_record = retrieve_sequence(chr_id)
-    return seq_record[max(0, start - 1):min(end, len(seq_record))]
+def retrieve_interval_sequence(chr_id, start, end, strand) -> str:
+    seq_record = retrieve_sequence_record(chr_id)
+    interval_record = seq_record[max(0, start - 1):min(end, len(seq_record))]
+    if strand == '-': interval_record = interval_record.reverse_complement()
+    return str(interval_record.seq)
 
-    # endregion
 
-    # region Get transcript of a gene
+# endregion
+
+# region Get transcript of a gene
+
+
+def find_best_gene_transcript(chr_id, gene_feature: Feature) -> Feature:
+    if not __gene_transcripts.__contains__(gene_feature.id):
+        # there is no valid mRNA transcript fot this specific gene
+        return None
+
+    mRNA_transcripts = __gene_transcripts[gene_feature.id]
+
+    best_mRNA_transcript = None
+    mRNA_variants = 0
+
+    for transcript in mRNA_transcripts:
+        if not transcript.attributes.__contains__('Parent'):
+            print("Lasha some issue found!")
+        if not len(transcript.attributes) != 1:
+            print("Lasha some issue found!")
+        if transcript.attributes['Parent'][0] == gene_feature.id:
+            mRNA_variants = mRNA_variants + 1
+            best_mRNA_transcript = better_annotated_transcript(best_mRNA_transcript, transcript)
+
+    # print("mRNA variants for Gene [" + gene_feature.id + "]: " + str(mRNA_variants))
+    # print("well annotated mRNA: " + best_mRNA_transcript.id)
+
+    return best_mRNA_transcript
 
 
 # endregion
@@ -227,36 +269,11 @@ def find_transcript_fragments(chr_id, mRNA_transcript: Feature) -> list[Feature]
     for fragment in fragment_features:
         if fragment.attributes.__contains__('Parent'):
             if len(fragment.attributes['Parent']) != 1:
-                print("Fuck you!")
+                print("Lasha some issue found!")
             if fragment.attributes['Parent'][0] == mRNA_transcript.id:
                 fragments.append(fragment)
 
     return fragments
-
-
-def find_best_gene_transcript(chr_id, gene_feature: Feature) -> Feature:
-    if not __gene_transcripts.__contains__(gene_feature.id):
-        # there is no valid mRNA transcript fot this specific gene
-        return None
-
-    mRNA_transcripts = __gene_transcripts[gene_feature.id]
-
-    best_mRNA_transcript = None
-    mRNA_variants = 0
-
-    for transcript in mRNA_transcripts:
-        if not transcript.attributes.__contains__('Parent'):
-            print('Fuck You!')
-        if not len(transcript.attributes) != 1:
-            print('Fuck You!')
-        if transcript.attributes['Parent'][0] == gene_feature.id:
-            mRNA_variants = mRNA_variants + 1
-            best_mRNA_transcript = better_annotated_transcript(best_mRNA_transcript, transcript)
-
-    # print("mRNA variants for Gene [" + gene_feature.id + "]: " + str(mRNA_variants))
-    # print("well annotated mRNA: " + best_mRNA_transcript.id)
-
-    return best_mRNA_transcript
 
 
 def get_fragments_on_gene(chr_id, gene_feature: Feature):
@@ -291,22 +308,16 @@ def sequence_composition(sequence):
     return stats
 
 
-# retrieves nucleotide composition of sequence of given fragment/feature
-# output: (C_count,G_count,A_count,T_count)
-def fragment_composition(chr_id, fragment: Feature):
-    sequence = retrieve_feature_sequence(chr_id, fragment)
-    if fragment.strand == '-': sequence = sequence.reverse_complement()
+def sequence_composition_by_parts(sequence, k):
+    part_length = len(sequence) // k
 
-    return sequence_composition(sequence)
+    compositions_by_parts = [None] * k
+    for i in range(0, k):
+        l = i * part_length
+        r = l + part_length - 1
+        compositions_by_parts[i] = sequence_composition(sequence[l:(r + 1)])
 
-
-# retrieves nucleotide composition of sequence of given interval (start,end,strand)
-# output: (C_count,G_count,A_count,T_count)
-def interval_composition(chr_id, start, end, strand: str):
-    sequence = retrieve_interval_sequence(chr_id, start, end)
-    if strand == '-': sequence = sequence.reverse_complement()
-
-    return sequence_composition(sequence)
+    return compositions_by_parts
 
 
 # endregion
@@ -320,28 +331,23 @@ def interval_composition(chr_id, start, end, strand: str):
 procession_seq_len = 2000
 
 
-def analyze_gene_composition(chr_id, gene: Feature):
+def get_regional_merged_sequences_from_gene(chr_id, gene):
     fragments = get_fragments_on_gene(chr_id, gene)
 
-    stats_UTR5_procession = [0, 0, 0, 0]
-    stats_UTR5 = [0, 0, 0, 0]
-    stats_CDS = [0, 0, 0, 0]
-    stats_Introns = [0, 0, 0, 0]
-    stats_UTR3 = [0, 0, 0, 0]
-    stats_UTR3_procession = [0, 0, 0, 0]
+    utr5_sequence = ""
+    utr3_sequence = ""
+    cds_sequence = ""
+    intron_sequence = ""
+    utr5_procession_sequence = ""
+    utr3_procession_sequence = ""
 
-    if len(fragments) == 0: return [stats_UTR5, stats_CDS, stats_Introns, stats_UTR3]
-
+    if len(fragments) == 0: return [utr5_procession_sequence, utr5_sequence, cds_sequence, intron_sequence,
+                                    utr3_sequence,
+                                    utr3_procession_sequence]
     for fragment in fragments:
-        if fragment.featuretype == 'five_prime_UTR':
-            stats = fragment_composition(chr_id, fragment)
-            stats_UTR5 = [stats_UTR5[x] + stats[x] for x in range(len(stats))]
-        if fragment.featuretype == 'three_prime_UTR':
-            stats = fragment_composition(chr_id, fragment)
-            stats_UTR3 = [stats_UTR3[x] + stats[x] for x in range(len(stats))]
-        if fragment.featuretype == 'CDS':
-            stats = fragment_composition(chr_id, fragment)
-            stats_CDS = [stats_CDS[x] + stats[x] for x in range(len(stats))]
+        if fragment.featuretype == 'five_prime_UTR': utr5_sequence = retrieve_feature_sequence(chr_id, fragment)
+        if fragment.featuretype == 'three_prime_UTR': utr3_sequence = retrieve_feature_sequence(chr_id, fragment)
+        if fragment.featuretype == 'CDS': cds_sequence += retrieve_feature_sequence(chr_id, fragment)
 
     last_exon = None
     introns_len = 0
@@ -361,25 +367,69 @@ def analyze_gene_composition(chr_id, gene: Feature):
             last_exon = fragment
             continue
 
-        # fragment.strand must be same for all fragments/exons
-        stats = interval_composition(chr_id, last_exon.end + 1, fragment.start - 1, fragment.strand)
-        stats_Introns = [stats_Introns[x] + stats[x] for x in range(len(stats))]
-
+        intron_sequence += retrieve_interval_sequence(chr_id, last_exon.end + 1, fragment.start - 1, fragment.strand)
         introns_len += fragment.start - last_exon.end - 1
         last_exon = fragment
 
     if left_fragment.strand == '+':
-        stats = interval_composition(chr_id, left_fragment.start - procession_seq_len, left_fragment.start - 1, '+')
-        stats_UTR5_procession = [stats_UTR5_procession[x] + stats[x] for x in range(len(stats))]
+        utr5_procession_sequence = retrieve_interval_sequence(chr_id, left_fragment.start - procession_seq_len,
+                                                              left_fragment.start - 1, '+')
 
-        stats = interval_composition(chr_id, right_fragment.end + 1, right_fragment.end + procession_seq_len, '+')
-        stats_UTR3_procession = [stats_UTR3_procession[x] + stats[x] for x in range(len(stats))]
+        utr3_procession_sequence = retrieve_interval_sequence(chr_id, right_fragment.end + 1,
+                                                              right_fragment.end + procession_seq_len, '+')
+
     else:
-        stats = interval_composition(chr_id, left_fragment.start - procession_seq_len, left_fragment.start - 1, '-')
-        stats_UTR3_procession = [stats_UTR3_procession[x] + stats[x] for x in range(len(stats))]
+        utr3_procession_sequence = retrieve_interval_sequence(chr_id, left_fragment.start - procession_seq_len,
+                                                              left_fragment.start - 1, '-')
 
-        stats = interval_composition(chr_id, right_fragment.end + 1, right_fragment.end + procession_seq_len, '-')
-        stats_UTR5_procession = [stats_UTR5_procession[x] + stats[x] for x in range(len(stats))]
+        utr5_procession_sequence = retrieve_interval_sequence(chr_id, right_fragment.end + 1,
+                                                              right_fragment.end + procession_seq_len, '-')
 
-    return [stats_UTR5_procession, stats_UTR5, stats_CDS, stats_Introns, stats_UTR3, stats_UTR3_procession]
+    return [utr5_procession_sequence, utr5_sequence, cds_sequence, intron_sequence, utr3_sequence,
+            utr3_procession_sequence]
+
+
+# output: occurrences[part][base] = [k][4]
+def analyze_gene_occurrences(chr_id, gene: Feature):
+    regional_sequences = get_regional_merged_sequences_from_gene(chr_id, gene)
+
+    utr5_procession_sequence = regional_sequences[0]
+    utr5_sequence = regional_sequences[1]
+    cds_sequence = regional_sequences[2]
+    intron_sequence = regional_sequences[3]
+    utr3_sequence = regional_sequences[4]
+    utr3_procession_sequence = regional_sequences[5]
+
+    occurrences_UTR5_procession = sequence_composition(utr5_procession_sequence)
+    occurrences_UTR5 = sequence_composition(utr5_sequence)
+    occurrences_CDS = sequence_composition(cds_sequence)
+    occurrences_Introns = sequence_composition(intron_sequence)
+    occurrences_UTR3 = sequence_composition(utr3_sequence)
+    occurrences_UTR3_procession = sequence_composition(utr3_procession_sequence)
+
+    return [occurrences_UTR5_procession, occurrences_UTR5, occurrences_CDS, occurrences_Introns, occurrences_UTR3,
+            occurrences_UTR3_procession]
+
+
+# output: occurrences[region][part][base] = [6][k][4]
+def analyze_gene_occurrences_by_parts(chr_id, gene: Feature, k):
+    regional_sequences = get_regional_merged_sequences_from_gene(chr_id, gene)
+
+    utr5_procession_sequence = regional_sequences[0]
+    utr5_sequence = regional_sequences[1]
+    cds_sequence = regional_sequences[2]
+    intron_sequence = regional_sequences[3]
+    utr3_sequence = regional_sequences[4]
+    utr3_procession_sequence = regional_sequences[5]
+
+    # subregions of interest: UTR'5_Procession, UTR'5, inner CDSs, inner Introns, UTR'3, UTR'3_Procession
+    # each region divided into k-part
+    # for each part (a,c,g,t) is calculated
+    # occurrences[region][part][base] = [6][k][4]
+    occurrences = [sequence_composition_by_parts(utr5_procession_sequence, k),
+                   sequence_composition_by_parts(utr5_sequence, k), sequence_composition_by_parts(cds_sequence, k),
+                   sequence_composition_by_parts(intron_sequence, k), sequence_composition_by_parts(utr3_sequence, k),
+                   sequence_composition_by_parts(utr3_procession_sequence, k)]
+    return occurrences
+
 # endregion
