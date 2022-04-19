@@ -10,7 +10,10 @@ og_count = 0
 og_pairs_count = 0
 og_clusters_count = 0
 
-for chr_id in range(1, 26):
+genes_by_clusters_length = [0] * 1000
+
+# excluding mitochondria
+for chr_id in range(1, genome.number_of_chromosomes):
     genome.preprocess_annotation_for_chr(chr_id)
     genes_cnt = genome.genes_count_on_chr(chr_id)
 
@@ -38,7 +41,7 @@ for chr_id in range(1, 26):
     for i in range(0, genes_cnt):
         cluster_indexes[i] = i
 
-    #for every different pair of genes
+    # for every different pair of genes
     for i in range(0, genes_cnt):
         for j in range(i + 1, genes_cnt):
             gene_a = genome.gene_by_ind(chr_id, i)
@@ -67,12 +70,24 @@ for chr_id in range(1, 26):
         if genes_in_cluster[i] > 1:
             og_clusters_count += 1
 
+    for i in range(0, genes_cnt):
+        genes_by_clusters_length[genes_in_cluster[cluster_indexes[i]]] += 1
+
 # print stats
 print("Number of genes: " + str(total_genes))
 print("Number of genes on Positive(+) Strand: " + str(positive_genes))
 print("Number of genes on Negative(-) Strand: " + str(negative_genes))
+print("")
+
 print("Number of OG: " + str(og_count))
 print("Number of OG pairs: " + str(og_pairs_count))
-print("Number of OG clusters: " + str(og_clusters_count))
+print("Number of OG clusters with >=2 gene: " + str(og_clusters_count))
+print("")
+
+print("Genes by clusters length:")
+for i in range(0, 1000):
+    if genes_by_clusters_length[i] > 0:
+        print(str(i) + "-length clusters: " + str((genes_by_clusters_length[i] // i)))
+print("")
 
 print("--- %s seconds ---" % (time.time() - start_time))

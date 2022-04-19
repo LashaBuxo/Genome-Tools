@@ -14,7 +14,7 @@ number_of_chromosomes = 25
 # genome files: annotations & DNA sequences
 annotation_files_prefix = './genome_data/Ensembl/annotations/'
 annotation_db_files_prefix = './databases/Ensembl/'
-sequence_files_prefix = './genome_data/Ensembl/chromosomes/'
+sequence_files_prefix = './genome_data/Ensembl/sequences/'
 
 # gene features clustered by chromosome, they are on.
 # Example: genes_on_chr[22] = ['gene' features on chromosome 22]
@@ -102,13 +102,30 @@ def get_genes_overlap(gene_feature_A: Feature, gene_feature_B: Feature):
     return False
 
 
-def max_fragments_overlap_length(fragments_A: list[Feature], fragments_B: list[Feature]) -> int:
+def is_same_frame_overlap(fragment_a: Feature, fragment_b: Feature) -> bool:
+    if fragment_a.strand != fragment_b.strand: return False
+    l = 0
+    r = 0
+    if fragment_a.strand == '+':
+        l = fragment_a.start + int(fragment_a.frame)
+        r = fragment_b.start + int(fragment_b.frame)
+    else:
+        l = fragment_a.end - int(fragment_a.frame)
+        r = fragment_b.end - int(fragment_b.frame)
+    return l % 3 == r % 3
+
+
+def max_fragments_overlap_length(fragments_A: list[Feature], fragments_B: list[Feature],
+                                 exclude_same_stranded_and_same_frame_overlaps) -> int:
     if len(fragments_A) == 0 or len(fragments_B) == 0: return False
+
+    same_stranded = fragments_A[0].strand == fragments_B[0].strand
 
     overlaps = []
     max_overlap = 0
     for fragment_a in fragments_A:
         for fragment_b in fragments_B:
+            if exclude_same_stranded_and_same_frame_overlaps and is_same_frame_overlap(fragment_a, fragment_b): continue
             overlap_len = 0
             overlap = (0, 0)
             if fragment_b.end < fragment_a.start or fragment_b.start > fragment_a.end: continue
@@ -160,11 +177,12 @@ def preprocess_feature_by_type(dict_to_fill, feature: Feature, feature_type):
 
 def preprocess_annotation_for_chr(chr_id, use_only_cds=False):
     if not exists(get_annotation_db_path(chr_id)):
-        gffutils.create_db(get_annotation_file_path(chr_id), dbfn=get_annotation_db_path(chr_id), force=True,
-                           keep_order=True,
+        gffutils.create_db(get_annotation_file_path(chr_id), dbfn=get_annotation_db_path(chr_id), force=False,
+                           keep_order=False,
                            merge_strategy='merge', sort_attribute_values=False)
 
-    features_db = gffutils.FeatureDB(get_annotation_db_path(chr_id), keep_order=True)
+    features_db = gffutils.FeatureDB(get_annotation_db_path(chr_id), keep_order=False)
+
     features_generator = features_db.all_features()
     features = list(features_generator)
 
@@ -328,7 +346,7 @@ def sequence_composition_by_parts(sequence, k):
 # subregions of interest: UTR'5_Procession, UTR'5, inner CDSs, inner Introns, UTR'3, UTR'3_Procession
 # for each subregion calculate (C_count,G_count,A_count,T_count)
 
-procession_seq_len = 2000
+procession_seq_len = 1000
 
 
 def get_regional_merged_sequences_from_gene(chr_id, gene):

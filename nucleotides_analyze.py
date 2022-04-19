@@ -11,7 +11,8 @@ chromosomes_dict = [None] * 6
 nucleotide_dict = [None] * 6
 counts_dict = [None] * 6
 
-for chr_id in range(22, 23):
+# all chromosomes except mitochondria
+for chr_id in range(1, genome.number_of_chromosomes):
     genome.preprocess_annotation_for_chr(chr_id)
     genes_cnt = genome.genes_count_on_chr(chr_id)
 

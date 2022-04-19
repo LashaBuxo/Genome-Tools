@@ -2,9 +2,8 @@
 __pycache__
 databases/Ensembl/
 genome_data/Ensembl/annotations
-genome_data/Ensembl/chromosomes
+genome_data/Ensembl/sequences
 genome_data/NCBI/annotations
-genome_data/NCBI/chromosomes
-genome_data/NCBI/whole_genome
+genome_data/NCBI/sequences 
 genome_data/UCSC/annotations
 genome_data/UCSC/chromosomes

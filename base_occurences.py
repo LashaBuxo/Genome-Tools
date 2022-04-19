@@ -28,7 +28,8 @@ for i in range(0, 6):
         occurrences_on_region.append(base_distributions_on_part)
     total_occurrences.append(occurrences_on_region)
 
-for chr_id in range(1, 25):
+# excluding mitochondria
+for chr_id in range(1, genome.number_of_chromosomes):
     print(chr_id)
     genome.preprocess_annotation_for_chr(chr_id)
     genes_cnt = genome.genes_count_on_chr(chr_id)
@@ -100,4 +101,4 @@ fig = px.line(df, x="regional_parts", y="distribution", line_group=lineind,
               color="nucleotide")
 #"Each region is divided into " + str(k) + " part"
 
-fig.write_image("images/average_gene_outline.png", scale=4.0)
+fig.write_image("results/average_gene_outline.png", scale=4.0)
