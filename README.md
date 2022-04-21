@@ -16,7 +16,7 @@ Output:
 ```
 ##### _Example Output:_
  
-```textmate
+```yaml
 Number of genes: 19951
 Number of genes on Positive(+) Strand: 10086
 Number of genes on Negative(-) Strand: 9865
