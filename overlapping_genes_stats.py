@@ -1,7 +1,37 @@
-import genome_tools as genome
+# Author: "Lasha Bukhnikashvili"
+#
+# Description:
+#   Calculates overlapping gene pairs count and other general stats in genome
+#   like:
+#       number of genes which is overlapped at least  once,
+#       number of overlapping gene clusters
+#       etc...
+#
+# Usage:
+#   overlapping_genes_stats.py <annotation>
+#
+# Params (possible) to run:
+#   annotation: NCBI / Ensembl
+#
+# Example:
+#   python overlapping_genes_stats.py NCBI
+#
+# Output:
+#   prints stats in console
+
+import genome_lib_tools as genome
+from genome_lib_tools import ANNOTATION
+from genome_lib_tools import ANNOTATION_LOAD
+from genome_lib_tools import SEQUENCE_LOAD
+
 import time
+import sys
 
 start_time = time.time()
+
+assert len(sys.argv) == 2
+
+annotation = ANNOTATION.NCBI if sys.argv[1] == 'NCBI' else ANNOTATION.ENSEMBL
 
 total_genes = 0
 positive_genes = 0
@@ -12,11 +42,12 @@ og_clusters_count = 0
 
 genes_by_clusters_length = [0] * 1000
 
-# excluding mitochondria
-for chr_id in range(1, genome.number_of_chromosomes):
-    genome.preprocess_annotation_for_chr(chr_id)
-    genes_cnt = genome.genes_count_on_chr(chr_id)
+# Load only genes. we don't need gene specific fragments as we are calculating general stats
+genome.preprocess_annotation(annotation, ANNOTATION_LOAD.GENES, SEQUENCE_LOAD.NOT_LOAD)
 
+# excluding mitochondria
+for chr_id in range(1, genome.chromosomes_count()):
+    genes_cnt = genome.genes_count_on_chr(chr_id)
     total_overlapped_sequence = ""
 
     # make sure, that there is no same id over genes on chromosome

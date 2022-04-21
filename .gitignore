@@ -1,6 +1,7 @@
 .idea
 __pycache__
 databases/Ensembl/
+databases/NCBI/
 genome_data/Ensembl/annotations
 genome_data/Ensembl/sequences
 genome_data/NCBI/annotations
