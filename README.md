@@ -16,7 +16,7 @@ Output:
 ```
 ##### _Example Output:_
  
-```regexp
+```textmate
 Number of genes: 19951
 Number of genes on Positive(+) Strand: 10086
 Number of genes on Negative(-) Strand: 9865
@@ -45,7 +45,7 @@ Genes by clusters length:
 22-length clusters: 1
 33-length clusters: 1 
 ```
-## Gene model in human by base occurrences 
+## Gene model in human genome by base occurrences 
  `base_occurrences.py` Builds 'Average' gene outline in genome (as .png).
   Genes is divided into 6 region: `UTR'5_Procession`, `UTR'5`, `inner CDSs`, `inner Introns`, `UTR'3`,` UTR'3_Procession`
   and each region is divided into _**k subregions**_, where _ATCG_ occurrences are calculated.
