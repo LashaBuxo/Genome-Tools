@@ -1,10 +1,6 @@
 # Overlapping genes in Human Genome (general stats)
-
-`overlapping_genes_stats.py` does general stats calculation on total genes, overlapping genes, overlapping gene
-clusters, etc...
-
+`overlapping_genes_stats.py` does general stats calculation on total genes, overlapping genes, overlapping gene clusters, etc... 
 ##### _Specifics:_
-
 ```text
 Usage:
   overlapping_genes_stats.py <annotation>
@@ -18,9 +14,8 @@ Example:
 Output:
   prints stats in console
 ```
-
 ##### _Example Output:_
-
+ 
 ```yaml
 Number of genes: 19951
 Number of genes on Positive(+) Strand: 10086
@@ -50,18 +45,14 @@ Genes by clusters length:
 22-length clusters: 1
 33-length clusters: 1 
 ```
-
-## Gene model in human genome by base occurrences
-
-`base_occurrences.py` Builds 'Average' gene outline in genome (as .png). Genes is divided into 6
-region: `UTR'5_Procession`, `UTR'5`, `inner CDSs`, `inner Introns`, `UTR'3`,` UTR'3_Procession`
-and each region is divided into _**k subregions**_, where _ATCG_ occurrences are calculated.
-
+## Gene model in human genome by base occurrences 
+ `base_occurrences.py` Builds 'Average' gene outline in genome (as .png).
+  Genes is divided into 6 region: `UTR'5_Procession`, `UTR'5`, `inner CDSs`, `inner Introns`, `UTR'3`,` UTR'3_Procession`
+  and each region is divided into _**k subregions**_, where _ATCG_ occurrences are calculated.
+  
 Based each nucleotide occurrences, graph is built from _**6 x k point**_
-where X axis corresponds to points, and Y axis corresponds to nucleotide occurences.
-
+  where X axis corresponds to points, and Y axis corresponds  to nucleotide occurences.
 ##### _Specifics:_
-
 ```text 
 Usage:
   base_occurrences.py <annotation> <subregions> <procession_length>
@@ -78,21 +69,17 @@ Output:
   created image in ./results/images folder
 
 ```
-
 ##### _Example Output:_
 
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) | |--|--|
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) |
+| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) | ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) |
+|--|--|
+| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) | ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) |
 
-## Overlapping genes by specific regions
-
-`overlapping_fragments.py`  Calculates overlapping gene pairs by only specific parts: CDS (coding sequence), EXON or
-whole gene
-
+ 
+## Overlapping genes by specific regions 
+ `overlapping_fragments.py`  Calculates overlapping gene pairs by
+  only specific parts: CDS (coding sequence), EXON or whole gene
 ##### _Specifics:_
-
 ```text 
 Usage:
   overlapping_fragments.py <annotation> <fragment_type> <strand_similarity> <ORF_similarity> <output_type>
@@ -112,9 +99,6 @@ Example:
 Output:
   creates .txt file in ./results folder
 ```
-
 ##### _Example Outputs:_
-
 #### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
-
 #### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
