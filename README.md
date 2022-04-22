@@ -101,5 +101,5 @@ Output:
   creates .txt file in ./results folder
 ```
 ##### _Example Outputs:_
- [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
- [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
+#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
+#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
