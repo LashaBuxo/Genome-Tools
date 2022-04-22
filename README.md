@@ -12,32 +12,32 @@ In project there are used specific (latest for 2022/04) annotations from
 <tr>
 <td> 
 
-```json
+```yaml
 Genome Reference Assembly:
-	genome-build Genome Reference Consortium GRCh38.p13
+genome-build Genome Reference Consortium GRCh38.p13
 
 Genome Primary Assembly:
-	GenBank Assembly ID 
-	genome-build-accession GCA_000001405.28  
+GenBank Assembly ID 
+genome-build-accession GCA_000001405.28  
 
 Genome Annotation:
-	Ensembl Release 105 (2021)
+Ensembl Release 105 (2021)
 ```
 </td>
 <td>
  
 
-```json 
+```yaml 
 Genome Reference Assembly: 
-	genome-build: Genome Reference Consortium GRCh38.p13
+genome-build: Genome Reference Consortium GRCh38.p13
 
 Genome Primary Assembly:
-	NCBI Assembly ID 
-	genome-build-accession: GCF_000001405.39
+NCBI Assembly ID 
+genome-build-accession: GCF_000001405.39
 
 Genome Annotation:
-	NCBI Homo sapiens Updated Annotation Release 109.20211119 
-	11/19/2021
+NCBI Homo sapiens Updated Annotation Release 109.20211119 
+11/19/2021
 ```
  
 
