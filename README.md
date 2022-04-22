@@ -15,7 +15,14 @@ Output:
   prints stats in console
 ```
 ##### _Example Output:_
- 
+<table>
+<tr>
+<th> Using Ensembl </th>
+<th> Using NCBI (Refseq) </th>
+</tr>
+<tr>
+<td> 
+
 ```yaml
 Number of genes: 19951
 Number of genes on Positive(+) Strand: 10086
@@ -45,6 +52,44 @@ Genes by clusters length:
 22-length clusters: 1
 33-length clusters: 1 
 ```
+</td>
+<td>
+
+
+```yaml
+Number of genes: 19951
+Number of genes on Positive(+) Strand: 10086
+Number of genes on Negative(-) Strand: 9865
+
+Number of OG: 6758
+Number of OG pairs: 4972
+Number of OG clusters with >=2 gene: 2502
+
+Genes by clusters length:
+1-length clusters: 13193
+2-length clusters: 1536
+3-length clusters: 590
+4-length clusters: 210
+5-length clusters: 88
+6-length clusters: 33
+7-length clusters: 18
+8-length clusters: 11
+9-length clusters: 2
+10-length clusters: 3
+11-length clusters: 3
+12-length clusters: 1
+13-length clusters: 1
+15-length clusters: 2
+16-length clusters: 1
+17-length clusters: 1
+22-length clusters: 1
+33-length clusters: 1 
+```
+
+</td>
+</tr>
+</table>
+ 
 ## Gene model in human genome by base occurrences 
  `base_occurrences.py` Builds 'Average' gene outline in genome (as .png).
   Genes is divided into 6 region: `UTR'5_Procession`, `UTR'5`, `inner CDSs`, `inner Introns`, `UTR'3`,` UTR'3_Procession`
@@ -71,10 +116,7 @@ Output:
 ```
 ##### _Example Output:_
 
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) | ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) |
-|--|--|
-| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) | ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png) |
-
+![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
  
 ## Overlapping genes by specific regions 
  `overlapping_fragments.py`  Calculates overlapping gene pairs by
