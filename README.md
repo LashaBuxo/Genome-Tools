@@ -1,51 +1,6 @@
-# Overlapping genes in Human Genome (general stats)
-In project there are used specific (latest for 2022/04) annotations from 
-`NCBI (Refseq)` and `Ensembl` with their corresponding genome builds: **Refseq** and **Genbank** accordingly.
-##### _Specifics:_
  
 
-<table>
-<tr>
-<th> Ensembl version  </th>
-<th> NCBI (Refseq) versuib </th>
-</tr>
-<tr>
-<td> 
-
-```yaml
-Genome Reference Assembly:
-genome-build Genome Reference Consortium GRCh38.p13
-
-Genome Primary Assembly:
-GenBank Assembly ID 
-genome-build-accession GCA_000001405.28  
-
-Genome Annotation:
-Ensembl Release 105 (2021)
-```
-</td>
-<td>
- 
-
-```yaml 
-Genome Reference Assembly: 
-genome-build: Genome Reference Consortium GRCh38.p13
-
-Genome Primary Assembly:
-NCBI Assembly ID 
-genome-build-accession: GCF_000001405.39
-
-Genome Annotation:
-NCBI Homo sapiens Updated Annotation Release 109.20211119 
-11/19/2021
-```
- 
-
-</td>
-</tr>
-</table>
-
-# Overlapping genes in Human Genome (general stats)
+## Overlapping genes in Human Genome (general stats)
 `overlapping_genes_stats.py` does general stats calculation on total genes, overlapping genes, overlapping gene clusters, etc... 
 ##### _Specifics:_
 ```text
@@ -190,3 +145,53 @@ Output:
 ##### _Example Outputs:_
 #### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
 #### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
+
+
+<hr style="border:2px solid gray"> </hr>
+
+## Human Genome annotation/assembly versions
+In project there are used specific (latest for 2022/04) annotations from 
+`NCBI (Refseq)` and `Ensembl` with their corresponding genome builds: **Refseq** and **Genbank** accordingly.
+##### _Specifics:_
+ 
+
+<table>
+<tr>
+<th> Ensembl version  </th>
+<th> NCBI (Refseq) versuib </th>
+</tr>
+<tr>
+<td> 
+
+```yaml
+Genome Reference Assembly:
+genome-build Genome Reference Consortium GRCh38.p13
+
+Genome Primary Assembly:
+GenBank Assembly ID 
+genome-build-accession GCA_000001405.28  
+
+Genome Annotation:
+Ensembl Release 105 (2021)
+```
+</td>
+<td>
+ 
+
+```yaml 
+Genome Reference Assembly: 
+genome-build: Genome Reference Consortium GRCh38.p13
+
+Genome Primary Assembly:
+NCBI Assembly ID 
+genome-build-accession: GCF_000001405.39
+
+Genome Annotation:
+NCBI Homo sapiens Updated Annotation Release 109.20211119 
+11/19/2021
+```
+ 
+
+</td>
+</tr>
+</table>
