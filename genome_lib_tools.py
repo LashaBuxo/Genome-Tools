@@ -12,7 +12,7 @@
 
 # Specific tools for working with Ensembl annotation and with sequence data
 from os.path import exists
-from random import random
+import random
 
 import gffutils
 from gffutils import FeatureDB, Feature
