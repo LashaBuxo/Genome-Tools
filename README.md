@@ -12,7 +12,7 @@ In project there are used specific (latest for 2022/04) annotations from
 <tr>
 <td> 
 
-```regexp
+```properties
 Genome Reference Assembly:
 	genome-build Genome Reference Consortium GRCh38.p13
 
@@ -27,7 +27,7 @@ Genome Annotation:
 <td>
  
 
-```regexp 
+```properties
 Genome Reference Assembly: 
 	genome-build: Genome Reference Consortium GRCh38.p13
 
