@@ -61,7 +61,6 @@ Genes by clusters length:
 </td>
 <td>
 
-
 ```yaml
 Number of genes: 19476
 Number of genes on Positive(+) Strand: 9852
@@ -87,6 +86,9 @@ Genes by clusters length:
 17-length clusters: 1
 21-length clusters: 1
 22-length clusters: 1
+
+
+
 ```
 
 </td>
