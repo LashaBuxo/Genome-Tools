@@ -99,9 +99,9 @@ for region in range(0, 6):
 
         dist2 = total_occurrences[region][part][1] / total
 
-        dist3 = -total_occurrences[region][part][2] / total
+        dist3 = total_occurrences[region][part][2] / total - 0.5
 
-        dist4 = -total_occurrences[region][part][3] / total
+        dist4 = total_occurrences[region][part][3] / total - 0.5
 
         distribution.append(dist1)
         distribution.append(dist2)
@@ -125,7 +125,62 @@ df = pd.DataFrame(dict(
     lineind=lineind
 ))
 
-fig = px.line(df, x="regional_parts", y="distribution", line_group=lineind, color="nucleotide")
+# build graph
+fig = px.line(df, x="regional_parts", y="distribution", labels={
+    "regional_parts": "",
+    "distribution": "distribution",
+    'nucleotide': "bases"
+}, title='Gene model in human genome by base occurrences', line_group=lineind, color="nucleotide")
+
+fig.update_layout(
+    yaxis=dict(
+        tickmode='array',
+        tickvals=[-0.4, -0.3, -0.2, -0.1, 0.1, 0.2, 0.3, 0.4],
+        ticktext=['10%', '20%', '30%', '40%', '10%', "20%", '30%', '40%']
+    )
+)
+
+# bottom text
+fig.add_annotation(dict(xref='paper', yref='paper', x=0.5, y=-0.1, xanchor='center', yanchor='top',
+                        text='Annotation = ' + sys.argv[1] + ', Subregions = ' + sys.argv[2] +
+                             ', Procession length = ' + sys.argv[3],
+                        font=dict(family='Arial', size=12, color='rgb(150,150,150)'),
+                        showarrow=False))
+
+# region texts
+fig.add_annotation(x=k / 2, y=0, text="<b>(len " + str(procession_length) + ") >5'</b>", showarrow=False, yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color='rgb(150,150,150)'))
+
+fig.add_annotation(x=3 * k / 2, y=0, text="<b>UTR 5'</b>", showarrow=False, yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color="#ff7f0e"),
+                   # bordercolor="#c7c7c7", borderwidth=2, borderpad=4, bgcolor="#ff7f0e", opacity=0.8
+                   )
+
+fig.add_annotation(x=5 * k / 2, y=0, text="<b>CDSs</b>", showarrow=False, yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color="#0CE83F"),
+                   # bordercolor="#c7c7c7", borderwidth=2, borderpad=4, bgcolor="#0CE83F", opacity=0.8
+                   )
+
+fig.add_annotation(x=7 * k / 2, y=0, text="<b>INTRONs</b>", showarrow=False, yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color="#000000"),
+                   # bordercolor="#c7c7c7", borderwidth=2, borderpad=4, opacity=0.8
+                   )
+
+fig.add_annotation(x=9 * k / 2, y=0, text="<b>UTR 3'</b>", showarrow=False, yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color="#ff7f0e"),
+                   # bordercolor="#c7c7c7", borderwidth=2, borderpad=4, bgcolor="#ff7f0e", opacity=0.8
+                   )
+
+fig.add_annotation(x=11 * k / 2, y=0, text="<b>3'< (len " + str(procession_length) + ")</b>", showarrow=False,
+                   yshift=10,
+                   font=dict(family="Courier New, monospace", size=10, color='rgb(150,150,150)'))
+
+# lines
+fig.add_hline(y=0, line_width=1.5, line_color='rgb(150,150,150)')
+fig.add_vline(x=2 * k, line_width=0.75, line_color='rgb(150,150,150)')
+fig.add_vline(x=3 * k, line_width=0.75, line_dash="dash", line_color='rgb(150,150,150)')
+fig.add_vline(x=4 * k, line_width=0.75, line_color='rgb(150,150,150)')
+
 fig.write_image(
     "results/images/average gene (" + sys.argv[1] + ", k=" + sys.argv[2] + ", procc=" + sys.argv[3] + ").png",
     scale=4.0)

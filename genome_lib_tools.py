@@ -409,16 +409,9 @@ def get_fragments_on_gene(chr_id, gene_feature: Feature, force_sorted) -> list[F
         return []
 
     fragments = __find_transcript_fragments(chr_id, mRNA_transcript)
-    if force_sorted == False:
+    if not force_sorted:
         return fragments
-
-    arr = []
-    for frag in fragments:
-        arr.append((frag, frag.start))
-    arr = sorted(arr, key=lambda tup: tup[1])
-    fragments = []
-    for item in arr:
-        fragments.append(item[0])
+    fragments.sort(key=lambda x: x.start)
     return fragments
 
 

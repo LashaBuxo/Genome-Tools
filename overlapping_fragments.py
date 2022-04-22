@@ -17,7 +17,7 @@
 # Example:
 #   python overlapping_fragments.py NCBI CDS diff_stranded both_framed print_gene_pairs_with_descriptions
 #   Finds all overlapping genes by CDS fragments, which are on different strands
-#   and which have same ORF or different ORF (or both)
+#   and which have same ORF or different ORF
 #
 # Output:
 #   creates .txt file in ./results folder
