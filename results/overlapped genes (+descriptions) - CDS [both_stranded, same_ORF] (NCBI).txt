@@ -1,0 +1,2169 @@
+Max overlap: 2321  |  Total overlap: 3090  |  chr: 3  |  genes: [gene-ZNF660-ZNF197;gene-ZNF197]
+     Gene 1 Description: ZNF660-ZNF197; ZNF660-ZNF197 readthrough
+     Gene 2 Description: ZNF197; zinc finger protein 197
+
+Max overlap: 2099  |  Total overlap: 2241  |  chr: 19  |  genes: [gene-ZNF765-ZNF761;gene-ZNF761]
+     Gene 1 Description: ZNF765-ZNF761; ZNF765-ZNF761 readthrough
+     Gene 2 Description: ZNF761; zinc finger protein 761
+
+Max overlap: 1930  |  Total overlap: 2133  |  chr: 2  |  genes: [gene-STON1-GTF2A1L;gene-STON1]
+     Gene 1 Description: STON1-GTF2A1L; STON1-GTF2A1L readthrough
+     Gene 2 Description: STON1; stonin 1
+
+Max overlap: 1644  |  Total overlap: 1644  |  chr: 23  |  genes: [gene-ARMCX5-GPRASP2;gene-BHLHB9]
+     Gene 1 Description: ARMCX5-GPRASP2; ARMCX5-GPRASP2 readthrough
+     Gene 2 Description: BHLHB9; basic helix-loop-helix family member b9
+
+Max overlap: 1613  |  Total overlap: 7569  |  chr: 5  |  genes: [gene-ANKHD1-EIF4EBP3;gene-ANKHD1]
+     Gene 1 Description: ANKHD1-EIF4EBP3; ANKHD1-EIF4EBP3 readthrough
+     Gene 2 Description: ANKHD1; ankyrin repeat and KH domain containing 1
+
+Max overlap: 1418  |  Total overlap: 1452  |  chr: 7  |  genes: [gene-ERV3-1-ZNF117;gene-ZNF117]
+     Gene 1 Description: ERV3-1-ZNF117; ERV3-1-ZNF117 readthrough
+     Gene 2 Description: ZNF117; zinc finger protein 117
+
+Max overlap: 1213  |  Total overlap: 1677  |  chr: 2  |  genes: [gene-PHOSPHO2-KLHL23;gene-KLHL23]
+     Gene 1 Description: PHOSPHO2-KLHL23; PHOSPHO2-KLHL23 readthrough
+     Gene 2 Description: KLHL23; kelch like family member 23
+
+Max overlap: 1074  |  Total overlap: 3473  |  chr: 13  |  genes: [gene-BIVM-ERCC5;gene-ERCC5]
+     Gene 1 Description: BIVM-ERCC5; BIVM-ERCC5 readthrough
+     Gene 2 Description: ERCC5; ERCC excision repair 5, endonuclease
+
+Max overlap: 881  |  Total overlap: 924  |  chr: 7  |  genes: [gene-GIMAP1-GIMAP5;gene-GIMAP5]
+     Gene 1 Description: GIMAP1-GIMAP5; GIMAP1-GIMAP5 readthrough
+     Gene 2 Description: GIMAP5; GTPase, IMAP family member 5
+
+Max overlap: 861  |  Total overlap: 861  |  chr: 12  |  genes: [gene-POC1B-GALNT4;gene-GALNT4]
+     Gene 1 Description: POC1B-GALNT4; POC1B-GALNT4 readthrough
+     Gene 2 Description: GALNT4; polypeptide N-acetylgalactosaminyltransferase 4
+
+Max overlap: 822  |  Total overlap: 2103  |  chr: 7  |  genes: [gene-ATP5MF-PTCD1;gene-PTCD1]
+     Gene 1 Description: ATP5MF-PTCD1; ATP5MF-PTCD1 readthrough
+     Gene 2 Description: PTCD1; pentatricopeptide repeat domain 1
+
+Max overlap: 762  |  Total overlap: 978  |  chr: 7  |  genes: [gene-TSC22D4-C7ORF61;gene-TSC22D4]
+     Gene 1 Description: TSC22D4-C7ORF61; TSC22D4-C7orf61 readthrough
+     Gene 2 Description: TSC22D4; TSC22 domain family member 4
+
+Max overlap: 696  |  Total overlap: 1401  |  chr: 3  |  genes: [gene-IQCJ-SCHIP1;gene-SCHIP1]
+     Gene 1 Description: IQCJ-SCHIP1; IQCJ-SCHIP1 readthrough
+     Gene 2 Description: SCHIP1; schwannomin interacting protein 1
+
+Max overlap: 682  |  Total overlap: 682  |  chr: 5  |  genes: [gene-ZNF474;gene-LOC100505841]
+     Gene 1 Description: ZNF474; zinc finger protein 474
+     Gene 2 Description: LOC100505841; zinc finger protein 474-like
+
+Max overlap: 654  |  Total overlap: 2046  |  chr: 15  |  genes: [gene-BUB1B-PAK6;gene-PAK6]
+     Gene 1 Description: BUB1B-PAK6; BUB1B-PAK6 readthrough
+     Gene 2 Description: PAK6; p21 (RAC1) activated kinase 6
+
+Max overlap: 649  |  Total overlap: 649  |  chr: 5  |  genes: [gene-TMED7-TICAM2;gene-TICAM2]
+     Gene 1 Description: TMED7-TICAM2; TMED7-TICAM2 readthrough
+     Gene 2 Description: TICAM2; toll like receptor adaptor molecule 2
+
+Max overlap: 645  |  Total overlap: 994  |  chr: 15  |  genes: [gene-GCOM1;gene-POLR2M]
+     Gene 1 Description: GCOM1; GCOM1, MYZAP-POLR2M combined locus
+     Gene 2 Description: POLR2M; RNA polymerase II subunit M
+
+Max overlap: 630  |  Total overlap: 966  |  chr: 19  |  genes: [gene-ZNF559-ZNF177;gene-ZNF177]
+     Gene 1 Description: ZNF559-ZNF177; ZNF559-ZNF177 readthrough
+     Gene 2 Description: ZNF177; zinc finger protein 177
+
+Max overlap: 618  |  Total overlap: 618  |  chr: 2  |  genes: [gene-NT5C1B-RDH14;gene-RDH14]
+     Gene 1 Description: NT5C1B-RDH14; NT5C1B-RDH14 readthrough
+     Gene 2 Description: RDH14; retinol dehydrogenase 14
+
+Max overlap: 602  |  Total overlap: 6453  |  chr: 11  |  genes: [gene-TBCEL-TECTA;gene-TECTA]
+     Gene 1 Description: TBCEL-TECTA; TBCEL-TECTA readthrough
+     Gene 2 Description: TECTA; tectorin alpha
+
+Max overlap: 590  |  Total overlap: 1308  |  chr: 2  |  genes: [gene-STON1-GTF2A1L;gene-GTF2A1L]
+     Gene 1 Description: STON1-GTF2A1L; STON1-GTF2A1L readthrough
+     Gene 2 Description: GTF2A1L; general transcription factor IIA subunit 1 like
+
+Max overlap: 566  |  Total overlap: 1467  |  chr: 11  |  genes: [gene-TRIM6-TRIM34;gene-TRIM34]
+     Gene 1 Description: TRIM6-TRIM34; TRIM6-TRIM34 readthrough
+     Gene 2 Description: TRIM34; tripartite motif containing 34
+
+Max overlap: 564  |  Total overlap: 1576  |  chr: 13  |  genes: [gene-SETDB2-PHF11;gene-SETDB2]
+     Gene 1 Description: SETDB2-PHF11; SETDB2-PHF11 readthrough
+     Gene 2 Description: SETDB2; SET domain bifurcated histone lysine methyltransferase 2
+
+Max overlap: 501  |  Total overlap: 1519  |  chr: 20  |  genes: [gene-MMP24-AS1-EDEM2;gene-EDEM2]
+     Gene 1 Description: MMP24-AS1-EDEM2; MMP24-AS1-EDEM2 readthrough
+     Gene 2 Description: EDEM2; ER degradation enhancing alpha-mannosidase like protein 2
+
+Max overlap: 478  |  Total overlap: 1450  |  chr: 13  |  genes: [gene-BIVM;gene-BIVM-ERCC5]
+     Gene 1 Description: BIVM; basic, immunoglobulin-like variable motif containing
+     Gene 2 Description: BIVM-ERCC5; BIVM-ERCC5 readthrough
+
+Max overlap: 465  |  Total overlap: 1329  |  chr: 2  |  genes: [gene-NT5C1B-RDH14;gene-NT5C1B]
+     Gene 1 Description: NT5C1B-RDH14; NT5C1B-RDH14 readthrough
+     Gene 2 Description: NT5C1B; 5'-nucleotidase, cytosolic IB
+
+Max overlap: 458  |  Total overlap: 831  |  chr: 8  |  genes: [gene-C8orf76;gene-ZHX1-C8orf76]
+     Gene 1 Description: C8orf76; chromosome 8 open reading frame 76
+     Gene 2 Description: ZHX1-C8orf76; ZHX1-C8orf76 readthrough
+
+Max overlap: 453  |  Total overlap: 1104  |  chr: 6  |  genes: [gene-TRIM39;gene-TRIM39-RPP21]
+     Gene 1 Description: TRIM39; tripartite motif containing 39
+     Gene 2 Description: TRIM39-RPP21; TRIM39-RPP21 readthrough
+
+Max overlap: 436  |  Total overlap: 1548  |  chr: 3  |  genes: [gene-ARPC4-TTLL3;gene-TTLL3]
+     Gene 1 Description: ARPC4-TTLL3; ARPC4-TTLL3 readthrough
+     Gene 2 Description: TTLL3; tubulin tyrosine ligase like 3
+
+Max overlap: 432  |  Total overlap: 432  |  chr: 14  |  genes: [gene-BCL2L2-PABPN1;gene-BCL2L2]
+     Gene 1 Description: BCL2L2-PABPN1; BCL2L2-PABPN1 readthrough
+     Gene 2 Description: BCL2L2; BCL2 like 2
+
+Max overlap: 423  |  Total overlap: 901  |  chr: 11  |  genes: [gene-TRIM6;gene-TRIM6-TRIM34]
+     Gene 1 Description: TRIM6; tripartite motif containing 6
+     Gene 2 Description: TRIM6-TRIM34; TRIM6-TRIM34 readthrough
+
+Max overlap: 418  |  Total overlap: 418  |  chr: 9  |  genes: [gene-MSANTD3;gene-MSANTD3-TMEFF1]
+     Gene 1 Description: MSANTD3; Myb/SANT DNA binding domain containing 3
+     Gene 2 Description: MSANTD3-TMEFF1; MSANTD3-TMEFF1 readthrough
+
+Max overlap: 372  |  Total overlap: 4822  |  chr: 2  |  genes: [gene-LY75-CD302;gene-LY75]
+     Gene 1 Description: LY75-CD302; LY75-CD302 readthrough
+     Gene 2 Description: LY75; lymphocyte antigen 75
+
+Max overlap: 359  |  Total overlap: 402  |  chr: 7  |  genes: [gene-GIMAP1-GIMAP5;gene-GIMAP1]
+     Gene 1 Description: GIMAP1-GIMAP5; GIMAP1-GIMAP5 readthrough
+     Gene 2 Description: GIMAP1; GTPase, IMAP family member 1
+
+Max overlap: 337  |  Total overlap: 337  |  chr: 11  |  genes: [gene-RBM14-RBM4;gene-RBM14]
+     Gene 1 Description: RBM14-RBM4; RBM14-RBM4 readthrough
+     Gene 2 Description: RBM14; RNA binding motif protein 14
+
+Max overlap: 336  |  Total overlap: 751  |  chr: 1  |  genes: [gene-NBPF26;gene-NOTCH2NLR]
+     Gene 1 Description: NBPF26; NBPF member 26
+     Gene 2 Description: NOTCH2NLR; notch 2 N-terminal like R (pseudogene)
+
+Max overlap: 336  |  Total overlap: 336  |  chr: 9  |  genes: [gene-DNAJC25-GNG10;gene-DNAJC25]
+     Gene 1 Description: DNAJC25-GNG10; DNAJC25-GNG10 readthrough
+     Gene 2 Description: DNAJC25; DnaJ heat shock protein family (Hsp40) member C25
+
+Max overlap: 334  |  Total overlap: 408  |  chr: 12  |  genes: [gene-ZNF664-RFLNA;gene-RFLNA]
+     Gene 1 Description: ZNF664-RFLNA; ZNF664-RFLNA readthrough
+     Gene 2 Description: RFLNA; refilin A
+
+Max overlap: 330  |  Total overlap: 802  |  chr: 6  |  genes: [gene-LY6G6F-LY6G6D;gene-LY6G6F]
+     Gene 1 Description: LY6G6F-LY6G6D; LY6G6F-LY6G6D readthrough
+     Gene 2 Description: LY6G6F; lymphocyte antigen 6 family member G6F
+
+Max overlap: 330  |  Total overlap: 981  |  chr: 10  |  genes: [gene-COMMD3-BMI1;gene-BMI1]
+     Gene 1 Description: COMMD3-BMI1; COMMD3-BMI1 readthrough
+     Gene 2 Description: BMI1; BMI1 proto-oncogene, polycomb ring finger
+
+Max overlap: 329  |  Total overlap: 1098  |  chr: 19  |  genes: [gene-BORCS8-MEF2B;gene-MEF2B]
+     Gene 1 Description: BORCS8-MEF2B; BORCS8-MEF2B readthrough
+     Gene 2 Description: MEF2B; myocyte enhancer factor 2B
+
+Max overlap: 324  |  Total overlap: 558  |  chr: 7  |  genes: [gene-TSC22D4-C7ORF61;gene-C7orf61]
+     Gene 1 Description: TSC22D4-C7ORF61; TSC22D4-C7orf61 readthrough
+     Gene 2 Description: C7orf61; chromosome 7 open reading frame 61
+
+Max overlap: 324  |  Total overlap: 324  |  chr: 12  |  genes: [gene-PRH1-TAS2R14;gene-TAS2R14]
+     Gene 1 Description: PRH1-TAS2R14; PRH1-TAS2R14 readthrough
+     Gene 2 Description: TAS2R14; taste 2 receptor member 14
+
+Max overlap: 321  |  Total overlap: 777  |  chr: 11  |  genes: [gene-LRTOMT;gene-TOMT]
+     Gene 1 Description: LRTOMT; leucine rich transmembrane and O-methyltransferase domain containing
+     Gene 2 Description: TOMT; transmembrane O-methyltransferase
+
+Max overlap: 321  |  Total overlap: 1302  |  chr: 22  |  genes: [gene-PRR5-ARHGAP8;gene-ARHGAP8]
+     Gene 1 Description: PRR5-ARHGAP8; PRR5-ARHGAP8 readthrough
+     Gene 2 Description: ARHGAP8; Rho GTPase activating protein 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA2]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA2; protocadherin alpha 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA3]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA3; protocadherin alpha 3
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA4]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA4; protocadherin alpha 4
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA5]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA5; protocadherin alpha 5
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA6]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA6; protocadherin alpha 6
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA7]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA8]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA9]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA10]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA11]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA12]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHA13]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHAC1]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA1;gene-PCDHAC2]
+     Gene 1 Description: PCDHA1; protocadherin alpha 1
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA3]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA3; protocadherin alpha 3
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA4]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA4; protocadherin alpha 4
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA5]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA5; protocadherin alpha 5
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA6]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA6; protocadherin alpha 6
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA7]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA8]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA9]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA10]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA11]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA12]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHA13]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHAC1]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA2;gene-PCDHAC2]
+     Gene 1 Description: PCDHA2; protocadherin alpha 2
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA4]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA4; protocadherin alpha 4
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA5]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA5; protocadherin alpha 5
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA6]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA6; protocadherin alpha 6
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA7]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA8]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA9]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA10]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA11]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA12]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHA13]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHAC1]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA3;gene-PCDHAC2]
+     Gene 1 Description: PCDHA3; protocadherin alpha 3
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA5]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA5; protocadherin alpha 5
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA6]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA6; protocadherin alpha 6
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA7]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA8]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA9]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA10]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA11]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA12]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHA13]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHAC1]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA4;gene-PCDHAC2]
+     Gene 1 Description: PCDHA4; protocadherin alpha 4
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA6]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA6; protocadherin alpha 6
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA7]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA8]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA9]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA10]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA11]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA12]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHA13]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHAC1]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA5;gene-PCDHAC2]
+     Gene 1 Description: PCDHA5; protocadherin alpha 5
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA7]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA7; protocadherin alpha 7
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA8]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA9]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA10]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA11]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA12]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHA13]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHAC1]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA6;gene-PCDHAC2]
+     Gene 1 Description: PCDHA6; protocadherin alpha 6
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA8]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA8; protocadherin alpha 8
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA9]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA10]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA11]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA12]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHA13]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHAC1]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA7;gene-PCDHAC2]
+     Gene 1 Description: PCDHA7; protocadherin alpha 7
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHA9]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHA9; protocadherin alpha 9
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHA10]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHA11]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHA12]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHA13]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHAC1]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA8;gene-PCDHAC2]
+     Gene 1 Description: PCDHA8; protocadherin alpha 8
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHA10]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHA10; protocadherin alpha 10
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHA11]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHA12]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHA13]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHAC1]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA9;gene-PCDHAC2]
+     Gene 1 Description: PCDHA9; protocadherin alpha 9
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA10;gene-PCDHA11]
+     Gene 1 Description: PCDHA10; protocadherin alpha 10
+     Gene 2 Description: PCDHA11; protocadherin alpha 11
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA10;gene-PCDHA12]
+     Gene 1 Description: PCDHA10; protocadherin alpha 10
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA10;gene-PCDHA13]
+     Gene 1 Description: PCDHA10; protocadherin alpha 10
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA10;gene-PCDHAC1]
+     Gene 1 Description: PCDHA10; protocadherin alpha 10
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA10;gene-PCDHAC2]
+     Gene 1 Description: PCDHA10; protocadherin alpha 10
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA11;gene-PCDHA12]
+     Gene 1 Description: PCDHA11; protocadherin alpha 11
+     Gene 2 Description: PCDHA12; protocadherin alpha 12
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA11;gene-PCDHA13]
+     Gene 1 Description: PCDHA11; protocadherin alpha 11
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA11;gene-PCDHAC1]
+     Gene 1 Description: PCDHA11; protocadherin alpha 11
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA11;gene-PCDHAC2]
+     Gene 1 Description: PCDHA11; protocadherin alpha 11
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA12;gene-PCDHA13]
+     Gene 1 Description: PCDHA12; protocadherin alpha 12
+     Gene 2 Description: PCDHA13; protocadherin alpha 13
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA12;gene-PCDHAC1]
+     Gene 1 Description: PCDHA12; protocadherin alpha 12
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA12;gene-PCDHAC2]
+     Gene 1 Description: PCDHA12; protocadherin alpha 12
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA13;gene-PCDHAC1]
+     Gene 1 Description: PCDHA13; protocadherin alpha 13
+     Gene 2 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHA13;gene-PCDHAC2]
+     Gene 1 Description: PCDHA13; protocadherin alpha 13
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 311  |  Total overlap: 459  |  chr: 5  |  genes: [gene-PCDHAC1;gene-PCDHAC2]
+     Gene 1 Description: PCDHAC1; protocadherin alpha subfamily C, 1
+     Gene 2 Description: PCDHAC2; protocadherin alpha subfamily C, 2
+
+Max overlap: 300  |  Total overlap: 3186  |  chr: 1  |  genes: [gene-CRYZL2P-SEC16B;gene-SEC16B]
+     Gene 1 Description: CRYZL2P-SEC16B; CRYZL2P-SEC16B readthrough
+     Gene 2 Description: SEC16B; SEC16 homolog B, endoplasmic reticulum export factor
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A10]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A9]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A7]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A6]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A5]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A4]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A3]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A8;gene-UGT1A1]
+     Gene 1 Description: UGT1A8; UDP glucuronosyltransferase family 1 member A8
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A9]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A7]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A6]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A5]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A4]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A3]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A10;gene-UGT1A1]
+     Gene 1 Description: UGT1A10; UDP glucuronosyltransferase family 1 member A10
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A7]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A6]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A5]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A4]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A3]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A9;gene-UGT1A1]
+     Gene 1 Description: UGT1A9; UDP glucuronosyltransferase family 1 member A9
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A7;gene-UGT1A6]
+     Gene 1 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+     Gene 2 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A7;gene-UGT1A5]
+     Gene 1 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+     Gene 2 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A7;gene-UGT1A4]
+     Gene 1 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A7;gene-UGT1A3]
+     Gene 1 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A7;gene-UGT1A1]
+     Gene 1 Description: UGT1A7; UDP glucuronosyltransferase family 1 member A7
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A6;gene-UGT1A5]
+     Gene 1 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+     Gene 2 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A6;gene-UGT1A4]
+     Gene 1 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A6;gene-UGT1A3]
+     Gene 1 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A6;gene-UGT1A1]
+     Gene 1 Description: UGT1A6; UDP glucuronosyltransferase family 1 member A6
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A5;gene-UGT1A4]
+     Gene 1 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+     Gene 2 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A5;gene-UGT1A3]
+     Gene 1 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A5;gene-UGT1A1]
+     Gene 1 Description: UGT1A5; UDP glucuronosyltransferase family 1 member A5
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A4;gene-UGT1A3]
+     Gene 1 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+     Gene 2 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A4;gene-UGT1A1]
+     Gene 1 Description: UGT1A4; UDP glucuronosyltransferase family 1 member A4
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 298  |  Total overlap: 738  |  chr: 2  |  genes: [gene-UGT1A3;gene-UGT1A1]
+     Gene 1 Description: UGT1A3; UDP glucuronosyltransferase family 1 member A3
+     Gene 2 Description: UGT1A1; UDP glucuronosyltransferase family 1 member A1
+
+Max overlap: 284  |  Total overlap: 480  |  chr: 3  |  genes: [gene-EEF1AKMT4-ECE2;gene-EEF1AKMT4]
+     Gene 1 Description: EEF1AKMT4-ECE2; EEF1AKMT4-ECE2 readthrough
+     Gene 2 Description: EEF1AKMT4; EEF1A lysine methyltransferase 4
+
+Max overlap: 280  |  Total overlap: 737  |  chr: 4  |  genes: [gene-UGT2A1;gene-UGT2A2]
+     Gene 1 Description: UGT2A1; UDP glucuronosyltransferase family 2 member A1 complex locus
+     Gene 2 Description: UGT2A2; UDP glucuronosyltransferase family 2 member A2
+
+Max overlap: 264  |  Total overlap: 565  |  chr: 1  |  genes: [gene-MICOS10-NBL1;gene-NBL1]
+     Gene 1 Description: MICOS10-NBL1; MICOS10-NBL1 readthrough
+     Gene 2 Description: NBL1; NBL1, DAN family BMP antagonist
+
+Max overlap: 258  |  Total overlap: 1338  |  chr: 2  |  genes: [gene-ASB3;gene-GPR75-ASB3]
+     Gene 1 Description: ASB3; ankyrin repeat and SOCS box containing 3
+     Gene 2 Description: GPR75-ASB3; GPR75-ASB3 readthrough
+
+Max overlap: 257  |  Total overlap: 956  |  chr: 11  |  genes: [gene-TBCEL-TECTA;gene-TBCEL]
+     Gene 1 Description: TBCEL-TECTA; TBCEL-TECTA readthrough
+     Gene 2 Description: TBCEL; tubulin folding cofactor E like
+
+Max overlap: 257  |  Total overlap: 1230  |  chr: 13  |  genes: [gene-CCDC169-SOHLH2;gene-SOHLH2]
+     Gene 1 Description: CCDC169-SOHLH2; CCDC169-SOHLH2 readthrough
+     Gene 2 Description: SOHLH2; spermatogenesis and oogenesis specific basic helix-loop-helix 2
+
+Max overlap: 254  |  Total overlap: 702  |  chr: 15  |  genes: [gene-JMJD7-PLA2G4B;gene-JMJD7]
+     Gene 1 Description: JMJD7-PLA2G4B; JMJD7-PLA2G4B readthrough
+     Gene 2 Description: JMJD7; jumonji domain containing 7
+
+Max overlap: 246  |  Total overlap: 566  |  chr: 5  |  genes: [gene-TMED7-TICAM2;gene-TMED7]
+     Gene 1 Description: TMED7-TICAM2; TMED7-TICAM2 readthrough
+     Gene 2 Description: TMED7; transmembrane p24 trafficking protein 7
+
+Max overlap: 244  |  Total overlap: 244  |  chr: 1  |  genes: [gene-P3R3URF-PIK3R3;gene-P3R3URF]
+     Gene 1 Description: P3R3URF-PIK3R3; P3R3URF-PIK3R3 readthrough
+     Gene 2 Description: P3R3URF; PIK3R3 upstream open reading frame
+
+Max overlap: 243  |  Total overlap: 1865  |  chr: 12  |  genes: [gene-SLCO1B3;gene-SLCO1B3-SLCO1B7]
+     Gene 1 Description: SLCO1B3; solute carrier organic anion transporter family member 1B3
+     Gene 2 Description: SLCO1B3-SLCO1B7; SLCO1B3-SLCO1B7 readthrough
+
+Max overlap: 233  |  Total overlap: 441  |  chr: 15  |  genes: [gene-ST20-MTHFS;gene-MTHFS]
+     Gene 1 Description: ST20-MTHFS; ST20-MTHFS readthrough
+     Gene 2 Description: MTHFS; methenyltetrahydrofolate synthetase
+
+Max overlap: 229  |  Total overlap: 1251  |  chr: 22  |  genes: [gene-TPTEP2-CSNK1E;gene-CSNK1E]
+     Gene 1 Description: TPTEP2-CSNK1E; TPTEP2-CSNK1E readthrough
+     Gene 2 Description: CSNK1E; casein kinase 1 epsilon
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA2]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA3]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB1]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA4]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB2]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA5]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB3]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA6]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA1;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA1; protocadherin gamma subfamily A, 1
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA3]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB1]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA4]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB2]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA5]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB3]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA6]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA2;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA2; protocadherin gamma subfamily A, 2
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB1]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA4]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB2]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA5]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB3]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA6]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA3;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA3; protocadherin gamma subfamily A, 3
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA4]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB2]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA5]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB3]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA6]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA7]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB4]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA8]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB5]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA9]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB6]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB1;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB1; protocadherin gamma subfamily B, 1
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB2]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA5]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB3]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA6]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA4;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA4; protocadherin gamma subfamily A, 4
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA5]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGB3]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA6]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA7]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGB4]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA8]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGB5]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA9]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGB6]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB2;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB2; protocadherin gamma subfamily B, 2
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGB3]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA6]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA5;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA5; protocadherin gamma subfamily A, 5
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA6]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA7]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGB4]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA8]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGB5]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA9]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGB6]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB3;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB3; protocadherin gamma subfamily B, 3
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA7]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA6;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA6; protocadherin gamma subfamily A, 6
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGB4]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGA8]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA7;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA7; protocadherin gamma subfamily A, 7
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGA8]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGB5]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGA9]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGB6]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB4;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB4; protocadherin gamma subfamily B, 4
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGB5]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGA9]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA8;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA8; protocadherin gamma subfamily A, 8
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGA9]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGB6]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB5;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB5; protocadherin gamma subfamily B, 5
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGB6]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGA10]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA9;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA9; protocadherin gamma subfamily A, 9
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGA10]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGB7]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB6;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB6; protocadherin gamma subfamily B, 6
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGB7]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGA11]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA10;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA10; protocadherin gamma subfamily A, 10
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB7;gene-PCDHGA11]
+     Gene 1 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+     Gene 2 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB7;gene-PCDHGA12]
+     Gene 1 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB7;gene-PCDHGC3]
+     Gene 1 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB7;gene-PCDHGC4]
+     Gene 1 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGB7;gene-PCDHGC5]
+     Gene 1 Description: PCDHGB7; protocadherin gamma subfamily B, 7
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA11;gene-PCDHGA12]
+     Gene 1 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+     Gene 2 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA11;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA11;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA11;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA11; protocadherin gamma subfamily A, 11
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA12;gene-PCDHGC3]
+     Gene 1 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+     Gene 2 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA12;gene-PCDHGC4]
+     Gene 1 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGA12;gene-PCDHGC5]
+     Gene 1 Description: PCDHGA12; protocadherin gamma subfamily A, 12
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGC3;gene-PCDHGC4]
+     Gene 1 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+     Gene 2 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGC3;gene-PCDHGC5]
+     Gene 1 Description: PCDHGC3; protocadherin gamma subfamily C, 3
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 375  |  chr: 5  |  genes: [gene-PCDHGC4;gene-PCDHGC5]
+     Gene 1 Description: PCDHGC4; protocadherin gamma subfamily C, 4
+     Gene 2 Description: PCDHGC5; protocadherin gamma subfamily C, 5
+
+Max overlap: 227  |  Total overlap: 1497  |  chr: 7  |  genes: [gene-CYP3A7-CYP3A51P;gene-CYP3A7]
+     Gene 1 Description: CYP3A7-CYP3A51P; CYP3A7-CYP3A51P readthrough
+     Gene 2 Description: CYP3A7; cytochrome P450 family 3 subfamily A member 7
+
+Max overlap: 227  |  Total overlap: 706  |  chr: 7  |  genes: [gene-DUS4L-BCAP29;gene-DUS4L]
+     Gene 1 Description: DUS4L-BCAP29; DUS4L-BCAP29 readthrough
+     Gene 2 Description: DUS4L; dihydrouridine synthase 4 like
+
+Max overlap: 226  |  Total overlap: 636  |  chr: 15  |  genes: [gene-ARHGAP11A-SCG5;gene-SCG5]
+     Gene 1 Description: ARHGAP11A-SCG5; ARHGAP11A-SCG5 readthrough
+     Gene 2 Description: SCG5; secretogranin V
+
+Max overlap: 224  |  Total overlap: 347  |  chr: 6  |  genes: [gene-LY6G6F-LY6G6D;gene-LY6G6D]
+     Gene 1 Description: LY6G6F-LY6G6D; LY6G6F-LY6G6D readthrough
+     Gene 2 Description: LY6G6D; lymphocyte antigen 6 family member G6D
+
+Max overlap: 223  |  Total overlap: 2337  |  chr: 15  |  genes: [gene-JMJD7-PLA2G4B;gene-PLA2G4B]
+     Gene 1 Description: JMJD7-PLA2G4B; JMJD7-PLA2G4B readthrough
+     Gene 2 Description: PLA2G4B; phospholipase A2 group IVB
+
+Max overlap: 216  |  Total overlap: 2172  |  chr: 3  |  genes: [gene-EEF1AKMT4-ECE2;gene-ECE2]
+     Gene 1 Description: EEF1AKMT4-ECE2; EEF1AKMT4-ECE2 readthrough
+     Gene 2 Description: ECE2; endothelin converting enzyme 2
+
+Max overlap: 216  |  Total overlap: 504  |  chr: 21  |  genes: [gene-CFAP298-TCP10L;gene-TCP10L]
+     Gene 1 Description: CFAP298-TCP10L; CFAP298-TCP10L readthrough
+     Gene 2 Description: TCP10L; t-complex 10 like
+
+Max overlap: 213  |  Total overlap: 1868  |  chr: 7  |  genes: [gene-ABCF2-H2BK1;gene-ABCF2]
+     Gene 1 Description: ABCF2-H2BK1; ABCF2-H2BK1 readthrough
+     Gene 2 Description: ABCF2; ATP binding cassette subfamily F member 2
+
+Max overlap: 213  |  Total overlap: 682  |  chr: 20  |  genes: [gene-PEDS1-UBE2V1;gene-PEDS1]
+     Gene 1 Description: PEDS1-UBE2V1; PEDS1-UBE2V1 readthrough
+     Gene 2 Description: PEDS1; plasmanylethanolamine desaturase 1
+
+Max overlap: 207  |  Total overlap: 672  |  chr: 15  |  genes: [gene-ARPIN-AP3S2;gene-ARPIN]
+     Gene 1 Description: ARPIN-AP3S2; ARPIN-AP3S2 readthrough
+     Gene 2 Description: ARPIN; actin related protein 2/3 complex inhibitor
+
+Max overlap: 203  |  Total overlap: 521  |  chr: 2  |  genes: [gene-LY75-CD302;gene-CD302]
+     Gene 1 Description: LY75-CD302; LY75-CD302 readthrough
+     Gene 2 Description: CD302; CD302 molecule
+
+Max overlap: 202  |  Total overlap: 680  |  chr: 10  |  genes: [gene-ZNF511-PRAP1;gene-ZNF511]
+     Gene 1 Description: ZNF511-PRAP1; ZNF511-PRAP1 readthrough
+     Gene 2 Description: ZNF511; zinc finger protein 511
+
+Max overlap: 201  |  Total overlap: 606  |  chr: 4  |  genes: [gene-FAM47E;gene-FAM47E-STBD1]
+     Gene 1 Description: FAM47E; family with sequence similarity 47 member E
+     Gene 2 Description: FAM47E-STBD1; FAM47E-STBD1 readthrough
+
+Max overlap: 201  |  Total overlap: 606  |  chr: 6  |  genes: [gene-LOC118142757;gene-GUCA1A]
+     Gene 1 Description: LOC118142757; GUCA1ANB-GUCA1A readthrough
+     Gene 2 Description: GUCA1A; guanylate cyclase activator 1A
+
+Max overlap: 199  |  Total overlap: 1254  |  chr: 1  |  genes: [gene-P3R3URF-PIK3R3;gene-PIK3R3]
+     Gene 1 Description: P3R3URF-PIK3R3; P3R3URF-PIK3R3 readthrough
+     Gene 2 Description: PIK3R3; phosphoinositide-3-kinase regulatory subunit 3
+
+Max overlap: 198  |  Total overlap: 1014  |  chr: 12  |  genes: [gene-ATF7-NPFF;gene-ATF7]
+     Gene 1 Description: ATF7-NPFF; ATF7-NPFF readthrough
+     Gene 2 Description: ATF7; activating transcription factor 7
+
+Max overlap: 196  |  Total overlap: 458  |  chr: 1  |  genes: [gene-PMF1-BGLAP;gene-PMF1]
+     Gene 1 Description: PMF1-BGLAP; PMF1-BGLAP readthrough
+     Gene 2 Description: PMF1; polyamine modulated factor 1
+
+Max overlap: 195  |  Total overlap: 2468  |  chr: 1  |  genes: [gene-FPGT-TNNI3K;gene-TNNI3K]
+     Gene 1 Description: FPGT-TNNI3K; FPGT-TNNI3K readthrough
+     Gene 2 Description: TNNI3K; TNNI3 interacting kinase
+
+Max overlap: 195  |  Total overlap: 588  |  chr: 1  |  genes: [gene-TNFAIP8L2-SCNM1;gene-SCNM1]
+     Gene 1 Description: TNFAIP8L2-SCNM1; TNFAIP8L2-SCNM1 readthrough
+     Gene 2 Description: SCNM1; sodium channel modifier 1
+
+Max overlap: 194  |  Total overlap: 448  |  chr: 10  |  genes: [gene-ZNF511-PRAP1;gene-PRAP1]
+     Gene 1 Description: ZNF511-PRAP1; ZNF511-PRAP1 readthrough
+     Gene 2 Description: PRAP1; proline rich acidic protein 1
+
+Max overlap: 192  |  Total overlap: 1118  |  chr: 7  |  genes: [gene-LUC7L2;gene-FMC1-LUC7L2]
+     Gene 1 Description: LUC7L2; LUC7 like 2, pre-mRNA splicing factor
+     Gene 2 Description: FMC1-LUC7L2; FMC1-LUC7L2 readthrough
+
+Max overlap: 192  |  Total overlap: 393  |  chr: 18  |  genes: [gene-RPL17-C18orf32;gene-RPL17]
+     Gene 1 Description: RPL17-C18orf32; RPL17-C18orf32 readthrough
+     Gene 2 Description: RPL17; ribosomal protein L17
+
+Max overlap: 192  |  Total overlap: 192  |  chr: 20  |  genes: [gene-TGIF2;gene-TGIF2-RAB5IF]
+     Gene 1 Description: TGIF2; TGFB induced factor homeobox 2
+     Gene 2 Description: TGIF2-RAB5IF; TGIF2-RAB5IF readthrough
+
+Max overlap: 188  |  Total overlap: 801  |  chr: 6  |  genes: [gene-TBC1D7-LOC100130357;gene-TBC1D7]
+     Gene 1 Description: TBC1D7-LOC100130357; TBC1D7-LOC100130357 readthrough
+     Gene 2 Description: TBC1D7; TBC1 domain family member 7
+
+Max overlap: 187  |  Total overlap: 187  |  chr: 11  |  genes: [gene-INS-IGF2;gene-INS]
+     Gene 1 Description: INS-IGF2; INS-IGF2 readthrough
+     Gene 2 Description: INS; insulin
+
+Max overlap: 182  |  Total overlap: 351  |  chr: 8  |  genes: [gene-TPD52;gene-MRPS28]
+     Gene 1 Description: TPD52; tumor protein D52
+     Gene 2 Description: MRPS28; mitochondrial ribosomal protein S28
+
+Max overlap: 179  |  Total overlap: 420  |  chr: 6  |  genes: [gene-NUDT3;gene-RPS10-NUDT3]
+     Gene 1 Description: NUDT3; nudix hydrolase 3
+     Gene 2 Description: RPS10-NUDT3; RPS10-NUDT3 readthrough
+
+Max overlap: 176  |  Total overlap: 2517  |  chr: 16  |  genes: [gene-CORO7-PAM16;gene-CORO7]
+     Gene 1 Description: CORO7-PAM16; CORO7-PAM16 readthrough
+     Gene 2 Description: CORO7; coronin 7
+
+Max overlap: 172  |  Total overlap: 456  |  chr: 6  |  genes: [gene-RPS10-NUDT3;gene-RPS10]
+     Gene 1 Description: RPS10-NUDT3; RPS10-NUDT3 readthrough
+     Gene 2 Description: RPS10; ribosomal protein S10
+
+Max overlap: 172  |  Total overlap: 682  |  chr: 6  |  genes: [gene-CNPY3-GNMT;gene-GNMT]
+     Gene 1 Description: CNPY3-GNMT; CNPY3-GNMT readthrough
+     Gene 2 Description: GNMT; glycine N-methyltransferase
+
+Max overlap: 171  |  Total overlap: 1491  |  chr: 8  |  genes: [gene-C8orf44-SGK3;gene-SGK3]
+     Gene 1 Description: C8orf44-SGK3; C8orf44-SGK3 readthrough
+     Gene 2 Description: SGK3; serum/glucocorticoid regulated kinase family member 3
+
+Max overlap: 171  |  Total overlap: 270  |  chr: 16  |  genes: [gene-CKLF-CMTM1;gene-CMTM1]
+     Gene 1 Description: CKLF-CMTM1; CKLF-CMTM1 readthrough
+     Gene 2 Description: CMTM1; CKLF like MARVEL transmembrane domain containing 1
+
+Max overlap: 171  |  Total overlap: 1182  |  chr: 19  |  genes: [gene-PPAN;gene-PPAN-P2RY11]
+     Gene 1 Description: PPAN; peter pan homolog
+     Gene 2 Description: PPAN-P2RY11; PPAN-P2RY11 readthrough
+
+Max overlap: 168  |  Total overlap: 343  |  chr: 1  |  genes: [gene-FPGT-TNNI3K;gene-FPGT]
+     Gene 1 Description: FPGT-TNNI3K; FPGT-TNNI3K readthrough
+     Gene 2 Description: FPGT; fucose-1-phosphate guanylyltransferase
+
+Max overlap: 168  |  Total overlap: 668  |  chr: 15  |  genes: [gene-ARHGAP11A;gene-ARHGAP11A-SCG5]
+     Gene 1 Description: ARHGAP11A; Rho GTPase activating protein 11A
+     Gene 2 Description: ARHGAP11A-SCG5; ARHGAP11A-SCG5 readthrough
+
+Max overlap: 168  |  Total overlap: 391  |  chr: 20  |  genes: [gene-EPPIN-WFDC6;gene-EPPIN]
+     Gene 1 Description: EPPIN-WFDC6; EPPIN-WFDC6 readthrough
+     Gene 2 Description: EPPIN; epididymal peptidase inhibitor
+
+Max overlap: 166  |  Total overlap: 166  |  chr: 11  |  genes: [gene-NDUFC2-KCTD14;gene-NDUFC2]
+     Gene 1 Description: NDUFC2-KCTD14; NDUFC2-KCTD14 readthrough
+     Gene 2 Description: NDUFC2; NADH:ubiquinone oxidoreductase subunit C2
+
+Max overlap: 166  |  Total overlap: 234  |  chr: 21  |  genes: [gene-GET1-SH3BGR;gene-GET1]
+     Gene 1 Description: GET1-SH3BGR; GET1-SH3BGR readthrough
+     Gene 2 Description: GET1; guided entry of tail-anchored proteins factor 1
+
+Max overlap: 165  |  Total overlap: 168  |  chr: 2  |  genes: [gene-HSPE1-MOB4;gene-HSPE1]
+     Gene 1 Description: HSPE1-MOB4; HSPE1-MOB4 readthrough
+     Gene 2 Description: HSPE1; heat shock protein family E (Hsp10) member 1
+
+Max overlap: 165  |  Total overlap: 1227  |  chr: 3  |  genes: [gene-ABHD14A-ACY1;gene-ACY1]
+     Gene 1 Description: ABHD14A-ACY1; ABHD14A-ACY1 readthrough
+     Gene 2 Description: ACY1; aminoacylase 1
+
+Max overlap: 163  |  Total overlap: 393  |  chr: 11  |  genes: [gene-SAA2-SAA4;gene-SAA4]
+     Gene 1 Description: SAA2-SAA4; SAA2-SAA4 readthrough
+     Gene 2 Description: SAA4; serum amyloid A4, constitutive
+
+Max overlap: 162  |  Total overlap: 540  |  chr: 14  |  genes: [gene-BCL2L2-PABPN1;gene-PABPN1]
+     Gene 1 Description: BCL2L2-PABPN1; BCL2L2-PABPN1 readthrough
+     Gene 2 Description: PABPN1; poly(A) binding protein nuclear 1
+
+Max overlap: 160  |  Total overlap: 879  |  chr: 3  |  genes: [gene-STIMATE-MUSTN1;gene-STIMATE]
+     Gene 1 Description: STIMATE-MUSTN1; STIMATE-MUSTN1 readthrough
+     Gene 2 Description: STIMATE; STIM activating enhancer
+
+Max overlap: 160  |  Total overlap: 1200  |  chr: 17  |  genes: [gene-PTGES3L-AARSD1;gene-AARSD1]
+     Gene 1 Description: PTGES3L-AARSD1; PTGES3L-AARSD1 readthrough
+     Gene 2 Description: AARSD1; alanyl-tRNA synthetase domain containing 1
+
+Max overlap: 159  |  Total overlap: 947  |  chr: 9  |  genes: [gene-MSANTD3-TMEFF1;gene-TMEFF1]
+     Gene 1 Description: MSANTD3-TMEFF1; MSANTD3-TMEFF1 readthrough
+     Gene 2 Description: TMEFF1; transmembrane protein with EGF like and two follistatin like domains 1
+
+Max overlap: 159  |  Total overlap: 237  |  chr: 16  |  genes: [gene-CKLF;gene-CKLF-CMTM1]
+     Gene 1 Description: CKLF; chemokine like factor
+     Gene 2 Description: CKLF-CMTM1; CKLF-CMTM1 readthrough
+
+Max overlap: 159  |  Total overlap: 498  |  chr: 17  |  genes: [gene-TNFSF12-TNFSF13;gene-TNFSF12]
+     Gene 1 Description: TNFSF12-TNFSF13; TNFSF12-TNFSF13 readthrough
+     Gene 2 Description: TNFSF12; TNF superfamily member 12
+
+Max overlap: 159  |  Total overlap: 291  |  chr: 21  |  genes: [gene-CFAP298-TCP10L;gene-CFAP298]
+     Gene 1 Description: CFAP298-TCP10L; CFAP298-TCP10L readthrough
+     Gene 2 Description: CFAP298; cilia and flagella associated protein 298
+
+Max overlap: 156  |  Total overlap: 1304  |  chr: 15  |  genes: [gene-GCOM1;gene-MYZAP]
+     Gene 1 Description: GCOM1; GCOM1, MYZAP-POLR2M combined locus
+     Gene 2 Description: MYZAP; myocardial zonula adherens protein
+
+Max overlap: 155  |  Total overlap: 473  |  chr: 1  |  genes: [gene-TLCD4;gene-TLCD4-RWDD3]
+     Gene 1 Description: TLCD4; TLC domain containing 4
+     Gene 2 Description: TLCD4-RWDD3; TLCD4-RWDD3 readthrough
+
+Max overlap: 155  |  Total overlap: 902  |  chr: 13  |  genes: [gene-SETDB2-PHF11;gene-PHF11]
+     Gene 1 Description: SETDB2-PHF11; SETDB2-PHF11 readthrough
+     Gene 2 Description: PHF11; PHD finger protein 11
+
+Max overlap: 154  |  Total overlap: 723  |  chr: 17  |  genes: [gene-LINC02210-CRHR1;gene-CRHR1]
+     Gene 1 Description: LINC02210-CRHR1; LINC02210-CRHR1 readthrough
+     Gene 2 Description: CRHR1; corticotropin releasing hormone receptor 1
+
+Max overlap: 152  |  Total overlap: 651  |  chr: 12  |  genes: [gene-KLRC4-KLRK1;gene-KLRK1]
+     Gene 1 Description: KLRC4-KLRK1; KLRC4-KLRK1 readthrough
+     Gene 2 Description: KLRK1; killer cell lectin like receptor K1
+
+Max overlap: 151  |  Total overlap: 690  |  chr: 7  |  genes: [gene-DUS4L-BCAP29;gene-BCAP29]
+     Gene 1 Description: DUS4L-BCAP29; DUS4L-BCAP29 readthrough
+     Gene 2 Description: BCAP29; B cell receptor associated protein 29
+
+Max overlap: 147  |  Total overlap: 1170  |  chr: 14  |  genes: [gene-CHURC1-FNTB;gene-FNTB]
+     Gene 1 Description: CHURC1-FNTB; CHURC1-FNTB readthrough
+     Gene 2 Description: FNTB; farnesyltransferase, CAAX box, beta
+
+Max overlap: 147  |  Total overlap: 273  |  chr: 20  |  genes: [gene-PEDS1-UBE2V1;gene-UBE2V1]
+     Gene 1 Description: PEDS1-UBE2V1; PEDS1-UBE2V1 readthrough
+     Gene 2 Description: UBE2V1; ubiquitin conjugating enzyme E2 V1
+
+Max overlap: 146  |  Total overlap: 471  |  chr: 2  |  genes: [gene-RNF103-CHMP3;gene-CHMP3]
+     Gene 1 Description: RNF103-CHMP3; RNF103-CHMP3 readthrough
+     Gene 2 Description: CHMP3; charged multivesicular body protein 3
+
+Max overlap: 145  |  Total overlap: 462  |  chr: 17  |  genes: [gene-TVP23C-CDRT4;gene-TVP23C]
+     Gene 1 Description: TVP23C-CDRT4; TVP23C-CDRT4 readthrough
+     Gene 2 Description: TVP23C; trans-golgi network vesicle protein 23 homolog C
+
+Max overlap: 141  |  Total overlap: 417  |  chr: 1  |  genes: [gene-CENPS-CORT;gene-CENPS]
+     Gene 1 Description: CENPS-CORT; CENPS-CORT readthrough
+     Gene 2 Description: CENPS; centromere protein S
+
+Max overlap: 139  |  Total overlap: 350  |  chr: 10  |  genes: [gene-COMMD3-BMI1;gene-COMMD3]
+     Gene 1 Description: COMMD3-BMI1; COMMD3-BMI1 readthrough
+     Gene 2 Description: COMMD3; COMM domain containing 3
+
+Max overlap: 139  |  Total overlap: 230  |  chr: 11  |  genes: [gene-SAA2-SAA4;gene-SAA2]
+     Gene 1 Description: SAA2-SAA4; SAA2-SAA4 readthrough
+     Gene 2 Description: SAA2; serum amyloid A2
+
+Max overlap: 139  |  Total overlap: 411  |  chr: 17  |  genes: [gene-TNFSF12-TNFSF13;gene-TNFSF13]
+     Gene 1 Description: TNFSF12-TNFSF13; TNFSF12-TNFSF13 readthrough
+     Gene 2 Description: TNFSF13; TNF superfamily member 13
+
+Max overlap: 138  |  Total overlap: 259  |  chr: 7  |  genes: [gene-FMC1;gene-FMC1-LUC7L2]
+     Gene 1 Description: FMC1; formation of mitochondrial complex V assembly factor 1 homolog
+     Gene 2 Description: FMC1-LUC7L2; FMC1-LUC7L2 readthrough
+
+Max overlap: 137  |  Total overlap: 297  |  chr: 14  |  genes: [gene-SYNJ2BP-COX16;gene-SYNJ2BP]
+     Gene 1 Description: SYNJ2BP-COX16; SYNJ2BP-COX16 readthrough
+     Gene 2 Description: SYNJ2BP; synaptojanin 2 binding protein
+
+Max overlap: 137  |  Total overlap: 375  |  chr: 16  |  genes: [gene-CORO7-PAM16;gene-PAM16]
+     Gene 1 Description: CORO7-PAM16; CORO7-PAM16 readthrough
+     Gene 2 Description: PAM16; presequence translocase associated motor 16
+
+Max overlap: 136  |  Total overlap: 291  |  chr: 3  |  genes: [gene-IQCJ-SCHIP1;gene-IQCJ]
+     Gene 1 Description: IQCJ-SCHIP1; IQCJ-SCHIP1 readthrough
+     Gene 2 Description: IQCJ; IQ motif containing J
+
+Max overlap: 136  |  Total overlap: 246  |  chr: 14  |  genes: [gene-CHURC1-FNTB;gene-CHURC1]
+     Gene 1 Description: CHURC1-FNTB; CHURC1-FNTB readthrough
+     Gene 2 Description: CHURC1; churchill domain containing 1
+
+Max overlap: 133  |  Total overlap: 240  |  chr: 3  |  genes: [gene-STIMATE-MUSTN1;gene-MUSTN1]
+     Gene 1 Description: STIMATE-MUSTN1; STIMATE-MUSTN1 readthrough
+     Gene 2 Description: MUSTN1; musculoskeletal, embryonic nuclear protein 1
+
+Max overlap: 132  |  Total overlap: 132  |  chr: 2  |  genes: [gene-RNF103-CHMP3;gene-RNF103]
+     Gene 1 Description: RNF103-CHMP3; RNF103-CHMP3 readthrough
+     Gene 2 Description: RNF103; ring finger protein 103
+
+Max overlap: 132  |  Total overlap: 582  |  chr: 2  |  genes: [gene-HSPE1-MOB4;gene-MOB4]
+     Gene 1 Description: HSPE1-MOB4; HSPE1-MOB4 readthrough
+     Gene 2 Description: MOB4; MOB family member 4, phocein
+
+Max overlap: 131  |  Total overlap: 131  |  chr: 20  |  genes: [gene-WFDC6;gene-EPPIN-WFDC6]
+     Gene 1 Description: WFDC6; WAP four-disulfide core domain 6
+     Gene 2 Description: EPPIN-WFDC6; EPPIN-WFDC6 readthrough
+
+Max overlap: 130  |  Total overlap: 234  |  chr: 20  |  genes: [gene-TGIF2-RAB5IF;gene-RAB5IF]
+     Gene 1 Description: TGIF2-RAB5IF; TGIF2-RAB5IF readthrough
+     Gene 2 Description: RAB5IF; RAB5 interacting factor
+
+Max overlap: 129  |  Total overlap: 513  |  chr: 15  |  genes: [gene-ARPIN-AP3S2;gene-AP3S2]
+     Gene 1 Description: ARPIN-AP3S2; ARPIN-AP3S2 readthrough
+     Gene 2 Description: AP3S2; adaptor related protein complex 3 subunit sigma 2
+
+Max overlap: 127  |  Total overlap: 238  |  chr: 7  |  genes: [gene-RBAK-RBAKDN;gene-RBAK]
+     Gene 1 Description: RBAK-RBAKDN; RBAK-RBAKDN readthrough
+     Gene 2 Description: RBAK; RB associated KRAB zinc finger
+
+Max overlap: 127  |  Total overlap: 190  |  chr: 19  |  genes: [gene-ZNF816-ZNF321P;gene-ZNF816]
+     Gene 1 Description: ZNF816-ZNF321P; ZNF816-ZNF321P readthrough
+     Gene 2 Description: ZNF816; zinc finger protein 816
+
+Max overlap: 126  |  Total overlap: 408  |  chr: 6  |  genes: [gene-TRIM39-RPP21;gene-RPP21]
+     Gene 1 Description: TRIM39-RPP21; TRIM39-RPP21 readthrough
+     Gene 2 Description: RPP21; ribonuclease P/MRP subunit p21
+
+Max overlap: 126  |  Total overlap: 126  |  chr: 9  |  genes: [gene-DNAJC25-GNG10;gene-GNG10]
+     Gene 1 Description: DNAJC25-GNG10; DNAJC25-GNG10 readthrough
+     Gene 2 Description: GNG10; G protein subunit gamma 10
+
+Max overlap: 126  |  Total overlap: 341  |  chr: 17  |  genes: [gene-NME1-NME2;gene-NME1]
+     Gene 1 Description: NME1-NME2; NME1-NME2 readthrough
+     Gene 2 Description: NME1; NME/NM23 nucleoside diphosphate kinase 1
+
+Max overlap: 126  |  Total overlap: 459  |  chr: 17  |  genes: [gene-NME1-NME2;gene-NME2]
+     Gene 1 Description: NME1-NME2; NME1-NME2 readthrough
+     Gene 2 Description: NME2; NME/NM23 nucleoside diphosphate kinase 2
+
+Max overlap: 123  |  Total overlap: 851  |  chr: 3  |  genes: [gene-ISY1-RAB43;gene-ISY1]
+     Gene 1 Description: ISY1-RAB43; ISY1-RAB43 readthrough
+     Gene 2 Description: ISY1; ISY1 splicing factor homolog
+
+Max overlap: 123  |  Total overlap: 300  |  chr: 23  |  genes: [gene-RPL36A-HNRNPH2;gene-RPL36A]
+     Gene 1 Description: RPL36A-HNRNPH2; RPL36A-HNRNPH2 readthrough
+     Gene 2 Description: RPL36A; ribosomal protein L36a
+
+Max overlap: 117  |  Total overlap: 180  |  chr: 14  |  genes: [gene-SYNJ2BP-COX16;gene-COX16]
+     Gene 1 Description: SYNJ2BP-COX16; SYNJ2BP-COX16 readthrough
+     Gene 2 Description: COX16; cytochrome c oxidase assembly factor COX16
+
+Max overlap: 111  |  Total overlap: 165  |  chr: 14  |  genes: [gene-NEDD8-MDP1;gene-MDP1]
+     Gene 1 Description: NEDD8-MDP1; NEDD8-MDP1 readthrough
+     Gene 2 Description: MDP1; magnesium dependent phosphatase 1
+
+Max overlap: 108  |  Total overlap: 121  |  chr: 7  |  genes: [gene-ATP5MF-PTCD1;gene-ATP5MF]
+     Gene 1 Description: ATP5MF-PTCD1; ATP5MF-PTCD1 readthrough
+     Gene 2 Description: ATP5MF; ATP synthase membrane subunit f
+
+Max overlap: 107  |  Total overlap: 295  |  chr: 22  |  genes: [gene-PRR5;gene-PRR5-ARHGAP8]
+     Gene 1 Description: PRR5; proline rich 5
+     Gene 2 Description: PRR5-ARHGAP8; PRR5-ARHGAP8 readthrough
+
+Max overlap: 105  |  Total overlap: 105  |  chr: 8  |  genes: [gene-LYNX1-SLURP2;gene-SLURP2]
+     Gene 1 Description: LYNX1-SLURP2; LYNX1-SLURP2 readthrough
+     Gene 2 Description: SLURP2; secreted LY6/PLAUR domain containing 2
+
+Max overlap: 104  |  Total overlap: 397  |  chr: 19  |  genes: [gene-ZIM2;gene-PEG3]
+     Gene 1 Description: ZIM2; zinc finger imprinted 2
+     Gene 2 Description: PEG3; paternally expressed 3
+
+Max overlap: 102  |  Total overlap: 154  |  chr: 8  |  genes: [gene-LYNX1-SLURP2;gene-LYNX1]
+     Gene 1 Description: LYNX1-SLURP2; LYNX1-SLURP2 readthrough
+     Gene 2 Description: LYNX1; Ly6/neurotoxin 1
+
+Max overlap: 99  |  Total overlap: 279  |  chr: 13  |  genes: [gene-CCDC169-SOHLH2;gene-CCDC169]
+     Gene 1 Description: CCDC169-SOHLH2; CCDC169-SOHLH2 readthrough
+     Gene 2 Description: CCDC169; coiled-coil domain containing 169
+
+Max overlap: 99  |  Total overlap: 318  |  chr: 17  |  genes: [gene-PTGES3L-AARSD1;gene-PTGES3L]
+     Gene 1 Description: PTGES3L-AARSD1; PTGES3L-AARSD1 readthrough
+     Gene 2 Description: PTGES3L; prostaglandin E synthase 3 like
+
+Max overlap: 96  |  Total overlap: 387  |  chr: 21  |  genes: [gene-GET1-SH3BGR;gene-SH3BGR]
+     Gene 1 Description: GET1-SH3BGR; GET1-SH3BGR readthrough
+     Gene 2 Description: SH3BGR; SH3 domain binding glutamate rich protein
+
+Max overlap: 83  |  Total overlap: 149  |  chr: 14  |  genes: [gene-NEDD8-MDP1;gene-NEDD8]
+     Gene 1 Description: NEDD8-MDP1; NEDD8-MDP1 readthrough
+     Gene 2 Description: NEDD8; NEDD8 ubiquitin like modifier
+
+Max overlap: 81  |  Total overlap: 81  |  chr: 15  |  genes: [gene-CHRNA5;gene-CHRNA3]
+     Gene 1 Description: CHRNA5; cholinergic receptor nicotinic alpha 5 subunit
+     Gene 2 Description: CHRNA3; cholinergic receptor nicotinic alpha 3 subunit
+
+Max overlap: 75  |  Total overlap: 172  |  chr: 11  |  genes: [gene-FXYD6-FXYD2;gene-FXYD6]
+     Gene 1 Description: FXYD6-FXYD2; FXYD6-FXYD2 readthrough
+     Gene 2 Description: FXYD6; FXYD domain containing ion transport regulator 6
+
+Max overlap: 63  |  Total overlap: 63  |  chr: 10  |  genes: [gene-SEMA4G;gene-MRPL43]
+     Gene 1 Description: SEMA4G; semaphorin 4G
+     Gene 2 Description: MRPL43; mitochondrial ribosomal protein L43
+
+Max overlap: 60  |  Total overlap: 60  |  chr: 3  |  genes: [gene-ARPC4;gene-ARPC4-TTLL3]
+     Gene 1 Description: ARPC4; actin related protein 2/3 complex subunit 4
+     Gene 2 Description: ARPC4-TTLL3; ARPC4-TTLL3 readthrough
+
+Max overlap: 46  |  Total overlap: 46  |  chr: 7  |  genes: [gene-RINT1;gene-EFCAB10]
+     Gene 1 Description: RINT1; RAD50 interactor 1
+     Gene 2 Description: EFCAB10; EF-hand calcium binding domain 10
+
+Max overlap: 39  |  Total overlap: 73  |  chr: 7  |  genes: [gene-URGCP-MRPS24;gene-URGCP]
+     Gene 1 Description: URGCP-MRPS24; URGCP-MRPS24 readthrough
+     Gene 2 Description: URGCP; upregulator of cell proliferation
+
+Max overlap: 36  |  Total overlap: 36  |  chr: 12  |  genes: [gene-PRH1;gene-PRH1-TAS2R14]
+     Gene 1 Description: PRH1; proline rich protein HaeIII subfamily 1
+     Gene 2 Description: PRH1-TAS2R14; PRH1-TAS2R14 readthrough
+
+Max overlap: 30  |  Total overlap: 30  |  chr: 12  |  genes: [gene-PIWIL1;gene-RIMBP2]
+     Gene 1 Description: PIWIL1; piwi like RNA-mediated gene silencing 1
+     Gene 2 Description: RIMBP2; RIMS binding protein 2
+
+Max overlap: 24  |  Total overlap: 24  |  chr: 1  |  genes: [gene-HCRTR1;gene-PEF1]
+     Gene 1 Description: HCRTR1; hypocretin receptor 1
+     Gene 2 Description: PEF1; penta-EF-hand domain containing 1
+
+Max overlap: 23  |  Total overlap: 23  |  chr: 7  |  genes: [gene-ZNF789;gene-ZNF394]
+     Gene 1 Description: ZNF789; zinc finger protein 789
+     Gene 2 Description: ZNF394; zinc finger protein 394
+
+Max overlap: 20  |  Total overlap: 20  |  chr: 11  |  genes: [gene-AAMDC;gene-INTS4]
+     Gene 1 Description: AAMDC; adipogenesis associated Mth938 domain containing
+     Gene 2 Description: INTS4; integrator complex subunit 4
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 16  |  genes: [gene-LONP2;gene-SIAH1]
+     Gene 1 Description: LONP2; lon peptidase 2, peroxisomal
+     Gene 2 Description: SIAH1; siah E3 ubiquitin protein ligase 1
+
+Max overlap: 15  |  Total overlap: 15  |  chr: 1  |  genes: [gene-NIT1;gene-DEDD]
+     Gene 1 Description: NIT1; nitrilase 1
+     Gene 2 Description: DEDD; death effector domain containing
+
+Max overlap: 12  |  Total overlap: 12  |  chr: 3  |  genes: [gene-ZDHHC23;gene-CCDC191]
+     Gene 1 Description: ZDHHC23; zinc finger DHHC-type palmitoyltransferase 23
+     Gene 2 Description: CCDC191; coiled-coil domain containing 191
+
+Max overlap: 8  |  Total overlap: 8  |  chr: 19  |  genes: [gene-NCR1;gene-NLRP7]
+     Gene 1 Description: NCR1; natural cytotoxicity triggering receptor 1
+     Gene 2 Description: NLRP7; NLR family pyrin domain containing 7
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 11  |  genes: [gene-TKFC;gene-CYB561A3]
+     Gene 1 Description: TKFC; triokinase and FMN cyclase
+     Gene 2 Description: CYB561A3; cytochrome b561 family member A3
+
+Max overlap: 5  |  Total overlap: 5  |  chr: 6  |  genes: [gene-DCBLD1;gene-GOPC]
+     Gene 1 Description: DCBLD1; discoidin, CUB and LCCL domain containing 1
+     Gene 2 Description: GOPC; golgi associated PDZ and coiled-coil motif containing
+
+Max overlap: 5  |  Total overlap: 5  |  chr: 16  |  genes: [gene-ZNF263;gene-TIGD7]
+     Gene 1 Description: ZNF263; zinc finger protein 263
+     Gene 2 Description: TIGD7; tigger transposable element derived 7
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 3  |  genes: [gene-HYAL3;gene-NAA80]
+     Gene 1 Description: HYAL3; hyaluronidase 3
+     Gene 2 Description: NAA80; N-alpha-acetyltransferase 80, NatH catalytic subunit
+
+
+Stats:
+   Total overlapped gene pairs: 541
+   Total overlapped length: 299979
+   Overlapped segments composition: C-78442 G-76025 A-75235 T-54076

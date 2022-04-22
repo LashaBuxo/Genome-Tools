@@ -1,0 +1,197 @@
+Max overlap: 246  |  Total overlap: 246  |  chr: 22  |  genes: [gene-TRMT2A;gene-RANBP1]
+     Gene 1 Description: TRMT2A; tRNA methyltransferase 2 homolog A
+     Gene 2 Description: RANBP1; RAN binding protein 1
+
+Max overlap: 243  |  Total overlap: 243  |  chr: 9  |  genes: [gene-FAM120AOS;gene-FAM120A]
+     Gene 1 Description: FAM120AOS; family with sequence similarity 120A opposite strand
+     Gene 2 Description: FAM120A; family with sequence similarity 120A
+
+Max overlap: 201  |  Total overlap: 201  |  chr: 22  |  genes: [gene-RIMBP3C;gene-UBE2L3]
+     Gene 1 Description: RIMBP3C; RIMS binding protein 3C
+     Gene 2 Description: UBE2L3; ubiquitin conjugating enzyme E2 L3
+
+Max overlap: 200  |  Total overlap: 200  |  chr: 17  |  genes: [gene-THRA;gene-NR1D1]
+     Gene 1 Description: THRA; thyroid hormone receptor alpha
+     Gene 2 Description: NR1D1; nuclear receptor subfamily 1 group D member 1
+
+Max overlap: 166  |  Total overlap: 166  |  chr: 5  |  genes: [gene-CCNI2;gene-SEPTIN8]
+     Gene 1 Description: CCNI2; cyclin I family member 2
+     Gene 2 Description: SEPTIN8; septin 8
+
+Max overlap: 150  |  Total overlap: 150  |  chr: 18  |  genes: [gene-ZNF397;gene-ZSCAN30]
+     Gene 1 Description: ZNF397; zinc finger protein 397
+     Gene 2 Description: ZSCAN30; zinc finger and SCAN domain containing 30
+
+Max overlap: 111  |  Total overlap: 111  |  chr: 6  |  genes: [gene-DCDC2;gene-KAAG1]
+     Gene 1 Description: DCDC2; doublecortin domain containing 2
+     Gene 2 Description: KAAG1; kidney associated antigen 1
+
+Max overlap: 107  |  Total overlap: 107  |  chr: 12  |  genes: [gene-GNB3;gene-CDCA3]
+     Gene 1 Description: GNB3; G protein subunit beta 3
+     Gene 2 Description: CDCA3; cell division cycle associated 3
+
+Max overlap: 96  |  Total overlap: 96  |  chr: 3  |  genes: [gene-ATP2C1;gene-ASTE1]
+     Gene 1 Description: ATP2C1; ATPase secretory pathway Ca2+ transporting 1
+     Gene 2 Description: ASTE1; asteroid homolog 1
+
+Max overlap: 96  |  Total overlap: 96  |  chr: 4  |  genes: [gene-CISD2;gene-SLC9B1]
+     Gene 1 Description: CISD2; CDGSH iron sulfur domain 2
+     Gene 2 Description: SLC9B1; solute carrier family 9 member B1
+
+Max overlap: 88  |  Total overlap: 88  |  chr: 14  |  genes: [gene-FAM161B;gene-COQ6]
+     Gene 1 Description: FAM161B; FAM161 centrosomal protein B
+     Gene 2 Description: COQ6; coenzyme Q6, monooxygenase
+
+Max overlap: 82  |  Total overlap: 82  |  chr: 1  |  genes: [gene-NTRK1;gene-INSRR]
+     Gene 1 Description: NTRK1; neurotrophic receptor tyrosine kinase 1
+     Gene 2 Description: INSRR; insulin receptor related receptor
+
+Max overlap: 72  |  Total overlap: 72  |  chr: 14  |  genes: [gene-MTHFD1;gene-ZBTB25]
+     Gene 1 Description: MTHFD1; methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1
+     Gene 2 Description: ZBTB25; zinc finger and BTB domain containing 25
+
+Max overlap: 68  |  Total overlap: 68  |  chr: 6  |  genes: [gene-OPRM1;gene-IPCEF1]
+     Gene 1 Description: OPRM1; opioid receptor mu 1
+     Gene 2 Description: IPCEF1; interaction protein for cytohesin exchange factors 1
+
+Max overlap: 61  |  Total overlap: 61  |  chr: 16  |  genes: [gene-NDE1;gene-MYH11]
+     Gene 1 Description: NDE1; nudE neurodevelopment protein 1
+     Gene 2 Description: MYH11; myosin heavy chain 11
+
+Max overlap: 59  |  Total overlap: 59  |  chr: 12  |  genes: [gene-DAZAP2;gene-SMAGP]
+     Gene 1 Description: DAZAP2; DAZ associated protein 2
+     Gene 2 Description: SMAGP; small cell adhesion glycoprotein
+
+Max overlap: 53  |  Total overlap: 53  |  chr: 17  |  genes: [gene-DHX8;gene-ETV4]
+     Gene 1 Description: DHX8; DEAH-box helicase 8
+     Gene 2 Description: ETV4; ETS variant transcription factor 4
+
+Max overlap: 46  |  Total overlap: 46  |  chr: 20  |  genes: [gene-LOC101929937;gene-NRSN2]
+     Gene 1 Description: 
+     Gene 2 Description: NRSN2; neurensin 2
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 15  |  genes: [gene-GALK2;gene-FAM227B]
+     Gene 1 Description: GALK2; galactokinase 2
+     Gene 2 Description: FAM227B; family with sequence similarity 227 member B
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 19  |  genes: [gene-ZNF428;gene-SRRM5]
+     Gene 1 Description: ZNF428; zinc finger protein 428
+     Gene 2 Description: SRRM5; serine/arginine repetitive matrix 5
+
+Max overlap: 39  |  Total overlap: 39  |  chr: 11  |  genes: [gene-ATG16L2;gene-FCHSD2]
+     Gene 1 Description: ATG16L2; autophagy related 16 like 2
+     Gene 2 Description: FCHSD2; FCH and double SH3 domains 2
+
+Max overlap: 34  |  Total overlap: 34  |  chr: 7  |  genes: [gene-BRI3;gene-BAIAP2L1]
+     Gene 1 Description: BRI3; brain protein I3
+     Gene 2 Description: BAIAP2L1; BAR/IMD domain containing adaptor protein 2 like 1
+
+Max overlap: 31  |  Total overlap: 31  |  chr: 1  |  genes: [gene-PPIE;gene-BMP8B]
+     Gene 1 Description: PPIE; peptidylprolyl isomerase E
+     Gene 2 Description: BMP8B; bone morphogenetic protein 8b
+
+Max overlap: 30  |  Total overlap: 30  |  chr: 1  |  genes: [gene-SDCCAG8;gene-AKT3]
+     Gene 1 Description: SDCCAG8; SHH signaling and ciliogenesis regulator SDCCAG8
+     Gene 2 Description: AKT3; AKT serine/threonine kinase 3
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 1  |  genes: [gene-SPATA1;gene-CTBS]
+     Gene 1 Description: SPATA1; spermatogenesis associated 1
+     Gene 2 Description: CTBS; chitobiase
+
+Max overlap: 27  |  Total overlap: 27  |  chr: 10  |  genes: [gene-SEMA4G;gene-MRPL43]
+     Gene 1 Description: SEMA4G; semaphorin 4G
+     Gene 2 Description: MRPL43; mitochondrial ribosomal protein L43
+
+Max overlap: 21  |  Total overlap: 21  |  chr: 16  |  genes: [gene-ACSM3;gene-ERI2]
+     Gene 1 Description: ACSM3; acyl-CoA synthetase medium chain family member 3
+     Gene 2 Description: ERI2; ERI1 exoribonuclease family member 2
+
+Max overlap: 18  |  Total overlap: 18  |  chr: 7  |  genes: [gene-KIAA0895;gene-ANLN]
+     Gene 1 Description: KIAA0895; KIAA0895
+     Gene 2 Description: ANLN; anillin actin binding protein
+
+Max overlap: 14  |  Total overlap: 14  |  chr: 1  |  genes: [gene-TEX50;gene-ANKRD45]
+     Gene 1 Description: TEX50; testis expressed 50
+     Gene 2 Description: ANKRD45; ankyrin repeat domain 45
+
+Max overlap: 14  |  Total overlap: 14  |  chr: 6  |  genes: [gene-GPLD1;gene-ALDH5A1]
+     Gene 1 Description: GPLD1; glycosylphosphatidylinositol specific phospholipase D1
+     Gene 2 Description: ALDH5A1; aldehyde dehydrogenase 5 family member A1
+
+Max overlap: 13  |  Total overlap: 13  |  chr: 20  |  genes: [gene-MROH8;gene-RPN2]
+     Gene 1 Description: MROH8; maestro heat like repeat family member 8
+     Gene 2 Description: RPN2; ribophorin II
+
+Max overlap: 11  |  Total overlap: 11  |  chr: 1  |  genes: [gene-MRPL9;gene-OAZ3]
+     Gene 1 Description: MRPL9; mitochondrial ribosomal protein L9
+     Gene 2 Description: OAZ3; ornithine decarboxylase antizyme 3
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 23  |  genes: [gene-EOLA1;gene-HSFX3]
+     Gene 1 Description: EOLA1; endothelium and lymphocyte associated ASCH domain 1
+     Gene 2 Description: HSFX3; heat shock transcription factor family, X-linked member 3
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 23  |  genes: [gene-EOLA2;gene-HSFX4]
+     Gene 1 Description: EOLA2; endothelium and lymphocyte associated ASCH domain 2
+     Gene 2 Description: HSFX4; heat shock transcription factor family, X-linked member 4
+
+Max overlap: 8  |  Total overlap: 8  |  chr: 2  |  genes: [gene-METTL8;gene-DCAF17]
+     Gene 1 Description: METTL8; methyltransferase 8, methylcytidine
+     Gene 2 Description: DCAF17; DDB1 and CUL4 associated factor 17
+
+Max overlap: 5  |  Total overlap: 5  |  chr: 2  |  genes: [gene-ANKMY1;gene-DUSP28]
+     Gene 1 Description: ANKMY1; ankyrin repeat and MYND domain containing 1
+     Gene 2 Description: DUSP28; dual specificity phosphatase 28
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 4  |  genes: [gene-PALLD;gene-CBR4]
+     Gene 1 Description: PALLD; palladin, cytoskeletal associated protein
+     Gene 2 Description: CBR4; carbonyl reductase 4
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 11  |  genes: [gene-FAM118B;gene-SRPRA]
+     Gene 1 Description: FAM118B; family with sequence similarity 118 member B
+     Gene 2 Description: SRPRA; SRP receptor subunit alpha
+
+Max overlap: 3  |  Total overlap: 3  |  chr: 9  |  genes: [gene-TOPORS;gene-SMIM27]
+     Gene 1 Description: TOPORS; TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
+     Gene 2 Description: SMIM27; small integral membrane protein 27
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 6  |  genes: [gene-POM121L2;gene-LOC105375107]
+     Gene 1 Description: POM121L2; POM121 transmembrane nucleoporin like 2
+     Gene 2 Description: 
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 7  |  genes: [gene-EPHB4;gene-SLC12A9]
+     Gene 1 Description: EPHB4; EPH receptor B4
+     Gene 2 Description: SLC12A9; solute carrier family 12 member 9
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 9  |  genes: [gene-LOC112268052;gene-RAD23B]
+     Gene 1 Description: 
+     Gene 2 Description: RAD23B; RAD23 homolog B, nucleotide excision repair protein
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 11  |  genes: [gene-LBHD1;gene-UQCC3]
+     Gene 1 Description: LBHD1; LBH domain containing 1
+     Gene 2 Description: UQCC3; ubiquinol-cytochrome c reductase complex assembly factor 3
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 14  |  genes: [gene-IRF2BPL;gene-LOC107984638]
+     Gene 1 Description: IRF2BPL; interferon regulatory factor 2 binding protein like
+     Gene 2 Description: 
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 17  |  genes: [gene-DLG4;gene-ACADVL]
+     Gene 1 Description: DLG4; discs large MAGUK scaffold protein 4
+     Gene 2 Description: ACADVL; acyl-CoA dehydrogenase very long chain
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 17  |  genes: [gene-SGSH;gene-SLC26A11]
+     Gene 1 Description: SGSH; N-sulfoglucosamine sulfohydrolase
+     Gene 2 Description: SLC26A11; solute carrier family 26 member 11
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 19  |  genes: [gene-SIRT2;gene-NFKBIB]
+     Gene 1 Description: SIRT2; sirtuin 2
+     Gene 2 Description: NFKBIB; NFKB inhibitor beta
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 23  |  genes: [gene-IDH3G;gene-SSR4]
+     Gene 1 Description: IDH3G; isocitrate dehydrogenase (NAD(+)) 3 non-catalytic subunit gamma
+     Gene 2 Description: SSR4; signal sequence receptor subunit 4
+
+
+Stats:
+   Total overlapped gene pairs: 48
+   Total overlapped length: 2568
+   Overlapped segments composition: C-772 G-721 A-543 T-525

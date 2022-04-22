@@ -147,8 +147,8 @@ Output:
   creates .txt file in ./results folder
 ```
 ##### _Example Outputs:_
-#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
-#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
+Folder [/results](/results) contains all the exported .txt files, where at the end of each file
+there is statistic about composition of overlapped regions.
 
 
 <hr style="border:2px solid gray"> </hr>
@@ -165,7 +165,7 @@ values in `genome_lib_values.py` must be changed accordingly.
 <table>
 <tr>
 <th> Ensembl version  </th>
-<th> NCBI (Refseq) versuib </th>
+<th> NCBI (Refseq) version </th>
 </tr>
 <tr>
 <td> 
@@ -187,11 +187,11 @@ Ensembl Release 105 (2021)
 
 ```yaml 
 Genome Reference Assembly: 
-genome-build: Genome Reference Consortium GRCh38.p13
+genome-build Genome Reference Consortium GRCh38.p13
 
 Genome Primary Assembly:
 NCBI Assembly ID 
-genome-build-accession: GCF_000001405.39
+genome-build-accession GCF_000001405.39
 
 Genome Annotation:
 NCBI Homo sapiens Updated Annotation Release 109.20211119 
