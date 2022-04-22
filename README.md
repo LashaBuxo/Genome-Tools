@@ -152,6 +152,9 @@ Output:
 ## Human Genome annotation/assembly versions
 In project there are used specific (latest for 2022/04) annotations from 
 `NCBI (Refseq)` and `Ensembl` with their corresponding genome builds: **Refseq** and **Genbank** accordingly.
+
+Annotation and sequence files must be located in the `/genome_data/NCBI` and `/genome_data/Ensembl` folder and then 
+values in `genome_lib_values.py` must be changed accordingly. 
 ##### _Specifics:_
  
 
