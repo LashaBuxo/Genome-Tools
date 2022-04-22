@@ -71,8 +71,15 @@ Output:
 ```
 ##### _Example Output:_
 
-![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+ | ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+ |
+|--|--|
+| ![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+ |![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+ |
 
+ 
 ## Overlapping genes by specific regions 
  `overlapping_fragments.py`  Calculates overlapping gene pairs by
   only specific parts: CDS (coding sequence), EXON or whole gene
