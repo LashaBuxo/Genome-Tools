@@ -1,4 +1,49 @@
 # Overlapping genes in Human Genome (general stats)
+In project there are used specific (latest for 2022/04) annotations from 
+`NCBI (Refseq)` and `Ensembl` with their corresponding genome builds: **Refseq** and **Genbank** accordingly.
+##### _Specifics:_
+ 
+
+<table>
+<tr>
+<th> Ensembl version  </th>
+<th> NCBI (Refseq) versuib </th>
+</tr>
+<tr>
+<td> 
+
+```yaml 
+Genome Reference Assembly:
+	#!genome-build Genome Reference Consortium GRCh38.p13
+
+Genome Primary Assembly:
+	GenBank Assembly ID 
+	#!genome-build-accession GCA_000001405.28  
+
+Genome Annotation:
+	Ensembl Release 105 (2021)
+```
+</td>
+<td>
+
+
+```yamlGenome Reference Assembly:
+	#!genome-build: Genome Reference Consortium GRCh38.p13
+
+Genome Primary Assembly:
+	NCBI Assembly ID 
+	#!genome-build-accession: GCF_000001405.39
+
+Genome Annotation:
+	NCBI Homo sapiens Updated Annotation Release 109.20211119 
+	11/19/2021
+```
+
+</td>
+</tr>
+</table>
+
+# Overlapping genes in Human Genome (general stats)
 `overlapping_genes_stats.py` does general stats calculation on total genes, overlapping genes, overlapping gene clusters, etc... 
 ##### _Specifics:_
 ```text
@@ -15,6 +60,8 @@ Output:
   prints stats in console
 ```
 ##### _Example Output:_
+Genes are chosen from genome file features,if feature has `gene` **feature type** and if it has `protein_coding` attribute for **biotype**.
+
 <table>
 <tr>
 <th> Using Ensembl </th>
@@ -57,33 +104,30 @@ Genes by clusters length:
 
 
 ```yaml
-Number of genes: 19951
-Number of genes on Positive(+) Strand: 10086
-Number of genes on Negative(-) Strand: 9865
+Number of genes: 19476
+Number of genes on Positive(+) Strand: 9852
+Number of genes on Negative(-) Strand: 9624
 
-Number of OG: 6758
-Number of OG pairs: 4972
-Number of OG clusters with >=2 gene: 2502
+Number of OG: 4420
+Number of OG pairs: 2917
+Number of OG clusters with >=2 gene: 1893
 
 Genes by clusters length:
-1-length clusters: 13193
-2-length clusters: 1536
-3-length clusters: 590
-4-length clusters: 210
-5-length clusters: 88
-6-length clusters: 33
-7-length clusters: 18
-8-length clusters: 11
-9-length clusters: 2
-10-length clusters: 3
-11-length clusters: 3
-12-length clusters: 1
+1-length clusters: 15056
+2-length clusters: 1489
+3-length clusters: 307
+4-length clusters: 61
+5-length clusters: 15
+6-length clusters: 6
+7-length clusters: 6
+8-length clusters: 2
+9-length clusters: 1
+11-length clusters: 1
 13-length clusters: 1
-15-length clusters: 2
-16-length clusters: 1
+15-length clusters: 1
 17-length clusters: 1
+21-length clusters: 1
 22-length clusters: 1
-33-length clusters: 1 
 ```
 
 </td>
