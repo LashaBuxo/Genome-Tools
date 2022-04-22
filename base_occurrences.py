@@ -182,7 +182,7 @@ fig.add_vline(x=3 * k, line_width=0.75, line_dash="dash", line_color='rgb(150,15
 fig.add_vline(x=4 * k, line_width=0.75, line_color='rgb(150,150,150)')
 
 fig.write_image(
-    "results/images/average gene (" + sys.argv[1] + ", k=" + sys.argv[2] + ", procc=" + sys.argv[3] + ").png",
+    "results/images/test gene outline (" + sys.argv[1] + ", k=" + sys.argv[2] + ", procc=" + sys.argv[3] + ").png",
     scale=4.0)
 
 print("--- script was running for %s seconds. ---" % (time.time() - start_time))

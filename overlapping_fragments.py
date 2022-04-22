@@ -30,7 +30,6 @@ from genome_lib_tools import SEQUENCE_LOAD
 import time
 import sys
 
-
 start_time = time.time()
 
 assert len(sys.argv) == 6
@@ -55,15 +54,6 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
     maxOverlap = -1
     desired_pair = (-1, -1)
 
-    # only if we are searching for genes overlap, we don't need fragments. For exon and CDS overlaps, we need.
-    gene_fragments = []
-    if annotation_load_type != ANNOTATION_LOAD.GENES:
-        for i in range(0, genes_cnt):
-            gene_fragments.append([])
-
-        for i in range(0, genes_cnt):
-            gene_fragments[i] = genome.get_fragments_on_gene(chr_id, genome.gene_by_ind(chr_id, i), force_sorted=False)
-
     for i in range(0, genes_cnt):
         for j in range(i + 1, genes_cnt):
             gene_A = genome.gene_by_ind(chr_id, i)
@@ -81,8 +71,7 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
                 l, r = genome.get_genes_overlap(gene_A, gene_B)
                 overlap_intervals = [(l, r)]
             else:  # if we are searching overlaps within fragments of gene pairs
-                overlap_intervals = genome.get_fragments_overlap_segments(gene_fragments[i], gene_fragments[j],
-                                                                          ORF_similarity)
+                overlap_intervals = genome.get_fragments_overlap(gene_A, gene_B, ORF_similarity)
 
             total_overlap = 0
             max_overlap = 0
@@ -108,7 +97,7 @@ total_overlapping_composition = genome.sequence_composition(overlapped_merged_se
 
 # output data
 # example path './results/overlaps - CDS [diff_stranded, SAME_ORF] (NCBI) .txt'
-output_data_path = './results/overlapped genes' + ('' if sys.argv[5] == 'print_gene_pairs' else ' (+descriptions)') \
+output_data_path = './results/OGs' + ('' if sys.argv[5] == 'print_gene_pairs' else ' (+descriptions)') \
                    + ' - ' + sys.argv[2] + " [" + strand_similarity + ", " + ORF_similarity + "] (" + \
                    sys.argv[1] + ").txt"
 with open(output_data_path, 'w') as f:

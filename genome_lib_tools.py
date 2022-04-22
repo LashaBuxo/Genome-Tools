@@ -12,6 +12,8 @@
 
 # Specific tools for working with Ensembl annotation and with sequence data
 from os.path import exists
+from random import random
+
 import gffutils
 from gffutils import FeatureDB, Feature
 from Bio import SeqIO
@@ -98,28 +100,27 @@ def __better_annotated_transcript(A: Feature, B: Feature) -> Feature:
     if A == None: return B
     if B == None: return A
 
-    #  compare by length?
-    if A.end - A.start > B.end - B.start: return A
-    if B.end - B.start > A.end - A.start: return B
+    # no definitive criteria, choose random transcript for a gene to late build 'average' gene model
 
-    tagged_A = A.attributes.__contains__('tag') and A.attributes['tag'][0] == 'basic'
-    tagged_B = B.attributes.__contains__('tag') and B.attributes['tag'][0] == 'basic'
-
-    if tagged_A == True and tagged_B == False: return A
-    if tagged_B == True and tagged_A == False: return B
-
-    transcript_support_lvl_A = 1000
-    transcript_support_lvl_B = 1000
-
-    if A.attributes.__contains__('transcript_support_level') and (
-            A.attributes['transcript_support_level'][0][0]).isdigit():
-        transcript_support_lvl_A = int(A.attributes['transcript_support_level'][0][0])
-    if B.attributes.__contains__('transcript_support_level') and (
-            B.attributes['transcript_support_level'][0][0]).isdigit():
-        transcript_support_lvl_B = int(B.attributes['transcript_support_level'][0][0])
-
-    if transcript_support_lvl_A > transcript_support_lvl_B: return B
-    return A
+    return A if random.randint(0, 1000) % 2 == 0 else B
+    # tagged_A = A.attributes.__contains__('tag') and A.attributes['tag'][0] == 'basic'
+    # tagged_B = B.attributes.__contains__('tag') and B.attributes['tag'][0] == 'basic'
+    #
+    # if tagged_A == True and tagged_B == False: return A
+    # if tagged_B == True and tagged_A == False: return B
+    #
+    # transcript_support_lvl_A = 1000
+    # transcript_support_lvl_B = 1000
+    #
+    # if A.attributes.__contains__('transcript_support_level') and (
+    #         A.attributes['transcript_support_level'][0][0]).isdigit():
+    #     transcript_support_lvl_A = int(A.attributes['transcript_support_level'][0][0])
+    # if B.attributes.__contains__('transcript_support_level') and (
+    #         B.attributes['transcript_support_level'][0][0]).isdigit():
+    #     transcript_support_lvl_B = int(B.attributes['transcript_support_level'][0][0])
+    #
+    # if transcript_support_lvl_A > transcript_support_lvl_B: return B
+    # return A
 
 
 def are_genes_overlapped(gene_feature_A: Feature, gene_feature_B: Feature) -> bool:
@@ -146,28 +147,50 @@ def is_same_frame_overlap(fragment_a: Feature, fragment_b: Feature) -> bool:
     return l % 3 == r % 3
 
 
-def get_fragments_overlap_segments(fragments_A: list[Feature], fragments_B: list[Feature], ORF_similarity):
-    if len(fragments_A) == 0 or len(fragments_B) == 0: return False
+# between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
+# and returns overlapped segments which has maximum total overlapped length
+def get_fragments_overlap(gene_A: Feature, gene_B: Feature, ORF_similarity):
+    mRNA_transcripts_A = __gene_transcripts[gene_A.id]
+    mRNA_transcripts_B = __gene_transcripts[gene_B.id]
 
-    overlaps = []
-    for fragment_a in fragments_A:
-        for fragment_b in fragments_B:
-            if ORF_similarity == 'diff_ORF' and is_same_frame_overlap(fragment_a, fragment_b): continue
-            if ORF_similarity == 'same_ORF' and not is_same_frame_overlap(fragment_a, fragment_b): continue
+    max_overlap_segments = []
+    max_overlap_length = 0
+    for transcript_a in mRNA_transcripts_A:
 
-            if fragment_b.end < fragment_a.start or fragment_b.start > fragment_a.end: continue
-            if fragment_b.end <= fragment_a.end:
-                if fragment_b.start >= fragment_a.start:
-                    overlap = (fragment_b.start, fragment_b.end)
-                else:
-                    overlap = (fragment_a.start, fragment_b.end)
-            else:
-                if fragment_b.start <= fragment_a.start:
-                    overlap = (fragment_a.start, fragment_a.end)
-                else:
-                    overlap = (fragment_b.start, fragment_a.end)
-            overlaps.append(overlap)
-    return overlaps
+        fragments_A = [] if transcript_a.id not in __transcript_fragments else __transcript_fragments[transcript_a.id]
+        if len(fragments_A) == 0: continue
+
+        for transcript_b in mRNA_transcripts_B:
+
+            fragments_B = [] if transcript_b.id not in __transcript_fragments else __transcript_fragments[
+                transcript_b.id]
+            if len(fragments_B) == 0: continue
+
+            overlap_length = 0
+            overlaps = []
+            for fragment_a in fragments_A:
+                for fragment_b in fragments_B:
+                    if ORF_similarity == 'diff_ORF' and is_same_frame_overlap(fragment_a, fragment_b): continue
+                    if ORF_similarity == 'same_ORF' and not is_same_frame_overlap(fragment_a, fragment_b): continue
+
+                    if fragment_b.end < fragment_a.start or fragment_b.start > fragment_a.end: continue
+                    if fragment_b.end <= fragment_a.end:
+                        if fragment_b.start >= fragment_a.start:
+                            overlap = (fragment_b.start, fragment_b.end)
+                        else:
+                            overlap = (fragment_a.start, fragment_b.end)
+                    else:
+                        if fragment_b.start <= fragment_a.start:
+                            overlap = (fragment_a.start, fragment_a.end)
+                        else:
+                            overlap = (fragment_b.start, fragment_a.end)
+                    overlaps.append(overlap)
+                    overlap_length += overlap[1] - overlap[0] + 1
+            if overlap_length > max_overlap_length:
+                max_overlap_length = overlap_length
+                max_overlap_segments = overlaps
+
+    return max_overlap_segments
 
 
 # endregion
@@ -351,25 +374,23 @@ def retrieve_interval_sequence(chr_id, start, end, strand) -> str:
 
 # region Get transcript of a gene
 
-
+# 'best' transcript for a gene
 def __find_best_gene_transcript(chr_id, gene_feature: Feature) -> Feature:
     if not __gene_transcripts.__contains__(gene_feature.id):
         # there is no valid mRNA transcript fot this specific gene
         return None
 
     mRNA_transcripts = __gene_transcripts[gene_feature.id]
-
     best_mRNA_transcript = None
-    mRNA_variants = 0
 
     for transcript in mRNA_transcripts:
         if not transcript.attributes.__contains__('Parent'):
             print("Lasha some issue found!")
         if not len(transcript.attributes) != 1:
             print("Lasha some issue found!")
-        if transcript.attributes['Parent'][0] == gene_feature.id:
-            mRNA_variants = mRNA_variants + 1
-            best_mRNA_transcript = __better_annotated_transcript(best_mRNA_transcript, transcript)
+        if transcript.attributes['Parent'][0] != gene_feature.id:
+            print("Lasha some issue found!")
+        best_mRNA_transcript = __better_annotated_transcript(best_mRNA_transcript, transcript)
 
     # print("mRNA variants for Gene [" + gene_feature.id + "]: " + str(mRNA_variants))
     # print("well annotated mRNA: " + best_mRNA_transcript.id)
@@ -382,24 +403,6 @@ def __find_best_gene_transcript(chr_id, gene_feature: Feature) -> Feature:
 # region Get fragments of a gene
 
 
-def __find_transcript_fragments(chr_id, mRNA_transcript: Feature) -> list[Feature]:
-    if mRNA_transcript.id not in __transcript_fragments:
-        # there is no valid fragment transcript fot this specific transcript
-        return []
-
-    fragment_features = __transcript_fragments[mRNA_transcript.id]
-
-    fragments = []
-    for fragment in fragment_features:
-        if fragment.attributes.__contains__('Parent'):
-            if len(fragment.attributes['Parent']) != 1:
-                print("Lasha some issue found!")
-            if fragment.attributes['Parent'][0] == mRNA_transcript.id:
-                fragments.append(fragment)
-
-    return fragments
-
-
 def get_fragments_on_gene(chr_id, gene_feature: Feature, force_sorted) -> list[Feature]:
     # mRNA_transcript (start,end) always would fit in parent's (start,end) interval
     mRNA_transcript = __find_best_gene_transcript(chr_id, gene_feature)
@@ -408,10 +411,13 @@ def get_fragments_on_gene(chr_id, gene_feature: Feature, force_sorted) -> list[F
         # print('no valid mRNA and exons for a gene')
         return []
 
-    fragments = __find_transcript_fragments(chr_id, mRNA_transcript)
+    fragments = [] if mRNA_transcript.id not in __transcript_fragments else __transcript_fragments[mRNA_transcript.id]
+
     if not force_sorted:
         return fragments
+
     fragments.sort(key=lambda x: x.start)
+
     return fragments
 
 
