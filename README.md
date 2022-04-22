@@ -2,6 +2,9 @@
 
 ## Overlapping genes in Human Genome (general stats)
 `overlapping_genes_stats.py` does general stats calculation on total genes, overlapping genes, overlapping gene clusters, etc... 
+
+Genes are chosen from genome file features, if feature has `gene` **feature type** and if it has `protein_coding` attribute for **biotype**.
+
 ##### _Specifics:_
 ```text
 Usage:
@@ -17,8 +20,7 @@ Output:
   prints stats in console
 ```
 ##### _Example Output:_
-Genes are chosen from genome file features,if feature has `gene` **feature type** and if it has `protein_coding` attribute for **biotype**.
-
+ 
 <table>
 <tr>
 <th> Using Ensembl </th>
@@ -153,7 +155,7 @@ Output:
 In project there are used specific (latest for 2022/04) annotations from 
 `NCBI (Refseq)` and `Ensembl` with their corresponding genome builds: **Refseq** and **Genbank** accordingly.
 
-Annotation and sequence files must be located in the `/genome_data/NCBI` and `/genome_data/Ensembl` folder and then 
+Annotation and sequence files must be located in the `/genome_data/NCBI` or/and `/genome_data/Ensembl` folder and then 
 values in `genome_lib_values.py` must be changed accordingly. 
 ##### _Specifics:_
  
