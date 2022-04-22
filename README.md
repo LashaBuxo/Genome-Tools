@@ -71,11 +71,7 @@ Output:
 ```
 ##### _Example Output:_
 
-```json  
-  "annotation": NCBI
-  "k":  50
-  "procession_length:" 1000
-```
+![](results/images/average%20gene%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
 
 ## Overlapping genes by specific regions 
  `overlapping_fragments.py`  Calculates overlapping gene pairs by
@@ -101,5 +97,5 @@ Output:
   creates .txt file in ./results folder
 ```
 ##### _Example Outputs:_
-#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
-#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlappedgenes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
+#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (Ensembl).txt](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(Ensembl).txt)
+#### [overlapped genes (+descriptions) - CDS [diff_stranded, both_framed] (NCBI)](/results/overlapped%20genes%20(+descriptions)%20-%20CDS%20[diff_stranded,%20both_framed]%20(NCBI).txt) 
