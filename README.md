@@ -30,20 +30,20 @@ Output:
 <td> 
 
 ```yaml
-Number of genes: 19951
-Number of genes on Positive(+) Strand: 10086
+Number of genes: 19957
+Number of genes on Positive(+) Strand: 10092
 Number of genes on Negative(-) Strand: 9865
 
-Number of OG: 6758
-Number of OG pairs: 4972
-Number of OG clusters with >=2 gene: 2502
+Number of OG: 6795
+Number of OG pairs: 4999
+Number of OG clusters with >=2 gene: 2513
 
 Genes by clusters length:
-1-length clusters: 13193
-2-length clusters: 1536
-3-length clusters: 590
-4-length clusters: 210
-5-length clusters: 88
+1-length clusters: 13162
+2-length clusters: 1539
+3-length clusters: 592
+4-length clusters: 215
+5-length clusters: 89
 6-length clusters: 33
 7-length clusters: 18
 8-length clusters: 11
@@ -56,37 +56,37 @@ Genes by clusters length:
 16-length clusters: 1
 17-length clusters: 1
 22-length clusters: 1
-33-length clusters: 1 
+33-length clusters: 1
 ```
 </td>
 <td>
 
 ```yaml
-Number of genes: 19476
-Number of genes on Positive(+) Strand: 9852
-Number of genes on Negative(-) Strand: 9624
+Number of genes: 19846
+Number of genes on Positive(+) Strand: 10029
+Number of genes on Negative(-) Strand: 9817
 
-Number of OG: 4420
-Number of OG pairs: 2917
-Number of OG clusters with >=2 gene: 1893
+Number of OG: 4533
+Number of OG pairs: 3000
+Number of OG clusters with >=2 gene: 1933
 
 Genes by clusters length:
-1-length clusters: 15056
-2-length clusters: 1489
-3-length clusters: 307
-4-length clusters: 61
-5-length clusters: 15
-6-length clusters: 6
+1-length clusters: 15313
+2-length clusters: 1516
+3-length clusters: 314
+4-length clusters: 62
+5-length clusters: 17
+6-length clusters: 9
 7-length clusters: 6
-8-length clusters: 2
+8-length clusters: 1
 9-length clusters: 1
 11-length clusters: 1
 13-length clusters: 1
+14-length clusters: 1
 15-length clusters: 1
 17-length clusters: 1
 21-length clusters: 1
 22-length clusters: 1
-
 
 
 ```

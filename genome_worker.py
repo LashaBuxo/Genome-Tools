@@ -86,7 +86,7 @@ class GenomeWorker:
 
     # endregion
 
-    # region Features (from annotation) and Sequences (from assembly) load methods
+    # region Load methods for Features (from annotation) and Sequences (from assembly)
 
     def __load_requested_sequences(self):
         if self.sequence_load_type == SEQUENCE_LOAD.LOAD:
@@ -116,6 +116,7 @@ class GenomeWorker:
         features_generator = features_db.features_of_type('gene')
         feature_genes = list(features_generator)
 
+        uniq_id = []
         # choose genes who has protein_coding attribute
         for gene in feature_genes:
             if self.annotation_source == ANNOTATIONS.NCBI:
@@ -133,11 +134,14 @@ class GenomeWorker:
                     #  'D_segment', 'Y_RNA', 'RNase_MRP_RNA', 'scRNA', 'RNase_P_RNA'
                     if gene.attributes[attribute_filter][0] == attribute_value:
                         chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
+                        if not uniq_id.__contains__(chr_id):
+                            uniq_id.append(chr_id)
                         if chr_id != -1:
                             if self.__genes_on_chr[chr_id] is None:
                                 self.__genes_on_chr[chr_id] = []
                             self.__genes_on_chr[chr_id].append(gene)
 
+        print(uniq_id)
         print("Using " + str(self.annotation_source) + ": genes loaded successfully!")
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES:
@@ -205,15 +209,30 @@ class GenomeWorker:
 
     def chr_id_from_seq_id(self, annotation_source, id):
         if annotation_source == ANNOTATIONS.ENSEMBL:
-            if id == 'MT': return 25
-            if id == 'X': return 23
-            if id == 'Y': return 24
-            try:
-                id = int(id)
-            except ValueError:
-                return -1
-            id = id if 1 <= id <= 22 else -1
-            return id
+            if self.species == SPECIES.Homo_sapiens or self.species == SPECIES.Mus_musculus \
+                    or self.species == SPECIES.Rattus_norvegicus or self.species == SPECIES.Danio_rerio:
+                if id == 'MT': return NUMBER_OF_CHROMOSOMES[self.species.value]
+                if id == 'Y': return NUMBER_OF_CHROMOSOMES[self.species.value] - 1
+                if id == 'X': return NUMBER_OF_CHROMOSOMES[self.species.value] - 2
+
+                try:
+                    index = int(id)
+                except ValueError:
+                    index = -1
+
+                return index if 1 <= index <= NUMBER_OF_CHROMOSOMES[self.species.value] else -1
+            else:
+                if self.species == SPECIES.Caenorhabditis_elegans:
+                    if not ENSEMBL_CHR_MAP_FOR_Caenorhabditis.__contains__(id): return -1
+                    return ENSEMBL_CHR_MAP_FOR_Caenorhabditis[id]
+                if self.species == SPECIES.Drosophila_melanogaster:
+                    if not ENSEMBL_CHR_MAP_FOR_DROSOPHILA.__contains__(id): return -1
+                    return ENSEMBL_CHR_MAP_FOR_DROSOPHILA[id]
+                if self.species == SPECIES.Saccharomyces_cerevisiae:
+                    if not ENSEMBL_CHR_MAP_FOR_Saccharomyces.__contains__(id): return -1
+                    return ENSEMBL_CHR_MAP_FOR_Saccharomyces[id]
+                else:
+                    return -1
 
         # NCBI 1st column rules: accession number instead of chromosome number
         if not id.__contains__('.'): return -1
