@@ -23,10 +23,10 @@
 # Output:
 #   created image in ./results/images folder
 
-import genome_lib_tools as genome
-from genome_lib_tools import ANNOTATION
-from genome_lib_tools import ANNOTATION_LOAD
-from genome_lib_tools import SEQUENCE_LOAD
+import genome_worker as genome
+from genome_worker import ANNOTATIONS
+from genome_worker import ANNOTATION_LOAD
+from genome_worker import SEQUENCE_LOAD
 
 import plotly.express as px
 import pandas as pd
@@ -46,7 +46,7 @@ start_time = time.time()
 
 assert len(sys.argv) == 4
 
-annotation = ANNOTATION.NCBI if sys.argv[1] == 'NCBI' else ANNOTATION.ENSEMBL
+annotation = ANNOTATIONS.NCBI if sys.argv[1] == 'NCBI' else ANNOTATIONS.ENSEMBL
 k = int(sys.argv[2])
 procession_length = int(sys.argv[3])
 

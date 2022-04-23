@@ -107,7 +107,7 @@ Max overlap: 127  |  Total overlap: 220  |  chr: 10  |  genes: [gene:ENSG0000005
      Gene 2 Description: SEMA4G; semaphorin 4G [Source:HGNC Symbol;Acc:HGNC:10735]
 
 Max overlap: 123  |  Total overlap: 123  |  chr: 11  |  genes: [gene:ENSG00000254469;gene:ENSG00000225805]
-     Gene 1 Description: 
+     Gene 1 Description: XNDC1N; XRCC1 N-terminal domain containing 1, N-terminal like [Source:HGNC Symbol;Acc:HGNC:54661]
      Gene 2 Description: DEFB131B; defensin beta 131B [Source:HGNC Symbol;Acc:HGNC:38058]
 
 Max overlap: 123  |  Total overlap: 123  |  chr: 22  |  genes: [gene:ENSG00000172346;gene:ENSG00000100417]
@@ -338,6 +338,10 @@ Max overlap: 66  |  Total overlap: 115  |  chr: 5  |  genes: [gene:ENSG000001754
      Gene 1 Description: ARL10; ADP ribosylation factor like GTPase 10 [Source:HGNC Symbol;Acc:HGNC:22042]
      Gene 2 Description: NOP16; NOP16 nucleolar protein [Source:HGNC Symbol;Acc:HGNC:26934]
 
+Max overlap: 66  |  Total overlap: 66  |  chr: 17  |  genes: [gene:ENSG00000141349;gene:ENSG00000108840]
+     Gene 1 Description: G6PC3; glucose-6-phosphatase catalytic subunit 3 [Source:HGNC Symbol;Acc:HGNC:24861]
+     Gene 2 Description: HDAC5; histone deacetylase 5 [Source:HGNC Symbol;Acc:HGNC:14068]
+
 Max overlap: 65  |  Total overlap: 65  |  chr: 20  |  genes: [gene:ENSG00000182931;gene:ENSG00000168634]
      Gene 1 Description: WFDC10B; WAP four-disulfide core domain 10B [Source:HGNC Symbol;Acc:HGNC:20479]
      Gene 2 Description: WFDC13; WAP four-disulfide core domain 13 [Source:HGNC Symbol;Acc:HGNC:16131]
@@ -538,6 +542,10 @@ Max overlap: 21  |  Total overlap: 21  |  chr: 16  |  genes: [gene:ENSG000000051
      Gene 1 Description: ACSM3; acyl-CoA synthetase medium chain family member 3 [Source:HGNC Symbol;Acc:HGNC:10522]
      Gene 2 Description: ERI2; ERI1 exoribonuclease family member 2 [Source:HGNC Symbol;Acc:HGNC:30541]
 
+Max overlap: 20  |  Total overlap: 20  |  chr: 11  |  genes: [gene:ENSG00000087884;gene:ENSG00000149262]
+     Gene 1 Description: AAMDC; adipogenesis associated Mth938 domain containing [Source:HGNC Symbol;Acc:HGNC:30205]
+     Gene 2 Description: INTS4; integrator complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:25048]
+
 Max overlap: 19  |  Total overlap: 19  |  chr: 1  |  genes: [gene:ENSG00000116138;gene:ENSG00000116771]
      Gene 1 Description: DNAJC16; DnaJ heat shock protein family (Hsp40) member C16 [Source:HGNC Symbol;Acc:HGNC:29157]
      Gene 2 Description: AGMAT; agmatinase [Source:HGNC Symbol;Acc:HGNC:18407]
@@ -716,6 +724,6 @@ Max overlap: 1  |  Total overlap: 1  |  chr: 12  |  genes: [gene:ENSG00000037897
 
 
 Stats:
-   Total overlapped gene pairs: 179
-   Total overlapped length: 13147
-   Overlapped segments composition: C-3705 G-3645 A-2850 T-2947
+   Total overlapped gene pairs: 181
+   Total overlapped length: 13233
+   Overlapped segments composition: C-3731 G-3667 A-2874 T-2961

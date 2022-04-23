@@ -8,30 +8,29 @@
 #       etc...
 #
 # Usage:
-#   overlapping_genes_stats.py <annotation>
+#   overlapping_genes_stats.py <species> <annotation>
 #
 # Params (possible) to run:
+#   species:  Homo sapiens / Rattus norvegicus / Mus musculus / Danio rerio / Drosophila melanogaster,
+#               Caenorhabditis elegans / Saccharomyces cerevisiae
 #   annotation: NCBI / Ensembl
 #
 # Example:
-#   python overlapping_genes_stats.py NCBI
+#   python overlapping_genes_stats.py 'Homo sapiens' NCBI
 #
 # Output:
 #   prints stats in console
-
-import genome_lib_tools as genome
-from genome_lib_tools import ANNOTATION
-from genome_lib_tools import ANNOTATION_LOAD
-from genome_lib_tools import SEQUENCE_LOAD
-
-import time
 import sys
+import time
+
+from genome_worker import *
 
 start_time = time.time()
 
-assert len(sys.argv) == 2
+assert len(sys.argv) == 3
 
-annotation = ANNOTATION.NCBI if sys.argv[1] == 'NCBI' else ANNOTATION.ENSEMBL
+species = SPECIES.from_string(sys.argv[1])
+annotation_source = ANNOTATIONS.NCBI if sys.argv[2] == 'NCBI' else ANNOTATIONS.ENSEMBL
 
 total_genes = 0
 positive_genes = 0
@@ -43,17 +42,17 @@ og_clusters_count = 0
 genes_by_clusters_length = [0] * 1000
 
 # Load only genes. we don't need gene specific fragments as we are calculating general stats
-genome.preprocess_annotation(annotation, ANNOTATION_LOAD.GENES, SEQUENCE_LOAD.NOT_LOAD)
+human_genome = GenomeWorker(species, annotation_source, ANNOTATION_LOAD.GENES, SEQUENCE_LOAD.NOT_LOAD)
 
 # excluding mitochondria
-for chr_id in range(1, genome.chromosomes_count()):
-    genes_cnt = genome.genes_count_on_chr(chr_id)
+for chr_id in range(1, human_genome.chromosomes_count()):
+    genes_cnt = human_genome.genes_count_on_chr(chr_id)
     total_overlapped_sequence = ""
 
     # make sure, that there is no same id over genes on chromosome
     for i in range(0, genes_cnt):
         for j in range(i + 1, genes_cnt):
-            if genome.gene_by_ind(chr_id, i).id == genome.gene_by_ind(chr_id, j).id:
+            if human_genome.gene_by_ind(chr_id, i).id == human_genome.gene_by_ind(chr_id, j).id:
                 print("lasha some issue!")
 
     # just count total genes by adding genes on this chromosome
@@ -61,7 +60,7 @@ for chr_id in range(1, genome.chromosomes_count()):
 
     # count genes by strand for another statistical purposes
     for i in range(0, genes_cnt):
-        gene = genome.gene_by_ind(chr_id, i)
+        gene = human_genome.gene_by_ind(chr_id, i)
         if gene.strand == '+':
             positive_genes = positive_genes + 1
         if gene.strand == '-':
@@ -75,9 +74,9 @@ for chr_id in range(1, genome.chromosomes_count()):
     # for every different pair of genes
     for i in range(0, genes_cnt):
         for j in range(i + 1, genes_cnt):
-            gene_a = genome.gene_by_ind(chr_id, i)
-            gene_b = genome.gene_by_ind(chr_id, j)
-            if genome.are_genes_overlapped(gene_a, gene_b):
+            gene_a = human_genome.gene_by_ind(chr_id, i)
+            gene_b = human_genome.gene_by_ind(chr_id, j)
+            if GenomeWorker.are_genes_overlapped(gene_a, gene_b):
 
                 # for clustering computation
                 old_cluster_index = cluster_indexes[i]

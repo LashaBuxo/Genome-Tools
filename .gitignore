@@ -1,10 +1,13 @@
 .idea
 __pycache__
-databases/Ensembl/
-databases/NCBI/
-genome_data/Ensembl/annotations
-genome_data/Ensembl/sequences
-genome_data/NCBI/annotations
-genome_data/NCBI/sequences 
-genome_data/UCSC/annotations
-genome_data/UCSC/chromosomes
+*.gff
+*.fna
+*.gff3
+*.fa
+*.db
+genome_data/NCBI/Caenorhabditis\ elegans
+genome_data/NCBI/Danio\ rerio
+genome_data/NCBI/Drosophila melanogaster
+genome_data/NCBI/Mus musculus
+genome_data/NCBI/Rattus norvegicus
+genome_data/NCBI/Saccharomyces cerevisiae

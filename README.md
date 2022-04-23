@@ -175,27 +175,27 @@ Genome Reference Assembly:
 genome-build Genome Reference Consortium GRCh38.p13
 
 Genome Primary Assembly:
-GenBank Assembly ID 
+GenBank Assembly ID
 genome-build-accession GCA_000001405.28  
 
 Genome Annotation:
-Ensembl Release 105 (2021)
+Ensembl Release 106 (Apr 2022)
 ```
 </td>
 <td>
  
 
 ```yaml 
-Genome Reference Assembly: 
-genome-build Genome Reference Consortium GRCh38.p13
+Genome Reference Assembly:
+genome-build Genome Reference Consortium GRCh38.p14
 
 Genome Primary Assembly:
 NCBI Assembly ID 
-genome-build-accession GCF_000001405.39
+genome-build-accession GCF_000001405.40
 
 Genome Annotation:
-NCBI Homo sapiens Updated Annotation Release 109.20211119 
-11/19/2021
+NCBI Homo sapiens Annotation Release 110 (06/04/2022)
+
 ```
  
 

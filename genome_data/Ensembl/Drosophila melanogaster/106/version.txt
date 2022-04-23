@@ -1,0 +1,9 @@
+Genome Reference Assembly:
+	#!genome-build FlyBase BDGP6.32
+
+Genome Primary Assembly:
+	GenBank Assembly ID 
+	#!genome-build-accession GCA_000001215.4
+
+Genome Annotation:
+	Ensembl Release 106 (Apr 2022)

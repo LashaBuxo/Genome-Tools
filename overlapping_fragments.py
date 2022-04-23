@@ -22,10 +22,10 @@
 # Output:
 #   creates .txt file in ./results folder
 
-import genome_lib_tools as genome
-from genome_lib_tools import ANNOTATION
-from genome_lib_tools import ANNOTATION_LOAD
-from genome_lib_tools import SEQUENCE_LOAD
+import genome_worker as genome
+from genome_worker import ANNOTATIONS
+from genome_worker import ANNOTATION_LOAD
+from genome_worker import SEQUENCE_LOAD
 
 import time
 import sys
@@ -34,7 +34,7 @@ start_time = time.time()
 
 assert len(sys.argv) == 6
 
-annotation = ANNOTATION.NCBI if sys.argv[1] == 'NCBI' else ANNOTATION.ENSEMBL
+annotation = ANNOTATIONS.NCBI if sys.argv[1] == 'NCBI' else ANNOTATIONS.ENSEMBL
 annotation_load_type = ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_CDS if sys.argv[2] == 'CDS' \
     else ANNOTATION_LOAD.GENES if sys.argv[2] == 'gene' else ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS
 strand_similarity, ORF_similarity, output_type = sys.argv[3], sys.argv[4], sys.argv[5]
