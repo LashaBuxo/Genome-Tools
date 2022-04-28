@@ -1,0 +1,134 @@
+Stats:
+   Total overlapped gene pairs: 32
+   Total overlapped length: 2687
+   Overlapped segments composition: C-819 G-777 A-519 T-572
+
+
+Max overlap: 243  |  Total overlap: 243  |  chr: 9  |  genes: [gene:ENSG00000188938;gene:ENSG00000048828]
+     Gene 1 Description: FAM120AOS; family with sequence similarity 120A opposite strand [Source:HGNC Symbol;Acc:HGNC:23389]
+     Gene 2 Description: FAM120A; family with sequence similarity 120A [Source:HGNC Symbol;Acc:HGNC:13247]
+
+Max overlap: 211  |  Total overlap: 211  |  chr: 22  |  genes: [gene:ENSG00000099899;gene:ENSG00000099901]
+     Gene 1 Description: TRMT2A; tRNA methyltransferase 2 homolog A [Source:HGNC Symbol;Acc:HGNC:24974]
+     Gene 2 Description: RANBP1; RAN binding protein 1 [Source:HGNC Symbol;Acc:HGNC:9847]
+
+Max overlap: 201  |  Total overlap: 201  |  chr: 22  |  genes: [gene:ENSG00000183246;gene:ENSG00000185651]
+     Gene 1 Description: RIMBP3C; RIMS binding protein 3C [Source:HGNC Symbol;Acc:HGNC:33892]
+     Gene 2 Description: UBE2L3; ubiquitin conjugating enzyme E2 L3 [Source:HGNC Symbol;Acc:HGNC:12488]
+
+Max overlap: 188  |  Total overlap: 188  |  chr: 2  |  genes: [gene:ENSG00000273398;gene:ENSG00000115946]
+     Gene 1 Description: 
+     Gene 2 Description: PNO1; partner of NOB1 homolog [Source:HGNC Symbol;Acc:HGNC:32790]
+
+Max overlap: 182  |  Total overlap: 182  |  chr: 12  |  genes: [gene:ENSG00000170633;gene:ENSG00000089094]
+     Gene 1 Description: RNF34; ring finger protein 34 [Source:HGNC Symbol;Acc:HGNC:17297]
+     Gene 2 Description: KDM2B; lysine demethylase 2B [Source:HGNC Symbol;Acc:HGNC:13610]
+
+Max overlap: 171  |  Total overlap: 171  |  chr: 19  |  genes: [gene:ENSG00000127220;gene:ENSG00000130312]
+     Gene 1 Description: ABHD8; abhydrolase domain containing 8 [Source:HGNC Symbol;Acc:HGNC:23759]
+     Gene 2 Description: MRPL34; mitochondrial ribosomal protein L34 [Source:HGNC Symbol;Acc:HGNC:14488]
+
+Max overlap: 123  |  Total overlap: 123  |  chr: 11  |  genes: [gene:ENSG00000254469;gene:ENSG00000225805]
+     Gene 1 Description: XNDC1N; XRCC1 N-terminal domain containing 1, N-terminal like [Source:HGNC Symbol;Acc:HGNC:54661]
+     Gene 2 Description: DEFB131B; defensin beta 131B [Source:HGNC Symbol;Acc:HGNC:38058]
+
+Max overlap: 121  |  Total overlap: 121  |  chr: 15  |  genes: [gene:ENSG00000262560;gene:ENSG00000140264]
+     Gene 1 Description: 
+     Gene 2 Description: SERF2; small EDRK-rich factor 2 [Source:HGNC Symbol;Acc:HGNC:10757]
+
+Max overlap: 121  |  Total overlap: 121  |  chr: 15  |  genes: [gene:ENSG00000140264;gene:ENSG00000184716]
+     Gene 1 Description: SERF2; small EDRK-rich factor 2 [Source:HGNC Symbol;Acc:HGNC:10757]
+     Gene 2 Description: SERINC4; serine incorporator 4 [Source:HGNC Symbol;Acc:HGNC:32237]
+
+Max overlap: 112  |  Total overlap: 112  |  chr: 19  |  genes: [gene:ENSG00000105755;gene:ENSG00000176472]
+     Gene 1 Description: ETHE1; ETHE1 persulfide dioxygenase [Source:HGNC Symbol;Acc:HGNC:23287]
+     Gene 2 Description: ZNF575; zinc finger protein 575 [Source:HGNC Symbol;Acc:HGNC:27606]
+
+Max overlap: 111  |  Total overlap: 111  |  chr: 6  |  genes: [gene:ENSG00000146038;gene:ENSG00000146049]
+     Gene 1 Description: DCDC2; doublecortin domain containing 2 [Source:HGNC Symbol;Acc:HGNC:18141]
+     Gene 2 Description: KAAG1; kidney associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:21031]
+
+Max overlap: 111  |  Total overlap: 111  |  chr: 10  |  genes: [gene:ENSG00000155265;gene:ENSG00000095713]
+     Gene 1 Description: GOLGA7B; golgin A7 family member B [Source:HGNC Symbol;Acc:HGNC:31668]
+     Gene 2 Description: CRTAC1; cartilage acidic protein 1 [Source:HGNC Symbol;Acc:HGNC:14882]
+
+Max overlap: 107  |  Total overlap: 107  |  chr: 12  |  genes: [gene:ENSG00000111664;gene:ENSG00000111665]
+     Gene 1 Description: GNB3; G protein subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:4400]
+     Gene 2 Description: CDCA3; cell division cycle associated 3 [Source:HGNC Symbol;Acc:HGNC:14624]
+
+Max overlap: 89  |  Total overlap: 89  |  chr: 6  |  genes: [gene:ENSG00000272442;gene:ENSG00000124608]
+     Gene 1 Description: 
+     Gene 2 Description: AARS2; alanyl-tRNA synthetase 2, mitochondrial [Source:HGNC Symbol;Acc:HGNC:21022]
+
+Max overlap: 82  |  Total overlap: 82  |  chr: 3  |  genes: [gene:ENSG00000114026;gene:ENSG00000134072]
+     Gene 1 Description: OGG1; 8-oxoguanine DNA glycosylase [Source:HGNC Symbol;Acc:HGNC:8125]
+     Gene 2 Description: CAMK1; calcium/calmodulin dependent protein kinase I [Source:HGNC Symbol;Acc:HGNC:1459]
+
+Max overlap: 71  |  Total overlap: 71  |  chr: 21  |  genes: [gene:ENSG00000285815;gene:ENSG00000157578]
+     Gene 1 Description: GET1-SH3BGR; GET1-SH3BGR readthrough [Source:HGNC Symbol;Acc:HGNC:54635]
+     Gene 2 Description: LCA5L; lebercilin LCA5 like [Source:HGNC Symbol;Acc:HGNC:1255]
+
+Max overlap: 63  |  Total overlap: 82  |  chr: 10  |  genes: [gene:ENSG00000055950;gene:ENSG00000095539]
+     Gene 1 Description: MRPL43; mitochondrial ribosomal protein L43 [Source:HGNC Symbol;Acc:HGNC:14517]
+     Gene 2 Description: SEMA4G; semaphorin 4G [Source:HGNC Symbol;Acc:HGNC:10735]
+
+Max overlap: 61  |  Total overlap: 61  |  chr: 16  |  genes: [gene:ENSG00000072864;gene:ENSG00000133392]
+     Gene 1 Description: NDE1; nudE neurodevelopment protein 1 [Source:HGNC Symbol;Acc:HGNC:17619]
+     Gene 2 Description: MYH11; myosin heavy chain 11 [Source:HGNC Symbol;Acc:HGNC:7569]
+
+Max overlap: 59  |  Total overlap: 59  |  chr: 13  |  genes: [gene:ENSG00000283208;gene:ENSG00000005810]
+     Gene 1 Description: 
+     Gene 2 Description: MYCBP2; MYC binding protein 2 [Source:HGNC Symbol;Acc:HGNC:23386]
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 19  |  genes: [gene:ENSG00000226763;gene:ENSG00000131116]
+     Gene 1 Description: SRRM5; serine/arginine repetitive matrix 5 [Source:HGNC Symbol;Acc:HGNC:37248]
+     Gene 2 Description: ZNF428; zinc finger protein 428 [Source:HGNC Symbol;Acc:HGNC:20804]
+
+Max overlap: 37  |  Total overlap: 37  |  chr: 4  |  genes: [gene:ENSG00000215375;gene:ENSG00000169026]
+     Gene 1 Description: MYL5; myosin light chain 5 [Source:HGNC Symbol;Acc:HGNC:7586]
+     Gene 2 Description: SLC49A3; solute carrier family 49 member 3 [Source:HGNC Symbol;Acc:HGNC:26177]
+
+Max overlap: 34  |  Total overlap: 34  |  chr: 11  |  genes: [gene:ENSG00000176148;gene:ENSG00000176102]
+     Gene 1 Description: TCP11L1; t-complex 11 like 1 [Source:HGNC Symbol;Acc:HGNC:25655]
+     Gene 2 Description: CSTF3; cleavage stimulation factor subunit 3 [Source:HGNC Symbol;Acc:HGNC:2485]
+
+Max overlap: 34  |  Total overlap: 34  |  chr: 12  |  genes: [gene:ENSG00000139343;gene:ENSG00000165972]
+     Gene 1 Description: SNRPF; small nuclear ribonucleoprotein polypeptide F [Source:HGNC Symbol;Acc:HGNC:11162]
+     Gene 2 Description: CCDC38; coiled-coil domain containing 38 [Source:HGNC Symbol;Acc:HGNC:26843]
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 9  |  genes: [gene:ENSG00000175854;gene:ENSG00000167112]
+     Gene 1 Description: SWI5; SWI5 homologous recombination repair protein [Source:HGNC Symbol;Acc:HGNC:31412]
+     Gene 2 Description: TRUB2; TruB pseudouridine synthase family member 2 [Source:HGNC Symbol;Acc:HGNC:17170]
+
+Max overlap: 26  |  Total overlap: 26  |  chr: 3  |  genes: [gene:ENSG00000272104;gene:ENSG00000007402]
+     Gene 1 Description: 
+     Gene 2 Description: CACNA2D2; calcium voltage-gated channel auxiliary subunit alpha2delta 2 [Source:HGNC Symbol;Acc:HGNC:1400]
+
+Max overlap: 15  |  Total overlap: 15  |  chr: 1  |  genes: [gene:ENSG00000158793;gene:ENSG00000158796]
+     Gene 1 Description: NIT1; nitrilase 1 [Source:HGNC Symbol;Acc:HGNC:7828]
+     Gene 2 Description: DEDD; death effector domain containing [Source:HGNC Symbol;Acc:HGNC:2755]
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 23  |  genes: [gene:ENSG00000197021;gene:ENSG00000283463]
+     Gene 1 Description: EOLA2; endothelium and lymphocyte associated ASCH domain 2 [Source:HGNC Symbol;Acc:HGNC:17402]
+     Gene 2 Description: HSFX4; heat shock transcription factor family, X-linked member 4 [Source:HGNC Symbol;Acc:HGNC:52398]
+
+Max overlap: 8  |  Total overlap: 8  |  chr: 1  |  genes: [gene:ENSG00000162779;gene:ENSG00000116218]
+     Gene 1 Description: AXDND1; axonemal dynein light chain domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26564]
+     Gene 2 Description: NPHS2; NPHS2 stomatin family member, podocin [Source:HGNC Symbol;Acc:HGNC:13394]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 2  |  genes: [gene:ENSG00000173567;gene:ENSG00000138018]
+     Gene 1 Description: ADGRF3; adhesion G protein-coupled receptor F3 [Source:HGNC Symbol;Acc:HGNC:18989]
+     Gene 2 Description: SELENOI; selenoprotein I [Source:HGNC Symbol;Acc:HGNC:29361]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 9  |  genes: [gene:ENSG00000197579;gene:ENSG00000235453]
+     Gene 1 Description: TOPORS; TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase [Source:HGNC Symbol;Acc:HGNC:21653]
+     Gene 2 Description: SMIM27; small integral membrane protein 27 [Source:HGNC Symbol;Acc:HGNC:31420]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 10  |  genes: [gene:ENSG00000165868;gene:ENSG00000188316]
+     Gene 1 Description: HSPA12A; heat shock protein family A (Hsp70) member 12A [Source:HGNC Symbol;Acc:HGNC:19022]
+     Gene 2 Description: ENO4; enolase 4 [Source:HGNC Symbol;Acc:HGNC:31670]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 17  |  genes: [gene:ENSG00000132535;gene:ENSG00000072778]
+     Gene 1 Description: DLG4; discs large MAGUK scaffold protein 4 [Source:HGNC Symbol;Acc:HGNC:2903]
+     Gene 2 Description: ACADVL; acyl-CoA dehydrogenase very long chain [Source:HGNC Symbol;Acc:HGNC:92]
+

@@ -15,28 +15,27 @@
 #   output_type: print_gene_pairs / print_gene_pairs_with_descriptions
 #
 # Example:
-#   python overlapping_fragments.py NCBI CDS diff_stranded both_framed print_gene_pairs_with_descriptions
+#   python overlapping_fragments.py 'Homo sapiens' Ensembl CDS diff_stranded both_ORF print_gene_pairs_with_descriptions
 #   Finds all overlapping genes by CDS fragments, which are on different strands
 #   and which have same ORF or different ORF
 #
 # Output:
 #   creates .txt file in ./results folder
 
-import genome_worker as genome
-from genome_worker import ANNOTATIONS
-from genome_worker import ANNOTATION_LOAD
-from genome_worker import SEQUENCE_LOAD
-
+from genome_worker import *
 import time
 import sys
 
 start_time = time.time()
 
 assert len(sys.argv) == 6
+assert sys.argv[2] == 'NCBI' or sys.argv[2] == 'Ensembl'
+assert sys.argv[3] == 'same_stranded' or sys.argv[3] == 'diff_stranded' or sys.argv[3] == 'both_stranded'
+assert sys.argv[4] == 'same_ORF' or sys.argv[4] == 'diff_ORF' or sys.argv[4] == 'both_ORF'
+assert sys.argv[5] == 'print_gene_pairs' or sys.argv[5] == 'print_gene_pairs_with_descriptions'
 
-annotation = ANNOTATIONS.NCBI if sys.argv[1] == 'NCBI' else ANNOTATIONS.ENSEMBL
-annotation_load_type = ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_CDS if sys.argv[2] == 'CDS' \
-    else ANNOTATION_LOAD.GENES if sys.argv[2] == 'gene' else ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS
+species = SPECIES.from_string(sys.argv[1])
+annotation = ANNOTATIONS.NCBI if sys.argv[2] == 'NCBI' else ANNOTATIONS.ENSEMBL
 strand_similarity, ORF_similarity, output_type = sys.argv[3], sys.argv[4], sys.argv[5]
 
 coding_overlapped_genes = []
@@ -45,7 +44,7 @@ total_overlap_sum = 0
 overlapped_merged_sequence = ""
 
 # Load necessary annotation data
-genome.preprocess_annotation(annotation, annotation_load_type, SEQUENCE_LOAD.LOAD)
+genome = GenomeWorker(species, annotation, ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS, SEQUENCE_LOAD.LOAD)
 
 for chr_id in range(1, genome.chromosomes_count() + 1):
     genes_cnt = genome.genes_count_on_chr(chr_id)
@@ -64,14 +63,11 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
             if strand_similarity == 'diff_stranded' and gene_A.strand == gene_B.strand: continue
 
             # if genes don't overlap, there is no point for searching fragments overlap
-            if not genome.are_genes_overlapped(gene_A, gene_B): continue
+            if not genome.are_features_overlapped(gene_A, gene_B): continue
 
-            # if we are searching genes overlap
-            if annotation_load_type == ANNOTATION_LOAD.GENES:
-                l, r = genome.get_genes_overlap(gene_A, gene_B)
-                overlap_intervals = [(l, r)]
-            else:  # if we are searching overlaps within fragments of gene pairs
-                overlap_intervals = genome.get_fragments_overlap(gene_A, gene_B, ORF_similarity)
+            #  we are searching overlaps within fragments of gene pairs
+            overlap_intervals = genome.get_fragments_overlap(gene_A, gene_B, ORF_similarity,
+                                                             TRANSCRIPT_CRITERIA.LONGEST_CDS_AND_UTRs)
 
             total_overlap = 0
             max_overlap = 0
@@ -97,10 +93,20 @@ total_overlapping_composition = genome.sequence_composition(overlapped_merged_se
 
 # output data
 # example path './results/overlaps - CDS [diff_stranded, SAME_ORF] (NCBI) .txt'
-output_data_path = './results/OGs' + ('' if sys.argv[5] == 'print_gene_pairs' else ' (+descriptions)') \
-                   + ' - ' + sys.argv[2] + " [" + strand_similarity + ", " + ORF_similarity + "] (" + \
-                   sys.argv[1] + ").txt"
+output_data_path = './results/OGs_' + species.name + ('' if sys.argv[5] == 'print_gene_pairs' else ' (+descriptions)') \
+                   + ' - ' + sys.argv[2] + " [" + strand_similarity + ", " + ORF_similarity + "]" + \
+                   ".txt"
 with open(output_data_path, 'w') as f:
+    f.write("%s\n" % "Stats:")
+    data2 = "   Total overlapped gene pairs: " + str(overlapped_gene_pairs)
+    f.write("%s\n" % data2)
+    data2 = "   Total overlapped length: " + str(total_overlap_sum)
+    f.write("%s\n" % data2)
+    data3 = "   Overlapped segments composition: C-" + str(total_overlapping_composition[0]) + " G-" + str(
+        total_overlapping_composition[1]) + " A-" + str(total_overlapping_composition[2]) + " T-" + str(
+        total_overlapping_composition[3])
+    f.write("%s\n\n\n" % data3)
+
     for item in sorted_by_second:
         data = "Max overlap: " + str(item[0]) + "  |  Total overlap: " + str(item[1]) + "  |  chr: " + str(
             item[2]) + "  |  genes: [" + item[3].id + ";" + item[4].id + "]"
@@ -116,15 +122,5 @@ with open(output_data_path, 'w') as f:
             data += "\n"
 
             f.write("%s\n" % data)
-
-    f.write("\n%s\n" % "Stats:")
-    data2 = "   Total overlapped gene pairs: " + str(overlapped_gene_pairs)
-    f.write("%s\n" % data2)
-    data2 = "   Total overlapped length: " + str(total_overlap_sum)
-    f.write("%s\n" % data2)
-    data3 = "   Overlapped segments composition: C-" + str(total_overlapping_composition[0]) + " G-" + str(
-        total_overlapping_composition[1]) + " A-" + str(total_overlapping_composition[2]) + " T-" + str(
-        total_overlapping_composition[3])
-    f.write("%s\n" % data3)
 
 print("--- script was running for %s seconds. ---" % (time.time() - start_time))

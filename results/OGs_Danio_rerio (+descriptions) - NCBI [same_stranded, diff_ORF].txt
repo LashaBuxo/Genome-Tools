@@ -1,0 +1,126 @@
+Stats:
+   Total overlapped gene pairs: 30
+   Total overlapped length: 199
+   Overlapped segments composition: C-28 G-58 A-84 T-29
+
+
+Max overlap: 11  |  Total overlap: 11  |  chr: 2  |  genes: [gene-zgc:113518;gene-LOC101885894]
+     Gene 1 Description: zgc:113518; zgc:113518
+     Gene 2 Description: 
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g1;gene-pcdh1g9]
+     Gene 1 Description: pcdh1g1; protocadherin 1 gamma 1
+     Gene 2 Description: pcdh1g9; protocadherin 1 gamma 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g1;gene-pcdh1g11]
+     Gene 1 Description: pcdh1g1; protocadherin 1 gamma 1
+     Gene 2 Description: pcdh1g11; protocadherin 1 gamma 11
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g2;gene-pcdh1g9]
+     Gene 1 Description: pcdh1g2; protocadherin 1 gamma 2
+     Gene 2 Description: pcdh1g9; protocadherin 1 gamma 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g2;gene-pcdh1g11]
+     Gene 1 Description: pcdh1g2; protocadherin 1 gamma 2
+     Gene 2 Description: pcdh1g11; protocadherin 1 gamma 11
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g3;gene-pcdh1g9]
+     Gene 1 Description: pcdh1g3; protocadherin 1 gamma 3
+     Gene 2 Description: pcdh1g9; protocadherin 1 gamma 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g3;gene-pcdh1g11]
+     Gene 1 Description: pcdh1g3; protocadherin 1 gamma 3
+     Gene 2 Description: pcdh1g11; protocadherin 1 gamma 11
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1gb2;gene-pcdh1g9]
+     Gene 1 Description: pcdh1gb2; protocadherin 1 gamma b 2
+     Gene 2 Description: pcdh1g9; protocadherin 1 gamma 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1gb2;gene-pcdh1g11]
+     Gene 1 Description: pcdh1gb2; protocadherin 1 gamma b 2
+     Gene 2 Description: pcdh1g11; protocadherin 1 gamma 11
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1gb9]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1gb9; protocadherin 1 gamma b 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g18]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g18; protocadherin 1 gamma 18
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g26]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g26; protocadherin 1 gamma 26
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1gc5]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1gc5; protocadherin 1 gamma c 5
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1gc6]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1gc6; protocadherin 1 gamma c 6
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g29]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g29; protocadherin 1 gamma 29
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g30]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g30; protocadherin 1 gamma 30
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g31]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g31; protocadherin 1 gamma 31
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g9;gene-pcdh1g32]
+     Gene 1 Description: pcdh1g9; protocadherin 1 gamma 9
+     Gene 2 Description: pcdh1g32; protocadherin 1 gamma 32
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1gb9]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1gb9; protocadherin 1 gamma b 9
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g18]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g18; protocadherin 1 gamma 18
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g26]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g26; protocadherin 1 gamma 26
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1gc5]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1gc5; protocadherin 1 gamma c 5
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1gc6]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1gc6; protocadherin 1 gamma c 6
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g29]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g29; protocadherin 1 gamma 29
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g30]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g30; protocadherin 1 gamma 30
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g31]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g31; protocadherin 1 gamma 31
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 10  |  genes: [gene-pcdh1g11;gene-pcdh1g32]
+     Gene 1 Description: pcdh1g11; protocadherin 1 gamma 11
+     Gene 2 Description: pcdh1g32; protocadherin 1 gamma 32
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 3  |  genes: [gene-LOC100537082;gene-LOC108179097]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 5  |  genes: [gene-LOC799924;gene-LOC108190033]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 17  |  genes: [gene-si:ch211-189e2.3;gene-LOC110438056]
+     Gene 1 Description: 
+     Gene 2 Description: 
+

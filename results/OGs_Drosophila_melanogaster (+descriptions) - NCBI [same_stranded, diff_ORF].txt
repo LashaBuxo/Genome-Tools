@@ -1,0 +1,74 @@
+Stats:
+   Total overlapped gene pairs: 17
+   Total overlapped length: 1081
+   Overlapped segments composition: C-342 G-296 A-222 T-202
+
+
+Max overlap: 304  |  Total overlap: 556  |  chr: 5  |  genes: [gene-Dmel_CG4241;gene-Dmel_CG33488]
+     Gene 1 Description: DPCoAC; Dephosphocoenzyme A carrier
+     Gene 2 Description: att-ORFB; alternative testis transcripts open reading frame B
+
+Max overlap: 140  |  Total overlap: 140  |  chr: 3  |  genes: [gene-Dmel_CG33199;gene-Dmel_CG8229]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 108  |  Total overlap: 108  |  chr: 2  |  genes: [gene-Dmel_CG42231;gene-Dmel_CG5813]
+     Gene 1 Description: 
+     Gene 2 Description: chif; chiffon
+
+Max overlap: 104  |  Total overlap: 104  |  chr: 5  |  genes: [gene-Dmel_CG6783;gene-Dmel_CG6782]
+     Gene 1 Description: fabp; fatty acid binding protein
+     Gene 2 Description: sea; scheggia
+
+Max overlap: 64  |  Total overlap: 64  |  chr: 4  |  genes: [gene-Dmel_CG18675;gene-Dmel_CG1232]
+     Gene 1 Description: 
+     Gene 2 Description: tipE; temperature-induced paralytic E
+
+Max overlap: 35  |  Total overlap: 35  |  chr: 5  |  genes: [gene-Dmel_CG42498;gene-Dmel_CG14550]
+     Gene 1 Description: 
+     Gene 2 Description: PIG-P; Phosphatidylinositol glycan anchor biosynthesis class P
+
+Max overlap: 22  |  Total overlap: 22  |  chr: 1  |  genes: [gene-Dmel_CG8923;gene-Dmel_CG33935]
+     Gene 1 Description: mei-218; meiotic 218
+     Gene 2 Description: 
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 5  |  genes: [gene-Dmel_CG17327;gene-Dmel_CG44194]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 14  |  Total overlap: 14  |  chr: 2  |  genes: [gene-Dmel_CG34310;gene-Dmel_CG11181]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 8  |  Total overlap: 8  |  chr: 1  |  genes: [gene-Dmel_CG4320;gene-Dmel_CG4317]
+     Gene 1 Description: 
+     Gene 2 Description: Mipp2; Multiple inositol polyphosphate phosphatase 2
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 2  |  genes: [gene-Dmel_CG33650;gene-Dmel_CG33649]
+     Gene 1 Description: DNApol-gamma35; DNA polymerase gamma 35kD subunit
+     Gene 2 Description: GatC; Glutamyl-tRNA amidotransferase, subunit C
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 5  |  genes: [gene-Dmel_CG42350;gene-Dmel_CG44890]
+     Gene 1 Description: moi; modigliani
+     Gene 2 Description: Tgs1; Trimethylguanosine synthase 1
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 3  |  genes: [gene-Dmel_CG33785;gene-Dmel_CG33786]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 3  |  genes: [gene-Dmel_CG42379;gene-Dmel_CG42381]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 4  |  genes: [gene-Dmel_CG42307;gene-Dmel_CG8601]
+     Gene 1 Description: 
+     Gene 2 Description: mus312; mutagen-sensitive 312
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 5  |  genes: [gene-Dmel_CG42599;gene-Dmel_CG33720]
+     Gene 1 Description: Pif1A; PFTAIRE-interacting factor 1A
+     Gene 2 Description: Pif1B; PFTAIRE-interacting factor 1B
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 5  |  genes: [gene-Dmel_CG17198;gene-Dmel_CG17197]
+     Gene 1 Description: 
+     Gene 2 Description: 
+

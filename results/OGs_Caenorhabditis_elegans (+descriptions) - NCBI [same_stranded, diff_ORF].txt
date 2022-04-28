@@ -1,0 +1,114 @@
+Stats:
+   Total overlapped gene pairs: 27
+   Total overlapped length: 938
+   Overlapped segments composition: C-228 G-204 A-283 T-204
+
+
+Max overlap: 199  |  Total overlap: 199  |  chr: 2  |  genes: [gene-CELE_B0334.15;gene-CELE_B0334.5]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 83  |  Total overlap: 83  |  chr: 5  |  genes: [gene-CELE_W02H5.19;gene-CELE_W02H5.2]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 81  |  Total overlap: 104  |  chr: 2  |  genes: [gene-CELE_T14B4.19;gene-CELE_T14B4.7]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 77  |  Total overlap: 77  |  chr: 5  |  genes: [gene-CELE_F17C11.17;gene-CELE_F17C11.26]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 59  |  Total overlap: 59  |  chr: 1  |  genes: [gene-CELE_C25A1.20;gene-CELE_C25A1.7]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 59  |  Total overlap: 98  |  chr: 4  |  genes: [gene-CELE_Y62E10A.11;gene-CELE_Y62E10A.23]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 52  |  Total overlap: 52  |  chr: 1  |  genes: [gene-CELE_C41D11.1;gene-CELE_T01A4.9]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 40  |  Total overlap: 40  |  chr: 1  |  genes: [gene-CELE_lev-10;gene-CELE_eat-18]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 31  |  Total overlap: 56  |  chr: 2  |  genes: [gene-CELE_ZK1067.5;gene-CELE_ZK1067.6]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 26  |  Total overlap: 26  |  chr: 6  |  genes: [gene-CELE_H40L08.3;gene-CELE_H40L08.9]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 20  |  Total overlap: 20  |  chr: 2  |  genes: [gene-CELE_F59E12.15;gene-CELE_F59E12.6]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 4  |  genes: [gene-CELE_T20D3.14;gene-CELE_T20D3.3]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 6  |  genes: [gene-CELE_C03B1.17;gene-CELE_C03B1.1]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 16  |  Total overlap: 16  |  chr: 2  |  genes: [gene-CELE_T27A1.3;gene-CELE_C09E8.3]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 16  |  Total overlap: 16  |  chr: 5  |  genes: [gene-CELE_C37C3.18;gene-CELE_C37C3.2]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 13  |  Total overlap: 13  |  chr: 5  |  genes: [gene-CELE_T04H1.12;gene-CELE_T04H1.7]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 8  |  Total overlap: 8  |  chr: 5  |  genes: [gene-CELE_C24G6.13;gene-CELE_C24G6.8]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 2  |  genes: [gene-CELE_Y48E1B.2;gene-CELE_Y48E1B.17]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 6  |  genes: [gene-CELE_H40L08.7;gene-CELE_H40L08.8]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 1  |  genes: [gene-CELE_F45H11.6;gene-CELE_F45H11.4]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 3  |  genes: [gene-CELE_T20G5.14;gene-CELE_Y70G10A.4]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 4  |  genes: [gene-CELE_H06H21.6;gene-CELE_H06H21.37]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 4  |  genes: [gene-CELE_exos-4.1;gene-CELE_tin-9.2]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 6  |  genes: [gene-CELE_C02C6.2;gene-CELE_C02C6.14]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 1  |  genes: [gene-CELE_F20G4.2;gene-CELE_F55D12.5]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 1  |  genes: [gene-CELE_F45H11.8;gene-CELE_F45H11.11]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 1  |  Total overlap: 1  |  chr: 4  |  genes: [gene-CELE_ZC410.7;gene-CELE_ZC410.10]
+     Gene 1 Description: 
+     Gene 2 Description: 
+

@@ -1,9 +1,0 @@
-Genome Reference Assembly:
-	#!genome-build R64-1-1
-
-Genome Primary Assembly:
-	GenBank Assembly ID 
-	#!genome-build-accession GCA_000146045.2
-
-Genome Annotation:
-	Ensembl Release 106 (Apr 2022)

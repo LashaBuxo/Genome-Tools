@@ -1,3 +1,8 @@
+Stats:
+   Total overlapped gene pairs: 181
+   Total overlapped length: 13233
+   Overlapped segments composition: C-3731 G-3667 A-2874 T-2961
+
 Max overlap: 430  |  Total overlap: 430  |  chr: 16  |  genes: [gene:ENSG00000162066;gene:ENSG00000205923]
      Gene 1 Description: AMDHD2; amidohydrolase domain containing 2 [Source:HGNC Symbol;Acc:HGNC:24262]
      Gene 2 Description: CEMP1; cementum protein 1 [Source:HGNC Symbol;Acc:HGNC:32553]
@@ -721,9 +726,3 @@ Max overlap: 2  |  Total overlap: 2  |  chr: 17  |  genes: [gene:ENSG00000132535
 Max overlap: 1  |  Total overlap: 1  |  chr: 12  |  genes: [gene:ENSG00000037897;gene:ENSG00000123427]
      Gene 1 Description: METTL1; methyltransferase 1, tRNA methylguanosine [Source:HGNC Symbol;Acc:HGNC:7030]
      Gene 2 Description: EEF1AKMT3; EEF1A lysine methyltransferase 3 [Source:HGNC Symbol;Acc:HGNC:24936]
-
-
-Stats:
-   Total overlapped gene pairs: 181
-   Total overlapped length: 13233
-   Overlapped segments composition: C-3731 G-3667 A-2874 T-2961

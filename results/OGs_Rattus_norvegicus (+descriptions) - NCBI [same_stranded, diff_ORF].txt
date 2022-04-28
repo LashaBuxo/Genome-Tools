@@ -1,0 +1,18 @@
+Stats:
+   Total overlapped gene pairs: 3
+   Total overlapped length: 39
+   Overlapped segments composition: C-10 G-12 A-13 T-4
+
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 9  |  genes: [gene-Ticam1;gene-Plin3]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 6  |  Total overlap: 6  |  chr: 17  |  genes: [gene-LOC102551184;gene-LOC120097726]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 19  |  genes: [gene-Chtf8;gene-Derpc]
+     Gene 1 Description: Chtf8; chromosome transmission fidelity factor 8
+     Gene 2 Description: Derpc; DERPC proline and glycine rich nuclear protein
+

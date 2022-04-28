@@ -30,65 +30,61 @@ Output:
 <td> 
 
 ```yaml
-Number of genes: 19957
-Number of genes on Positive(+) Strand: 10092
-Number of genes on Negative(-) Strand: 9865
+Number of genes: 19221
+Number of genes on Positive(+) Strand: 9729
+Number of genes on Negative(-) Strand: 9492
 
-Number of OG: 6795
-Number of OG pairs: 4999
-Number of OG clusters with >=2 gene: 2513
+Number of OG: 5166
+Number of OG pairs: 3414
+Number of OG clusters with >=2 gene: 2164
 
 Genes by clusters length:
-1-length clusters: 13162
-2-length clusters: 1539
-3-length clusters: 592
-4-length clusters: 215
-5-length clusters: 89
-6-length clusters: 33
-7-length clusters: 18
-8-length clusters: 11
-9-length clusters: 2
-10-length clusters: 3
-11-length clusters: 3
+1-length clusters: 14731
+2-length clusters: 1641
+3-length clusters: 372
+4-length clusters: 110
+5-length clusters: 30
+6-length clusters: 8
+7-length clusters: 6
+8-length clusters: 2
+9-length clusters: 1
+11-length clusters: 2
 12-length clusters: 1
-13-length clusters: 1
-15-length clusters: 2
-16-length clusters: 1
+14-length clusters: 1
+15-length clusters: 1
 17-length clusters: 1
 22-length clusters: 1
-33-length clusters: 1
+
 ```
 </td>
 <td>
 
 ```yaml
-Number of genes: 19846
-Number of genes on Positive(+) Strand: 10029
-Number of genes on Negative(-) Strand: 9817
+Number of genes: 19253
+Number of genes on Positive(+) Strand: 9753
+Number of genes on Negative(-) Strand: 9500
 
-Number of OG: 4533
-Number of OG pairs: 3000
-Number of OG clusters with >=2 gene: 1933
+Number of OG: 3864
+Number of OG pairs: 2523
+Number of OG clusters with >=2 gene: 1694
 
 Genes by clusters length:
-1-length clusters: 15313
-2-length clusters: 1516
-3-length clusters: 314
-4-length clusters: 62
-5-length clusters: 17
-6-length clusters: 9
-7-length clusters: 6
+1-length clusters: 15889
+2-length clusters: 1410
+3-length clusters: 222
+4-length clusters: 33
+5-length clusters: 8
+6-length clusters: 7
+7-length clusters: 5
 8-length clusters: 1
 9-length clusters: 1
 11-length clusters: 1
-13-length clusters: 1
+12-length clusters: 1
 14-length clusters: 1
 15-length clusters: 1
 17-length clusters: 1
 21-length clusters: 1
 22-length clusters: 1
-
-
 ```
 
 </td>
