@@ -1,7 +1,7 @@
 # region Paths
 WORKING_DATABASES_DIRECTORY = './databases/'
 
-ENSEMBL_ANNOTATIONS = ['./genome_data/Ensembl/Homo sapiens/106/Homo_sapiens.GRCh38.106.chr.gff3',
+ENSEMBL_ANNOTATIONS = ['./genome_data/Ensembl/Homo sapiens/92/Homo_sapiens.GRCh38.92.chr.gff3',
                        './genome_data/Ensembl/Mus musculus/106/Mus_musculus.GRCm39.106.chr.gff3',
                        './genome_data/Ensembl/Rattus norvegicus/106/Rattus_norvegicus.mRatBN7.2.106.gff3',
                        './genome_data/Ensembl/Danio rerio/106/Danio_rerio.GRCz11.106.chr.gff3',
@@ -33,17 +33,17 @@ NCBI_SEQUENCES = ['./genome_data/NCBI/Homo sapiens/110/GCF_000001405.40_GRCh38.p
 
 # region Chromosome numbers
 
-NUMBER_OF_CHROMOSOMES = [25, 22, 23, 26, 7, 7]
-#   Homo sapiens - 25: 22 autosome + 2 sex + 1 mitochondrion chromosome
-#   Mus musculus - 22: 19 autosome + 2 sex + 1 mitochondrion chromosome
-#   Rattus norvegicus - 23: 20 autosome + 2 sex + 1 mitochondrion chromosome
-#   Danio rerio - 26: 25 autosome + 1 mitochondrion chromosome
-#   Drosophila melanogaster - 7: 5 autosome + 2 sex + 1 mitochondrion chromosome - 1 Y
+NUMBER_OF_CHROMOSOMES = [24, 21, 22, 25, 6, 6]
+#   Homo sapiens - 25: 22 autosome + 2 sex + (1 mitochondrion chromosome IGNORED)
+#   Mus musculus - 22: 19 autosome + 2 sex + (1 mitochondrion chromosome IGNORED)
+#   Rattus norvegicus - 23: 20 autosome + 2 sex + (1 mitochondrion chromosome IGNORED)
+#   Danio rerio - 26: 25 autosome + (1 mitochondrion chromosome
+#   Drosophila melanogaster - 7: 5 autosome + 2 sex + (1 mitochondrion chromosome IGNORED) - 1 Y
 #                     NOTE: excluding 1 Y chromosome, coz NCBI does not have one
-#   Caenorhabditis elegans - 7: 5 autosome + 1 sex + 1 mitochondrion chromosome
+#   Caenorhabditis elegans - 7: 5 autosome + 1 sex + (1 mitochondrion chromosome IGNORED)
 ENSEMBL_CHR_MAP_FOR_DROSOPHILA = {"2L": 1, "2R": 2, "3L": 3, "3R": 4, "4": 5, "X": 6,
-                                  "mitochondrion_genome": 7}
+                                  "mitochondrion_genome": -1}
 
-ENSEMBL_CHR_MAP_FOR_Caenorhabditis = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "X": 6, "MtDNA": 7}
+ENSEMBL_CHR_MAP_FOR_Caenorhabditis = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "X": 6, "MtDNA": -1}
 
 # endregion

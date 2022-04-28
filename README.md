@@ -30,61 +30,57 @@ Output:
 <td> 
 
 ```yaml
-Number of genes: 19221
-Number of genes on Positive(+) Strand: 9729
-Number of genes on Negative(-) Strand: 9492
+Total protein-coding genes: 19220 (650 filtered out)
 
-Number of OG: 5166
-Number of OG pairs: 3414
-Number of OG clusters with >=2 gene: 2164
+Genes on Positive(+) Strand: 9713
+Genes on Negative(-) Strand: 9507
 
-Genes by clusters length:
-1-length clusters: 14731
-2-length clusters: 1641
-3-length clusters: 372
-4-length clusters: 110
-5-length clusters: 30
-6-length clusters: 8
-7-length clusters: 6
-8-length clusters: 2
-9-length clusters: 1
-11-length clusters: 2
-12-length clusters: 1
-14-length clusters: 1
-15-length clusters: 1
-17-length clusters: 1
-22-length clusters: 1
+Number of Overlapping Genes: 5175
+Number of Overlapping Gene clusters (>1 gene): 2158
+     1-length clusters: 14045
+     2-length clusters: 1623
+     3-length clusters: 376
+     4-length clusters: 105
+     5-length clusters: 31
+     6-length clusters: 6
+     7-length clusters: 7
+     8-length clusters: 3
+     9-length clusters: 1
+     11-length clusters: 1
+     14-length clusters: 1
+     15-length clusters: 1
+     17-length clusters: 1
+     22-length clusters: 1
+     29-length clusters: 1
 
 ```
 </td>
 <td>
 
 ```yaml
-Number of genes: 19253
-Number of genes on Positive(+) Strand: 9753
-Number of genes on Negative(-) Strand: 9500
+Total protein-coding genes: 19235 (611 filtered out)
 
-Number of OG: 3864
-Number of OG pairs: 2523
-Number of OG clusters with >=2 gene: 1694
+Genes on Positive(+) Strand: 9743
+Genes on Negative(-) Strand: 9492
 
-Genes by clusters length:
-1-length clusters: 15889
-2-length clusters: 1410
-3-length clusters: 222
-4-length clusters: 33
-5-length clusters: 8
-6-length clusters: 7
-7-length clusters: 5
-8-length clusters: 1
-9-length clusters: 1
-11-length clusters: 1
-12-length clusters: 1
-14-length clusters: 1
-15-length clusters: 1
-17-length clusters: 1
-21-length clusters: 1
-22-length clusters: 1
+Number of Overlapping Genes: 3860
+Number of Overlapping Gene clusters (>1 gene): 1692
+     1-length clusters: 15375
+     2-length clusters: 1408
+     3-length clusters: 222
+     4-length clusters: 33
+     5-length clusters: 8
+     6-length clusters: 7
+     7-length clusters: 5
+     8-length clusters: 1
+     9-length clusters: 1
+     11-length clusters: 1
+     12-length clusters: 1
+     14-length clusters: 1
+     15-length clusters: 1
+     17-length clusters: 1
+     21-length clusters: 1
+     22-length clusters: 1
 ```
 
 </td>

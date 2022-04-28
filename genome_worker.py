@@ -76,6 +76,9 @@ class GenomeWorker:
 
     # region Variables and Retrievers
 
+    imported_protein_coding_genes = 0
+    ignored_protein_coding_genes = 0
+
     # gene features clustered by chromosome, they are on.
     # Example: genes_on_chr[22] = ['gene' features on chromosome 22]
     __genes_on_chr = []
@@ -91,6 +94,9 @@ class GenomeWorker:
 
     #   {gene_id, [list of 'best' mRNA features whose parent is gene_id]}
     __gene_transcript_by_criteria = {}
+
+    __gene_names_set = {}
+    __gene_accessions_set = {}
 
     def chromosomes_count(self):
         return NUMBER_OF_CHROMOSOMES[self.species.value]
@@ -145,6 +151,30 @@ class GenomeWorker:
     #
     # if database exists, then fills/loads all necessary data structures
 
+    def __check_gene_for_filters(self, gene: Feature):
+        # ignore genes without Name or description
+        if not gene.attributes.__contains__('Name') or not gene.attributes.__contains__('description'):
+            return False
+
+        # record must contain only 1 Name
+        assert len(gene.attributes['Name']) == 1
+
+        # ignore 'readthrough' genes
+        if gene.attributes['description'][0].__contains__('readthrough'):
+            return False
+
+        # ignore genes with duplicate Names
+        gene_name = GenomeWorker.get_gene_name(gene)
+        if self.__gene_names_set.__contains__(gene_name):
+            return False
+
+        # ignore genes if gene with same NCBI accession already imported
+        gene_accession = GenomeWorker.get_gene_accession(gene)
+        if gene_accession != 'no_acc' and self.__gene_accessions_set.__contains__(gene_accession):
+            return False
+
+        return True
+
     def __load_requested_features(self):
         if not exists(self.__get_annotation_db_path()):
             print("Creating database for " + self.annotation_source.name + " only for first RUN it takes that long!")
@@ -158,35 +188,40 @@ class GenomeWorker:
         features_generator = features_db.features_of_type('gene')
         feature_genes = list(features_generator)
 
-        # choose genes who has protein_coding attribute
+        # choose genes who has protein_coding attribute and additional filter values
         for gene in feature_genes:
-            if self.annotation_source == ANNOTATIONS.NCBI:
-                attribute_filter = 'gene_biotype'
-            else:
-                attribute_filter = 'biotype'
+            attribute_filter = 'gene_biotype' if self.annotation_source == ANNOTATIONS.NCBI else 'biotype'
             attribute_value = 'protein_coding'
+
             if gene.attributes.__contains__(attribute_filter):
-                if len(gene.attributes[attribute_filter]) != 1:
-                    print("Lasha some issue found!")
-                else:
-                    # bio type must be 1 from these list
-                    #  'miRNA', 'lncRNA', 'protein_coding', 'snoRNA', 'antisense_RNA', 'snRNA', 'ncRNA', 'tRNA',
-                    #  'V_segment', 'misc_RNA', 'rRNA', 'other', 'C_region', 'J_segment', 'telomerase_RNA', 'vault_RNA'
-                    #  'D_segment', 'Y_RNA', 'RNase_MRP_RNA', 'scRNA', 'RNase_P_RNA'
-                    if gene.attributes[attribute_filter][0] == attribute_value:
-                        chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
-                        if chr_id != -1:
+                assert len(gene.attributes[attribute_filter]) == 1
+                if gene.attributes[attribute_filter][0] == attribute_value:
+                    chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
+                    if chr_id != -1:
+                        if self.__check_gene_for_filters(gene):
                             if self.__genes_on_chr[chr_id] is None:
                                 self.__genes_on_chr[chr_id] = []
+
+                            self.imported_protein_coding_genes += 1
                             self.__genes_on_chr[chr_id].append(gene)
+
+                            # store these values, for filtering upcoming genes
+                            self.__gene_names_set[GenomeWorker.get_gene_name(gene)] = len(self.__genes_on_chr[chr_id])
+                            self.__gene_accessions_set[GenomeWorker.get_gene_accession(gene)] = len(
+                                self.__genes_on_chr[chr_id])
+                        else:
+                            self.ignored_protein_coding_genes += 1
 
         loaded_chromosomes = 0
         for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
-            loaded_chromosomes += 1 if self.__genes_on_chr[chr_id] is not None and len(
-                self.__genes_on_chr[chr_id]) > 0 else 0
-        print("    Using " + self.annotation_source.name + ": genes loaded from chromosomes " + str(
-            loaded_chromosomes) + "/" +
-              str(NUMBER_OF_CHROMOSOMES[self.species.value]))
+            if self.__genes_on_chr[chr_id] is not None and len(self.__genes_on_chr[chr_id]) > 0:
+                loaded_chromosomes += 1
+            else:
+                print(chr_id)
+        print("    Using " + self.annotation_source.name + ": " + str(
+            self.imported_protein_coding_genes) + " genes loaded (" + str(
+            self.ignored_protein_coding_genes) + " filtered out) from chromosomes " + str(
+            loaded_chromosomes) + "/" + str(NUMBER_OF_CHROMOSOMES[self.species.value]))
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES:
             return
@@ -255,9 +290,10 @@ class GenomeWorker:
         if annotation_source == ANNOTATIONS.ENSEMBL:
             if self.species == SPECIES.Homo_sapiens or self.species == SPECIES.Mus_musculus \
                     or self.species == SPECIES.Rattus_norvegicus or self.species == SPECIES.Danio_rerio:
-                if id == 'MT': return NUMBER_OF_CHROMOSOMES[self.species.value]
-                if id == 'Y': return NUMBER_OF_CHROMOSOMES[self.species.value] - 1
-                if id == 'X': return NUMBER_OF_CHROMOSOMES[self.species.value] - 2
+
+                if id == 'MT': return -1  # ignore mito
+                if id == 'Y': return NUMBER_OF_CHROMOSOMES[self.species.value]
+                if id == 'X': return NUMBER_OF_CHROMOSOMES[self.species.value] - 1
 
                 try:
                     index = int(id)
@@ -285,8 +321,8 @@ class GenomeWorker:
             if parts[0] == 'NT_037436': return 4
             if parts[0] == 'NT_033777': return 5
             if parts[0] == 'NC_004353': return 6
-            # mito
-            if parts[0] == 'NC_024511': return NUMBER_OF_CHROMOSOMES[self.species.value]
+            # ignore mito
+            if parts[0] == 'NC_024511': return -1
             return -1
 
         if not parts[0][0:3] == 'NC_': return -1
@@ -294,29 +330,29 @@ class GenomeWorker:
         x = int(num)
 
         if self.species == SPECIES.Homo_sapiens:
-            if x == 12920: return NUMBER_OF_CHROMOSOMES[self.species.value]
+            if x == 12920: return -1  # ignore mito
             if x < 1 or x > 24: return -1
             return x
         elif self.species == SPECIES.Rattus_norvegicus:
-            if x == 1665: return NUMBER_OF_CHROMOSOMES[self.species.value]
+            if x == 1665: return -1  # ignore mito
             base = 51335
             x = x - base
             if x < 1 or x > 22: return -1
             return x
         elif self.species == SPECIES.Mus_musculus:
-            if x == 5089: return NUMBER_OF_CHROMOSOMES[self.species.value]
+            if x == 5089: return -1  # ignore mito
             base = 66
             x = x - base
             if x < 1 or x > 21: return -1
             return x
         elif self.species == SPECIES.Caenorhabditis_elegans:
-            if x == 1328: return NUMBER_OF_CHROMOSOMES[self.species.value]
+            if x == 1328: return -1  # ignore mito
             base = 3278
             x = x - base
             if x < 1 or x > 6: return -1
             return x
         elif self.species == SPECIES.Danio_rerio:
-            if x == 2333: return NUMBER_OF_CHROMOSOMES[self.species.value]
+            if x == 2333: return -1  # ignore mito
             base = 7111
             x = x - base
             if x < 1 or x > 25: return -1
@@ -439,7 +475,6 @@ class GenomeWorker:
     # between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
     # and returns overlapped segments which has maximum total overlapped length
     def get_fragments_overlap(self, gene_A: Feature, gene_B: Feature, ORF_similarity, criteria: TRANSCRIPT_CRITERIA):
-
         mRNA_transcripts_a = self.find_gene_transcript_by_criteria(gene_A, criteria)
         mRNA_transcripts_b = self.find_gene_transcript_by_criteria(gene_B, criteria)
 
@@ -488,6 +523,18 @@ class GenomeWorker:
     # endregion
 
     # region Static Methods
+    @staticmethod
+    def get_gene_accession(gene: Feature):
+        desc_parts = gene.attributes['description'][0].split("Acc:")
+        if len(desc_parts) != 2: return "no_acc"  # it seems record does not have NCBI ID
+        ncbi_id = desc_parts[1][0:(len(desc_parts[1]) - 1)]
+        return ncbi_id
+
+    @staticmethod
+    def get_gene_name(gene: Feature):
+        assert gene.attributes.__contains__('Name')  # loaded genes must be filtered
+        assert len(gene.attributes['Name']) == 1
+        return gene.attributes['Name'][0]
 
     @staticmethod
     def are_features_overlapped(gene_feature_A: Feature, gene_feature_B: Feature) -> bool:
