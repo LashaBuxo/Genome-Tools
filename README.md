@@ -35,8 +35,8 @@ protein-coding genes: 19220 (650 filtered out)
 Genes on Positive(+) Strand: 9713
 Genes on Negative(-) Strand: 9507
 
-Number of Overlapping Genes: 5175
-Number of Overlapping Gene clusters (>1 gene): 2158
+Overlapping Genes: 5175
+Overlapping Gene clusters (>1 gene): 2158
      1-length clusters: 14045
      2-length clusters: 1623
      3-length clusters: 376
@@ -63,8 +63,8 @@ protein-coding genes: 19235 (611 filtered out)
 Genes on Positive(+) Strand: 9743
 Genes on Negative(-) Strand: 9492
 
-Number of Overlapping Genes: 3860
-Number of Overlapping Gene clusters (>1 gene): 1692
+Overlapping Genes: 3860
+Overlapping Gene clusters (>1 gene): 1692
      1-length clusters: 15375
      2-length clusters: 1408
      3-length clusters: 222

@@ -107,8 +107,8 @@ print("Genes on Positive(+) Strand: " + str(positive_genes))
 print("Genes on Negative(-) Strand: " + str(negative_genes))
 print("")
 
-print("Number of Overlapping Genes: " + str(og_count))
-print("Number of Overlapping Gene clusters (>1 gene): " + str(og_clusters_count))
+print("Overlapping Genes: " + str(og_count))
+print("Overlapping Gene clusters (>1 gene): " + str(og_clusters_count))
 
 for i in range(1, 1000):
     if genes_by_clusters_length[i] > 0:
