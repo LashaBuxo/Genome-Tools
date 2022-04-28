@@ -100,7 +100,7 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
 # print stats
 assert total_genes == genome.imported_protein_coding_genes
 
-print("protein-coding genes: " + str(total_genes) + " (" + str(
+print("Total protein-coding genes: " + str(total_genes) + " (" + str(
     genome.ignored_protein_coding_genes) + " filtered out)")
 print("")
 print("Genes on Positive(+) Strand: " + str(positive_genes))
@@ -110,7 +110,7 @@ print("")
 print("Overlapping Genes: " + str(og_count))
 print("Overlapping Gene clusters (>1 gene): " + str(og_clusters_count))
 
-for i in range(1, 1000):
+for i in range(2, 1000):
     if genes_by_clusters_length[i] > 0:
         print("     " + str(i) + "-length clusters: " + str((genes_by_clusters_length[i] // i)))
 print("")
