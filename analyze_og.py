@@ -100,7 +100,7 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
 # print stats
 assert total_genes == genome.imported_protein_coding_genes
 
-print("Total protein-coding genes: " + str(total_genes) + " (" + str(
+print("protein-coding genes: " + str(total_genes) + " (" + str(
     genome.ignored_protein_coding_genes) + " filtered out)")
 print("")
 print("Genes on Positive(+) Strand: " + str(positive_genes))

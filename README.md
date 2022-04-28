@@ -30,7 +30,7 @@ Output:
 <td> 
 
 ```yaml
-Total protein-coding genes: 19220 (650 filtered out)
+protein-coding genes: 19220 (650 filtered out)
 
 Genes on Positive(+) Strand: 9713
 Genes on Negative(-) Strand: 9507
@@ -58,7 +58,7 @@ Number of Overlapping Gene clusters (>1 gene): 2158
 <td>
 
 ```yaml
-Total protein-coding genes: 19235 (611 filtered out)
+protein-coding genes: 19235 (611 filtered out)
 
 Genes on Positive(+) Strand: 9743
 Genes on Negative(-) Strand: 9492
