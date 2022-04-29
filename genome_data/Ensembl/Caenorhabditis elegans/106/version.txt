@@ -1,9 +1,0 @@
-Genome Reference Assembly:
-	#!genome-build WormBase WBcel235
-
-Genome Primary Assembly:
-	GenBank Assembly ID 
-	#!genome-build-accession GCA_000002985.3
-
-Genome Annotation:
-	Ensembl Release 106 (Apr 2022)

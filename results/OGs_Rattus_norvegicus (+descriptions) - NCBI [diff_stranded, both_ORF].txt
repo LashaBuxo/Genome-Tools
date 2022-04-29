@@ -1,12 +1,8 @@
 Stats:
-   Total overlapped gene pairs: 58
-   Total overlapped length: 3101
-   Overlapped segments composition: C-871 G-899 A-623 T-605
+   Total overlapped gene pairs: 43
+   Total overlapped length: 1955
+   Overlapped segments composition: C-555 G-530 A-415 T-415
 
-
-Max overlap: 205  |  Total overlap: 427  |  chr: 3  |  genes: [gene-Ttc16;gene-Tor2a]
-     Gene 1 Description: 
-     Gene 2 Description: Tor2a; torsin family 2, member A
 
 Max overlap: 204  |  Total overlap: 373  |  chr: 13  |  genes: [gene-LOC100366054;gene-Hsd17b7]
      Gene 1 Description: LOC100366054; Da1-10-like
@@ -16,45 +12,37 @@ Max overlap: 200  |  Total overlap: 200  |  chr: 10  |  genes: [gene-Thra;gene-N
      Gene 1 Description: Thra; thyroid hormone receptor alpha
      Gene 2 Description: Nr1d1; nuclear receptor subfamily 1, group D, member 1
 
-Max overlap: 144  |  Total overlap: 396  |  chr: 16  |  genes: [gene-LOC103693914;gene-Cherp]
-     Gene 1 Description: 
-     Gene 2 Description: Cherp; calcium homeostasis endoplasmic reticulum protein
-
-Max overlap: 135  |  Total overlap: 135  |  chr: 2  |  genes: [gene-Fbxw7;gene-Dear]
-     Gene 1 Description: 
-     Gene 2 Description: Dear; dual endothelin 1, angiotensin II receptor
-
 Max overlap: 134  |  Total overlap: 134  |  chr: 10  |  genes: [gene-Oxld1;gene-Ccdc137]
      Gene 1 Description: Oxld1; oxidoreductase-like domain containing 1
      Gene 2 Description: Ccdc137; coiled-coil domain containing 137
 
-Max overlap: 127  |  Total overlap: 127  |  chr: 19  |  genes: [gene-Pkd1l3;gene-Ist1]
-     Gene 1 Description: 
-     Gene 2 Description: Ist1; IST1 factor associated with ESCRT-III
-
-Max overlap: 120  |  Total overlap: 210  |  chr: 10  |  genes: [gene-LOC102547753;gene-Nog]
-     Gene 1 Description: 
-     Gene 2 Description: Nog; noggin
+Max overlap: 96  |  Total overlap: 96  |  chr: 8  |  genes: [gene-Aste1;gene-Atp2c1]
+     Gene 1 Description: Aste1; asteroid homolog 1
+     Gene 2 Description: Atp2c1; ATPase secretory pathway Ca2+ transporting 1
 
 Max overlap: 91  |  Total overlap: 91  |  chr: 2  |  genes: [gene-Fxr1;gene-Dnajc19]
      Gene 1 Description: Fxr1; FMR1 autosomal homolog 1
      Gene 2 Description: Dnajc19; DnaJ heat shock protein family (Hsp40) member C19
 
+Max overlap: 86  |  Total overlap: 86  |  chr: 1  |  genes: [gene-Tfb1m;gene-Cldn20]
+     Gene 1 Description: Tfb1m; transcription factor B1, mitochondrial
+     Gene 2 Description: Cldn20; claudin 20
+
 Max overlap: 84  |  Total overlap: 84  |  chr: 21  |  genes: [gene-Gk;gene-LOC100363193]
      Gene 1 Description: Gk; glycerol kinase
      Gene 2 Description: LOC100363193; LRRGT00076-like
 
-Max overlap: 82  |  Total overlap: 82  |  chr: 4  |  genes: [gene-Trim24;gene-Svopl]
-     Gene 1 Description: Trim24; tripartite motif-containing 24
-     Gene 2 Description: 
-
-Max overlap: 65  |  Total overlap: 65  |  chr: 7  |  genes: [gene-Amdhd1;gene-Ccdc38]
-     Gene 1 Description: Amdhd1; amidohydrolase domain containing 1
-     Gene 2 Description: 
+Max overlap: 68  |  Total overlap: 68  |  chr: 1  |  genes: [gene-Oprm1;gene-Ipcef1]
+     Gene 1 Description: Oprm1; opioid receptor, mu 1
+     Gene 2 Description: Ipcef1; interaction protein for cytohesin exchange factors 1
 
 Max overlap: 58  |  Total overlap: 74  |  chr: 15  |  genes: [gene-LOC100360244;gene-Sugt1]
      Gene 1 Description: LOC100360244; LRRGT00053-like
      Gene 2 Description: Sugt1; SGT1 homolog, MIS12 kinetochore complex assembly cochaperone
+
+Max overlap: 53  |  Total overlap: 53  |  chr: 5  |  genes: [gene-Ncbp1;gene-Xpa]
+     Gene 1 Description: Ncbp1; nuclear cap binding protein subunit 1
+     Gene 2 Description: Xpa; XPA, DNA damage recognition and repair factor
 
 Max overlap: 45  |  Total overlap: 45  |  chr: 13  |  genes: [gene-LOC498231;gene-Snrpe]
      Gene 1 Description: LOC498231; LRRGT00144
@@ -63,10 +51,6 @@ Max overlap: 45  |  Total overlap: 45  |  chr: 13  |  genes: [gene-LOC498231;gen
 Max overlap: 43  |  Total overlap: 43  |  chr: 15  |  genes: [gene-Gmpr2;gene-Tinf2]
      Gene 1 Description: Gmpr2; guanosine monophosphate reductase 2
      Gene 2 Description: Tinf2; TERF1 interacting nuclear factor 2
-
-Max overlap: 42  |  Total overlap: 42  |  chr: 8  |  genes: [gene-LOC102555809;gene-LOC120094085]
-     Gene 1 Description: 
-     Gene 2 Description: 
 
 Max overlap: 41  |  Total overlap: 41  |  chr: 1  |  genes: [gene-Zfp428;gene-Srrm5]
      Gene 1 Description: Zfp428; zinc finger protein 428
@@ -84,13 +68,13 @@ Max overlap: 40  |  Total overlap: 40  |  chr: 21  |  genes: [gene-Cox7b;gene-LO
      Gene 1 Description: Cox7b; cytochrome c oxidase subunit 7B
      Gene 2 Description: LOC100363531; LRRGT00182-like
 
+Max overlap: 37  |  Total overlap: 37  |  chr: 1  |  genes: [gene-Tlcd3b;gene-RGD1563217]
+     Gene 1 Description: Tlcd3b; TLC domain containing 3B
+     Gene 2 Description: RGD1563217; similar to RIKEN cDNA 4930451I11
+
 Max overlap: 36  |  Total overlap: 36  |  chr: 3  |  genes: [gene-Ndufa8;gene-Morn5]
      Gene 1 Description: Ndufa8; NADH:ubiquinone oxidoreductase subunit A8
      Gene 2 Description: Morn5; MORN repeat containing 5
-
-Max overlap: 36  |  Total overlap: 36  |  chr: 10  |  genes: [gene-LOC120095308;gene-Bahcc1]
-     Gene 1 Description: 
-     Gene 2 Description: 
 
 Max overlap: 36  |  Total overlap: 36  |  chr: 20  |  genes: [gene-LOC499407;gene-Ilrun]
      Gene 1 Description: LOC499407; LRRGT00097
@@ -100,13 +84,29 @@ Max overlap: 35  |  Total overlap: 35  |  chr: 1  |  genes: [gene-Tmem262;gene-Z
      Gene 1 Description: Tmem262; transmembrane protein 262
      Gene 2 Description: Zfpl1; zinc finger protein-like 1
 
-Max overlap: 31  |  Total overlap: 31  |  chr: 5  |  genes: [gene-Orc1;gene-LOC120103118]
-     Gene 1 Description: Orc1; origin recognition complex, subunit 1
-     Gene 2 Description: 
+Max overlap: 35  |  Total overlap: 35  |  chr: 19  |  genes: [gene-Cdk10;gene-Spata2L]
+     Gene 1 Description: Cdk10; cyclin-dependent kinase 10
+     Gene 2 Description: Spata2L; spermatogenesis associated 2-like
+
+Max overlap: 33  |  Total overlap: 33  |  chr: 1  |  genes: [gene-Fkrp;gene-Strn4]
+     Gene 1 Description: Fkrp; fukutin related protein
+     Gene 2 Description: Strn4; striatin 4
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 16  |  genes: [gene-Ddx49;gene-Homer3]
+     Gene 1 Description: Ddx49; DEAD-box helicase 49
+     Gene 2 Description: Homer3; homer scaffold protein 3
+
+Max overlap: 24  |  Total overlap: 24  |  chr: 3  |  genes: [gene-Kbtbd4;gene-Ptpmt1]
+     Gene 1 Description: Kbtbd4; kelch repeat and BTB domain containing 4
+     Gene 2 Description: Ptpmt1; protein tyrosine phosphatase, mitochondrial 1
 
 Max overlap: 22  |  Total overlap: 28  |  chr: 12  |  genes: [gene-Gtf2ird2;gene-Rcc1l]
      Gene 1 Description: Gtf2ird2; GTF2I repeat domain containing 2
      Gene 2 Description: Rcc1l; RCC1 like
+
+Max overlap: 19  |  Total overlap: 19  |  chr: 7  |  genes: [gene-Chpt1;gene-Sycp3]
+     Gene 1 Description: Chpt1; choline phosphotransferase 1
+     Gene 2 Description: Sycp3; synaptonemal complex protein 3
 
 Max overlap: 18  |  Total overlap: 18  |  chr: 8  |  genes: [gene-LOC100363289;gene-Cox7a2]
      Gene 1 Description: LOC100363289; LRRGT00022-like
@@ -120,33 +120,17 @@ Max overlap: 16  |  Total overlap: 16  |  chr: 7  |  genes: [gene-Avil;gene-Tsfm
      Gene 1 Description: Avil; advillin
      Gene 2 Description: Tsfm; Ts translation elongation factor, mitochondrial
 
-Max overlap: 15  |  Total overlap: 15  |  chr: 2  |  genes: [gene-Tnpo1;gene-LOC120100682]
-     Gene 1 Description: Tnpo1; transportin 1
-     Gene 2 Description: 
-
-Max overlap: 15  |  Total overlap: 15  |  chr: 7  |  genes: [gene-Ubr5;gene-LOC120093636]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
 Max overlap: 15  |  Total overlap: 15  |  chr: 16  |  genes: [gene-Dph3;gene-Oxnad1]
      Gene 1 Description: Dph3; diphthamide biosynthesis 3
      Gene 2 Description: Oxnad1; oxidoreductase NAD-binding domain containing 1
-
-Max overlap: 13  |  Total overlap: 13  |  chr: 3  |  genes: [gene-Mroh8;gene-Rpn2]
-     Gene 1 Description: 
-     Gene 2 Description: Rpn2; ribophorin II
-
-Max overlap: 12  |  Total overlap: 12  |  chr: 10  |  genes: [gene-LOC120095126;gene-Tnfsf13]
-     Gene 1 Description: 
-     Gene 2 Description: Tnfsf13; TNF superfamily member 13
 
 Max overlap: 11  |  Total overlap: 11  |  chr: 1  |  genes: [gene-Tulp2;gene-Nucb1]
      Gene 1 Description: Tulp2; TUB like protein 2
      Gene 2 Description: Nucb1; nucleobindin 1
 
-Max overlap: 10  |  Total overlap: 10  |  chr: 1  |  genes: [gene-Sult2b1;gene-Lmtk3]
-     Gene 1 Description: Sult2b1; sulfotransferase family 2B member 1
-     Gene 2 Description: 
+Max overlap: 11  |  Total overlap: 11  |  chr: 18  |  genes: [gene-Kif20a;gene-Cdc23]
+     Gene 1 Description: Kif20a; kinesin family member 20A
+     Gene 2 Description: Cdc23; cell division cycle 23
 
 Max overlap: 10  |  Total overlap: 10  |  chr: 18  |  genes: [gene-Stard6;gene-Poli]
      Gene 1 Description: Stard6; StAR-related lipid transfer domain containing 6
@@ -164,6 +148,10 @@ Max overlap: 4  |  Total overlap: 4  |  chr: 4  |  genes: [gene-Pyroxd1;gene-Rec
      Gene 1 Description: Pyroxd1; pyridine nucleotide-disulphide oxidoreductase domain 1
      Gene 2 Description: Recql; RecQ like helicase
 
+Max overlap: 3  |  Total overlap: 3  |  chr: 10  |  genes: [gene-Vmo1;gene-Gltpd2]
+     Gene 1 Description: Vmo1; vitelline membrane outer layer 1 homolog
+     Gene 2 Description: Gltpd2; glycolipid transfer protein domain containing 2
+
 Max overlap: 3  |  Total overlap: 3  |  chr: 20  |  genes: [gene-Vps52;gene-Rps18]
      Gene 1 Description: Vps52; VPS52 subunit of GARP complex
      Gene 2 Description: Rps18; ribosomal protein S18
@@ -172,67 +160,19 @@ Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-Brd9;gene-Trip13
      Gene 1 Description: Brd9; bromodomain containing 9
      Gene 2 Description: Trip13; thyroid hormone receptor interactor 13
 
-Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-Knop1;gene-Iqck]
-     Gene 1 Description: Knop1; lysine-rich nucleolar protein 1
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-LOC120098598;gene-Lcor]
-     Gene 1 Description: 
-     Gene 2 Description: Lcor; ligand dependent nuclear receptor corepressor
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-Nt5c2;gene-Ina]
-     Gene 1 Description: 
-     Gene 2 Description: Ina; internexin neuronal intermediate filament protein, alpha
-
 Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-Hspa12a;gene-Eno4]
      Gene 1 Description: Hspa12a; heat shock protein family A (Hsp70) member 12A
      Gene 2 Description: Eno4; enolase 4
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 2  |  genes: [gene-Zfp131;gene-LOC100363314]
-     Gene 1 Description: Zfp131; zinc finger protein 131
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 2  |  genes: [gene-Setd7;gene-LOC103691564]
-     Gene 1 Description: Setd7; SET domain containing 7, histone lysine methyltransferase
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene-Topors;gene-LOC102552818]
-     Gene 1 Description: Topors; TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
-     Gene 2 Description: 
 
 Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene-Dnai4;gene-Mier1]
      Gene 1 Description: Dnai4; dynein axonemal intermediate chain 4
      Gene 2 Description: Mier1; MIER1 transcriptional regulator
 
-Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene-Ago4;gene-LOC120103100]
-     Gene 1 Description: Ago4; argonaute RISC component 4
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 8  |  genes: [gene-LOC120094292;gene-Wdr48]
-     Gene 1 Description: 
-     Gene 2 Description: Wdr48; WD repeat domain 48
-
 Max overlap: 2  |  Total overlap: 2  |  chr: 10  |  genes: [gene-Zswim7;gene-Ttc19]
      Gene 1 Description: Zswim7; zinc finger, SWIM-type containing 7
      Gene 2 Description: Ttc19; tetratricopeptide repeat domain 19
 
-Max overlap: 2  |  Total overlap: 2  |  chr: 10  |  genes: [gene-Cyb5d2;gene-Zzef1]
-     Gene 1 Description: Cyb5d2; cytochrome b5 domain containing 2
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 14  |  genes: [gene-Sun3;gene-LOC688553]
-     Gene 1 Description: 
-     Gene 2 Description: LOC688553; hypothetical protein LOC688553
-
 Max overlap: 2  |  Total overlap: 2  |  chr: 18  |  genes: [gene-Afg3l2;gene-Prelid3a]
      Gene 1 Description: Afg3l2; AFG3 like matrix AAA peptidase subunit 2
      Gene 2 Description: Prelid3a; PRELI domain containing 3A
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 18  |  genes: [gene-Sall3;gene-LOC108348827]
-     Gene 1 Description: Sall3; spalt-like transcription factor 3
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 19  |  genes: [gene-LOC102553609;gene-Amfr]
-     Gene 1 Description: 
-     Gene 2 Description: 
 

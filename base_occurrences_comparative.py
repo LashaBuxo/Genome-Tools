@@ -76,14 +76,14 @@ for specie_ind in range(TOTAL_SPECIES):
     genome = GenomeWorker(specie, annotation, ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS,
                           SEQUENCE_LOAD.LOAD)
     # excluding mitochondria DNA
-    for chr_id in range(1, genome.chromosomes_count()):
+    for chr_id in range(1, genome.chromosomes_count()+1):
         print("calculating occurrences in chromosome: " + str(chr_id))
         genes_cnt = genome.genes_count_on_chr(chr_id)
 
         for i in range(0, genes_cnt):
             gene = genome.gene_by_ind(chr_id, i)
             gene_occurrences = genome.analyze_gene_occurrences_by_parts(chr_id, gene, k, procession_length,
-                                                                        TRANSCRIPT_CRITERIA.LONGEST_CDS_AND_UTRs)
+                                                                        TRANSCRIPT_CRITERIA.NONE)
             add_matrix(total_occurrences, specie_ind, gene_occurrences, k)
     genome.release_memory()
     del genome

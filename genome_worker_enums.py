@@ -3,6 +3,7 @@ import enum
 
 
 class TRANSCRIPT_CRITERIA(enum.Enum):
+    NONE = 0
     LONGEST = 1
     LONGEST_CDS = 2
     LONGEST_CDS_AND_UTRs = 3  # similar to exons
@@ -46,8 +47,6 @@ class SPECIES(enum.Enum):
             return SPECIES.Danio_rerio
         elif str == "Drosophila melanogaster":
             return SPECIES.Drosophila_melanogaster
-        elif str == "Caenorhabditis elegans":
-            return SPECIES.Caenorhabditis_elegans
         else:
             if not str.__contains__('_'): assert False
             return SPECIES.from_string(str.replace('_', ' '))
@@ -64,8 +63,6 @@ class SPECIES(enum.Enum):
             return SPECIES.Danio_rerio
         elif taxon_ID == "NCBITaxon:7227":
             return SPECIES.Drosophila_melanogaster
-        elif taxon_ID == "NCBITaxon:6239":
-            return SPECIES.Caenorhabditis_elegans
         else:
             assert False
 
@@ -80,8 +77,6 @@ class SPECIES(enum.Enum):
             return "NCBITaxon:7955"
         elif self == SPECIES.Drosophila_melanogaster:
             return "NCBITaxon:7227"
-        elif self == SPECIES.Caenorhabditis_elegans:
-            return "NCBITaxon:6239"
         else:
             assert False
 

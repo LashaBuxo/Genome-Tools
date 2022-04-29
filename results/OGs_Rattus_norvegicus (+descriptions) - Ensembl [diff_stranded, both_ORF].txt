@@ -1,0 +1,614 @@
+Stats:
+   Total overlapped gene pairs: 152
+   Total overlapped length: 12002
+   Overlapped segments composition: C-3441 G-3430 A-2573 T-2558
+
+
+Max overlap: 367  |  Total overlap: 367  |  chr: 1  |  genes: [gene:ENSRNOG00000026857;gene:ENSRNOG00000070288]
+     Gene 1 Description: Kif7; kinesin family member 7 [Source:RGD Symbol;Acc:1310310]
+     Gene 2 Description: 
+
+Max overlap: 360  |  Total overlap: 360  |  chr: 10  |  genes: [gene:ENSRNOG00000007788;gene:ENSRNOG00000055236]
+     Gene 1 Description: Glod4; glyoxalase domain containing 4 [Source:RGD Symbol;Acc:1307010]
+     Gene 2 Description: Gemin4; gem (nuclear organelle) associated protein 4 [Source:RGD Symbol;Acc:1563715]
+
+Max overlap: 292  |  Total overlap: 292  |  chr: 5  |  genes: [gene:ENSRNOG00000059461;gene:ENSRNOG00000008252]
+     Gene 1 Description: B4galt1; beta-1,4-galactosyltransferase 1 [Source:RGD Symbol;Acc:620900]
+     Gene 2 Description: Spink4; serine peptidase inhibitor, Kazal type 4 [Source:RGD Symbol;Acc:1303188]
+
+Max overlap: 286  |  Total overlap: 286  |  chr: 9  |  genes: [gene:ENSRNOG00000013508;gene:ENSRNOG00000013583]
+     Gene 1 Description: Rpl31; ribosomal protein L31 [Source:RGD Symbol;Acc:621202]
+     Gene 2 Description: Tbc1d8; TBC1 domain family, member 8 [Source:RGD Symbol;Acc:1595491]
+
+Max overlap: 274  |  Total overlap: 274  |  chr: 1  |  genes: [gene:ENSRNOG00000017260;gene:ENSRNOG00000028473]
+     Gene 1 Description: Cdr2; cerebellar degeneration-related protein 2 [Source:RGD Symbol;Acc:1310578]
+     Gene 2 Description: 
+
+Max overlap: 270  |  Total overlap: 270  |  chr: 21  |  genes: [gene:ENSRNOG00000051310;gene:ENSRNOG00000029512]
+     Gene 1 Description: 
+     Gene 2 Description: 
+
+Max overlap: 264  |  Total overlap: 264  |  chr: 1  |  genes: [gene:ENSRNOG00000001489;gene:ENSRNOG00000001490]
+     Gene 1 Description: Tbp; TATA box binding protein [Source:RGD Symbol;Acc:67398]
+     Gene 2 Description: Pdcd2; programmed cell death 2 [Source:RGD Symbol;Acc:61887]
+
+Max overlap: 260  |  Total overlap: 260  |  chr: 3  |  genes: [gene:ENSRNOG00000036719;gene:ENSRNOG00000051498]
+     Gene 1 Description: Samd10; sterile alpha motif domain containing 10 [Source:RGD Symbol;Acc:1563203]
+     Gene 2 Description: Prpf6; pre-mRNA processing factor 6 [Source:RGD Symbol;Acc:1307103]
+
+Max overlap: 258  |  Total overlap: 258  |  chr: 5  |  genes: [gene:ENSRNOG00000008118;gene:ENSRNOG00000021492]
+     Gene 1 Description: Sync; syncoilin, intermediate filament protein [Source:RGD Symbol;Acc:1307970]
+     Gene 2 Description: Rbbp4; RB binding protein 4, chromatin remodeling factor [Source:RGD Symbol;Acc:1593768]
+
+Max overlap: 236  |  Total overlap: 236  |  chr: 20  |  genes: [gene:ENSRNOG00000000464;gene:ENSRNOG00000000465]
+     Gene 1 Description: Rxrb; retinoid X receptor beta [Source:RGD Symbol;Acc:3611]
+     Gene 2 Description: Slc39a7; solute carrier family 39 member 7 [Source:RGD Symbol;Acc:1593280]
+
+Max overlap: 226  |  Total overlap: 226  |  chr: 10  |  genes: [gene:ENSRNOG00000003626;gene:ENSRNOG00000023764]
+     Gene 1 Description: Atp5pd; ATP synthase peripheral stalk subunit d [Source:RGD Symbol;Acc:620083]
+     Gene 2 Description: Kctd2; potassium channel tetramerization domain containing 2 [Source:RGD Symbol;Acc:1566063]
+
+Max overlap: 223  |  Total overlap: 334  |  chr: 1  |  genes: [gene:ENSRNOG00000047098;gene:ENSRNOG00000061299]
+     Gene 1 Description: Hbb-b1; hemoglobin, beta adult major chain [Source:RGD Symbol;Acc:1595848]
+     Gene 2 Description: Hbb-bs; hemoglobin, beta adult s chain [Source:RGD Symbol;Acc:1597422]
+
+Max overlap: 219  |  Total overlap: 272  |  chr: 12  |  genes: [gene:ENSRNOG00000001387;gene:ENSRNOG00000050805]
+     Gene 1 Description: Mepce; methylphosphate capping enzyme [Source:RGD Symbol;Acc:1560550]
+     Gene 2 Description: Tsc22d4; TSC22 domain family, member 4 [Source:RGD Symbol;Acc:1584380]
+
+Max overlap: 204  |  Total overlap: 373  |  chr: 13  |  genes: [gene:ENSRNOG00000033515;gene:ENSRNOG00000002826]
+     Gene 1 Description: 
+     Gene 2 Description: Hsd17b7; hydroxysteroid (17-beta) dehydrogenase 7 [Source:RGD Symbol;Acc:2837]
+
+Max overlap: 200  |  Total overlap: 200  |  chr: 10  |  genes: [gene:ENSRNOG00000009066;gene:ENSRNOG00000009329]
+     Gene 1 Description: Thra; thyroid hormone receptor alpha [Source:RGD Symbol;Acc:3857]
+     Gene 2 Description: Nr1d1; nuclear receptor subfamily 1, group D, member 1 [Source:RGD Symbol;Acc:628827]
+
+Max overlap: 191  |  Total overlap: 191  |  chr: 9  |  genes: [gene:ENSRNOG00000023577;gene:ENSRNOG00000016057]
+     Gene 1 Description: Gigyf2; GRB10 interacting GYF protein 2 [Source:RGD Symbol;Acc:2318130]
+     Gene 2 Description: Kcnj13; potassium inwardly-rectifying channel, subfamily J, member 13 [Source:RGD Symbol;Acc:621661]
+
+Max overlap: 174  |  Total overlap: 174  |  chr: 6  |  genes: [gene:ENSRNOG00000005289;gene:ENSRNOG00000005279]
+     Gene 1 Description: Prkd3; protein kinase D3 [Source:RGD Symbol;Acc:1310236]
+     Gene 2 Description: Ndufaf7; NADH:ubiquinone oxidoreductase complex assembly factor 7 [Source:RGD Symbol;Acc:1311578]
+
+Max overlap: 165  |  Total overlap: 165  |  chr: 1  |  genes: [gene:ENSRNOG00000016837;gene:ENSRNOG00000017069]
+     Gene 1 Description: Ckm; creatine kinase, M-type [Source:RGD Symbol;Acc:2358]
+     Gene 2 Description: Mark4; microtubule affinity regulating kinase 4 [Source:RGD Symbol;Acc:1591792]
+
+Max overlap: 157  |  Total overlap: 157  |  chr: 8  |  genes: [gene:ENSRNOG00000030187;gene:ENSRNOG00000008881]
+     Gene 1 Description: Mmp12; matrix metallopeptidase 12 [Source:RGD Symbol;Acc:620195]
+     Gene 2 Description: Mmp1b; matrix metallopeptidase 1b (interstitial collagenase) [Source:RGD Symbol;Acc:1306843]
+
+Max overlap: 153  |  Total overlap: 153  |  chr: 3  |  genes: [gene:ENSRNOG00000009620;gene:ENSRNOG00000023090]
+     Gene 1 Description: Cybrd1; cytochrome b reductase 1 [Source:RGD Symbol;Acc:1305740]
+     Gene 2 Description: AC107446.1; Sproutin [Source:RGD Symbol;Acc:15003554]
+
+Max overlap: 135  |  Total overlap: 135  |  chr: 2  |  genes: [gene:ENSRNOG00000010889;gene:ENSRNOG00000033147]
+     Gene 1 Description: Fbxw7; F-box and WD repeat domain containing 7 [Source:RGD Symbol;Acc:2321145]
+     Gene 2 Description: Dear; dual endothelin 1, angiotensin II receptor [Source:RGD Symbol;Acc:1303105]
+
+Max overlap: 134  |  Total overlap: 134  |  chr: 10  |  genes: [gene:ENSRNOG00000047517;gene:ENSRNOG00000048712]
+     Gene 1 Description: Oxld1; oxidoreductase-like domain containing 1 [Source:RGD Symbol;Acc:1590060]
+     Gene 2 Description: Ccdc137; coiled-coil domain containing 137 [Source:RGD Symbol;Acc:1591129]
+
+Max overlap: 134  |  Total overlap: 134  |  chr: 19  |  genes: [gene:ENSRNOG00000068690;gene:ENSRNOG00000011296]
+     Gene 1 Description: Cmc2; C-x(9)-C motif containing 2 [Source:RGD Symbol;Acc:2324599]
+     Gene 2 Description: Cenpn; centromere protein N [Source:RGD Symbol;Acc:1310953]
+
+Max overlap: 130  |  Total overlap: 130  |  chr: 10  |  genes: [gene:ENSRNOG00000002912;gene:ENSRNOG00000061035]
+     Gene 1 Description: Parn; poly(A)-specific ribonuclease [Source:RGD Symbol;Acc:1565449]
+     Gene 2 Description: 
+
+Max overlap: 127  |  Total overlap: 127  |  chr: 19  |  genes: [gene:ENSRNOG00000052310;gene:ENSRNOG00000015144]
+     Gene 1 Description: Pkd1l3; polycystin 1 like 3, transient receptor potential channel interacting [Source:RGD Symbol;Acc:2324490]
+     Gene 2 Description: Ist1; IST1 factor associated with ESCRT-III [Source:RGD Symbol;Acc:1307799]
+
+Max overlap: 125  |  Total overlap: 125  |  chr: 1  |  genes: [gene:ENSRNOG00000018725;gene:ENSRNOG00000053015]
+     Gene 1 Description: Phkg2; phosphorylase kinase catalytic subunit gamma 2 [Source:RGD Symbol;Acc:620024]
+     Gene 2 Description: Ccdc189; coiled-coil domain containing 189 [Source:RGD Symbol;Acc:1593368]
+
+Max overlap: 124  |  Total overlap: 124  |  chr: 16  |  genes: [gene:ENSRNOG00000012767;gene:ENSRNOG00000000109]
+     Gene 1 Description: Micu3; mitochondrial calcium uptake family, member 3 [Source:RGD Symbol;Acc:1563411]
+     Gene 2 Description: Fgf20; fibroblast growth factor 20 [Source:RGD Symbol;Acc:71068]
+
+Max overlap: 122  |  Total overlap: 122  |  chr: 3  |  genes: [gene:ENSRNOG00000049034;gene:ENSRNOG00000039315]
+     Gene 1 Description: Ptrh1; peptidyl-tRNA hydrolase 1 homolog [Source:RGD Symbol;Acc:1310165]
+     Gene 2 Description: Cfap157; cilia and flagella associated protein 157 [Source:RGD Symbol;Acc:1560002]
+
+Max overlap: 121  |  Total overlap: 121  |  chr: 8  |  genes: [gene:ENSRNOG00000009303;gene:ENSRNOG00000009378]
+     Gene 1 Description: Zwilch; zwilch kinetochore protein [Source:RGD Symbol;Acc:1583880]
+     Gene 2 Description: Rpl4; ribosomal protein L4 [Source:RGD Symbol;Acc:619824]
+
+Max overlap: 119  |  Total overlap: 119  |  chr: 12  |  genes: [gene:ENSRNOG00000000901;gene:ENSRNOG00000000913]
+     Gene 1 Description: Vkorc1l1; CGRP receptor component [Source:RGD Symbol;Acc:620753]
+     Gene 2 Description: Gusb; glucuronidase, beta [Source:RGD Symbol;Acc:2772]
+
+Max overlap: 116  |  Total overlap: 116  |  chr: 19  |  genes: [gene:ENSRNOG00000015974;gene:ENSRNOG00000054625]
+     Gene 1 Description: Tmem208; transmembrane protein 208 [Source:RGD Symbol;Acc:1560953]
+     Gene 2 Description: Fhod1; formin homology 2 domain containing 1 [Source:RGD Symbol;Acc:1589776]
+
+Max overlap: 115  |  Total overlap: 115  |  chr: 11  |  genes: [gene:ENSRNOG00000047194;gene:ENSRNOG00000070368]
+     Gene 1 Description: Arl13b; ADP-ribosylation factor like GTPase 13B [Source:RGD Symbol;Acc:1584979]
+     Gene 2 Description: Stx19; syntaxin 19 [Source:RGD Symbol;Acc:1597703]
+
+Max overlap: 115  |  Total overlap: 115  |  chr: 12  |  genes: [gene:ENSRNOG00000001346;gene:ENSRNOG00000001349]
+     Gene 1 Description: Cops6; COP9 signalosome subunit 6 [Source:RGD Symbol;Acc:1309919]
+     Gene 2 Description: Mcm7; minichromosome maintenance complex component 7 [Source:RGD Symbol;Acc:1303018]
+
+Max overlap: 111  |  Total overlap: 111  |  chr: 1  |  genes: [gene:ENSRNOG00000015051;gene:ENSRNOG00000015220]
+     Gene 1 Description: Golga7b; golgin A7 family, member B [Source:RGD Symbol;Acc:1583839]
+     Gene 2 Description: Crtac1; cartilage acidic protein 1 [Source:RGD Symbol;Acc:621085]
+
+Max overlap: 109  |  Total overlap: 109  |  chr: 20  |  genes: [gene:ENSRNOG00000000304;gene:ENSRNOG00000037668]
+     Gene 1 Description: Cd164; CD164 molecule [Source:RGD Symbol;Acc:70942]
+     Gene 2 Description: Ccdc162; coiled-coil domain containing 162 [Source:RGD Symbol;Acc:7514220]
+
+Max overlap: 108  |  Total overlap: 108  |  chr: 3  |  genes: [gene:ENSRNOG00000022491;gene:ENSRNOG00000016189]
+     Gene 1 Description: Wdr76; WD repeat domain 76 [Source:RGD Symbol;Acc:1309616]
+     Gene 2 Description: Frmd5; FERM domain containing 5 [Source:RGD Symbol;Acc:1561554]
+
+Max overlap: 102  |  Total overlap: 102  |  chr: 10  |  genes: [gene:ENSRNOG00000012434;gene:ENSRNOG00000012620]
+     Gene 1 Description: Zfp598; zinc finger protein 598 [Source:RGD Symbol;Acc:1304900]
+     Gene 2 Description: Syngr3; synaptogyrin 3 [Source:RGD Symbol;Acc:1311801]
+
+Max overlap: 102  |  Total overlap: 102  |  chr: 20  |  genes: [gene:ENSRNOG00000048193;gene:ENSRNOG00000065563]
+     Gene 1 Description: Hnrnph3; heterogeneous nuclear ribonucleoprotein H3 [Source:RGD Symbol;Acc:1310019]
+     Gene 2 Description: Rufy2; RUN and FYVE domain containing 2 [Source:RGD Symbol;Acc:1592188]
+
+Max overlap: 101  |  Total overlap: 101  |  chr: 16  |  genes: [gene:ENSRNOG00000010682;gene:ENSRNOG00000011293]
+     Gene 1 Description: Clcn3; chloride voltage-gated channel 3 [Source:RGD Symbol;Acc:621219]
+     Gene 2 Description: Hpf1; histone PARylation factor 1 [Source:RGD Symbol;Acc:1311747]
+
+Max overlap: 99  |  Total overlap: 99  |  chr: 16  |  genes: [gene:ENSRNOG00000010107;gene:ENSRNOG00000024411]
+     Gene 1 Description: Palldl1; palladin-like 1 [Source:RGD Symbol;Acc:1359390]
+     Gene 2 Description: Cbr4; carbonyl reductase 4 [Source:RGD Symbol;Acc:727826]
+
+Max overlap: 97  |  Total overlap: 97  |  chr: 20  |  genes: [gene:ENSRNOG00000000532;gene:ENSRNOG00000068717]
+     Gene 1 Description: Cmtr1; cap methyltransferase 1 [Source:RGD Symbol;Acc:1307801]
+     Gene 2 Description: Ccdc167; coiled-coil domain containing 167 [Source:RGD Symbol;Acc:1588733]
+
+Max overlap: 96  |  Total overlap: 115  |  chr: 3  |  genes: [gene:ENSRNOG00000022514;gene:ENSRNOG00000050650]
+     Gene 1 Description: Tor2a; torsin family 2, member A [Source:RGD Symbol;Acc:1359111]
+     Gene 2 Description: Ttc16; tetratricopeptide repeat domain 16 [Source:RGD Symbol;Acc:2318922]
+
+Max overlap: 95  |  Total overlap: 95  |  chr: 2  |  genes: [gene:ENSRNOG00000021138;gene:ENSRNOG00000021143]
+     Gene 1 Description: Cers2; ceramide synthase 2 [Source:RGD Symbol;Acc:1310059]
+     Gene 2 Description: Setdb1; SET domain bifurcated histone lysine methyltransferase 1 [Source:RGD Symbol;Acc:1308370]
+
+Max overlap: 93  |  Total overlap: 93  |  chr: 3  |  genes: [gene:ENSRNOG00000005247;gene:ENSRNOG00000066832]
+     Gene 1 Description: Surf1; SURF1, cytochrome c oxidase assembly factor [Source:RGD Symbol;Acc:620527]
+     Gene 2 Description: Surf2; surfeit 2 [Source:RGD Symbol;Acc:1565817]
+
+Max overlap: 93  |  Total overlap: 93  |  chr: 3  |  genes: [gene:ENSRNOG00000060005;gene:ENSRNOG00000066832]
+     Gene 1 Description: Surf4; surfeit 4 [Source:RGD Symbol;Acc:1561980]
+     Gene 2 Description: Surf2; surfeit 2 [Source:RGD Symbol;Acc:1565817]
+
+Max overlap: 92  |  Total overlap: 173  |  chr: 1  |  genes: [gene:ENSRNOG00000020990;gene:ENSRNOG00000020995]
+     Gene 1 Description: Fgf21; fibroblast growth factor 21 [Source:RGD Symbol;Acc:620175]
+     Gene 2 Description: Fut1; fucosyltransferase 1 [Source:RGD Symbol;Acc:2638]
+
+Max overlap: 91  |  Total overlap: 91  |  chr: 2  |  genes: [gene:ENSRNOG00000051480;gene:ENSRNOG00000049819]
+     Gene 1 Description: Fxr1; FMR1 autosomal homolog 1 [Source:RGD Symbol;Acc:1311733]
+     Gene 2 Description: Dnajc19; DnaJ heat shock protein family (Hsp40) member C19 [Source:RGD Symbol;Acc:1560220]
+
+Max overlap: 90  |  Total overlap: 90  |  chr: 10  |  genes: [gene:ENSRNOG00000004668;gene:ENSRNOG00000005193]
+     Gene 1 Description: Slc25a35; solute carrier family 25, member 35 [Source:RGD Symbol;Acc:1598229]
+     Gene 2 Description: Pfas; phosphoribosylformylglycinamidine synthase [Source:RGD Symbol;Acc:1304926]
+
+Max overlap: 89  |  Total overlap: 89  |  chr: 1  |  genes: [gene:ENSRNOG00000015368;gene:ENSRNOG00000031211]
+     Gene 1 Description: Pdilt; protein disulfide isomerase-like, testis expressed [Source:RGD Symbol;Acc:1307822]
+     Gene 2 Description: Acsm5; acyl-CoA synthetase medium-chain family member 5 [Source:RGD Symbol;Acc:1309578]
+
+Max overlap: 86  |  Total overlap: 86  |  chr: 8  |  genes: [gene:ENSRNOG00000008508;gene:ENSRNOG00000071217]
+     Gene 1 Description: Acrv1; acrosomal vesicle protein 1 [Source:RGD Symbol;Acc:620153]
+     Gene 2 Description: Chek1; checkpoint kinase 1 [Source:RGD Symbol;Acc:620545]
+
+Max overlap: 85  |  Total overlap: 85  |  chr: 5  |  genes: [gene:ENSRNOG00000017282;gene:ENSRNOG00000017561]
+     Gene 1 Description: Tesk2; testis associated actin remodelling kinase 2 [Source:RGD Symbol;Acc:619984]
+     Gene 2 Description: Toe1; target of EGR1, exonuclease [Source:RGD Symbol;Acc:1309094]
+
+Max overlap: 85  |  Total overlap: 85  |  chr: 10  |  genes: [gene:ENSRNOG00000003975;gene:ENSRNOG00000004078]
+     Gene 1 Description: Pfn1; profilin 1 [Source:RGD Symbol;Acc:621825]
+     Gene 2 Description: Eno3; enolase 3 [Source:RGD Symbol;Acc:2555]
+
+Max overlap: 84  |  Total overlap: 84  |  chr: 21  |  genes: [gene:ENSRNOG00000034116;gene:ENSRNOG00000038299]
+     Gene 1 Description: Gk; glycerol kinase [Source:MGI Symbol;Acc:MGI:106594]
+     Gene 2 Description: 
+
+Max overlap: 82  |  Total overlap: 82  |  chr: 3  |  genes: [gene:ENSRNOG00000050262;gene:ENSRNOG00000043189]
+     Gene 1 Description: Gm13547; uncharacterized LOC102547011 [Source:RGD Symbol;Acc:7579002]
+     Gene 2 Description: Trub2; TruB pseudouridine synthase family member 2 [Source:RGD Symbol;Acc:1359394]
+
+Max overlap: 82  |  Total overlap: 82  |  chr: 4  |  genes: [gene:ENSRNOG00000013251;gene:ENSRNOG00000013378]
+     Gene 1 Description: Trim24; tripartite motif-containing 24 [Source:RGD Symbol;Acc:1560596]
+     Gene 2 Description: Svopl; SVOP like [Source:RGD Symbol;Acc:1566053]
+
+Max overlap: 80  |  Total overlap: 80  |  chr: 12  |  genes: [gene:ENSRNOG00000008470;gene:ENSRNOG00000026192]
+     Gene 1 Description: Lrrc43; leucine rich repeat containing 43 [Source:RGD Symbol;Acc:1561461]
+     Gene 2 Description: AABR07036324.1; interleukin 31 [Source:RGD Symbol;Acc:1585183]
+
+Max overlap: 80  |  Total overlap: 80  |  chr: 20  |  genes: [gene:ENSRNOG00000001315;gene:ENSRNOG00000001313]
+     Gene 1 Description: Rsph14; radial spoke head homolog 14 (Chlamydomonas) [Source:MGI Symbol;Acc:MGI:1918486]
+     Gene 2 Description: Gnaz; G protein subunit alpha z [Source:RGD Symbol;Acc:2717]
+
+Max overlap: 78  |  Total overlap: 94  |  chr: 19  |  genes: [gene:ENSRNOG00000024364;gene:ENSRNOG00000017867]
+     Gene 1 Description: Enkd1; enkurin domain containing 1 [Source:RGD Symbol;Acc:1307357]
+     Gene 2 Description: RGD1561415; RGD1561415 [Source:RGD Symbol;Acc:1561415]
+
+Max overlap: 76  |  Total overlap: 118  |  chr: 7  |  genes: [gene:ENSRNOG00000021732;gene:ENSRNOG00000028711]
+     Gene 1 Description: Hsf1; heat shock transcription factor 1 [Source:RGD Symbol;Acc:620913]
+     Gene 2 Description: Dgat1; diacylglycerol O-acyltransferase 1 [Source:RGD Symbol;Acc:628673]
+
+Max overlap: 75  |  Total overlap: 75  |  chr: 7  |  genes: [gene:ENSRNOG00000009311;gene:ENSRNOG00000009028]
+     Gene 1 Description: Fstl3; follistatin like 3 [Source:RGD Symbol;Acc:621811]
+     Gene 2 Description: Rnf126; ring finger protein 126 [Source:RGD Symbol;Acc:1306011]
+
+Max overlap: 71  |  Total overlap: 71  |  chr: 11  |  genes: [gene:ENSRNOG00000023463;gene:ENSRNOG00000023400]
+     Gene 1 Description: Parp9; poly (ADP-ribose) polymerase family, member 9 [Source:RGD Symbol;Acc:1307534]
+     Gene 2 Description: Dtx3l; deltex E3 ubiquitin ligase 3L [Source:RGD Symbol;Acc:1565144]
+
+Max overlap: 71  |  Total overlap: 71  |  chr: 21  |  genes: [gene:ENSRNOG00000003370;gene:ENSRNOG00000003013]
+     Gene 1 Description: Otc; ornithine transcarbamylase [Source:RGD Symbol;Acc:3236]
+     Gene 2 Description: Rpgr; retinitis pigmentosa GTPase regulator [Source:RGD Symbol;Acc:1560136]
+
+Max overlap: 69  |  Total overlap: 69  |  chr: 2  |  genes: [gene:ENSRNOG00000020297;gene:ENSRNOG00000020357]
+     Gene 1 Description: Gon4l; gon-4 like [Source:RGD Symbol;Acc:1564691]
+     Gene 2 Description: Msto1; misato mitochondrial distribution and morphology regulator 1 [Source:RGD Symbol;Acc:1306110]
+
+Max overlap: 69  |  Total overlap: 69  |  chr: 3  |  genes: [gene:ENSRNOG00000011414;gene:ENSRNOG00000011981]
+     Gene 1 Description: Psmc3; proteasome 26S subunit, ATPase 3 [Source:RGD Symbol;Acc:61905]
+     Gene 2 Description: Slc39a13; solute carrier family 39 member 13 [Source:RGD Symbol;Acc:1304695]
+
+Max overlap: 68  |  Total overlap: 68  |  chr: 1  |  genes: [gene:ENSRNOG00000018191;gene:ENSRNOG00000018163]
+     Gene 1 Description: Oprm1; opioid receptor, mu 1 [Source:RGD Symbol;Acc:3234]
+     Gene 2 Description: Ipcef1; interaction protein for cytohesin exchange factors 1 [Source:RGD Symbol;Acc:735159]
+
+Max overlap: 68  |  Total overlap: 68  |  chr: 6  |  genes: [gene:ENSRNOG00000048004;gene:ENSRNOG00000046262]
+     Gene 1 Description: Garem2; GRB2 associated regulator of MAPK1 subtype 2 [Source:RGD Symbol;Acc:1597138]
+     Gene 2 Description: 3110082J24Rik; RIKEN cDNA 3110082J24 gene [Source:RGD Symbol;Acc:15004998]
+
+Max overlap: 65  |  Total overlap: 65  |  chr: 2  |  genes: [gene:ENSRNOG00000027408;gene:ENSRNOG00000009538]
+     Gene 1 Description: Ppid; peptidylprolyl isomerase D [Source:RGD Symbol;Acc:1303174]
+     Gene 2 Description: Etfdh; electron transfer flavoprotein dehydrogenase [Source:RGD Symbol;Acc:735052]
+
+Max overlap: 64  |  Total overlap: 64  |  chr: 1  |  genes: [gene:ENSRNOG00000020941;gene:ENSRNOG00000024497]
+     Gene 1 Description: Psenen; presenilin enhancer gamma secretase subunit [Source:RGD Symbol;Acc:1312037]
+     Gene 2 Description: U2af1l4; U2 small nuclear RNA auxiliary factor 1-like 4 [Source:RGD Symbol;Acc:1305600]
+
+Max overlap: 59  |  Total overlap: 59  |  chr: 20  |  genes: [gene:ENSRNOG00000058912;gene:ENSRNOG00000038883]
+     Gene 1 Description: 
+     Gene 2 Description: Ilrun; inflammation and lipid regulator with UBA-like and NBR1-like domains [Source:RGD Symbol;Acc:1559829]
+
+Max overlap: 59  |  Total overlap: 59  |  chr: 21  |  genes: [gene:ENSRNOG00000061530;gene:ENSRNOG00000056703]
+     Gene 1 Description: Fgf16; fibroblast growth factor 16 [Source:MGI Symbol;Acc:MGI:1931627]
+     Gene 2 Description: Atrx; ATRX, chromatin remodeler [Source:RGD Symbol;Acc:619795]
+
+Max overlap: 58  |  Total overlap: 74  |  chr: 15  |  genes: [gene:ENSRNOG00000012594;gene:ENSRNOG00000029808]
+     Gene 1 Description: Sugt1; SGT1 homolog, MIS12 kinetochore complex assembly cochaperone [Source:RGD Symbol;Acc:1307550]
+     Gene 2 Description: 
+
+Max overlap: 57  |  Total overlap: 57  |  chr: 5  |  genes: [gene:ENSRNOG00000018160;gene:ENSRNOG00000018211]
+     Gene 1 Description: Zswim5; zinc finger, SWIM-type containing 5 [Source:RGD Symbol;Acc:1310741]
+     Gene 2 Description: Urod; uroporphyrinogen decarboxylase [Source:RGD Symbol;Acc:3946]
+
+Max overlap: 55  |  Total overlap: 55  |  chr: 3  |  genes: [gene:ENSRNOG00000017395;gene:ENSRNOG00000017805]
+     Gene 1 Description: Duox2; dual oxidase 2 [Source:RGD Symbol;Acc:628761]
+     Gene 2 Description: Duoxa2; dual oxidase maturation factor 2 [Source:RGD Symbol;Acc:1560628]
+
+Max overlap: 53  |  Total overlap: 53  |  chr: 1  |  genes: [gene:ENSRNOG00000012458;gene:ENSRNOG00000024073]
+     Gene 1 Description: Cyp2e1; cytochrome P450, family 2, subfamily e, polypeptide 1 [Source:RGD Symbol;Acc:2475]
+     Gene 2 Description: Syce1; synaptonemal complex central element protein 1 [Source:RGD Symbol;Acc:1559853]
+
+Max overlap: 53  |  Total overlap: 53  |  chr: 5  |  genes: [gene:ENSRNOG00000023605;gene:ENSRNOG00000009576]
+     Gene 1 Description: Ncbp1; nuclear cap binding protein subunit 1 [Source:RGD Symbol;Acc:1308973]
+     Gene 2 Description: Xpa; XPA, DNA damage recognition and repair factor [Source:RGD Symbol;Acc:1308769]
+
+Max overlap: 53  |  Total overlap: 53  |  chr: 5  |  genes: [gene:ENSRNOG00000042421;gene:ENSRNOG00000025424]
+     Gene 1 Description: 1110065P20Rik; RIKEN cDNA 1110065P20 gene [Source:MGI Symbol;Acc:MGI:1916170]
+     Gene 2 Description: Yrdc; yrdC N(6)-threonylcarbamoyltransferase domain containing [Source:RGD Symbol;Acc:708492]
+
+Max overlap: 49  |  Total overlap: 49  |  chr: 7  |  genes: [gene:ENSRNOG00000027940;gene:ENSRNOG00000010448]
+     Gene 1 Description: Plppr3; phospholipid phosphatase related 3 [Source:RGD Symbol;Acc:727823]
+     Gene 2 Description: Ptbp1; polypyrimidine tract binding protein 1 [Source:RGD Symbol;Acc:62047]
+
+Max overlap: 48  |  Total overlap: 48  |  chr: 2  |  genes: [gene:ENSRNOG00000010274;gene:ENSRNOG00000010515]
+     Gene 1 Description: Smc4; structural maintenance of chromosomes 4 [Source:RGD Symbol;Acc:1306680]
+     Gene 2 Description: Trim59; tripartite motif-containing 59 [Source:RGD Symbol;Acc:1311956]
+
+Max overlap: 46  |  Total overlap: 46  |  chr: 15  |  genes: [gene:ENSRNOG00000011603;gene:ENSRNOG00000012209]
+     Gene 1 Description: Cab39l; calcium binding protein 39-like [Source:RGD Symbol;Acc:1308945]
+     Gene 2 Description: Cdadc1; cytidine and dCMP deaminase domain containing 1 [Source:MGI Symbol;Acc:MGI:1919141]
+
+Max overlap: 45  |  Total overlap: 45  |  chr: 8  |  genes: [gene:ENSRNOG00000013059;gene:ENSRNOG00000013305]
+     Gene 1 Description: Aste1; asteroid homolog 1 [Source:RGD Symbol;Acc:1304643]
+     Gene 2 Description: Atp2c1; ATPase secretory pathway Ca2+ transporting 1 [Source:RGD Symbol;Acc:621311]
+
+Max overlap: 45  |  Total overlap: 45  |  chr: 13  |  genes: [gene:ENSRNOG00000029418;gene:ENSRNOG00000067587]
+     Gene 1 Description: 
+     Gene 2 Description: Snrpe; small nuclear ribonucleoprotein polypeptide E [Source:RGD Symbol;Acc:2321675]
+
+Max overlap: 45  |  Total overlap: 45  |  chr: 16  |  genes: [gene:ENSRNOG00000010783;gene:ENSRNOG00000023494]
+     Gene 1 Description: Mak16; MAK16 homolog [Source:RGD Symbol;Acc:1311297]
+     Gene 2 Description: Tti2; TELO2 interacting protein 2 [Source:RGD Symbol;Acc:1310414]
+
+Max overlap: 44  |  Total overlap: 44  |  chr: 1  |  genes: [gene:ENSRNOG00000029810;gene:ENSRNOG00000063613]
+     Gene 1 Description: Tspan4; tetraspanin 4 [Source:RGD Symbol;Acc:1305810]
+     Gene 2 Description: Chid1; chitinase domain containing 1 [Source:RGD Symbol;Acc:1308955]
+
+Max overlap: 44  |  Total overlap: 44  |  chr: 21  |  genes: [gene:ENSRNOG00000003030;gene:ENSRNOG00000042687]
+     Gene 1 Description: Awat2; acyl-CoA wax alcohol acyltransferase 2 [Source:MGI Symbol;Acc:MGI:3045345]
+     Gene 2 Description: Otud6a; OTU domain containing 6A [Source:MGI Symbol;Acc:MGI:3644685]
+
+Max overlap: 43  |  Total overlap: 43  |  chr: 3  |  genes: [gene:ENSRNOG00000022660;gene:ENSRNOG00000012738]
+     Gene 1 Description: Ccdc73; coiled-coil domain containing 73 [Source:RGD Symbol;Acc:1563448]
+     Gene 2 Description: Eif3m; eukaryotic translation initiation factor 3, subunit M [Source:RGD Symbol;Acc:1565840]
+
+Max overlap: 42  |  Total overlap: 42  |  chr: 1  |  genes: [gene:ENSRNOG00000032246;gene:ENSRNOG00000014673]
+     Gene 1 Description: Acsm3; acyl-CoA synthetase medium-chain family member 3 [Source:RGD Symbol;Acc:62086]
+     Gene 2 Description: Eri2; ERI1 exoribonuclease family member 2 [Source:RGD Symbol;Acc:1583889]
+
+Max overlap: 42  |  Total overlap: 42  |  chr: 13  |  genes: [gene:ENSRNOG00000004910;gene:ENSRNOG00000005342]
+     Gene 1 Description: Eif2d; eukaryotic translation initiation factor 2D [Source:RGD Symbol;Acc:1561765]
+     Gene 2 Description: Rassf5; Ras association domain family member 5 [Source:RGD Symbol;Acc:621694]
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 1  |  genes: [gene:ENSRNOG00000019802;gene:ENSRNOG00000050032]
+     Gene 1 Description: Zfp428; zinc finger protein 428 [Source:RGD Symbol;Acc:1564862]
+     Gene 2 Description: AABR07002689.1; serine/arginine repetitive matrix 5 [Source:RGD Symbol;Acc:2323012]
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 2  |  genes: [gene:ENSRNOG00000058609;gene:ENSRNOG00000070759]
+     Gene 1 Description: Palmd; palmdelphin [Source:RGD Symbol;Acc:1305624]
+     Gene 2 Description: 4930455H04Rik; RIKEN cDNA 4930455H04 gene [Source:MGI Symbol;Acc:MGI:1921904]
+
+Max overlap: 41  |  Total overlap: 41  |  chr: 7  |  genes: [gene:ENSRNOG00000029855;gene:ENSRNOG00000019653]
+     Gene 1 Description: Letmd1; LETM1 domain containing 1 [Source:RGD Symbol;Acc:1596738]
+     Gene 2 Description: Csrnp2; cysteine and serine rich nuclear protein 2 [Source:RGD Symbol;Acc:1308916]
+
+Max overlap: 40  |  Total overlap: 40  |  chr: 7  |  genes: [gene:ENSRNOG00000025481;gene:ENSRNOG00000006209]
+     Gene 1 Description: Dctn2; dynactin subunit 2 [Source:RGD Symbol;Acc:1303182]
+     Gene 2 Description: Mbd6; methyl-CpG binding domain protein 6 [Source:RGD Symbol;Acc:1311050]
+
+Max overlap: 40  |  Total overlap: 40  |  chr: 21  |  genes: [gene:ENSRNOG00000054689;gene:ENSRNOG00000055485]
+     Gene 1 Description: Cox7b; cytochrome c oxidase subunit 7B [Source:RGD Symbol;Acc:727789]
+     Gene 2 Description: 
+
+Max overlap: 39  |  Total overlap: 39  |  chr: 15  |  genes: [gene:ENSRNOG00000025473;gene:ENSRNOG00000039500]
+     Gene 1 Description: Tppp2; tubulin polymerization-promoting protein family member 2 [Source:RGD Symbol;Acc:1566185]
+     Gene 2 Description: Rnase13; ribonuclease A family member 13 [Source:RGD Symbol;Acc:1359386]
+
+Max overlap: 38  |  Total overlap: 38  |  chr: 1  |  genes: [gene:ENSRNOG00000017114;gene:ENSRNOG00000017889]
+     Gene 1 Description: Synj2; synaptojanin 2 [Source:RGD Symbol;Acc:69436]
+     Gene 2 Description: Serac1; serine active site containing 1 [Source:RGD Symbol;Acc:1565064]
+
+Max overlap: 36  |  Total overlap: 36  |  chr: 3  |  genes: [gene:ENSRNOG00000005668;gene:ENSRNOG00000026111]
+     Gene 1 Description: Ndufa8; NADH:ubiquinone oxidoreductase subunit A8 [Source:RGD Symbol;Acc:1306283]
+     Gene 2 Description: Morn5; MORN repeat containing 5 [Source:RGD Symbol;Acc:1307739]
+
+Max overlap: 36  |  Total overlap: 36  |  chr: 3  |  genes: [gene:ENSRNOG00000013906;gene:ENSRNOG00000013974]
+     Gene 1 Description: Gpat2; glycerol-3-phosphate acyltransferase 2, mitochondrial [Source:RGD Symbol;Acc:1304904]
+     Gene 2 Description: Fahd2a; fumarylacetoacetate hydrolase domain containing 2A [Source:RGD Symbol;Acc:1563674]
+
+Max overlap: 36  |  Total overlap: 36  |  chr: 8  |  genes: [gene:ENSRNOG00000006336;gene:ENSRNOG00000006319]
+     Gene 1 Description: Fyco1; FYVE and coiled-coil domain autophagy adaptor 1 [Source:RGD Symbol;Acc:1309069]
+     Gene 2 Description: Cxcr6; C-X-C motif chemokine receptor 6 [Source:RGD Symbol;Acc:1642118]
+
+Max overlap: 33  |  Total overlap: 33  |  chr: 1  |  genes: [gene:ENSRNOG00000016055;gene:ENSRNOG00000016145]
+     Gene 1 Description: Fkrp; fukutin related protein [Source:RGD Symbol;Acc:1305852]
+     Gene 2 Description: Strn4; striatin 4 [Source:RGD Symbol;Acc:1307030]
+
+Max overlap: 33  |  Total overlap: 33  |  chr: 7  |  genes: [gene:ENSRNOG00000005299;gene:ENSRNOG00000025481]
+     Gene 1 Description: Kif5a; kinesin family member 5A [Source:RGD Symbol;Acc:1303035]
+     Gene 2 Description: Dctn2; dynactin subunit 2 [Source:RGD Symbol;Acc:1303182]
+
+Max overlap: 32  |  Total overlap: 32  |  chr: 10  |  genes: [gene:ENSRNOG00000007280;gene:ENSRNOG00000007268]
+     Gene 1 Description: Naa60; N(alpha)-acetyltransferase 60, NatF catalytic subunit [Source:RGD Symbol;Acc:1308915]
+     Gene 2 Description: RGD1561796; RGD1561796 [Source:RGD Symbol;Acc:1561796]
+
+Max overlap: 32  |  Total overlap: 32  |  chr: 21  |  genes: [gene:ENSRNOG00000003782;gene:ENSRNOG00000059697]
+     Gene 1 Description: Acot9; acyl-CoA thioesterase 9 [Source:RGD Symbol;Acc:1359188]
+     Gene 2 Description: 
+
+Max overlap: 31  |  Total overlap: 31  |  chr: 6  |  genes: [gene:ENSRNOG00000012264;gene:ENSRNOG00000012314]
+     Gene 1 Description: Alkbh1; alkB homolog 1, histone H2A dioxygenase [Source:RGD Symbol;Acc:1308327]
+     Gene 2 Description: Slirp; SRA stem-loop interacting RNA binding protein [Source:RGD Symbol;Acc:1585290]
+
+Max overlap: 30  |  Total overlap: 30  |  chr: 1  |  genes: [gene:ENSRNOG00000020144;gene:ENSRNOG00000020165]
+     Gene 1 Description: Rusf1; RUS family member 1 [Source:RGD Symbol;Acc:1310127]
+     Gene 2 Description: Ahsp; alpha hemoglobin stabilizing protein [Source:RGD Symbol;Acc:1306725]
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 2  |  genes: [gene:ENSRNOG00000010266;gene:ENSRNOG00000027002]
+     Gene 1 Description: Cd180; CD180 molecule [Source:RGD Symbol;Acc:1308170]
+     Gene 2 Description: Mast4; microtubule associated serine/threonine kinase family member 4 [Source:RGD Symbol;Acc:1310139]
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 12  |  genes: [gene:ENSRNOG00000001039;gene:ENSRNOG00000001043]
+     Gene 1 Description: Eif2b1; eukaryotic translation initiation factor 2B subunit alpha [Source:RGD Symbol;Acc:620819]
+     Gene 2 Description: Ddx55; DEAD-box helicase 55 [Source:RGD Symbol;Acc:2324094]
+
+Max overlap: 29  |  Total overlap: 29  |  chr: 16  |  genes: [gene:ENSRNOG00000022368;gene:ENSRNOG00000020229]
+     Gene 1 Description: Ddx49; DEAD-box helicase 49 [Source:RGD Symbol;Acc:1311124]
+     Gene 2 Description: Homer3; homer scaffold protein 3 [Source:RGD Symbol;Acc:620706]
+
+Max overlap: 28  |  Total overlap: 29  |  chr: 13  |  genes: [gene:ENSRNOG00000066932;gene:ENSRNOG00000003881]
+     Gene 1 Description: Pfdn2; prefoldin subunit 2 [Source:RGD Symbol;Acc:1591406]
+     Gene 2 Description: Nit1; nitrilase 1 [Source:RGD Symbol;Acc:727821]
+
+Max overlap: 24  |  Total overlap: 24  |  chr: 3  |  genes: [gene:ENSRNOG00000009397;gene:ENSRNOG00000009723]
+     Gene 1 Description: Kbtbd4; kelch repeat and BTB domain containing 4 [Source:RGD Symbol;Acc:1310234]
+     Gene 2 Description: Ptpmt1; protein tyrosine phosphatase, mitochondrial 1 [Source:RGD Symbol;Acc:1589783]
+
+Max overlap: 21  |  Total overlap: 21  |  chr: 2  |  genes: [gene:ENSRNOG00000010680;gene:ENSRNOG00000013872]
+     Gene 1 Description: Med12l; mediator complex subunit 12L [Source:RGD Symbol;Acc:1592212]
+     Gene 2 Description: P2ry14; purinergic receptor P2Y14 [Source:RGD Symbol;Acc:70912]
+
+Max overlap: 21  |  Total overlap: 21  |  chr: 4  |  genes: [gene:ENSRNOG00000011667;gene:ENSRNOG00000014347]
+     Gene 1 Description: Fastk; Fas-activated serine/threonine kinase [Source:RGD Symbol;Acc:1311601]
+     Gene 2 Description: Slc4a2; solute carrier family 4 member 2 [Source:RGD Symbol;Acc:3711]
+
+Max overlap: 19  |  Total overlap: 19  |  chr: 12  |  genes: [gene:ENSRNOG00000037480;gene:ENSRNOG00000037478]
+     Gene 1 Description: Ddx51; DEAD-box helicase 51 [Source:RGD Symbol;Acc:1309580]
+     Gene 2 Description: Noc4l; nucleolar complex associated 4 homolog [Source:RGD Symbol;Acc:1310661]
+
+Max overlap: 19  |  Total overlap: 19  |  chr: 15  |  genes: [gene:ENSRNOG00000020216;gene:ENSRNOG00000020189]
+     Gene 1 Description: Gmpr2; guanosine monophosphate reductase 2 [Source:RGD Symbol;Acc:628875]
+     Gene 2 Description: Tinf2; TERF1 interacting nuclear factor 2 [Source:RGD Symbol;Acc:1359192]
+
+Max overlap: 18  |  Total overlap: 18  |  chr: 2  |  genes: [gene:ENSRNOG00000016351;gene:ENSRNOG00000058609]
+     Gene 1 Description: Frrs1; ferric-chelate reductase 1 [Source:RGD Symbol;Acc:1306883]
+     Gene 2 Description: Palmd; palmdelphin [Source:RGD Symbol;Acc:1305624]
+
+Max overlap: 18  |  Total overlap: 18  |  chr: 8  |  genes: [gene:ENSRNOG00000014343;gene:ENSRNOG00000026979]
+     Gene 1 Description: Anln; anillin, actin binding protein [Source:RGD Symbol;Acc:1561367]
+     Gene 2 Description: AABR07069466.1; similar to RIKEN cDNA 9530077C05 [Source:RGD Symbol;Acc:1561444]
+
+Max overlap: 18  |  Total overlap: 18  |  chr: 19  |  genes: [gene:ENSRNOG00000004489;gene:ENSRNOG00000004373]
+     Gene 1 Description: Adgre5; adhesion G protein-coupled receptor E5 [Source:RGD Symbol;Acc:1305595]
+     Gene 2 Description: Ddx39a; DExD-box helicase 39A [Source:RGD Symbol;Acc:619920]
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 1  |  genes: [gene:ENSRNOG00000020607;gene:ENSRNOG00000020635]
+     Gene 1 Description: Bckdha; branched chain keto acid dehydrogenase E1 subunit alpha [Source:RGD Symbol;Acc:2196]
+     Gene 2 Description: Exosc5; exosome component 5 [Source:RGD Symbol;Acc:1307861]
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 19  |  genes: [gene:ENSRNOG00000014668;gene:ENSRNOG00000015179]
+     Gene 1 Description: RGD621098; similar to RIKEN cDNA D230025D16Rik [Source:RGD Symbol;Acc:621098]
+     Gene 2 Description: Tradd; TNFRSF1A-associated via death domain [Source:RGD Symbol;Acc:621313]
+
+Max overlap: 16  |  Total overlap: 16  |  chr: 15  |  genes: [gene:ENSRNOG00000015054;gene:ENSRNOG00000016029]
+     Gene 1 Description: Rcbtb2; RCC1 and BTB domain containing protein 2 [Source:RGD Symbol;Acc:735048]
+     Gene 2 Description: Rb1; RB transcriptional corepressor 1 [Source:RGD Symbol;Acc:3540]
+
+Max overlap: 15  |  Total overlap: 15  |  chr: 7  |  genes: [gene:ENSRNOG00000005965;gene:ENSRNOG00000022507]
+     Gene 1 Description: Irak4; interleukin-1 receptor-associated kinase 4 [Source:RGD Symbol;Acc:1305303]
+     Gene 2 Description: Twf1; twinfilin actin-binding protein 1 [Source:RGD Symbol;Acc:1311872]
+
+Max overlap: 15  |  Total overlap: 15  |  chr: 9  |  genes: [gene:ENSRNOG00000048282;gene:ENSRNOG00000049683]
+     Gene 1 Description: Mpnd; MPN domain containing [Source:RGD Symbol;Acc:1589335]
+     Gene 2 Description: Sh3gl1; SH3 domain containing GRB2 like 1, endophilin A2 [Source:RGD Symbol;Acc:708456]
+
+Max overlap: 15  |  Total overlap: 15  |  chr: 13  |  genes: [gene:ENSRNOG00000003779;gene:ENSRNOG00000003881]
+     Gene 1 Description: Dedd; death effector domain-containing [Source:RGD Symbol;Acc:620050]
+     Gene 2 Description: Nit1; nitrilase 1 [Source:RGD Symbol;Acc:727821]
+
+Max overlap: 14  |  Total overlap: 14  |  chr: 18  |  genes: [gene:ENSRNOG00000024428;gene:ENSRNOG00000024241]
+     Gene 1 Description: Kif20a; kinesin family member 20A [Source:RGD Symbol;Acc:1307695]
+     Gene 2 Description: Cdc23; cell division cycle 23 [Source:RGD Symbol;Acc:1304819]
+
+Max overlap: 13  |  Total overlap: 13  |  chr: 3  |  genes: [gene:ENSRNOG00000018755;gene:ENSRNOG00000018964]
+     Gene 1 Description: Acss2; acyl-CoA synthetase short-chain family member 2 [Source:RGD Symbol;Acc:1305489]
+     Gene 2 Description: Gss; glutathione synthetase [Source:RGD Symbol;Acc:2752]
+
+Max overlap: 13  |  Total overlap: 13  |  chr: 3  |  genes: [gene:ENSRNOG00000007341;gene:ENSRNOG00000007492]
+     Gene 1 Description: Mroh8; maestro heat-like repeat family member 8 [Source:RGD Symbol;Acc:2321481]
+     Gene 2 Description: Rpn2; ribophorin II [Source:RGD Symbol;Acc:62075]
+
+Max overlap: 12  |  Total overlap: 12  |  chr: 2  |  genes: [gene:ENSRNOG00000012630;gene:ENSRNOG00000012946]
+     Gene 1 Description: Rhoc; ras homolog family member C [Source:RGD Symbol;Acc:1304965]
+     Gene 2 Description: Mov10; Mov10 RISC complex RNA helicase [Source:RGD Symbol;Acc:1598327]
+
+Max overlap: 12  |  Total overlap: 12  |  chr: 11  |  genes: [gene:ENSRNOG00000039850;gene:ENSRNOG00000001682]
+     Gene 1 Description: Pigp; phosphatidylinositol glycan anchor biosynthesis, class P [Source:RGD Symbol;Acc:1307205]
+     Gene 2 Description: Ttc3; tetratricopeptide repeat domain 3 [Source:RGD Symbol;Acc:1308654]
+
+Max overlap: 12  |  Total overlap: 12  |  chr: 14  |  genes: [gene:ENSRNOG00000069246;gene:ENSRNOG00000049446]
+     Gene 1 Description: Abcg3l3; ATP-binding cassette, subfamily G (WHITE), member 3-like 3 [Source:RGD Symbol;Acc:1564709]
+     Gene 2 Description: 
+
+Max overlap: 11  |  Total overlap: 11  |  chr: 1  |  genes: [gene:ENSRNOG00000020927;gene:ENSRNOG00000020889]
+     Gene 1 Description: Tulp2; TUB like protein 2 [Source:RGD Symbol;Acc:1310551]
+     Gene 2 Description: Nucb1; nucleobindin 1 [Source:RGD Symbol;Acc:620030]
+
+Max overlap: 11  |  Total overlap: 11  |  chr: 2  |  genes: [gene:ENSRNOG00000020863;gene:ENSRNOG00000020869]
+     Gene 1 Description: Oaz3; ornithine decarboxylase antizyme 3 [Source:RGD Symbol;Acc:1599278]
+     Gene 2 Description: mrpl9; mitochondrial ribosomal protein L9 [Source:RGD Symbol;Acc:1359171]
+
+Max overlap: 11  |  Total overlap: 11  |  chr: 6  |  genes: [gene:ENSRNOG00000003999;gene:ENSRNOG00000050111]
+     Gene 1 Description: Adcy3; adenylate cyclase 3 [Source:RGD Symbol;Acc:71009]
+     Gene 2 Description: Cenpo; centromere protein O [Source:RGD Symbol;Acc:1590328]
+
+Max overlap: 10  |  Total overlap: 10  |  chr: 1  |  genes: [gene:ENSRNOG00000021046;gene:ENSRNOG00000021048]
+     Gene 1 Description: Sult2b1; sulfotransferase family 2B member 1 [Source:RGD Symbol;Acc:1308882]
+     Gene 2 Description: AC095693.1; lemur tyrosine kinase 3 [Source:RGD Symbol;Acc:1588641]
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 1  |  genes: [gene:ENSRNOG00000028273;gene:ENSRNOG00000017673]
+     Gene 1 Description: Tmem150b; transmembrane protein 150B [Source:RGD Symbol;Acc:1306181]
+     Gene 2 Description: Brsk1; BR serine/threonine kinase 1 [Source:RGD Symbol;Acc:1563268]
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 10  |  genes: [gene:ENSRNOG00000003497;gene:ENSRNOG00000003542]
+     Gene 1 Description: Thoc6; THO complex 6 [Source:RGD Symbol;Acc:708553]
+     Gene 2 Description: Hcfc1r1; host cell factor C1 regulator 1 [Source:RGD Symbol;Acc:727975]
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 1  |  genes: [gene:ENSRNOG00000018446;gene:ENSRNOG00000018476]
+     Gene 1 Description: Prap1; proline-rich acidic protein 1 [Source:RGD Symbol;Acc:61876]
+     Gene 2 Description: Fuom; fucose mutarotase [Source:RGD Symbol;Acc:1311186]
+
+Max overlap: 7  |  Total overlap: 7  |  chr: 13  |  genes: [gene:ENSRNOG00000006785;gene:ENSRNOG00000046996]
+     Gene 1 Description: Dcaf8; DDB1 and CUL4 associated factor 8 [Source:RGD Symbol;Acc:1308513]
+     Gene 2 Description: Pea15; proliferation and apoptosis adaptor protein 15 [Source:RGD Symbol;Acc:1306055]
+
+Max overlap: 6  |  Total overlap: 6  |  chr: 12  |  genes: [gene:ENSRNOG00000054033;gene:ENSRNOG00000001293]
+     Gene 1 Description: Adap1; ArfGAP with dual PH domains 1 [Source:RGD Symbol;Acc:621418]
+     Gene 2 Description: Get4; guided entry of tail-anchored proteins factor 4 [Source:RGD Symbol;Acc:1311660]
+
+Max overlap: 6  |  Total overlap: 11  |  chr: 13  |  genes: [gene:ENSRNOG00000004030;gene:ENSRNOG00000051405]
+     Gene 1 Description: Nphs2; NPHS2 stomatin family member, podocin [Source:RGD Symbol;Acc:620461]
+     Gene 2 Description: AABR07021465.1; axonemal dynein light chain domain containing 1 [Source:RGD Symbol;Acc:1566124]
+
+Max overlap: 5  |  Total overlap: 5  |  chr: 20  |  genes: [gene:ENSRNOG00000001254;gene:ENSRNOG00000001261]
+     Gene 1 Description: Col6a2; collagen type VI alpha 2 chain [Source:RGD Symbol;Acc:1305585]
+     Gene 2 Description: Ftcd; formimidoyltransferase cyclodeaminase [Source:RGD Symbol;Acc:70915]
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 3  |  genes: [gene:ENSRNOG00000007998;gene:ENSRNOG00000008469]
+     Gene 1 Description: Ssb; small RNA binding exonuclease protection factor La [Source:RGD Symbol;Acc:620804]
+     Gene 2 Description: Mettl5; methyltransferase like 5 [Source:RGD Symbol;Acc:1566062]
+
+Max overlap: 4  |  Total overlap: 4  |  chr: 5  |  genes: [gene:ENSRNOG00000007719;gene:ENSRNOG00000028185]
+     Gene 1 Description: Ccnc; cyclin C [Source:RGD Symbol;Acc:70905]
+     Gene 2 Description: Tstd3; thiosulfate sulfurtransferase like domain containing 3 [Source:RGD Symbol;Acc:1563572]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene:ENSRNOG00000070112;gene:ENSRNOG00000036758]
+     Gene 1 Description: Knop1; lysine-rich nucleolar protein 1 [Source:NCBI gene (formerly Entrezgene);Acc:499255]
+     Gene 2 Description: Iqck; IQ motif containing K [Source:RGD Symbol;Acc:6502881]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene:ENSRNOG00000020646;gene:ENSRNOG00000020668]
+     Gene 1 Description: Sdhaf2; succinate dehydrogenase complex assembly factor 2 [Source:RGD Symbol;Acc:1309216]
+     Gene 2 Description: Cpsf7; cleavage and polyadenylation specific factor 7 [Source:RGD Symbol;Acc:1305441]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene:ENSRNOG00000020179;gene:ENSRNOG00000020248]
+     Gene 1 Description: Nt5c2; 5'-nucleotidase, cytosolic II [Source:RGD Symbol;Acc:2323387]
+     Gene 2 Description: Ina; internexin neuronal intermediate filament protein, alpha [Source:RGD Symbol;Acc:2911]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene:ENSRNOG00000018019;gene:ENSRNOG00000018310]
+     Gene 1 Description: Hspa12a; heat shock protein family A (Hsp70) member 12A [Source:RGD Symbol;Acc:1305531]
+     Gene 2 Description: Eno4; enolase 4 [Source:RGD Symbol;Acc:1308333]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 4  |  genes: [gene:ENSRNOG00000005512;gene:ENSRNOG00000005775]
+     Gene 1 Description: Ndufa4; NDUFA4, mitochondrial complex associated [Source:RGD Symbol;Acc:1584719]
+     Gene 2 Description: Phf14; PHD finger protein 14 [Source:RGD Symbol;Acc:1563764]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene:ENSRNOG00000006485;gene:ENSRNOG00000069822]
+     Gene 1 Description: Topors; TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase [Source:RGD Symbol;Acc:1305270]
+     Gene 2 Description: Smim27; small integral membrane protein 27 [Source:RGD Symbol;Acc:7573721]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene:ENSRNOG00000006999;gene:ENSRNOG00000007175]
+     Gene 1 Description: Dnai4; dynein axonemal intermediate chain 4 [Source:RGD Symbol;Acc:1311027]
+     Gene 2 Description: Mier1; MIER1 transcriptional regulator [Source:RGD Symbol;Acc:1562337]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 5  |  genes: [gene:ENSRNOG00000047185;gene:ENSRNOG00000049326]
+     Gene 1 Description: Eif3i; eukaryotic translation initiation factor 3, subunit I [Source:RGD Symbol;Acc:1584560]
+     Gene 2 Description: Tmem234; transmembrane protein 234 [Source:RGD Symbol;Acc:1583487]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 7  |  genes: [gene:ENSRNOG00000010821;gene:ENSRNOG00000011020]
+     Gene 1 Description: Ankrd54; ankyrin repeat domain 54 [Source:RGD Symbol;Acc:1309552]
+     Gene 2 Description: Eif3l; eukaryotic translation initiation factor 3, subunit L [Source:MGI Symbol;Acc:MGI:2386251]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 10  |  genes: [gene:ENSRNOG00000011375;gene:ENSRNOG00000012213]
+     Gene 1 Description: Tsc2; TSC complex subunit 2 [Source:RGD Symbol;Acc:3908]
+     Gene 2 Description: Nthl1; nth-like DNA glycosylase 1 [Source:RGD Symbol;Acc:1309289]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 10  |  genes: [gene:ENSRNOG00000024553;gene:ENSRNOG00000024535]
+     Gene 1 Description: Cyb5d2; cytochrome b5 domain containing 2 [Source:RGD Symbol;Acc:1359124]
+     Gene 2 Description: Zzef1; zinc finger ZZ-type and EF-hand domain containing 1 [Source:RGD Symbol;Acc:1311189]
+
+Max overlap: 2  |  Total overlap: 2  |  chr: 13  |  genes: [gene:ENSRNOG00000003833;gene:ENSRNOG00000003915]
+     Gene 1 Description: Nenf; neudesin neurotrophic factor [Source:RGD Symbol;Acc:1303289]
+     Gene 2 Description: Pacc1; proton activated chloride channel 1 [Source:RGD Symbol;Acc:1359339]
+

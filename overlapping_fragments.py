@@ -5,7 +5,7 @@
 #   specific parts: CDS (coding sequence), EXON or whole gene
 #
 # Usage:
-#   overlapping_fragments.py <annotation> <fragment_type> <strand_similarity> <ORF_similarity> <output_type>
+#   overlapping_fragments.py <species> <annotation> <strand_similarity> <ORF_similarity> <output_type>
 #
 # Params (possible) to run:
 #   annotation: NCBI / Ensembl
@@ -15,7 +15,7 @@
 #   output_type: print_gene_pairs / print_gene_pairs_with_descriptions
 #
 # Example:
-#   python overlapping_fragments.py 'Homo sapiens' Ensembl CDS diff_stranded both_ORF print_gene_pairs_with_descriptions
+#   python overlapping_fragments.py 'Homo sapiens' Ensembl diff_stranded both_ORF print_gene_pairs_with_descriptions
 #   Finds all overlapping genes by CDS fragments, which are on different strands
 #   and which have same ORF or different ORF
 #
@@ -66,8 +66,8 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
             if not genome.are_features_overlapped(gene_A, gene_B): continue
 
             #  we are searching overlaps within fragments of gene pairs
-            overlap_intervals = genome.get_fragments_overlap(gene_A, gene_B, ORF_similarity,
-                                                             TRANSCRIPT_CRITERIA.LONGEST_CDS_AND_UTRs)
+            overlap_intervals = genome.get_fragments_overlap_between_genes(gene_A, gene_B, ORF_similarity,
+                                                                           TRANSCRIPT_CRITERIA.NONE)
 
             total_overlap = 0
             max_overlap = 0

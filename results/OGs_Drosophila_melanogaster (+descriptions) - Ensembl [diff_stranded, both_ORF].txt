@@ -1,0 +1,26 @@
+Stats:
+   Total overlapped gene pairs: 5
+   Total overlapped length: 245
+   Overlapped segments composition: C-52 G-78 A-54 T-61
+
+
+Max overlap: 102  |  Total overlap: 102  |  chr: 3  |  genes: [gene:FBgn0025807;gene:FBgn0085284]
+     Gene 1 Description: Rad9; Rad9
+     Gene 2 Description: Blos3; Biogenesis of lysosome-related organelles complex 1, subunit 3
+
+Max overlap: 80  |  Total overlap: 80  |  chr: 2  |  genes: [gene:FBgn0020370;gene:FBgn0085468]
+     Gene 1 Description: TppII; tripeptidyl-peptidase II
+     Gene 2 Description: ND-MWFE; NADH dehydrogenase (ubiquinone) MWFE subunit
+
+Max overlap: 37  |  Total overlap: 37  |  chr: 4  |  genes: [gene:FBgn0037535;gene:FBgn0266598]
+     Gene 1 Description: PIG-H; Phosphatidylinositol glycan anchor biosynthesis class H
+     Gene 2 Description: Kmn2; kinetochore Mis12-Ndc80 network component 2
+
+Max overlap: 17  |  Total overlap: 17  |  chr: 6  |  genes: [gene:FBgn0010240;gene:FBgn0053180]
+     Gene 1 Description: Lcch3; Ligand-gated chloride channel homolog 3
+     Gene 2 Description: Ranbp16; Ranbp16
+
+Max overlap: 9  |  Total overlap: 9  |  chr: 3  |  genes: [gene:FBgn0040305;gene:FBgn0260859]
+     Gene 1 Description: MTF-1; Metal response element-binding Transcription Factor-1
+     Gene 2 Description: Bet3; Blocked early in transport 3
+

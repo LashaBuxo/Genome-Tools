@@ -1,50 +1,18 @@
 Stats:
-   Total overlapped gene pairs: 11
-   Total overlapped length: 378
-   Overlapped segments composition: C-85 G-97 A-91 T-103
+   Total overlapped gene pairs: 3
+   Total overlapped length: 126
+   Overlapped segments composition: C-30 G-37 A-32 T-27
 
-
-Max overlap: 102  |  Total overlap: 102  |  chr: 4  |  genes: [gene-Dmel_CG3945;gene-Dmel_CG34255]
-     Gene 1 Description: 
-     Gene 2 Description: Blos3; Biogenesis of lysosome-related organelles complex 1, subunit 3
 
 Max overlap: 80  |  Total overlap: 80  |  chr: 3  |  genes: [gene-Dmel_CG3991;gene-Dmel_CG34439]
      Gene 1 Description: TppII; tripeptidyl-peptidase II
      Gene 2 Description: ND-MWFE; NADH dehydrogenase (ubiquinone) MWFE subunit
 
-Max overlap: 80  |  Total overlap: 80  |  chr: 5  |  genes: [gene-Dmel_CG34148;gene-Dmel_CG33092]
-     Gene 1 Description: 
-     Gene 2 Description: P5CDh2; delta-1-Pyrroline-5-carboxylate dehydrogenase 2
-
 Max overlap: 37  |  Total overlap: 37  |  chr: 5  |  genes: [gene-Dmel_CG14463;gene-Dmel_CG42550]
      Gene 1 Description: PIG-H; Phosphatidylinositol glycan anchor biosynthesis class H
      Gene 2 Description: Kmn2; kinetochore Mis12-Ndc80 network component 2
 
-Max overlap: 29  |  Total overlap: 29  |  chr: 4  |  genes: [gene-Dmel_CG14977;gene-Dmel_CG14980]
-     Gene 1 Description: 
-     Gene 2 Description: Ccz1; Caffeine, calcium, zinc sensitivity 1
-
-Max overlap: 19  |  Total overlap: 19  |  chr: 4  |  genes: [gene-Dmel_CG33947;gene-Dmel_CG6272]
-     Gene 1 Description: 
-     Gene 2 Description: Irbp18; Inverted repeat binding protein 18 kDa
-
-Max overlap: 17  |  Total overlap: 17  |  chr: 1  |  genes: [gene-Dmel_CG17336;gene-Dmel_CG33180]
-     Gene 1 Description: Lcch3; Ligand-gated chloride channel homolog 3
-     Gene 2 Description: 
-
-Max overlap: 4  |  Total overlap: 4  |  chr: 1  |  genes: [gene-Dmel_CG32809;gene-Dmel_CG14797]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
-Max overlap: 4  |  Total overlap: 4  |  chr: 3  |  genes: [gene-Dmel_CG2412;gene-Dmel_CG42382]
-     Gene 1 Description: Rad51D; Rad51 recombinase D
-     Gene 2 Description: 
-
-Max overlap: 4  |  Total overlap: 4  |  chr: 4  |  genes: [gene-Dmel_CG6839;gene-Dmel_CG18223]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 1  |  genes: [gene-Dmel_CG14815;gene-Dmel_CG14803]
-     Gene 1 Description: Pex5; Peroxin 5
-     Gene 2 Description: 
+Max overlap: 9  |  Total overlap: 9  |  chr: 4  |  genes: [gene-Dmel_CG3743;gene-Dmel_CG3911]
+     Gene 1 Description: MTF-1; Metal response element-binding Transcription Factor-1
+     Gene 2 Description: Bet3; Blocked early in transport 3
 

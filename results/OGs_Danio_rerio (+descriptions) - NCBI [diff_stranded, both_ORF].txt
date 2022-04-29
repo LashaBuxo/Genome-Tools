@@ -1,7 +1,7 @@
 Stats:
-   Total overlapped gene pairs: 26
-   Total overlapped length: 634
-   Overlapped segments composition: C-171 G-158 A-166 T-138
+   Total overlapped gene pairs: 11
+   Total overlapped length: 274
+   Overlapped segments composition: C-78 G-67 A-83 T-46
 
 
 Max overlap: 85  |  Total overlap: 85  |  chr: 23  |  genes: [gene-zgc:153284;gene-rps12]
@@ -12,33 +12,9 @@ Max overlap: 65  |  Total overlap: 65  |  chr: 5  |  genes: [gene-rnft2;gene-zgc
      Gene 1 Description: rnft2; ring finger protein, transmembrane 2
      Gene 2 Description: zgc:110063; zgc:110063
 
-Max overlap: 45  |  Total overlap: 45  |  chr: 23  |  genes: [gene-si:ch211-66i15.5;gene-LOC110437716]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
-Max overlap: 43  |  Total overlap: 43  |  chr: 11  |  genes: [gene-LOC563780;gene-tmem110]
-     Gene 1 Description: 
-     Gene 2 Description: tmem110; transmembrane protein 110
-
 Max overlap: 41  |  Total overlap: 41  |  chr: 21  |  genes: [gene-sumf2;gene-phkg1b]
      Gene 1 Description: sumf2; sulfatase modifying factor 2
      Gene 2 Description: phkg1b; phosphorylase kinase, gamma 1b (muscle)
-
-Max overlap: 35  |  Total overlap: 35  |  chr: 24  |  genes: [gene-lrrc34;gene-lrrc31]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
-Max overlap: 33  |  Total overlap: 33  |  chr: 13  |  genes: [gene-wdfy4;gene-lrrc18a]
-     Gene 1 Description: 
-     Gene 2 Description: 
-
-Max overlap: 21  |  Total overlap: 27  |  chr: 25  |  genes: [gene-LOC110438398;gene-rpl27a]
-     Gene 1 Description: 
-     Gene 2 Description: rpl27a; ribosomal protein L27a
-
-Max overlap: 20  |  Total overlap: 46  |  chr: 18  |  genes: [gene-reln;gene-si:ch1073-450f2.1]
-     Gene 1 Description: reln; reelin
-     Gene 2 Description: 
 
 Max overlap: 16  |  Total overlap: 16  |  chr: 15  |  genes: [gene-ap1s3a;gene-flj13639]
      Gene 1 Description: ap1s3a; adaptor-related protein complex 1, sigma 3 subunit, a
@@ -48,45 +24,17 @@ Max overlap: 16  |  Total overlap: 16  |  chr: 20  |  genes: [gene-henmt1;gene-f
      Gene 1 Description: henmt1; HEN1 methyltransferase homolog 1 (Arabidopsis)
      Gene 2 Description: fam102bb; family with sequence similarity 102, member B, b
 
-Max overlap: 15  |  Total overlap: 24  |  chr: 15  |  genes: [gene-inppl1a;gene-LOC101884560]
-     Gene 1 Description: inppl1a; inositol polyphosphate phosphatase-like 1a
-     Gene 2 Description: 
-
-Max overlap: 15  |  Total overlap: 33  |  chr: 25  |  genes: [gene-cntn1a;gene-LOC101885865]
-     Gene 1 Description: cntn1a; contactin 1a
-     Gene 2 Description: 
-
 Max overlap: 14  |  Total overlap: 14  |  chr: 22  |  genes: [gene-ccnd3;gene-med20]
      Gene 1 Description: ccnd3; cyclin D3
      Gene 2 Description: med20; mediator complex subunit 20
-
-Max overlap: 13  |  Total overlap: 13  |  chr: 5  |  genes: [gene-ddrgk1;gene-LOC100333801]
-     Gene 1 Description: ddrgk1; DDRGK domain containing 1
-     Gene 2 Description: 
-
-Max overlap: 13  |  Total overlap: 13  |  chr: 6  |  genes: [gene-slain1b;gene-tgm8]
-     Gene 1 Description: slain1b; SLAIN motif family, member 1b
-     Gene 2 Description: 
-
-Max overlap: 12  |  Total overlap: 27  |  chr: 18  |  genes: [gene-reln;gene-pik3c2g]
-     Gene 1 Description: reln; reelin
-     Gene 2 Description: 
 
 Max overlap: 11  |  Total overlap: 11  |  chr: 10  |  genes: [gene-lhx6;gene-morn5]
      Gene 1 Description: lhx6; LIM homeobox 6
      Gene 2 Description: morn5; MORN repeat containing 5
 
-Max overlap: 10  |  Total overlap: 10  |  chr: 13  |  genes: [gene-ephx5;gene-mad2l1bp]
-     Gene 1 Description: 
-     Gene 2 Description: mad2l1bp; MAD2L1 binding protein
-
-Max overlap: 9  |  Total overlap: 9  |  chr: 13  |  genes: [gene-galm;gene-dhx57]
-     Gene 1 Description: galm; galactose mutarotase
-     Gene 2 Description: 
-
-Max overlap: 9  |  Total overlap: 9  |  chr: 25  |  genes: [gene-rpl27a;gene-LOC103910005]
-     Gene 1 Description: rpl27a; ribosomal protein L27a
-     Gene 2 Description: 
+Max overlap: 11  |  Total overlap: 11  |  chr: 10  |  genes: [gene-gabrr3a;gene-hhla2a.1]
+     Gene 1 Description: gabrr3a; gamma-aminobutyric acid (GABA) A receptor, rho 3a
+     Gene 2 Description: hhla2a.1; HERV-H LTR-associating 2a, tandem duplicate 1
 
 Max overlap: 6  |  Total overlap: 6  |  chr: 7  |  genes: [gene-drd4b;gene-sirt3]
      Gene 1 Description: drd4b; dopamine receptor D4b
@@ -99,12 +47,4 @@ Max overlap: 6  |  Total overlap: 6  |  chr: 17  |  genes: [gene-il17a/f1;gene-i
 Max overlap: 3  |  Total overlap: 3  |  chr: 2  |  genes: [gene-adcy1b;gene-zgc:154086]
      Gene 1 Description: adcy1b; adenylate cyclase 1b
      Gene 2 Description: zgc:154086; zgc:154086
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 19  |  genes: [gene-LOC101884524;gene-nme2b.1]
-     Gene 1 Description: 
-     Gene 2 Description: nme2b.1; NME/NM23 nucleoside diphosphate kinase 2b, tandem duplicate 1
-
-Max overlap: 2  |  Total overlap: 2  |  chr: 21  |  genes: [gene-ndufa2;gene-LOC103909492]
-     Gene 1 Description: ndufa2; NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2
-     Gene 2 Description: 
 
