@@ -1,7 +1,59 @@
 Stats:
    Total overlapped gene pairs: 95
    Total overlapped length: 5589
-   Overlapped segments composition: C-1578 G-1552 A-1165 T-1166
+   Overlapped segments nucleotide occurrences: C-1607 G-1602 A-1186 T-1194
+   Overlapped segments nucleotide occurrences:
+      C - 28.71%
+      G - 28.71%
+      A - 21.29%
+      T - 21.29%
+
+   Overlapped segments di-nucleotide occurrences:
+      GC - 9.23
+      TG - 8.17
+      CA - 8.17
+      CC - 8.01
+      GG - 8.01
+      CT - 7.77
+      AG - 7.77
+      TC - 6.68
+      GA - 6.68
+      CG - 5.01
+      GT - 4.79
+      AC - 4.79
+      TT - 4.45
+      AA - 4.45
+      AT - 4.13
+      TA - 1.88
+
+   Overlapped segments amino-acids occurrences:
+      L - 10.97
+      S - 10.89
+      A - 8.49
+      R - 8.32
+      G - 7.82
+      P - 6.83
+      T - 5.0
+      E - 4.84
+      Q - 4.84
+      V - 4.64
+      C - 3.73
+      H - 3.15
+      I - 3.12
+      K - 2.87
+      D - 2.85
+      F - 2.65
+      * - 2.46
+      W - 2.13
+      M - 1.77
+      N - 1.71
+      Y - 0.91
+
+   Overlapped segments amino-acids degeneracy occurrences:
+      4 - 36.81
+      1 - 32.25
+      6 - 30.94
+
 
 
 Max overlap: 430  |  Total overlap: 430  |  chr: 16  |  genes: [gene-AMDHD2;gene-CEMP1]

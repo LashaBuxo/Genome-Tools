@@ -17,7 +17,7 @@ from genome_worker_values import *
 #   1) Creating database based on NCBI, Ensembl genome annotation
 #   2) Import annotation features from created database
 #   3) Filter specific features
-#   4) calculate overlapping segments
+#   4) calculate overlapping intervals
 #   and so on...
 #
 # Other scripts, which does specific calculations on genome use this script
@@ -72,6 +72,13 @@ class GenomeWorker:
         del keys3
         del self.__genes_on_chr
         del self.__sequences
+
+        self.__gene_names_set.clear()
+        self.__gene_accessions_set.clear()
+
+        del self.__gene_names_set
+        del self.__gene_accessions_set
+
         gc.collect()
 
     # region Variables and Retrievers
@@ -206,7 +213,6 @@ class GenomeWorker:
     # necessary features from the database.
     #
     # if database exists, then fills/loads all necessary data structures
-
     def __load_requested_features(self):
         if not exists(self.__get_annotation_db_path()):
             print("Creating database for " + self.annotation_source.name + " only for first RUN it takes that long!")
@@ -339,10 +345,7 @@ class GenomeWorker:
 
                 return index if 1 <= index <= NUMBER_OF_CHROMOSOMES[self.species.value] else -1
             else:
-                if self.species == SPECIES.Caenorhabditis_elegans:
-                    if not ENSEMBL_CHR_MAP_FOR_Caenorhabditis.__contains__(id): return -1
-                    return ENSEMBL_CHR_MAP_FOR_Caenorhabditis[id]
-                elif self.species == SPECIES.Drosophila_melanogaster:
+                if self.species == SPECIES.Drosophila_melanogaster:
                     if not ENSEMBL_CHR_MAP_FOR_DROSOPHILA.__contains__(id): return -1
                     return ENSEMBL_CHR_MAP_FOR_DROSOPHILA[id]
                 else:
@@ -381,12 +384,6 @@ class GenomeWorker:
             base = 66
             x = x - base
             if x < 1 or x > 21: return -1
-            return x
-        elif self.species == SPECIES.Caenorhabditis_elegans:
-            if x == 1328: return -1  # ignore mito
-            base = 3278
-            x = x - base
-            if x < 1 or x > 6: return -1
             return x
         elif self.species == SPECIES.Danio_rerio:
             if x == 2333: return -1  # ignore mito
@@ -483,6 +480,16 @@ class GenomeWorker:
 
     # region Additional Methods
 
+    def __attach_frames_to_interval(self, fragment_a: Feature, fragment_b: Feature, interval):
+        if fragment_a.strand != fragment_b.strand:  # diff-strand overlap
+            sense_fragment = fragment_a if fragment_a.strand == '+' else fragment_b
+            anti_sense_fragment = fragment_b if fragment_a.strand == '+' else fragment_a
+            return (interval[0], interval[1], int(sense_fragment.frame), int(anti_sense_fragment.frame))
+        if fragment_a.strand == '+':
+            return (interval[0], interval[1], int(fragment_a.frame), int(fragment_b.frame))
+        else:
+            return (interval[0], interval[1], int(fragment_a.frame), int(fragment_b.frame))
+
     # between each pairs of fragments from each transcript (mRNA) finds fragments overlapped by CDS
     def __get_fragments_overlap_between_transcripts(self, mRNA_transcript_a: Feature, mRNA_transcript_b: Feature,
                                                     ORF_similarity):
@@ -513,19 +520,22 @@ class GenomeWorker:
                     if fragment_b.start >= fragment_a.start:
                         overlap = (fragment_b.start, fragment_b.end)
                     else:
-                        overlap = (fragment_a.start, fragment_b.end)
+                        overlap = (fragment_a.start, fragment_b.end,)
                 else:
                     if fragment_b.start <= fragment_a.start:
                         overlap = (fragment_a.start, fragment_a.end)
                     else:
                         overlap = (fragment_b.start, fragment_a.end)
+
+                overlap = self.__attach_frames_to_interval(fragment_a, fragment_b, overlap)
+
                 overlaps.append(overlap)
                 overlap_length += overlap[1] - overlap[0] + 1
 
         return (overlaps, overlap_length)
 
     # between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
-    # and returns overlapped segments which has maximum total overlapped length
+    # and returns overlapped intervals which has maximum total overlapped length
     def get_fragments_overlap_between_genes(self, gene_A: Feature, gene_B: Feature, ORF_similarity,
                                             criteria: TRANSCRIPT_CRITERIA):
         if criteria != TRANSCRIPT_CRITERIA.NONE:
@@ -548,12 +558,22 @@ class GenomeWorker:
 
         return max_overlaps
 
+    def get_gene_all_CDSs(self, gene: Feature) -> list[Feature]:
+        CDSs = []
+        transcripts = self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
+        for transcript in transcripts:
+            fragments = [] if transcript.id not in self.__transcript_fragments else \
+                self.__transcript_fragments[transcript.id]
+            for fragment in fragments:
+                if fragment.featuretype == 'CDS': CDSs.append(fragment)
+        return CDSs
+
     # endregion
 
     # region Static Methods
     @staticmethod
     def get_gene_accession(gene: Feature):
-        if not gene.attributes.__contains__('description'): return "no_acc"
+        if not gene.attributes.__contains__('description'): return "***"
         desc_parts = gene.attributes['description'][0].split("Acc:")
         if len(desc_parts) != 2: return "no_acc"  # it seems record does not have NCBI ID
         ncbi_id = desc_parts[1][0:(len(desc_parts[1]) - 1)]
@@ -561,9 +581,14 @@ class GenomeWorker:
 
     @staticmethod
     def get_gene_name(gene: Feature):
-        if not gene.attributes.__contains__('Name'): return "no_name"  # loaded genes must be filtered
+        if not gene.attributes.__contains__('Name'): return "***"  # loaded genes must be filtered
         assert len(gene.attributes['Name']) == 1
         return gene.attributes['Name'][0]
+
+    @staticmethod
+    def get_gene_description(gene: Feature):
+        if not gene.attributes.__contains__('description'): return "***"  # loaded genes must be filtered
+        return gene.attributes['description'][0]
 
     @staticmethod
     def are_features_overlapped(gene_feature_A: Feature, gene_feature_B: Feature) -> bool:
@@ -598,13 +623,17 @@ class GenomeWorker:
     # output: (C_count,G_count,A_count,T_count)
     @staticmethod
     def sequence_composition(sequence):
+        sequence = sequence.upper()
         stats = [0, 0, 0, 0]
         for char in sequence:
-            if char == 'C': stats[0] += 1
-            if char == 'G': stats[1] += 1
-            if char == 'A': stats[2] += 1
-            if char == 'T': stats[3] += 1
-
+            if char == 'C':
+                stats[0] += 1
+            elif char == 'G':
+                stats[1] += 1
+            elif char == 'A':
+                stats[2] += 1
+            elif char == 'T':
+                stats[3] += 1
         return stats
 
     @staticmethod

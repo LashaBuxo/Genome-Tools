@@ -1,0 +1,74 @@
+Total overlapped (by CDS) genes: 22
+Total overlapped (by CDS) gene pairs: 11
+Total overlapped (by CDS) sequence length: 274
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 26.46%	G - 26.46%	A - 23.54%	T - 23.54%
+		* - 0.0%
+
+	di-nucleotides:
+		GC - 8.75%	TG - 8.37%	CA - 8.37%	AG - 7.22%
+		CT - 7.22%	AC - 6.46%	GT - 6.46%	TC - 6.08%
+		GA - 6.08%	CG - 5.7%	CC - 5.51%	GG - 5.51%
+		AA - 4.94%	AT - 4.94%	TT - 4.94%	TA - 3.42%
+		** - 0.0%
+
+	amino-acids:
+		L - 14.71%	R - 10.0%	V - 8.82%	S - 8.24%
+		T - 5.88%	A - 5.29%	M - 5.29%	E - 4.71%
+		C - 3.53%	D - 3.53%	K - 3.53%	* - 3.53%
+		G - 2.94%	P - 2.94%	F - 2.94%	H - 2.94%
+		N - 2.94%	Y - 2.94%	Q - 2.35%	W - 1.76%
+		I - 1.18%	X - 0.0%
+
+	amino-acids by codon degeneracy:
+		low - 37.8%	high - 34.15%	medium - 28.05%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 85  |  chr: 23 |  genes: [gene-zgc:153284;gene-rps12]
+	Gene 1: zgc:153284; zgc:153284
+	Gene 2: rps12; ribosomal protein S12
+
+Total overlap length: 65  |  chr: 5 |  genes: [gene-rnft2;gene-zgc:110063]
+	Gene 1: rnft2; ring finger protein, transmembrane 2
+	Gene 2: zgc:110063; zgc:110063
+
+Total overlap length: 41  |  chr: 21 |  genes: [gene-sumf2;gene-phkg1b]
+	Gene 1: sumf2; sulfatase modifying factor 2
+	Gene 2: phkg1b; phosphorylase kinase, gamma 1b (muscle)
+
+Total overlap length: 16  |  chr: 15 |  genes: [gene-ap1s3a;gene-flj13639]
+	Gene 1: ap1s3a; adaptor-related protein complex 1, sigma 3 subunit, a
+	Gene 2: flj13639; flj13639
+
+Total overlap length: 16  |  chr: 20 |  genes: [gene-henmt1;gene-fam102bb]
+	Gene 1: henmt1; HEN1 methyltransferase homolog 1 (Arabidopsis)
+	Gene 2: fam102bb; family with sequence similarity 102, member B, b
+
+Total overlap length: 14  |  chr: 22 |  genes: [gene-ccnd3;gene-med20]
+	Gene 1: ccnd3; cyclin D3
+	Gene 2: med20; mediator complex subunit 20
+
+Total overlap length: 11  |  chr: 10 |  genes: [gene-lhx6;gene-morn5]
+	Gene 1: lhx6; LIM homeobox 6
+	Gene 2: morn5; MORN repeat containing 5
+
+Total overlap length: 11  |  chr: 10 |  genes: [gene-gabrr3a;gene-hhla2a.1]
+	Gene 1: gabrr3a; gamma-aminobutyric acid (GABA) A receptor, rho 3a
+	Gene 2: hhla2a.1; HERV-H LTR-associating 2a, tandem duplicate 1
+
+Total overlap length: 6  |  chr: 7 |  genes: [gene-drd4b;gene-sirt3]
+	Gene 1: drd4b; dopamine receptor D4b
+	Gene 2: sirt3; sirtuin 3
+
+Total overlap length: 6  |  chr: 17 |  genes: [gene-il17a/f1;gene-il17a/f2]
+	Gene 1: il17a/f1; interleukin 17a/f1
+	Gene 2: il17a/f2; interleukin 17a/f2
+
+Total overlap length: 3  |  chr: 2 |  genes: [gene-adcy1b;gene-zgc:154086]
+	Gene 1: adcy1b; adenylate cyclase 1b
+	Gene 2: zgc:154086; zgc:154086
+

@@ -1,0 +1,410 @@
+Total overlapped (by CDS) genes: 188
+Total overlapped (by CDS) gene pairs: 95
+Total overlapped (by CDS) sequence length: 5589
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 28.71%	G - 28.71%	A - 21.29%	T - 21.29%
+		* - 0.0%
+
+	di-nucleotides:
+		GC - 9.23%	TG - 8.17%	CA - 8.17%	CC - 8.01%
+		GG - 8.01%	AG - 7.77%	CT - 7.77%	TC - 6.68%
+		GA - 6.68%	CG - 5.01%	AC - 4.79%	GT - 4.79%
+		AA - 4.45%	TT - 4.45%	AT - 4.13%	TA - 1.88%
+		** - 0.0%
+
+	amino-acids:
+		L - 10.97%	S - 10.89%	A - 8.49%	R - 8.32%
+		G - 7.82%	P - 6.83%	T - 5.0%	E - 4.84%
+		Q - 4.84%	V - 4.64%	C - 3.73%	H - 3.15%
+		I - 3.12%	K - 2.87%	D - 2.85%	F - 2.65%
+		* - 2.46%	W - 2.13%	M - 1.77%	N - 1.71%
+		Y - 0.91%
+
+	amino-acids by codon degeneracy:
+		medium - 36.81%	low - 32.25%	high - 30.94%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 430  |  chr: 16 |  genes: [gene-AMDHD2;gene-CEMP1]
+	Gene 1: AMDHD2; amidohydrolase domain containing 2
+	Gene 2: CEMP1; cementum protein 1
+
+Total overlap length: 353 = 163 + 127 + 63  |  chr: 10 |  genes: [gene-SEMA4G;gene-MRPL43]
+	Gene 1: SEMA4G; semaphorin 4G
+	Gene 2: MRPL43; mitochondrial ribosomal protein L43
+
+Total overlap length: 246  |  chr: 22 |  genes: [gene-TRMT2A;gene-RANBP1]
+	Gene 1: TRMT2A; tRNA methyltransferase 2 homolog A
+	Gene 2: RANBP1; RAN binding protein 1
+
+Total overlap length: 243  |  chr: 9 |  genes: [gene-FAM120AOS;gene-FAM120A]
+	Gene 1: FAM120AOS; family with sequence similarity 120A opposite strand
+	Gene 2: FAM120A; family with sequence similarity 120A
+
+Total overlap length: 220  |  chr: 2 |  genes: [gene-ANKMY1;gene-DUSP28]
+	Gene 1: ANKMY1; ankyrin repeat and MYND domain containing 1
+	Gene 2: DUSP28; dual specificity phosphatase 28
+
+Total overlap length: 201  |  chr: 22 |  genes: [gene-RIMBP3C;gene-UBE2L3]
+	Gene 1: RIMBP3C; RIMS binding protein 3C
+	Gene 2: UBE2L3; ubiquitin conjugating enzyme E2 L3
+
+Total overlap length: 200  |  chr: 17 |  genes: [gene-THRA;gene-NR1D1]
+	Gene 1: THRA; thyroid hormone receptor alpha
+	Gene 2: NR1D1; nuclear receptor subfamily 1 group D member 1
+
+Total overlap length: 166  |  chr: 5 |  genes: [gene-CCNI2;gene-SEPTIN8]
+	Gene 1: CCNI2; cyclin I family member 2
+	Gene 2: SEPTIN8; septin 8
+
+Total overlap length: 155  |  chr: 11 |  genes: [gene-TKFC;gene-CYB561A3]
+	Gene 1: TKFC; triokinase and FMN cyclase
+	Gene 2: CYB561A3; cytochrome b561 family member A3
+
+Total overlap length: 150  |  chr: 18 |  genes: [gene-ZNF397;gene-ZSCAN30]
+	Gene 1: ZNF397; zinc finger protein 397
+	Gene 2: ZSCAN30; zinc finger and SCAN domain containing 30
+
+Total overlap length: 134  |  chr: 12 |  genes: [gene-MMAB;gene-MVK]
+	Gene 1: MMAB; metabolism of cobalamin associated B
+	Gene 2: MVK; mevalonate kinase
+
+Total overlap length: 123  |  chr: 11 |  genes: [gene-XNDC1N;gene-DEFB131B]
+	Gene 1: XNDC1N; XRCC1 N-terminal domain containing 1, N-terminal like
+	Gene 2: DEFB131B; defensin beta 131B
+
+Total overlap length: 114  |  chr: 11 |  genes: [gene-FADS1;gene-FADS2]
+	Gene 1: FADS1; fatty acid desaturase 1
+	Gene 2: FADS2; fatty acid desaturase 2
+
+Total overlap length: 111  |  chr: 10 |  genes: [gene-GOLGA7B;gene-CRTAC1]
+	Gene 1: GOLGA7B; golgin A7 family member B
+	Gene 2: CRTAC1; cartilage acidic protein 1
+
+Total overlap length: 107  |  chr: 12 |  genes: [gene-GNB3;gene-CDCA3]
+	Gene 1: GNB3; G protein subunit beta 3
+	Gene 2: CDCA3; cell division cycle associated 3
+
+Total overlap length: 100 = 6 + 94  |  chr: 15 |  genes: [gene-DUOXA2;gene-DUOXA1]
+	Gene 1: DUOXA2; dual oxidase maturation factor 2
+	Gene 2: DUOXA1; dual oxidase maturation factor 1
+
+Total overlap length: 96  |  chr: 3 |  genes: [gene-ATP2C1;gene-ASTE1]
+	Gene 1: ATP2C1; ATPase secretory pathway Ca2+ transporting 1
+	Gene 2: ASTE1; asteroid homolog 1
+
+Total overlap length: 96  |  chr: 4 |  genes: [gene-CISD2;gene-SLC9B1]
+	Gene 1: CISD2; CDGSH iron sulfur domain 2
+	Gene 2: SLC9B1; solute carrier family 9 member B1
+
+Total overlap length: 92  |  chr: 2 |  genes: [gene-MCFD2;gene-TTC7A]
+	Gene 1: MCFD2; multiple coagulation factor deficiency 2, ER cargo receptor complex subunit
+	Gene 2: TTC7A; tetratricopeptide repeat domain 7A
+
+Total overlap length: 84  |  chr: 15 |  genes: [gene-RAMAC;gene-C15orf40]
+	Gene 1: RAMAC; RNA guanine-7 methyltransferase activating subunit
+	Gene 2: C15orf40; chromosome 15 open reading frame 40
+
+Total overlap length: 83  |  chr: 17 |  genes: [gene-SLC25A35;gene-RANGRF]
+	Gene 1: SLC25A35; solute carrier family 25 member 35
+	Gene 2: RANGRF; RAN guanine nucleotide release factor
+
+Total overlap length: 82  |  chr: 1 |  genes: [gene-NTRK1;gene-INSRR]
+	Gene 1: NTRK1; neurotrophic receptor tyrosine kinase 1
+	Gene 2: INSRR; insulin receptor related receptor
+
+Total overlap length: 82  |  chr: 3 |  genes: [gene-OGG1;gene-CAMK1]
+	Gene 1: OGG1; 8-oxoguanine DNA glycosylase
+	Gene 2: CAMK1; calcium/calmodulin dependent protein kinase I
+
+Total overlap length: 81  |  chr: 15 |  genes: [gene-CHRNA5;gene-CHRNA3]
+	Gene 1: CHRNA5; cholinergic receptor nicotinic alpha 5 subunit
+	Gene 2: CHRNA3; cholinergic receptor nicotinic alpha 3 subunit
+
+Total overlap length: 73  |  chr: 6 |  genes: [gene-C2;gene-ZBTB12]
+	Gene 1: C2; complement C2
+	Gene 2: ZBTB12; zinc finger and BTB domain containing 12
+
+Total overlap length: 72  |  chr: 14 |  genes: [gene-MTHFD1;gene-ZBTB25]
+	Gene 1: MTHFD1; methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1
+	Gene 2: ZBTB25; zinc finger and BTB domain containing 25
+
+Total overlap length: 68  |  chr: 6 |  genes: [gene-OPRM1;gene-IPCEF1]
+	Gene 1: OPRM1; opioid receptor mu 1
+	Gene 2: IPCEF1; interaction protein for cytohesin exchange factors 1
+
+Total overlap length: 67  |  chr: 7 |  genes: [gene-RINT1;gene-EFCAB10]
+	Gene 1: RINT1; RAD50 interactor 1
+	Gene 2: EFCAB10; EF-hand calcium binding domain 10
+
+Total overlap length: 65  |  chr: 20 |  genes: [gene-WFDC10B;gene-WFDC13]
+	Gene 1: WFDC10B; WAP four-disulfide core domain 10B
+	Gene 2: WFDC13; WAP four-disulfide core domain 13
+
+Total overlap length: 61  |  chr: 16 |  genes: [gene-NDE1;gene-MYH11]
+	Gene 1: NDE1; nudE neurodevelopment protein 1
+	Gene 2: MYH11; myosin heavy chain 11
+
+Total overlap length: 59  |  chr: 12 |  genes: [gene-DAZAP2;gene-SMAGP]
+	Gene 1: DAZAP2; DAZ associated protein 2
+	Gene 2: SMAGP; small cell adhesion glycoprotein
+
+Total overlap length: 57  |  chr: 9 |  genes: [gene-PHF24;gene-FAM205C]
+	Gene 1: PHF24; PHD finger protein 24
+	Gene 2: FAM205C; family with sequence similarity 205 member C
+
+Total overlap length: 57  |  chr: 11 |  genes: [gene-LRTOMT;gene-ANAPC15]
+	Gene 1: LRTOMT; leucine rich transmembrane and O-methyltransferase domain containing
+	Gene 2: ANAPC15; anaphase promoting complex subunit 15
+
+Total overlap length: 57  |  chr: 11 |  genes: [gene-TOMT;gene-ANAPC15]
+	Gene 1: TOMT; transmembrane O-methyltransferase
+	Gene 2: ANAPC15; anaphase promoting complex subunit 15
+
+Total overlap length: 53  |  chr: 17 |  genes: [gene-DHX8;gene-ETV4]
+	Gene 1: DHX8; DEAH-box helicase 8
+	Gene 2: ETV4; ETS variant transcription factor 4
+
+Total overlap length: 46  |  chr: 12 |  genes: [gene-RBP5;gene-CLSTN3]
+	Gene 1: RBP5; retinol binding protein 5
+	Gene 2: CLSTN3; calsyntenin 3
+
+Total overlap length: 45  |  chr: 11 |  genes: [gene-FRMD8;gene-SLC25A45]
+	Gene 1: FRMD8; FERM domain containing 8
+	Gene 2: SLC25A45; solute carrier family 25 member 45
+
+Total overlap length: 45  |  chr: 15 |  genes: [gene-DNAJC17;gene-ZFYVE19]
+	Gene 1: DNAJC17; DnaJ heat shock protein family (Hsp40) member C17
+	Gene 2: ZFYVE19; zinc finger FYVE-type containing 19
+
+Total overlap length: 45  |  chr: 16 |  genes: [gene-FAHD1;gene-MEIOB]
+	Gene 1: FAHD1; fumarylacetoacetate hydrolase domain containing 1
+	Gene 2: MEIOB; meiosis specific with OB-fold
+
+Total overlap length: 44  |  chr: 15 |  genes: [gene-TICRR;gene-KIF7]
+	Gene 1: TICRR; TOPBP1 interacting checkpoint and replication regulator
+	Gene 2: KIF7; kinesin family member 7
+
+Total overlap length: 42  |  chr: 9 |  genes: [gene-NPR2;gene-SPAG8]
+	Gene 1: NPR2; natriuretic peptide receptor 2
+	Gene 2: SPAG8; sperm associated antigen 8
+
+Total overlap length: 41  |  chr: 11 |  genes: [gene-RSF1;gene-AAMDC]
+	Gene 1: RSF1; remodeling and spacing factor 1
+	Gene 2: AAMDC; adipogenesis associated Mth938 domain containing
+
+Total overlap length: 41  |  chr: 15 |  genes: [gene-GALK2;gene-FAM227B]
+	Gene 1: GALK2; galactokinase 2
+	Gene 2: FAM227B; family with sequence similarity 227 member B
+
+Total overlap length: 41  |  chr: 19 |  genes: [gene-ZNF428;gene-SRRM5]
+	Gene 1: ZNF428; zinc finger protein 428
+	Gene 2: SRRM5; serine/arginine repetitive matrix 5
+
+Total overlap length: 39  |  chr: 11 |  genes: [gene-ATG16L2;gene-FCHSD2]
+	Gene 1: ATG16L2; autophagy related 16 like 2
+	Gene 2: FCHSD2; FCH and double SH3 domains 2
+
+Total overlap length: 37  |  chr: 4 |  genes: [gene-MYL5;gene-SLC49A3]
+	Gene 1: MYL5; myosin light chain 5
+	Gene 2: SLC49A3; solute carrier family 49 member 3
+
+Total overlap length: 34  |  chr: 7 |  genes: [gene-BRI3;gene-BAIAP2L1]
+	Gene 1: BRI3; brain protein I3
+	Gene 2: BAIAP2L1; BAR/IMD domain containing adaptor protein 2 like 1
+
+Total overlap length: 33  |  chr: 6 |  genes: [gene-MCM9;gene-ASF1A]
+	Gene 1: MCM9; minichromosome maintenance 9 homologous recombination repair factor
+	Gene 2: ASF1A; anti-silencing function 1A histone chaperone
+
+Total overlap length: 31  |  chr: 1 |  genes: [gene-PPIE;gene-BMP8B]
+	Gene 1: PPIE; peptidylprolyl isomerase E
+	Gene 2: BMP8B; bone morphogenetic protein 8b
+
+Total overlap length: 31  |  chr: 14 |  genes: [gene-HEATR4;gene-ACOT1]
+	Gene 1: HEATR4; HEAT repeat containing 4
+	Gene 2: ACOT1; acyl-CoA thioesterase 1
+
+Total overlap length: 30  |  chr: 1 |  genes: [gene-SDCCAG8;gene-AKT3]
+	Gene 1: SDCCAG8; SHH signaling and ciliogenesis regulator SDCCAG8
+	Gene 2: AKT3; AKT serine/threonine kinase 3
+
+Total overlap length: 29  |  chr: 1 |  genes: [gene-SPATA1;gene-CTBS]
+	Gene 1: SPATA1; spermatogenesis associated 1
+	Gene 2: CTBS; chitobiase
+
+Total overlap length: 29  |  chr: 5 |  genes: [gene-CDKL3;gene-UBE2B]
+	Gene 1: CDKL3; cyclin dependent kinase like 3
+	Gene 2: UBE2B; ubiquitin conjugating enzyme E2 B
+
+Total overlap length: 29  |  chr: 17 |  genes: [gene-LRRC37A;gene-ARL17B]
+	Gene 1: LRRC37A; leucine rich repeat containing 37A
+	Gene 2: ARL17B; ADP ribosylation factor like GTPase 17B
+
+Total overlap length: 29  |  chr: 17 |  genes: [gene-LRRC37A2;gene-ARL17A]
+	Gene 1: LRRC37A2; leucine rich repeat containing 37 member A2
+	Gene 2: ARL17A; ADP ribosylation factor like GTPase 17A
+
+Total overlap length: 26  |  chr: 18 |  genes: [gene-RMC1;gene-NPC1]
+	Gene 1: RMC1; regulator of MON1-CCZ1
+	Gene 2: NPC1; NPC intracellular cholesterol transporter 1
+
+Total overlap length: 24  |  chr: 1 |  genes: [gene-HCRTR1;gene-PEF1]
+	Gene 1: HCRTR1; hypocretin receptor 1
+	Gene 2: PEF1; penta-EF-hand domain containing 1
+
+Total overlap length: 24  |  chr: 2 |  genes: [gene-NT5DC4;gene-CKAP2L]
+	Gene 1: NT5DC4; 5'-nucleotidase domain containing 4
+	Gene 2: CKAP2L; cytoskeleton associated protein 2 like
+
+Total overlap length: 23  |  chr: 7 |  genes: [gene-ZNF789;gene-ZNF394]
+	Gene 1: ZNF789; zinc finger protein 789
+	Gene 2: ZNF394; zinc finger protein 394
+
+Total overlap length: 21  |  chr: 16 |  genes: [gene-ACSM3;gene-ERI2]
+	Gene 1: ACSM3; acyl-CoA synthetase medium chain family member 3
+	Gene 2: ERI2; ERI1 exoribonuclease family member 2
+
+Total overlap length: 20  |  chr: 11 |  genes: [gene-AAMDC;gene-INTS4]
+	Gene 1: AAMDC; adipogenesis associated Mth938 domain containing
+	Gene 2: INTS4; integrator complex subunit 4
+
+Total overlap length: 19  |  chr: 12 |  genes: [gene-CHPT1;gene-SYCP3]
+	Gene 1: CHPT1; choline phosphotransferase 1
+	Gene 2: SYCP3; synaptonemal complex protein 3
+
+Total overlap length: 18  |  chr: 7 |  genes: [gene-KIAA0895;gene-ANLN]
+	Gene 1: KIAA0895; KIAA0895
+	Gene 2: ANLN; anillin actin binding protein
+
+Total overlap length: 18  |  chr: 14 |  genes: [gene-COQ6;gene-ENTPD5]
+	Gene 1: COQ6; coenzyme Q6, monooxygenase
+	Gene 2: ENTPD5; ectonucleoside triphosphate diphosphohydrolase 5 (inactive)
+
+Total overlap length: 17  |  chr: 16 |  genes: [gene-LONP2;gene-SIAH1]
+	Gene 1: LONP2; lon peptidase 2, peroxisomal
+	Gene 2: SIAH1; siah E3 ubiquitin protein ligase 1
+
+Total overlap length: 15  |  chr: 1 |  genes: [gene-NIT1;gene-DEDD]
+	Gene 1: NIT1; nitrilase 1
+	Gene 2: DEDD; death effector domain containing
+
+Total overlap length: 14  |  chr: 6 |  genes: [gene-GPLD1;gene-ALDH5A1]
+	Gene 1: GPLD1; glycosylphosphatidylinositol specific phospholipase D1
+	Gene 2: ALDH5A1; aldehyde dehydrogenase 5 family member A1
+
+Total overlap length: 14  |  chr: 16 |  genes: [gene-HAS3;gene-DERPC]
+	Gene 1: HAS3; hyaluronan synthase 3
+	Gene 2: DERPC; DERPC proline and glycine rich nuclear protein
+
+Total overlap length: 13  |  chr: 20 |  genes: [gene-MROH8;gene-RPN2]
+	Gene 1: MROH8; maestro heat like repeat family member 8
+	Gene 2: RPN2; ribophorin II
+
+Total overlap length: 12  |  chr: 3 |  genes: [gene-ZDHHC23;gene-CCDC191]
+	Gene 1: ZDHHC23; zinc finger DHHC-type palmitoyltransferase 23
+	Gene 2: CCDC191; coiled-coil domain containing 191
+
+Total overlap length: 12  |  chr: 3 |  genes: [gene-MED12L;gene-IGSF10]
+	Gene 1: MED12L; mediator complex subunit 12L
+	Gene 2: IGSF10; immunoglobulin superfamily member 10
+
+Total overlap length: 11  |  chr: 1 |  genes: [gene-MRPL9;gene-OAZ3]
+	Gene 1: MRPL9; mitochondrial ribosomal protein L9
+	Gene 2: OAZ3; ornithine decarboxylase antizyme 3
+
+Total overlap length: 10  |  chr: 3 |  genes: [gene-SEC61A1;gene-RUVBL1]
+	Gene 1: SEC61A1; SEC61 translocon subunit alpha 1
+	Gene 2: RUVBL1; RuvB like AAA ATPase 1
+
+Total overlap length: 9  |  chr: 23 |  genes: [gene-EOLA1;gene-HSFX3]
+	Gene 1: EOLA1; endothelium and lymphocyte associated ASCH domain 1
+	Gene 2: HSFX3; heat shock transcription factor family, X-linked member 3
+
+Total overlap length: 9  |  chr: 23 |  genes: [gene-EOLA2;gene-HSFX4]
+	Gene 1: EOLA2; endothelium and lymphocyte associated ASCH domain 2
+	Gene 2: HSFX4; heat shock transcription factor family, X-linked member 4
+
+Total overlap length: 8  |  chr: 1 |  genes: [gene-AXDND1;gene-NPHS2]
+	Gene 1: AXDND1; axonemal dynein light chain domain containing 1
+	Gene 2: NPHS2; NPHS2 stomatin family member, podocin
+
+Total overlap length: 8  |  chr: 2 |  genes: [gene-METTL8;gene-DCAF17]
+	Gene 1: METTL8; methyltransferase 8, methylcytidine
+	Gene 2: DCAF17; DDB1 and CUL4 associated factor 17
+
+Total overlap length: 8  |  chr: 11 |  genes: [gene-ATM;gene-C11orf65]
+	Gene 1: ATM; ATM serine/threonine kinase
+	Gene 2: C11orf65; chromosome 11 open reading frame 65
+
+Total overlap length: 8  |  chr: 19 |  genes: [gene-NCR1;gene-NLRP7]
+	Gene 1: NCR1; natural cytotoxicity triggering receptor 1
+	Gene 2: NLRP7; NLR family pyrin domain containing 7
+
+Total overlap length: 7  |  chr: 2 |  genes: [gene-CCDC121;gene-GPN1]
+	Gene 1: CCDC121; coiled-coil domain containing 121
+	Gene 2: GPN1; GPN-loop GTPase 1
+
+Total overlap length: 5  |  chr: 6 |  genes: [gene-DCBLD1;gene-GOPC]
+	Gene 1: DCBLD1; discoidin, CUB and LCCL domain containing 1
+	Gene 2: GOPC; golgi associated PDZ and coiled-coil motif containing
+
+Total overlap length: 5  |  chr: 16 |  genes: [gene-ZNF263;gene-TIGD7]
+	Gene 1: ZNF263; zinc finger protein 263
+	Gene 2: TIGD7; tigger transposable element derived 7
+
+Total overlap length: 4  |  chr: 1 |  genes: [gene-DCDC2B;gene-TMEM234]
+	Gene 1: DCDC2B; doublecortin domain containing 2B
+	Gene 2: TMEM234; transmembrane protein 234
+
+Total overlap length: 4  |  chr: 4 |  genes: [gene-PALLD;gene-CBR4]
+	Gene 1: PALLD; palladin, cytoskeletal associated protein
+	Gene 2: CBR4; carbonyl reductase 4
+
+Total overlap length: 4  |  chr: 11 |  genes: [gene-FAM118B;gene-SRPRA]
+	Gene 1: FAM118B; family with sequence similarity 118 member B
+	Gene 2: SRPRA; SRP receptor subunit alpha
+
+Total overlap length: 2  |  chr: 1 |  genes: [gene-MUTYH;gene-TOE1]
+	Gene 1: MUTYH; mutY DNA glycosylase
+	Gene 2: TOE1; target of EGR1, exonuclease
+
+Total overlap length: 2  |  chr: 2 |  genes: [gene-ADGRF3;gene-SELENOI]
+	Gene 1: ADGRF3; adhesion G protein-coupled receptor F3
+	Gene 2: SELENOI; selenoprotein I
+
+Total overlap length: 2  |  chr: 7 |  genes: [gene-TAF6;gene-CNPY4]
+	Gene 1: TAF6; TATA-box binding protein associated factor 6
+	Gene 2: CNPY4; canopy FGF signaling regulator 4
+
+Total overlap length: 2  |  chr: 7 |  genes: [gene-EPHB4;gene-SLC12A9]
+	Gene 1: EPHB4; EPH receptor B4
+	Gene 2: SLC12A9; solute carrier family 12 member 9
+
+Total overlap length: 2  |  chr: 9 |  genes: [gene-TOPORS;gene-SMIM27]
+	Gene 1: TOPORS; TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
+	Gene 2: SMIM27; small integral membrane protein 27
+
+Total overlap length: 2  |  chr: 10 |  genes: [gene-HSPA12A;gene-ENO4]
+	Gene 1: HSPA12A; heat shock protein family A (Hsp70) member 12A
+	Gene 2: ENO4; enolase 4
+
+Total overlap length: 2  |  chr: 11 |  genes: [gene-LBHD1;gene-UQCC3]
+	Gene 1: LBHD1; LBH domain containing 1
+	Gene 2: UQCC3; ubiquinol-cytochrome c reductase complex assembly factor 3
+
+Total overlap length: 2  |  chr: 17 |  genes: [gene-DLG4;gene-ACADVL]
+	Gene 1: DLG4; discs large MAGUK scaffold protein 4
+	Gene 2: ACADVL; acyl-CoA dehydrogenase very long chain
+
+Total overlap length: 2  |  chr: 17 |  genes: [gene-RECQL5;gene-SMIM5]
+	Gene 1: RECQL5; RecQ like helicase 5
+	Gene 2: SMIM5; small integral membrane protein 5
+
+Total overlap length: 2  |  chr: 23 |  genes: [gene-IDH3G;gene-SSR4]
+	Gene 1: IDH3G; isocitrate dehydrogenase (NAD(+)) 3 non-catalytic subunit gamma
+	Gene 2: SSR4; signal sequence receptor subunit 4
+
