@@ -77,6 +77,20 @@ class SPECIES(enum.Enum):
     #     else:
     #         assert False
 
+    def shortest_name(self):
+        if self == SPECIES.Homo_sapiens:
+            return "Hs"
+        elif self == SPECIES.Mus_musculus:
+            return "Ms"
+        elif self == SPECIES.Rattus_norvegicus:
+            return "Rn"
+        elif self == SPECIES.Danio_rerio:
+            return "Dr"
+        elif self == SPECIES.Drosophila_melanogaster:
+            return "Dm"
+        else:
+            assert False
+
     def short_name(self):
         if self == SPECIES.Homo_sapiens:
             return "Human"

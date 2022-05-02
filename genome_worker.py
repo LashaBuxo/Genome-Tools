@@ -7,23 +7,23 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from gffutils import Feature
 
-from genome_worker_enums import *
-from genome_worker_values import *
-
-
 # Author: "Lasha Bukhnikashvili"
 #
-# Common Methods for working with genome data:
-#   1) Creating database based on NCBI, Ensembl genome annotation
+# Common Methods for working with Genome Worker data:
+#   1) Creating database based on NCBI, Ensembl Genome Worker annotation
 #   2) Import annotation features from created database
 #   3) Filter specific features
 #   4) calculate overlapping intervals
 #   and so on...
 #
-# Other scripts, which does specific calculations on genome use this script
+# Other codes, which does specific calculations on Genome Worker use this script
 # for working with Ensembl or NCBI annotation (with corresponding sequence data if necessary)
 
 # Specific tools for working with Ensembl annotation and with sequence data
+from genome_worker_values import *
+from genome_worker_enums import *
+
+
 class GenomeWorker:
     def __init__(self, species: SPECIES, annotation_source: ANNOTATIONS, annotation_load_type: ANNOTATION_LOAD,
                  sequence_load_type: SEQUENCE_LOAD):
@@ -42,11 +42,6 @@ class GenomeWorker:
 
         self.__load_requested_features()
         self.__load_requested_sequences()
-
-    def clear_precomputed_values(self):
-        # only transcripts for a gene are saved from previous computations later,
-        # criteria could be changed, so this method make sures new computing by new criteria
-        self.__gene_transcript_by_criteria.clear()
 
     def release_memory(self):
         keys3 = []
@@ -75,9 +70,7 @@ class GenomeWorker:
 
         self.__gene_names_set.clear()
         self.__gene_accessions_set.clear()
-
-        del self.__gene_names_set
-        del self.__gene_accessions_set
+        self.__transcript_fragments_is_sorted.clear()
 
         gc.collect()
 
@@ -98,6 +91,7 @@ class GenomeWorker:
 
     #   {transcript_id, [list of 'CDS' and/or 'UTR(3'/5')' and/or 'exons' features whose parent is mRNA_transcript_id]}
     __transcript_fragments = {}
+    __transcript_fragments_is_sorted = {}
 
     #   {gene_id, [list of 'best' mRNA features whose parent is gene_id]}
     __gene_transcript_by_criteria = {}
@@ -225,6 +219,9 @@ class GenomeWorker:
 
         features_generator = features_db.features_of_type('gene')
         feature_genes = list(features_generator)
+
+        self.imported_protein_coding_genes = 0
+        self.ignored_protein_coding_genes = 0
 
         ignored_genes_by_types = {}
         # choose genes who has protein_coding attribute and additional filter values
@@ -498,17 +495,25 @@ class GenomeWorker:
 
         if mRNA_transcript_a is None or mRNA_transcript_b is None: return (overlaps, overlap_length)
 
-        fragments_A = [] if mRNA_transcript_a.id not in self.__transcript_fragments else self.__transcript_fragments[
-            mRNA_transcript_a.id]
-        fragments_B = [] if mRNA_transcript_b.id not in self.__transcript_fragments else self.__transcript_fragments[
-            mRNA_transcript_b.id]
+        fragments_A = self.get_transcript_all_fragments_sorted(mRNA_transcript_a)
+        fragments_B = self.get_transcript_all_fragments_sorted(mRNA_transcript_a)
 
         if len(fragments_B) == 0 or len(fragments_B) == 0: return (overlaps, overlap_length)
 
+        ind1 = 0
         for fragment_a in fragments_A:
-            if fragment_a.featuretype != 'CDS': continue
+            assert fragment_a.featuretype == 'CDS'
+            ind1 += 1
+            ind2 = 0
             for fragment_b in fragments_B:
-                if fragment_b.featuretype != 'CDS': continue
+                assert fragment_b.featuretype == 'CDS'
+                ind2 += 1
+
+                cds1_index_from_utr5 = ind1 if fragment_a.strand == '+' else len(fragments_A) - ind1 + 1
+                cds2_index_from_utr5 = ind2 if fragment_b.strand == '+' else len(fragments_B) - ind2 + 1
+
+                # if cds1_index_from_utr5 == 1 or cds2_index_from_utr5 == 1: continue
+                # if cds1_index_from_utr5 == len(fragments_A) or cds2_index_from_utr5 == len(fragments_B): continue
 
                 if ORF_similarity == 'diff_ORF' and self.are_features_same_framed(fragment_a,
                                                                                   fragment_b): continue
@@ -529,6 +534,10 @@ class GenomeWorker:
 
                 overlap = self.__attach_frames_to_interval(fragment_a, fragment_b, overlap)
 
+                comm1 = f'{cds1_index_from_utr5}/{len(fragments_A)}'
+                comm2 = f'{cds2_index_from_utr5}/{len(fragments_B)}'
+                print(f'{comm1} & {comm2}   ')
+                # overlap = (overlap[0], overlap[1], overlap[2], overlap[3], comm1, comm2)
                 overlaps.append(overlap)
                 overlap_length += overlap[1] - overlap[0] + 1
 
@@ -558,17 +567,23 @@ class GenomeWorker:
 
         return max_overlaps
 
-    def get_gene_all_CDSs(self, gene: Feature) -> list[Feature]:
-        CDSs = []
-        transcripts = self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
-        for transcript in transcripts:
-            fragments = [] if transcript.id not in self.__transcript_fragments else \
-                self.__transcript_fragments[transcript.id]
-            for fragment in fragments:
-                if fragment.featuretype == 'CDS': CDSs.append(fragment)
-        return CDSs
+    def get_gene_all_transcripts(self, gene: Feature) -> list[Feature]:
+        return self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
 
-    # endregion
+    def get_transcript_all_fragments_sorted(self, transcript: Feature) -> list[Feature]:
+        if transcript.id not in self.__transcript_fragments: return []
+
+        fragments = self.__transcript_fragments[transcript.id]
+        if self.__transcript_fragments_is_sorted.__contains__(transcript.id):
+            return fragments
+
+        fragments.sort(key=lambda x: x.start)
+        self.__transcript_fragments_is_sorted[transcript.id] = True
+        self.__transcript_fragments[transcript.id] = fragments
+
+        return fragments
+
+        # endregion
 
     # region Static Methods
     @staticmethod
@@ -673,11 +688,7 @@ class GenomeWorker:
     # for each subregion calculate (C_count,G_count,A_count,T_count)
 
     def __get_regional_merged_sequences_from_transcript(self, chr_id, transcript, procession_length):
-        fragments = [] if transcript.id not in self.__transcript_fragments else self.__transcript_fragments[
-            transcript.id]
-
-        # for NCBI database
-        fragments.sort(key=lambda x: x.start)
+        fragments = self.get_transcript_all_fragments_sorted(transcript)
 
         utr5_sequence = ""
         utr3_sequence = ""

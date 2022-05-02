@@ -1,0 +1,158 @@
+Total overlapped (by CDS) genes: 64
+Total overlapped (by CDS) gene pairs: 32
+Total overlapped (by CDS) sequence length: 1903
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 31.11%	G - 31.11%	A - 18.89%	T - 18.89%
+		* - 0.0%
+
+	di-nucleotides:
+		GC - 10.53%	CC - 9.57%	GG - 9.57%	CG - 7.54%
+		TG - 7.14%	CA - 7.14%	AG - 7.03%	CT - 7.03%
+		TC - 6.55%	GA - 6.55%	AC - 4.44%	GT - 4.44%
+		AA - 4.06%	TT - 4.06%	AT - 3.1%	TA - 1.23%
+		** - 0.0%
+
+	amino-acids:
+		P - 11.78%	R - 11.06%	G - 10.82%	A - 9.28%
+		S - 8.96%	L - 8.23%	E - 4.92%	C - 4.04%
+		D - 4.04%	H - 4.04%	V - 3.87%	Q - 3.47%
+		T - 3.31%	F - 2.58%	K - 2.58%	N - 1.53%
+		W - 1.37%	* - 1.29%	I - 0.97%	Y - 0.97%
+		M - 0.89%	X - 0.0%
+
+	amino-acids by codon degeneracy:
+		medium - 40.56%	low - 30.83%	high - 28.62%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 352  |  chr: 13 |  genes: [gene:ENSMUSG00000090863;gene:ENSMUSG00000038415]
+	Gene 1: A530084C06Rik; RIKEN cDNA A530084C06 gene [Source:MGI Symbol;Acc:MGI:3704402]
+	Gene 2: Foxq1; forkhead box Q1 [Source:MGI Symbol;Acc:MGI:1298228]
+
+Total overlap length: 283  |  chr: 18 |  genes: [gene:ENSMUSG00000024259;gene:ENSMUSG00000092124]
+	Gene 1: Slc25a46; solute carrier family 25, member 46 [Source:MGI Symbol;Acc:MGI:1914703]
+	Gene 2: B930094E09Rik; RIKEN cDNA B930094E09 gene [Source:MGI Symbol;Acc:MGI:3603750]
+
+Total overlap length: 153  |  chr: 16 |  genes: [gene:ENSMUSG00000118672;gene:ENSMUSG00000035638]
+	Gene 1: Muc4; mucin 4 [Source:MGI Symbol;Acc:MGI:2153525]
+	Gene 2: Muc20; mucin 20 [Source:MGI Symbol;Acc:MGI:2385039]
+
+Total overlap length: 138 = 4 + 134  |  chr: 3 |  genes: [gene:ENSMUSG00000027951;gene:ENSMUSG00000027950]
+	Gene 1: Adar; adenosine deaminase, RNA-specific [Source:MGI Symbol;Acc:MGI:1889575]
+	Gene 2: Chrnb2; cholinergic receptor, nicotinic, beta polypeptide 2 (neuronal) [Source:MGI Symbol;Acc:MGI:87891]
+
+Total overlap length: 115  |  chr: 11 |  genes: [gene:ENSMUSG00000034493;gene:ENSMUSG00000020430]
+	Gene 1: 4930556J24Rik; RIKEN cDNA 4930556J24 gene [Source:MGI Symbol;Acc:MGI:1922592]
+	Gene 2: Pes1; pescadillo ribosomal biogenesis factor 1 [Source:MGI Symbol;Acc:MGI:1890613]
+
+Total overlap length: 106  |  chr: 11 |  genes: [gene:ENSMUSG00000053838;gene:ENSMUSG00000096923]
+	Gene 1: Nudcd3; NudC domain containing 3 [Source:MGI Symbol;Acc:MGI:2144158]
+	Gene 2: A730071L15Rik; RIKEN cDNA A730071L15Rik gene [Source:MGI Symbol;Acc:MGI:3642498]
+
+Total overlap length: 70  |  chr: 2 |  genes: [gene:ENSMUSG00000002102;gene:ENSMUSG00000002105]
+	Gene 1: Psmc3; proteasome (prosome, macropain) 26S subunit, ATPase 3 [Source:MGI Symbol;Acc:MGI:1098754]
+	Gene 2: Slc39a13; solute carrier family 39 (metal ion transporter), member 13 [Source:MGI Symbol;Acc:MGI:1915677]
+
+Total overlap length: 65  |  chr: 16 |  genes: [gene:ENSMUSG00000022940;gene:ENSMUSG00000040785]
+	Gene 1: Pigp; phosphatidylinositol glycan anchor biosynthesis, class P [Source:MGI Symbol;Acc:MGI:1860433]
+	Gene 2: Ttc3; tetratricopeptide repeat domain 3 [Source:MGI Symbol;Acc:MGI:1276539]
+
+Total overlap length: 48  |  chr: 5 |  genes: [gene:ENSMUSG00000029437;gene:ENSMUSG00000063409]
+	Gene 1: Il31; interleukin 31 [Source:MGI Symbol;Acc:MGI:1923649]
+	Gene 2: Lrrc43; leucine rich repeat containing 43 [Source:MGI Symbol;Acc:MGI:2685907]
+
+Total overlap length: 48  |  chr: 10 |  genes: [gene:ENSMUSG00000014498;gene:ENSMUSG00000025374]
+	Gene 1: Ankrd52; ankyrin repeat domain 52 [Source:MGI Symbol;Acc:MGI:2444029]
+	Gene 2: Nabp2; nucleic acid binding protein 2 [Source:MGI Symbol;Acc:MGI:1917167]
+
+Total overlap length: 45  |  chr: 8 |  genes: [gene:ENSMUSG00000031577;gene:ENSMUSG00000031578]
+	Gene 1: Tti2; TELO2 interacting protein 2 [Source:MGI Symbol;Acc:MGI:2384576]
+	Gene 2: Mak16; MAK16 homolog [Source:MGI Symbol;Acc:MGI:1915170]
+
+Total overlap length: 43  |  chr: 14 |  genes: [gene:ENSMUSG00000002326;gene:ENSMUSG00000007589]
+	Gene 1: Gmpr2; guanosine monophosphate reductase 2 [Source:MGI Symbol;Acc:MGI:1917903]
+	Gene 2: Tinf2; Terf1 (TRF1)-interacting nuclear factor 2 [Source:MGI Symbol;Acc:MGI:107246]
+
+Total overlap length: 42  |  chr: 8 |  genes: [gene:ENSMUSG00000050914;gene:ENSMUSG00000031637]
+	Gene 1: Ankrd37; ankyrin repeat domain 37 [Source:MGI Symbol;Acc:MGI:3603344]
+	Gene 2: Lrp2bp; Lrp2 binding protein [Source:MGI Symbol;Acc:MGI:1914870]
+
+Total overlap length: 39  |  chr: 2 |  genes: [gene:ENSMUSG00000026648;gene:ENSMUSG00000026646]
+	Gene 1: Dclre1c; DNA cross-link repair 1C [Source:MGI Symbol;Acc:MGI:2441769]
+	Gene 2: Suv39h2; suppressor of variegation 3-9 2 [Source:MGI Symbol;Acc:MGI:1890396]
+
+Total overlap length: 38  |  chr: 9 |  genes: [gene:ENSMUSG00000032567;gene:ENSMUSG00000032570]
+	Gene 1: Aste1; asteroid homolog 1 [Source:MGI Symbol;Acc:MGI:1913845]
+	Gene 2: Atp2c1; ATPase, Ca++-sequestering [Source:MGI Symbol;Acc:MGI:1889008]
+
+Total overlap length: 38  |  chr: 17 |  genes: [gene:ENSMUSG00000023805;gene:ENSMUSG00000015659]
+	Gene 1: Synj2; synaptojanin 2 [Source:MGI Symbol;Acc:MGI:1201671]
+	Gene 2: Serac1; serine active site containing 1 [Source:MGI Symbol;Acc:MGI:2447813]
+
+Total overlap length: 32  |  chr: 10 |  genes: [gene:ENSMUSG00000006498;gene:ENSMUSG00000035835]
+	Gene 1: Ptbp1; polypyrimidine tract binding protein 1 [Source:MGI Symbol;Acc:MGI:97791]
+	Gene 2: Plppr3; phospholipid phosphatase related 3 [Source:MGI Symbol;Acc:MGI:2388640]
+
+Total overlap length: 29  |  chr: 7 |  genes: [gene:ENSMUSG00000007833;gene:ENSMUSG00000003423]
+	Gene 1: Aldh16a1; aldehyde dehydrogenase 16 family, member A1 [Source:MGI Symbol;Acc:MGI:1916998]
+	Gene 2: Pih1d1; PIH1 domain containing 1 [Source:MGI Symbol;Acc:MGI:1916095]
+
+Total overlap length: 27  |  chr: 9 |  genes: [gene:ENSMUSG00000074452;gene:ENSMUSG00000091215]
+	Gene 1: Pate2; prostate and testis expressed 2 [Source:MGI Symbol;Acc:MGI:2685692]
+	Gene 2: Pate1; prostate and testis expressed 1 [Source:MGI Symbol;Acc:MGI:4936886]
+
+Total overlap length: 26  |  chr: 7 |  genes: [gene:ENSMUSG00000046027;gene:ENSMUSG00000001741]
+	Gene 1: Stard5; StAR-related lipid transfer (START) domain containing 5 [Source:MGI Symbol;Acc:MGI:2156765]
+	Gene 2: Il16; interleukin 16 [Source:MGI Symbol;Acc:MGI:1270855]
+
+Total overlap length: 25  |  chr: 7 |  genes: [gene:ENSMUSG00000030555;gene:ENSMUSG00000030554]
+	Gene 1: Ttc23; tetratricopeptide repeat domain 23 [Source:MGI Symbol;Acc:MGI:1914259]
+	Gene 2: Synm; synemin, intermediate filament protein [Source:MGI Symbol;Acc:MGI:2661187]
+
+Total overlap length: 24  |  chr: 14 |  genes: [gene:ENSMUSG00000095493;gene:ENSMUSG00000047441]
+	Gene 1: A630023A22Rik; RIKEN cDNA A630023A22 gene [Source:MGI Symbol;Acc:MGI:2145657]
+	Gene 2: Antxrl; anthrax toxin receptor-like [Source:MGI Symbol;Acc:MGI:1925726]
+
+Total overlap length: 21  |  chr: 5 |  genes: [gene:ENSMUSG00000028962;gene:ENSMUSG00000028959]
+	Gene 1: Slc4a2; solute carrier family 4 (anion exchanger), member 2 [Source:MGI Symbol;Acc:MGI:109351]
+	Gene 2: Fastk; Fas-activated serine/threonine kinase [Source:MGI Symbol;Acc:MGI:1913837]
+
+Total overlap length: 15  |  chr: 1 |  genes: [gene:ENSMUSG00000013973;gene:ENSMUSG00000013997]
+	Gene 1: Dedd; death effector domain-containing [Source:MGI Symbol;Acc:MGI:1333874]
+	Gene 2: Nit1; nitrilase 1 [Source:MGI Symbol;Acc:MGI:1350916]
+
+Total overlap length: 15  |  chr: 15 |  genes: [gene:ENSMUSG00000059883;gene:ENSMUSG00000022451]
+	Gene 1: Irak4; interleukin-1 receptor-associated kinase 4 [Source:MGI Symbol;Acc:MGI:2182474]
+	Gene 2: Twf1; twinfilin actin binding protein 1 [Source:MGI Symbol;Acc:MGI:1100520]
+
+Total overlap length: 14  |  chr: 16 |  genes: [gene:ENSMUSG00000055692;gene:ENSMUSG00000041720]
+	Gene 1: Tmem191c; transmembrane protein 191C [Source:MGI Symbol;Acc:MGI:107238]
+	Gene 2: Pi4ka; phosphatidylinositol 4-kinase alpha [Source:MGI Symbol;Acc:MGI:2448506]
+
+Total overlap length: 13  |  chr: 2 |  genes: [gene:ENSMUSG00000027605;gene:ENSMUSG00000027610]
+	Gene 1: Acss2; acyl-CoA synthetase short-chain family member 2 [Source:MGI Symbol;Acc:MGI:1890410]
+	Gene 2: Gss; glutathione synthetase [Source:MGI Symbol;Acc:MGI:95852]
+
+Total overlap length: 11  |  chr: 12 |  genes: [gene:ENSMUSG00000020654;gene:ENSMUSG00000020652]
+	Gene 1: Adcy3; adenylate cyclase 3 [Source:MGI Symbol;Acc:MGI:99675]
+	Gene 2: Cenpo; centromere protein O [Source:MGI Symbol;Acc:MGI:1923800]
+
+Total overlap length: 11  |  chr: 18 |  genes: [gene:ENSMUSG00000003779;gene:ENSMUSG00000024370]
+	Gene 1: Kif20a; kinesin family member 20A [Source:MGI Symbol;Acc:MGI:1201682]
+	Gene 2: Cdc23; CDC23 cell division cycle 23 [Source:MGI Symbol;Acc:MGI:1098815]
+
+Total overlap length: 9  |  chr: 7 |  genes: [gene:ENSMUSG00000035390;gene:ENSMUSG00000046456]
+	Gene 1: Brsk1; BR serine/threonine kinase 1 [Source:MGI Symbol;Acc:MGI:2685946]
+	Gene 2: Tmem150b; transmembrane protein 150B [Source:MGI Symbol;Acc:MGI:2679718]
+
+Total overlap length: 4  |  chr: 1 |  genes: [gene:ENSMUSG00000037432;gene:ENSMUSG00000001143]
+	Gene 1: Fer1l5; fer-1-like 5 (C. elegans) [Source:MGI Symbol;Acc:MGI:3616091]
+	Gene 2: Lman2l; lectin, mannose-binding 2-like [Source:MGI Symbol;Acc:MGI:2443010]
+
+Total overlap length: 4  |  chr: 11 |  genes: [gene:ENSMUSG00000049807;gene:ENSMUSG00000047988]
+	Gene 1: Arhgap23; Rho GTPase activating protein 23 [Source:MGI Symbol;Acc:MGI:3697726]
+	Gene 2: 4933428G20Rik; RIKEN cDNA 4933428G20 gene [Source:MGI Symbol;Acc:MGI:1918475]
+

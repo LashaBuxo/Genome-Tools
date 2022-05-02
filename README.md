@@ -115,7 +115,7 @@ Output:
 ```
 ##### _Example Output:_
 
-![](results/images/Gene%20Outline%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
+![](other/results/images/Gene%20Outline%20(Ensembl%2C%20k%3D50%2C%20procc%3D1000).png)
  
 ## Overlapping genes by specific regions 
  `overlapping_fragments.py`  Calculates overlapping gene pairs by
@@ -141,7 +141,7 @@ Output:
   creates .txt file in ./results folder
 ```
 ##### _Example Outputs:_
-Folder [/results](/results) contains all the exported .txt files, where at the end of each file
+Folder [/results](/other/results) contains all the exported .txt files, where at the end of each file
 there is statistic about composition of overlapped regions.
 
 
@@ -166,11 +166,11 @@ values in `genome_lib_values.py` must be changed accordingly.
 
 ```yaml
 Genome Reference Assembly:
-genome-build Genome Reference Consortium GRCh38.p13
+Genome Worker-build Genome Reference Consortium GRCh38.p13
 
 Genome Primary Assembly:
 GenBank Assembly ID
-genome-build-accession GCA_000001405.28  
+Genome Worker-build-accession GCA_000001405.28  
 
 Genome Annotation:
 Ensembl Release 106 (Apr 2022)

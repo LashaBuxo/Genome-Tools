@@ -1,0 +1,6 @@
+Total overlapped (by CDS) genes: 0
+Total overlapped (by CDS) gene pairs: 0
+Total overlapped (by CDS) sequence length: 0
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
