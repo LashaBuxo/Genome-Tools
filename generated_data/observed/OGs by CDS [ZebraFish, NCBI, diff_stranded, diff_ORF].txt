@@ -1,0 +1,65 @@
+Total overlapped (by CDS) genes: 18 = [2]x9
+Total overlapped (by CDS) sequence length: 222
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 28.15%	G - 28.15%	A - 21.85%	T - 21.85%
+
+
+	di-nucleotides:
+		TG - 8.92%	CA - 8.92%	GC - 8.92%	AC - 7.04%
+		GT - 7.04%	AG - 6.57%	CT - 6.57%	CG - 6.57%
+		TC - 6.34%	CC - 6.34%	GA - 6.34%	GG - 6.34%
+		AT - 5.63%	AA - 3.05%	TT - 3.05%	TA - 2.35%
+
+
+	amino-acids:
+		L - 14.49%	R - 10.87%	V - 10.14%	S - 7.97%
+		T - 6.52%	M - 6.52%	A - 5.07%	D - 4.35%
+		G - 3.62%	P - 3.62%	E - 3.62%	H - 3.62%
+		C - 2.9%	K - 2.9%	N - 2.9%	Y - 2.9%
+		Q - 2.17%	W - 2.17%	F - 1.45%	* - 1.45%
+		I - 0.72%
+
+	amino-acids by codon degeneracy:
+		low - 36.03%	high - 33.82%	medium - 30.15%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 85  |  chr: 23 |  genes: [gene-zgc:153284;gene-rps12]
+	Gene 1: zgc:153284; zgc:153284
+	Gene 2: rps12; ribosomal protein S12
+
+Total overlap length: 65  |  chr: 5 |  genes: [gene-rnft2;gene-zgc:110063]
+	Gene 1: rnft2; ring finger protein, transmembrane 2
+	Gene 2: zgc:110063; zgc:110063
+
+Total overlap length: 16  |  chr: 15 |  genes: [gene-ap1s3a;gene-flj13639]
+	Gene 1: ap1s3a; adaptor-related protein complex 1, sigma 3 subunit, a
+	Gene 2: flj13639; flj13639
+
+Total overlap length: 16  |  chr: 20 |  genes: [gene-henmt1;gene-fam102bb]
+	Gene 1: henmt1; HEN1 methyltransferase homolog 1 (Arabidopsis)
+	Gene 2: fam102bb; family with sequence similarity 102, member B, b
+
+Total overlap length: 14  |  chr: 22 |  genes: [gene-ccnd3;gene-med20]
+	Gene 1: ccnd3; cyclin D3
+	Gene 2: med20; mediator complex subunit 20
+
+Total overlap length: 11  |  chr: 10 |  genes: [gene-gabrr3a;gene-hhla2a.1]
+	Gene 1: gabrr3a; gamma-aminobutyric acid (GABA) A receptor, rho 3a
+	Gene 2: hhla2a.1; HERV-H LTR-associating 2a, tandem duplicate 1
+
+Total overlap length: 6  |  chr: 7 |  genes: [gene-drd4b;gene-sirt3]
+	Gene 1: drd4b; dopamine receptor D4b
+	Gene 2: sirt3; sirtuin 3
+
+Total overlap length: 6  |  chr: 17 |  genes: [gene-il17a/f1;gene-il17a/f2]
+	Gene 1: il17a/f1; interleukin 17a/f1
+	Gene 2: il17a/f2; interleukin 17a/f2
+
+Total overlap length: 3  |  chr: 2 |  genes: [gene-adcy1b;gene-zgc:154086]
+	Gene 1: adcy1b; adenylate cyclase 1b
+	Gene 2: zgc:154086; zgc:154086
+

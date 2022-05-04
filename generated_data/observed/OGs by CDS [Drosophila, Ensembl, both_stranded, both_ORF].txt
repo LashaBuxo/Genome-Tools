@@ -1,0 +1,109 @@
+Total overlapped (by CDS) genes: 40 = [2]x20
+Total overlapped (by CDS) sequence length: 3455
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		G - 29.41%	C - 28.05%	A - 24.76%	T - 17.79%
+
+
+	di-nucleotides:
+		GC - 9.3%	CA - 8.29%	GG - 7.93%	CG - 7.87%
+		GA - 7.55%	AG - 7.26%	CC - 6.97%	TG - 6.51%
+		AA - 6.19%	TC - 6.03%	AC - 5.79%	AT - 5.42%
+		CT - 5.1%	GT - 4.44%	TT - 2.81%	TA - 2.54%
+
+
+	amino-acids:
+		G - 11.61%	A - 9.11%	R - 8.76%	S - 8.11%
+		L - 6.66%	Q - 6.44%	E - 5.13%	T - 5.08%
+		D - 5.08%	V - 5.04%	P - 4.38%	H - 3.59%
+		I - 3.55%	K - 3.51%	N - 3.29%	F - 2.23%
+		Y - 2.19%	C - 1.84%	M - 1.58%	* - 1.49%
+		W - 1.31%
+
+	amino-acids by codon degeneracy:
+		medium - 39.37%	low - 36.74%	high - 23.89%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 1311  |  chr: 2 |  genes: [gene:FBgn0264817;gene:FBgn0283521]
+	Gene 1: pre-lola-G; pre-lola-G
+	Gene 2: lola; longitudinals lacking
+
+Total overlap length: 556 = 252 + 304  |  chr: 4 |  genes: [gene:FBgn0067783;gene:FBgn0067782]
+	Gene 1: DPCoAC; Dephosphocoenzyme A carrier
+	Gene 2: att-ORFB; alternative testis transcripts open reading frame B
+
+Total overlap length: 412 = 24 + 388  |  chr: 1 |  genes: [gene:FBgn0283440;gene:FBgn0283442]
+	Gene 1: solo; sisters on the loose
+	Gene 2: vas; vasa
+
+Total overlap length: 396 = 29 + 367  |  chr: 2 |  genes: [gene:FBgn0028991;gene:FBgn0053182]
+	Gene 1: seq; sequoia
+	Gene 2: Kdm4B; Lysine (K)-specific demethylase 4B
+
+Total overlap length: 241 = 175 + 66  |  chr: 4 |  genes: [gene:FBgn0263740;gene:FBgn0263755]
+	Gene 1: eIF2gamma; eukaryotic translation initiation factor 2 subunit gamma
+	Gene 2: Su(var)3-9; Suppressor of variegation 3-9
+
+Total overlap length: 104  |  chr: 4 |  genes: [gene:FBgn0037912;gene:FBgn0037913]
+	Gene 1: sea; scheggia
+	Gene 2: fabp; fatty acid binding protein
+
+Total overlap length: 102  |  chr: 3 |  genes: [gene:FBgn0025807;gene:FBgn0085284]
+	Gene 1: Rad9; Rad9
+	Gene 2: Blos3; Biogenesis of lysosome-related organelles complex 1, subunit 3
+
+Total overlap length: 80  |  chr: 2 |  genes: [gene:FBgn0020370;gene:FBgn0085468]
+	Gene 1: TppII; tripeptidyl-peptidase II
+	Gene 2: ND-MWFE; NADH dehydrogenase (ubiquinone) MWFE subunit
+
+Total overlap length: 64  |  chr: 4 |  genes: [gene:FBgn0263757;gene:FBgn0263738]
+	Gene 1: Rpb4; RNA polymerase II subunit Rpb4
+	Gene 2: Ada2a; transcriptional Adaptor 2a
+
+Total overlap length: 55  |  chr: 4 |  genes: [gene:FBgn0265190;gene:FBgn0265189]
+	Gene 1: PIG-S; Phosphatidylinositol glycan anchor biosynthesis class S
+	Gene 2: sud1; sudestada1
+
+Total overlap length: 37  |  chr: 4 |  genes: [gene:FBgn0037535;gene:FBgn0266598]
+	Gene 1: PIG-H; Phosphatidylinositol glycan anchor biosynthesis class H
+	Gene 2: Kmn2; kinetochore Mis12-Ndc80 network component 2
+
+Total overlap length: 22  |  chr: 6 |  genes: [gene:FBgn0002709;gene:FBgn0028581]
+	Gene 1: mei-218; meiotic 218
+	Gene 2: mei-217; mei-217
+
+Total overlap length: 19  |  chr: 4 |  genes: [gene:FBgn0053100;gene:FBgn0013343]
+	Gene 1: eIF4EHP; eukaryotic translation initiation factor 4E homologous protein
+	Gene 2: Syx1A; Syntaxin 1A
+
+Total overlap length: 17  |  chr: 6 |  genes: [gene:FBgn0010240;gene:FBgn0053180]
+	Gene 1: Lcch3; Ligand-gated chloride channel homolog 3
+	Gene 2: Ranbp16; Ranbp16
+
+Total overlap length: 13  |  chr: 4 |  genes: [gene:FBgn0037262;gene:FBgn0037263]
+	Gene 1: MED31; Mediator complex subunit 31
+	Gene 2: slx1; nuclease slx1
+
+Total overlap length: 9  |  chr: 3 |  genes: [gene:FBgn0040305;gene:FBgn0260859]
+	Gene 1: MTF-1; Metal response element-binding Transcription Factor-1
+	Gene 2: Bet3; Blocked early in transport 3
+
+Total overlap length: 8  |  chr: 6 |  genes: [gene:FBgn0029840;gene:FBgn0026060]
+	Gene 1: raptor; raptor
+	Gene 2: Mipp2; Multiple inositol polyphosphate phosphatase 2
+
+Total overlap length: 4  |  chr: 1 |  genes: [gene:FBgn0004407;gene:FBgn0064115]
+	Gene 1: DNApol-gamma35; DNA polymerase gamma 35kD subunit
+	Gene 2: GatC; Glutamyl-tRNA amidotransferase, subunit C
+
+Total overlap length: 4  |  chr: 4 |  genes: [gene:FBgn0266195;gene:FBgn0261019]
+	Gene 1: Tgs1; Trimethylguanosine synthase 1
+	Gene 2: moi; modigliani
+
+Total overlap length: 1  |  chr: 4 |  genes: [gene:FBgn0261015;gene:FBgn0046874]
+	Gene 1: Pif1A; PFTAIRE-interacting factor 1A
+	Gene 2: Pif1B; PFTAIRE-interacting factor 1B
+

@@ -1,0 +1,97 @@
+Total overlapped (by CDS) genes: 34 = [2]x17
+Total overlapped (by CDS) sequence length: 634
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 26.74%	G - 26.74%	A - 23.26%	T - 23.26%
+
+
+	di-nucleotides:
+		TC - 8.59%	GA - 8.59%	AG - 8.35%	CT - 8.35%
+		TG - 8.27%	CA - 8.27%	CC - 7.46%	GG - 7.46%
+		GC - 6.32%	AT - 5.51%	AA - 4.62%	TT - 4.62%
+		AC - 4.46%	GT - 4.46%	CG - 2.59%	TA - 2.11%
+
+
+	amino-acids:
+		S - 11.6%	P - 8.4%	G - 8.15%	L - 7.65%
+		R - 7.41%	A - 6.67%	Q - 6.17%	D - 4.94%
+		E - 4.94%	V - 4.2%	H - 3.95%	I - 3.7%
+		K - 3.7%	C - 3.46%	N - 2.72%	F - 2.47%
+		* - 2.47%	T - 2.22%	W - 1.98%	M - 1.73%
+		Y - 1.48%
+
+	amino-acids by codon degeneracy:
+		low - 38.48%	medium - 34.18%	high - 27.34%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 153  |  chr: 16 |  genes: [gene-Muc4;gene-Muc20]
+	Gene 1: Muc4; mucin 4
+	Gene 2: Muc20; mucin 20
+
+Total overlap length: 52  |  chr: 9 |  genes: [gene-Il18;gene-Tex12]
+	Gene 1: Il18; interleukin 18
+	Gene 2: Tex12; testis expressed 12
+
+Total overlap length: 49  |  chr: 11 |  genes: [gene-Tsr1;gene-Srr]
+	Gene 1: Tsr1; TSR1 20S rRNA accumulation
+	Gene 2: Srr; serine racemase
+
+Total overlap length: 45  |  chr: 8 |  genes: [gene-Tti2;gene-Mak16]
+	Gene 1: Tti2; TELO2 interacting protein 2
+	Gene 2: Mak16; MAK16 homolog
+
+Total overlap length: 43  |  chr: 14 |  genes: [gene-Gmpr2;gene-Tinf2]
+	Gene 1: Gmpr2; guanosine monophosphate reductase 2
+	Gene 2: Tinf2; Terf1 (TRF1)-interacting nuclear factor 2
+
+Total overlap length: 42  |  chr: 10 |  genes: [gene-Mmp19;gene-Tmem198b]
+	Gene 1: Mmp19; matrix metallopeptidase 19
+	Gene 2: Tmem198b; transmembrane protein 198b
+
+Total overlap length: 39  |  chr: 2 |  genes: [gene-Dclre1c;gene-Suv39h2]
+	Gene 1: Dclre1c; DNA cross-link repair 1C
+	Gene 2: Suv39h2; suppressor of variegation 3-9 2
+
+Total overlap length: 38  |  chr: 1 |  genes: [gene-Eif2d;gene-Rassf5]
+	Gene 1: Eif2d; eukaryotic translation initiation factor 2D
+	Gene 2: Rassf5; Ras association (RalGDS/AF-6) domain family member 5
+
+Total overlap length: 38  |  chr: 17 |  genes: [gene-Synj2;gene-Serac1]
+	Gene 1: Synj2; synaptojanin 2
+	Gene 2: Serac1; serine active site containing 1
+
+Total overlap length: 35  |  chr: 4 |  genes: [gene-Luzp1;gene-Kdm1a]
+	Gene 1: Luzp1; leucine zipper protein 1
+	Gene 2: Kdm1a; lysine (K)-specific demethylase 1A
+
+Total overlap length: 32  |  chr: 10 |  genes: [gene-Ptbp1;gene-Plppr3]
+	Gene 1: Ptbp1; polypyrimidine tract binding protein 1
+	Gene 2: Plppr3; phospholipid phosphatase related 3
+
+Total overlap length: 24  |  chr: 14 |  genes: [gene-A630023A22Rik;gene-Antxrl]
+	Gene 1: A630023A22Rik; RIKEN cDNA A630023A22 gene
+	Gene 2: Antxrl; anthrax toxin receptor-like
+
+Total overlap length: 11  |  chr: 12 |  genes: [gene-Adcy3;gene-Cenpo]
+	Gene 1: Adcy3; adenylate cyclase 3
+	Gene 2: Cenpo; centromere protein O
+
+Total overlap length: 11  |  chr: 18 |  genes: [gene-Kif20a;gene-Cdc23]
+	Gene 1: Kif20a; kinesin family member 20A
+	Gene 2: Cdc23; CDC23 cell division cycle 23
+
+Total overlap length: 9  |  chr: 7 |  genes: [gene-Brsk1;gene-Tmem150b]
+	Gene 1: Brsk1; BR serine/threonine kinase 1
+	Gene 2: Tmem150b; transmembrane protein 150B
+
+Total overlap length: 9  |  chr: 20 |  genes: [gene-Apex2;gene-Alas2]
+	Gene 1: Apex2; apurinic/apyrimidinic endonuclease 2
+	Gene 2: Alas2; aminolevulinic acid synthase 2, erythroid
+
+Total overlap length: 4  |  chr: 11 |  genes: [gene-Arhgap23;gene-4933428G20Rik]
+	Gene 1: Arhgap23; Rho GTPase activating protein 23
+	Gene 2: 4933428G20Rik; RIKEN cDNA 4933428G20 gene
+

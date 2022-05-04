@@ -73,7 +73,7 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
             gene_a = genome.gene_by_ind(chr_id, i)
             gene_b = genome.gene_by_ind(chr_id, j)
 
-            if GenomeWorker.are_features_overlapped(gene_a, gene_b):
+            if GenomeWorker.are_segments_overlapped(gene_a, gene_b):
 
                 # for clustering computation
                 old_cluster_index = cluster_indexes[i]
@@ -83,19 +83,19 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
                         cluster_indexes[k] = new_cluster_index
 
     # calculating genes count for each cluster
-    genes_in_cluster = [0] * genes_cnt
+    cluster_sizes = [0] * genes_cnt
     for k in range(0, genes_cnt):
-        genes_in_cluster[cluster_indexes[k]] += 1
+        cluster_sizes[cluster_indexes[k]] += 1
 
     # calculating genes count which at least once overlapped to different gene
     for i in range(0, genes_cnt):
-        if genes_in_cluster[cluster_indexes[i]] > 1:
+        if cluster_sizes[cluster_indexes[i]] > 1:
             og_count += 1
-        if genes_in_cluster[i] > 1:
+        if cluster_sizes[i] > 1:
             og_clusters_count += 1
 
     for i in range(0, genes_cnt):
-        genes_by_clusters_length[genes_in_cluster[cluster_indexes[i]]] += 1
+        genes_by_clusters_length[cluster_sizes[cluster_indexes[i]]] += 1
 
 # print stats
 assert total_genes == genome.imported_protein_coding_genes

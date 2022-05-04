@@ -1,0 +1,553 @@
+Total overlapped (by CDS) genes: 234 = [2]x99 + [3]x2 + [9]x1 + [21]x1
+Total overlapped (by CDS) sequence length: 10389
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 29.37%	G - 27.08%	A - 23.77%	T - 19.78%
+
+
+	di-nucleotides:
+		CC - 9.17%	CA - 8.86%	GC - 8.63%	TG - 8.03%
+		AG - 7.1%	GA - 7.1%	GG - 7.1%	CT - 6.71%
+		TC - 5.84%	AA - 5.8%	AC - 5.7%	CG - 4.95%
+		AT - 4.93%	GT - 4.16%	TT - 4.06%	TA - 1.87%
+
+
+	amino-acids:
+		P - 8.9%	S - 8.81%	L - 8.56%	A - 7.97%
+		R - 7.69%	G - 6.86%	T - 6.62%	Q - 5.55%
+		V - 5.06%	E - 4.11%	K - 4.02%	D - 3.62%
+		C - 3.13%	M - 3.09%	F - 3.0%	I - 2.88%
+		N - 2.79%	H - 2.77%	W - 1.93%	* - 1.47%
+		Y - 1.17%
+
+	amino-acids by codon degeneracy:
+		medium - 38.86%	low - 35.71%	high - 25.44%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 357  |  chr: 7 |  genes: [gene:ENSMUSG00000074211;gene:ENSMUSG00000074210]
+	Gene 1: Sdhaf1; succinate dehydrogenase complex assembly factor 1 [Source:MGI Symbol;Acc:MGI:1915582]
+	Gene 2: E130208F15Rik; RIKEN cDNA E130208F15 gene [Source:MGI Symbol;Acc:MGI:3767226]
+
+Total overlap length: 257  |  chr: 8 |  genes: [gene:ENSMUSG00000011832;gene:ENSMUSG00000064125]
+	Gene 1: Evi5l; ecotropic viral integration site 5 like [Source:MGI Symbol;Acc:MGI:2442167]
+	Gene 2: Prr36; proline rich 36 [Source:MGI Symbol;Acc:MGI:3605626]
+
+Total overlap length: 254 = 125 + 98 + 31  |  chr: 19 |  genes: [gene:ENSMUSG00000096740;gene:ENSMUSG00000071653]
+	Gene 1: Lbhd1; LBH domain containing 1 [Source:MGI Symbol;Acc:MGI:5516029]
+	Gene 2: 1810009A15Rik; RIKEN cDNA 1810009A15 gene [Source:MGI Symbol;Acc:MGI:1913526]
+
+Total overlap length: 231 = 78 + 135 + 18  |  chr: 19 |  genes: [gene:ENSMUSG00000024935;gene:ENSMUSG00000064202]
+	Gene 1: Slc1a1; solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1 [Source:MGI Symbol;Acc:MGI:105083]
+	Gene 2: Spata6l; spermatogenesis associated 6 like [Source:MGI Symbol;Acc:MGI:1918036]
+
+Total overlap length: 221  |  chr: 2 |  genes: [gene:ENSMUSG00000039021;gene:ENSMUSG00000009563]
+	Gene 1: Ttc16; tetratricopeptide repeat domain 16 [Source:MGI Symbol;Acc:MGI:2443048]
+	Gene 2: Tor2a; torsin family 2, member A [Source:MGI Symbol;Acc:MGI:1353596]
+
+Total overlap length: 203  |  chr: 11 |  genes: [gene:ENSMUSG00000051355;gene:ENSMUSG00000044068]
+	Gene 1: Commd1; COMM domain containing 1 [Source:MGI Symbol;Acc:MGI:109474]
+	Gene 2: Zrsr1; zinc finger (CCCH type), RNA binding motif and serine/arginine rich 1 [Source:MGI Symbol;Acc:MGI:98885]
+
+Total overlap length: 202  |  chr: 15 |  genes: [gene:ENSMUSG00000089837;gene:ENSMUSG00000089715]
+	Gene 1: Npcd; neuronal pentraxin chromo domain [Source:MGI Symbol;Acc:MGI:3845555]
+	Gene 2: Cbx6; chromobox 6 [Source:MGI Symbol;Acc:MGI:3512628]
+
+Total overlap length: 200  |  chr: 11 |  genes: [gene:ENSMUSG00000058756;gene:ENSMUSG00000020889]
+	Gene 1: Thra; thyroid hormone receptor alpha [Source:MGI Symbol;Acc:MGI:98742]
+	Gene 2: Nr1d1; nuclear receptor subfamily 1, group D, member 1 [Source:MGI Symbol;Acc:MGI:2444210]
+
+Total overlap length: 182  |  chr: 11 |  genes: [gene:ENSMUSG00000044328;gene:ENSMUSG00000000686]
+	Gene 1: Trp53i13; transformation related protein 53 inducible protein 13 [Source:MGI Symbol;Acc:MGI:1915125]
+	Gene 2: Abhd15; abhydrolase domain containing 15 [Source:MGI Symbol;Acc:MGI:1914727]
+
+Total overlap length: 178 = 174 + 4  |  chr: 18 |  genes: [gene:ENSMUSG00000117942;gene:ENSMUSG00000090264]
+	Gene 1: Maskbp3; multiple ankyrin repeats single KH domain binding protein 3 [Source:MGI Symbol;Acc:MGI:3845902]
+	Gene 2: Eif4ebp3; eukaryotic translation initiation factor 4E binding protein 3 [Source:MGI Symbol;Acc:MGI:1270847]
+
+Total overlap length: 168 = 102 + 66  |  chr: 8 |  genes: [gene:ENSMUSG00000031783;gene:ENSMUSG00000040631]
+	Gene 1: Polr2c; polymerase (RNA) II (DNA directed) polypeptide C [Source:MGI Symbol;Acc:MGI:109299]
+	Gene 2: Dok4; docking protein 4 [Source:MGI Symbol;Acc:MGI:2148865]
+
+Total overlap length: 168  |  chr: 15 |  genes: [gene:ENSMUSG00000097221;gene:ENSMUSG00000022200]
+	Gene 1: 1810049J17Rik; RIKEN cDNA 1810049J17 gene [Source:MGI Symbol;Acc:MGI:3704453]
+	Gene 2: Golph3; golgi phosphoprotein 3 [Source:MGI Symbol;Acc:MGI:1913879]
+
+Total overlap length: 165  |  chr: 10 |  genes: [gene:ENSMUSG00000025432;gene:ENSMUSG00000040521]
+	Gene 1: Avil; advillin [Source:MGI Symbol;Acc:MGI:1333798]
+	Gene 2: Tsfm; Ts translation elongation factor, mitochondrial [Source:MGI Symbol;Acc:MGI:1913649]
+
+Total overlap length: 157  |  chr: 9 |  genes: [gene:ENSMUSG00000049723;gene:ENSMUSG00000041620]
+	Gene 1: Mmp12; matrix metallopeptidase 12 [Source:MGI Symbol;Acc:MGI:97005]
+	Gene 2: Mmp1b; matrix metallopeptidase 1b (interstitial collagenase) [Source:MGI Symbol;Acc:MGI:1933847]
+
+Total overlap length: 147  |  chr: 14 |  genes: [gene:ENSMUSG00000022054;gene:ENSMUSG00000022055]
+	Gene 1: Nefm; neurofilament, medium polypeptide [Source:MGI Symbol;Acc:MGI:97314]
+	Gene 2: Nefl; neurofilament, light polypeptide [Source:MGI Symbol;Acc:MGI:97313]
+
+Total overlap length: 140 = 107 + 33  |  chr: 14 |  genes: [gene:ENSMUSG00000095493;gene:ENSMUSG00000047441]
+	Gene 1: A630023A22Rik; RIKEN cDNA A630023A22 gene [Source:MGI Symbol;Acc:MGI:2145657]
+	Gene 2: Antxrl; anthrax toxin receptor-like [Source:MGI Symbol;Acc:MGI:1925726]
+
+Total overlap length: 137  |  chr: 8 |  genes: [gene:ENSMUSG00000001911;gene:ENSMUSG00000074203]
+	Gene 1: Nfix; nuclear factor I/X [Source:MGI Symbol;Acc:MGI:97311]
+	Gene 2: G430095P16Rik; RIKEN cDNA G430095P16 gene [Source:MGI Symbol;Acc:MGI:3588227]
+
+Total overlap length: 134  |  chr: 16 |  genes: [gene:ENSMUSG00000055692;gene:ENSMUSG00000041720]
+	Gene 1: Tmem191c; transmembrane protein 191C [Source:MGI Symbol;Acc:MGI:107238]
+	Gene 2: Pi4ka; phosphatidylinositol 4-kinase alpha [Source:MGI Symbol;Acc:MGI:2448506]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103144;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga1; protocadherin gamma subfamily A, 1 [Source:MGI Symbol;Acc:MGI:1935212]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103332;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga2; protocadherin gamma subfamily A, 2 [Source:MGI Symbol;Acc:MGI:1935214]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000104346;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga3; protocadherin gamma subfamily A, 3 [Source:MGI Symbol;Acc:MGI:1935215]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103037;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb1; protocadherin gamma subfamily B, 1 [Source:MGI Symbol;Acc:MGI:1935169]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103677;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga4; protocadherin gamma subfamily A, 4 [Source:MGI Symbol;Acc:MGI:1935216]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102748;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb2; protocadherin gamma subfamily B, 2 [Source:MGI Symbol;Acc:MGI:1935170]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103567;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga5; protocadherin gamma subfamily A, 5 [Source:MGI Symbol;Acc:MGI:1935217]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103793;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga6; protocadherin gamma subfamily A, 6 [Source:MGI Symbol;Acc:MGI:1935218]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103472;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga7; protocadherin gamma subfamily A, 7 [Source:MGI Symbol;Acc:MGI:1935219]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103585;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb4; protocadherin gamma subfamily B, 4 [Source:MGI Symbol;Acc:MGI:1935173]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103897;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga8; protocadherin gamma subfamily A, 8 [Source:MGI Symbol;Acc:MGI:1935221]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103749;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb5; protocadherin gamma subfamily B, 5 [Source:MGI Symbol;Acc:MGI:1935196]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102440;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga9; protocadherin gamma subfamily A, 9 [Source:MGI Symbol;Acc:MGI:1935226]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000103088;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb6; protocadherin gamma subfamily B, 6 [Source:MGI Symbol;Acc:MGI:1935197]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102222;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga10; protocadherin gamma subfamily A, 10 [Source:MGI Symbol;Acc:MGI:1935227]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000104063;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgb7; protocadherin gamma subfamily B, 7 [Source:MGI Symbol;Acc:MGI:1935199]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102742;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga11; protocadherin gamma subfamily A, 11 [Source:MGI Symbol;Acc:MGI:1935228]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102428;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhga12; protocadherin gamma subfamily A, 12 [Source:MGI Symbol;Acc:MGI:1935229]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000102918;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgc3; protocadherin gamma subfamily C, 3 [Source:MGI Symbol;Acc:MGI:1935201]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 130 = 59 + 71  |  chr: 18 |  genes: [gene:ENSMUSG00000023036;gene:ENSMUSG00000102543]
+	Gene 1: Pcdhgc4; protocadherin gamma subfamily C, 4 [Source:MGI Symbol;Acc:MGI:1935203]
+	Gene 2: Pcdhgc5; protocadherin gamma subfamily C, 5 [Source:MGI Symbol;Acc:MGI:1935205]
+
+Total overlap length: 127  |  chr: 8 |  genes: [gene:ENSMUSG00000048827;gene:ENSMUSG00000031729]
+	Gene 1: Pkd1l3; polycystic kidney disease 1 like 3 [Source:MGI Symbol;Acc:MGI:2664670]
+	Gene 2: Ist1; increased sodium tolerance 1 homolog (yeast) [Source:MGI Symbol;Acc:MGI:1919205]
+
+Total overlap length: 124  |  chr: 8 |  genes: [gene:ENSMUSG00000031603;gene:ENSMUSG00000039478]
+	Gene 1: Fgf20; fibroblast growth factor 20 [Source:MGI Symbol;Acc:MGI:1891346]
+	Gene 2: Micu3; mitochondrial calcium uptake family, member 3 [Source:MGI Symbol;Acc:MGI:1925756]
+
+Total overlap length: 116  |  chr: 8 |  genes: [gene:ENSMUSG00000014856;gene:ENSMUSG00000014778]
+	Gene 1: Tmem208; transmembrane protein 208 [Source:MGI Symbol;Acc:MGI:1913570]
+	Gene 2: Fhod1; formin homology 2 domain containing 1 [Source:MGI Symbol;Acc:MGI:2679008]
+
+Total overlap length: 116  |  chr: 18 |  genes: [gene:ENSMUSG00000117694;gene:ENSMUSG00000037236]
+	Gene 1: Snhg4; small nucleolar RNA host gene 4 [Source:MGI Symbol;Acc:MGI:4937091]
+	Gene 2: Matr3; matrin 3 [Source:MGI Symbol;Acc:MGI:1298379]
+
+Total overlap length: 111  |  chr: 2 |  genes: [gene:ENSMUSG00000025783;gene:ENSMUSG00000079602]
+	Gene 1: 4930412O13Rik; RIKEN cDNA 4930412O13 gene [Source:MGI Symbol;Acc:MGI:1921185]
+	Gene 2: 9230102O04Rik; RIKEN cDNA 9230102O04 gene [Source:MGI Symbol;Acc:MGI:1924932]
+
+Total overlap length: 111  |  chr: 2 |  genes: [gene:ENSMUSG00000027323;gene:ENSMUSG00000070730]
+	Gene 1: Rad51; RAD51 recombinase [Source:MGI Symbol;Acc:MGI:97890]
+	Gene 2: Rmdn3; regulator of microtubule dynamics 3 [Source:MGI Symbol;Acc:MGI:1915059]
+
+Total overlap length: 111  |  chr: 19 |  genes: [gene:ENSMUSG00000042532;gene:ENSMUSG00000042401]
+	Gene 1: Golga7b; golgi autoantigen, golgin subfamily a, 7B [Source:MGI Symbol;Acc:MGI:1918396]
+	Gene 2: Crtac1; cartilage acidic protein 1 [Source:MGI Symbol;Acc:MGI:1920082]
+
+Total overlap length: 101  |  chr: 10 |  genes: [gene:ENSMUSG00000025350;gene:ENSMUSG00000090247]
+	Gene 1: Rdh5; retinol dehydrogenase 5 [Source:MGI Symbol;Acc:MGI:1201412]
+	Gene 2: Bloc1s1; biogenesis of lysosomal organelles complex-1, subunit 1 [Source:MGI Symbol;Acc:MGI:1195276]
+
+Total overlap length: 96  |  chr: 2 |  genes: [gene:ENSMUSG00000044916;gene:ENSMUSG00000027223]
+	Gene 1: 1700029I15Rik; RIKEN cDNA 1700029I15 gene [Source:MGI Symbol;Acc:MGI:1916742]
+	Gene 2: Mapk8ip1; mitogen-activated protein kinase 8 interacting protein 1 [Source:MGI Symbol;Acc:MGI:1309464]
+
+Total overlap length: 94  |  chr: 11 |  genes: [gene:ENSMUSG00000000686;gene:ENSMUSG00000017291]
+	Gene 1: Abhd15; abhydrolase domain containing 15 [Source:MGI Symbol;Acc:MGI:1914727]
+	Gene 2: Taok1; TAO kinase 1 [Source:MGI Symbol;Acc:MGI:1914490]
+
+Total overlap length: 91  |  chr: 3 |  genes: [gene:ENSMUSG00000027680;gene:ENSMUSG00000027679]
+	Gene 1: Fxr1; fragile X mental retardation gene 1, autosomal homolog [Source:MGI Symbol;Acc:MGI:104860]
+	Gene 2: Dnajc19; DnaJ heat shock protein family (Hsp40) member C19 [Source:MGI Symbol;Acc:MGI:1914963]
+
+Total overlap length: 91  |  chr: 14 |  genes: [gene:ENSMUSG00000048279;gene:ENSMUSG00000035296]
+	Gene 1: Sacs; sacsin [Source:MGI Symbol;Acc:MGI:1354724]
+	Gene 2: Sgcg; sarcoglycan, gamma (dystrophin-associated glycoprotein) [Source:MGI Symbol;Acc:MGI:1346524]
+
+Total overlap length: 89  |  chr: 1 |  genes: [gene:ENSMUSG00000026697;gene:ENSMUSG00000091060]
+	Gene 1: Myoc; myocilin [Source:MGI Symbol;Acc:MGI:1202864]
+	Gene 2: Myocos; myocilin opposite strand [Source:MGI Symbol;Acc:MGI:3642786]
+
+Total overlap length: 89  |  chr: 3 |  genes: [gene:ENSMUSG00000027849;gene:ENSMUSG00000087119]
+	Gene 1: Syt6; synaptotagmin VI [Source:MGI Symbol;Acc:MGI:1859544]
+	Gene 2: Atg4a-ps; autophagy related 4A, pseudogene [Source:MGI Symbol;Acc:MGI:3615624]
+
+Total overlap length: 89  |  chr: 7 |  genes: [gene:ENSMUSG00000030888;gene:ENSMUSG00000030890]
+	Gene 1: Rrp8; ribosomal RNA processing 8 [Source:MGI Symbol;Acc:MGI:1914251]
+	Gene 2: Ilk; integrin linked kinase [Source:MGI Symbol;Acc:MGI:1195267]
+
+Total overlap length: 85  |  chr: 4 |  genes: [gene:ENSMUSG00000033985;gene:ENSMUSG00000028688]
+	Gene 1: Tesk2; testis-specific kinase 2 [Source:MGI Symbol;Acc:MGI:2385204]
+	Gene 2: Toe1; target of EGR1, member 1 (nuclear) [Source:MGI Symbol;Acc:MGI:1915526]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090165;gene:ENSMUSG00000090124]
+	Gene 1: Ugt1a10; UDP glycosyltransferase 1 family, polypeptide A10 [Source:MGI Symbol;Acc:MGI:3580642]
+	Gene 2: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090175;gene:ENSMUSG00000090124]
+	Gene 1: Ugt1a9; UDP glucuronosyltransferase 1 family, polypeptide A9 [Source:MGI Symbol;Acc:MGI:3576092]
+	Gene 2: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000089675;gene:ENSMUSG00000090124]
+	Gene 1: Ugt1a8; UDP glucuronosyltransferase 1 family, polypeptide A8 [Source:MGI Symbol;Acc:MGI:3576090]
+	Gene 2: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090124;gene:ENSMUSG00000090145]
+	Gene 1: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+	Gene 2: Ugt1a6b; UDP glucuronosyltransferase 1 family, polypeptide A6B [Source:MGI Symbol;Acc:MGI:3580629]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090124;gene:ENSMUSG00000054545]
+	Gene 1: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+	Gene 2: Ugt1a6a; UDP glucuronosyltransferase 1 family, polypeptide A6A [Source:MGI Symbol;Acc:MGI:2137698]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090124;gene:ENSMUSG00000089943]
+	Gene 1: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+	Gene 2: Ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5 [Source:MGI Symbol;Acc:MGI:3032634]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090124;gene:ENSMUSG00000090171]
+	Gene 1: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+	Gene 2: Ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2 [Source:MGI Symbol;Acc:MGI:3576049]
+
+Total overlap length: 84  |  chr: 1 |  genes: [gene:ENSMUSG00000090124;gene:ENSMUSG00000089960]
+	Gene 1: Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [Source:MGI Symbol;Acc:MGI:3032636]
+	Gene 2: Ugt1a1; UDP glucuronosyltransferase 1 family, polypeptide A1 [Source:MGI Symbol;Acc:MGI:98898]
+
+Total overlap length: 77  |  chr: 4 |  genes: [gene:ENSMUSG00000028330;gene:ENSMUSG00000028329]
+	Gene 1: Ncbp1; nuclear cap binding protein subunit 1 [Source:MGI Symbol;Acc:MGI:1891840]
+	Gene 2: Xpa; xeroderma pigmentosum, complementation group A [Source:MGI Symbol;Acc:MGI:99135]
+
+Total overlap length: 72  |  chr: 4 |  genes: [gene:ENSMUSG00000028979;gene:ENSMUSG00000041459]
+	Gene 1: Masp2; mannan-binding lectin serine peptidase 2 [Source:MGI Symbol;Acc:MGI:1330832]
+	Gene 2: Tardbp; TAR DNA binding protein [Source:MGI Symbol;Acc:MGI:2387629]
+
+Total overlap length: 70  |  chr: 15 |  genes: [gene:ENSMUSG00000022324;gene:ENSMUSG00000094447]
+	Gene 1: Matn2; matrilin 2 [Source:MGI Symbol;Acc:MGI:109613]
+	Gene 2: 9430069I07Rik; RIKEN cDNA 9430069I07 gene [Source:MGI Symbol;Acc:MGI:1924608]
+
+Total overlap length: 69  |  chr: 3 |  genes: [gene:ENSMUSG00000054199;gene:ENSMUSG00000068922]
+	Gene 1: Gon4l; gon-4-like (C.elegans) [Source:MGI Symbol;Acc:MGI:1917579]
+	Gene 2: Msto1; misato 1, mitochondrial distribution and morphology regulator [Source:MGI Symbol;Acc:MGI:2385175]
+
+Total overlap length: 68  |  chr: 5 |  genes: [gene:ENSMUSG00000086815;gene:ENSMUSG00000044576]
+	Gene 1: 3110082J24Rik; RIKEN cDNA 3110082J24 gene [Source:MGI Symbol;Acc:MGI:3641994]
+	Gene 2: Garem2; GRB2 associated regulator of MAPK1 subtype 2 [Source:MGI Symbol;Acc:MGI:2685290]
+
+Total overlap length: 68  |  chr: 10 |  genes: [gene:ENSMUSG00000000766;gene:ENSMUSG00000064065]
+	Gene 1: Oprm1; opioid receptor, mu 1 [Source:MGI Symbol;Acc:MGI:97441]
+	Gene 2: Ipcef1; interaction protein for cytohesin exchange factors 1 [Source:MGI Symbol;Acc:MGI:2444159]
+
+Total overlap length: 63  |  chr: 13 |  genes: [gene:ENSMUSG00000039242;gene:ENSMUSG00000039233]
+	Gene 1: B3galnt2; UDP-GalNAc:betaGlcNAc beta 1,3-galactosaminyltransferase, polypeptide 2 [Source:MGI Symbol;Acc:MGI:2145517]
+	Gene 2: Tbce; tubulin-specific chaperone E [Source:MGI Symbol;Acc:MGI:1917680]
+
+Total overlap length: 59  |  chr: 18 |  genes: [gene:ENSMUSG00000024483;gene:ENSMUSG00000117942]
+	Gene 1: Ankhd1; ankyrin repeat and KH domain containing 1 [Source:MGI Symbol;Acc:MGI:1921733]
+	Gene 2: Maskbp3; multiple ankyrin repeats single KH domain binding protein 3 [Source:MGI Symbol;Acc:MGI:3845902]
+
+Total overlap length: 57  |  chr: 1 |  genes: [gene:ENSMUSG00000037432;gene:ENSMUSG00000001143]
+	Gene 1: Fer1l5; fer-1-like 5 (C. elegans) [Source:MGI Symbol;Acc:MGI:3616091]
+	Gene 2: Lman2l; lectin, mannose-binding 2-like [Source:MGI Symbol;Acc:MGI:2443010]
+
+Total overlap length: 53  |  chr: 4 |  genes: [gene:ENSMUSG00000028322;gene:ENSMUSG00000035572]
+	Gene 1: Exosc3; exosome component 3 [Source:MGI Symbol;Acc:MGI:1913612]
+	Gene 2: Dcaf10; DDB1 and CUL4 associated factor 10 [Source:MGI Symbol;Acc:MGI:2140179]
+
+Total overlap length: 53  |  chr: 4 |  genes: [gene:ENSMUSG00000078570;gene:ENSMUSG00000028889]
+	Gene 1: 1110065P20Rik; RIKEN cDNA 1110065P20 gene [Source:MGI Symbol;Acc:MGI:1916170]
+	Gene 2: Yrdc; yrdC domain containing (E.coli) [Source:MGI Symbol;Acc:MGI:2387201]
+
+Total overlap length: 50  |  chr: 4 |  genes: [gene:ENSMUSG00000078773;gene:ENSMUSG00000094595]
+	Gene 1: Rad54b; RAD54 homolog B (S. cerevisiae) [Source:MGI Symbol;Acc:MGI:3605986]
+	Gene 2: Fsbp; fibrinogen silencer binding protein [Source:MGI Symbol;Acc:MGI:5301008]
+
+Total overlap length: 48  |  chr: 10 |  genes: [gene:ENSMUSG00000014498;gene:ENSMUSG00000025374]
+	Gene 1: Ankrd52; ankyrin repeat domain 52 [Source:MGI Symbol;Acc:MGI:2444029]
+	Gene 2: Nabp2; nucleic acid binding protein 2 [Source:MGI Symbol;Acc:MGI:1917167]
+
+Total overlap length: 48  |  chr: 15 |  genes: [gene:ENSMUSG00000093789;gene:ENSMUSG00000093550]
+	Gene 1: Methig1; methyltransferase hypoxia inducible domain containing 1 [Source:MGI Symbol;Acc:MGI:3845761]
+	Gene 2: Higd1c; HIG1 domain family, member 1C [Source:MGI Symbol;Acc:MGI:2685767]
+
+Total overlap length: 45  |  chr: 9 |  genes: [gene:ENSMUSG00000032567;gene:ENSMUSG00000032570]
+	Gene 1: Aste1; asteroid homolog 1 [Source:MGI Symbol;Acc:MGI:1913845]
+	Gene 2: Atp2c1; ATPase, Ca++-sequestering [Source:MGI Symbol;Acc:MGI:1889008]
+
+Total overlap length: 44  |  chr: 1 |  genes: [gene:ENSMUSG00000026036;gene:ENSMUSG00000026037]
+	Gene 1: Nif3l1; Ngg1 interacting factor 3-like 1 (S. pombe) [Source:MGI Symbol;Acc:MGI:1929485]
+	Gene 2: Orc2; origin recognition complex, subunit 2 [Source:MGI Symbol;Acc:MGI:1328306]
+
+Total overlap length: 44  |  chr: 7 |  genes: [gene:ENSMUSG00000092534;gene:ENSMUSG00000030680]
+	Gene 1: Pagr1b; PAXIP1 associated glutamate rich protein 1B [Source:MGI Symbol;Acc:MGI:5141883]
+	Gene 2: Pagr1a; PAXIP1 associated glutamate rich protein 1A [Source:MGI Symbol;Acc:MGI:1914528]
+
+Total overlap length: 43  |  chr: 4 |  genes: [gene:ENSMUSG00000028830;gene:ENSMUSG00000042446]
+	Gene 1: AU040320; expressed sequence AU040320 [Source:MGI Symbol;Acc:MGI:2140475]
+	Gene 2: Zmym4; zinc finger, MYM-type 4 [Source:MGI Symbol;Acc:MGI:1915035]
+
+Total overlap length: 42  |  chr: 1 |  genes: [gene:ENSMUSG00000026427;gene:ENSMUSG00000026430]
+	Gene 1: Eif2d; eukaryotic translation initiation factor 2D [Source:MGI Symbol;Acc:MGI:109342]
+	Gene 2: Rassf5; Ras association (RalGDS/AF-6) domain family member 5 [Source:MGI Symbol;Acc:MGI:1926375]
+
+Total overlap length: 42  |  chr: 7 |  genes: [gene:ENSMUSG00000030935;gene:ENSMUSG00000030929]
+	Gene 1: Acsm3; acyl-CoA synthetase medium-chain family member 3 [Source:MGI Symbol;Acc:MGI:99538]
+	Gene 2: Eri2; exoribonuclease 2 [Source:MGI Symbol;Acc:MGI:1918401]
+
+Total overlap length: 41  |  chr: 3 |  genes: [gene:ENSMUSG00000033377;gene:ENSMUSG00000080907]
+	Gene 1: Palmd; palmdelphin [Source:MGI Symbol;Acc:MGI:2148896]
+	Gene 2: 4930455H04Rik; RIKEN cDNA 4930455H04 gene [Source:MGI Symbol;Acc:MGI:1921904]
+
+Total overlap length: 40  |  chr: 2 |  genes: [gene:ENSMUSG00000059013;gene:ENSMUSG00000009551]
+	Gene 1: Sh2d3c; SH2 domain containing 3C [Source:MGI Symbol;Acc:MGI:1351631]
+	Gene 2: 6330409D20Rik; RIKEN cDNA 6330409D20 gene [Source:MGI Symbol;Acc:MGI:1917980]
+
+Total overlap length: 40  |  chr: 19 |  genes: [gene:ENSMUSG00000033768;gene:ENSMUSG00000061742]
+	Gene 1: Nrxn2; neurexin II [Source:MGI Symbol;Acc:MGI:1096362]
+	Gene 2: Slc22a12; solute carrier family 22 (organic anion/cation transporter), member 12 [Source:MGI Symbol;Acc:MGI:1195269]
+
+Total overlap length: 39  |  chr: 6 |  genes: [gene:ENSMUSG00000030022;gene:ENSMUSG00000048636]
+	Gene 1: Adamts9; a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 9 [Source:MGI Symbol;Acc:MGI:1916320]
+	Gene 2: A730049H05Rik; RIKEN cDNA A730049H05 gene [Source:MGI Symbol;Acc:MGI:1921766]
+
+Total overlap length: 38  |  chr: 8 |  genes: [gene:ENSMUSG00000002396;gene:ENSMUSG00000002393]
+	Gene 1: Ocel1; occludin/ELL domain containing 1 [Source:MGI Symbol;Acc:MGI:1924340]
+	Gene 2: Nr2f6; nuclear receptor subfamily 2, group F, member 6 [Source:MGI Symbol;Acc:MGI:1352453]
+
+Total overlap length: 36  |  chr: 7 |  genes: [gene:ENSMUSG00000052301;gene:ENSMUSG00000030689]
+	Gene 1: Doc2a; double C2, alpha [Source:MGI Symbol;Acc:MGI:109446]
+	Gene 2: Ino80e; INO80 complex subunit E [Source:MGI Symbol;Acc:MGI:2141881]
+
+Total overlap length: 32  |  chr: 16 |  genes: [gene:ENSMUSG00000005982;gene:ENSMUSG00000005983]
+	Gene 1: Naa60; N(alpha)-acetyltransferase 60, NatF catalytic subunit [Source:MGI Symbol;Acc:MGI:1922013]
+	Gene 2: 1700037C18Rik; RIKEN cDNA 1700037C18 gene [Source:MGI Symbol;Acc:MGI:1920511]
+
+Total overlap length: 30  |  chr: 1 |  genes: [gene:ENSMUSG00000026504;gene:ENSMUSG00000019699]
+	Gene 1: Sdccag8; serologically defined colon cancer antigen 8 [Source:MGI Symbol;Acc:MGI:1924066]
+	Gene 2: Akt3; thymoma viral proto-oncogene 3 [Source:MGI Symbol;Acc:MGI:1345147]
+
+Total overlap length: 30  |  chr: 9 |  genes: [gene:ENSMUSG00000032363;gene:ENSMUSG00000037410]
+	Gene 1: Adamts7; a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 7 [Source:MGI Symbol;Acc:MGI:1347346]
+	Gene 2: Tbc1d2b; TBC1 domain family, member 2B [Source:MGI Symbol;Acc:MGI:1914266]
+
+Total overlap length: 29  |  chr: 7 |  genes: [gene:ENSMUSG00000007833;gene:ENSMUSG00000003423]
+	Gene 1: Aldh16a1; aldehyde dehydrogenase 16 family, member A1 [Source:MGI Symbol;Acc:MGI:1916998]
+	Gene 2: Pih1d1; PIH1 domain containing 1 [Source:MGI Symbol;Acc:MGI:1916095]
+
+Total overlap length: 29  |  chr: 13 |  genes: [gene:ENSMUSG00000021624;gene:ENSMUSG00000034751]
+	Gene 1: Cd180; CD180 antigen [Source:MGI Symbol;Acc:MGI:1194924]
+	Gene 2: Mast4; microtubule associated serine/threonine kinase family member 4 [Source:MGI Symbol;Acc:MGI:1918885]
+
+Total overlap length: 28  |  chr: 3 |  genes: [gene:ENSMUSG00000090202;gene:ENSMUSG00000048652]
+	Gene 1: 4930503B20Rik; RIKEN cDNA 4930503B20 gene [Source:MGI Symbol;Acc:MGI:1922264]
+	Gene 2: Samd13; sterile alpha motif domain containing 13 [Source:MGI Symbol;Acc:MGI:2686498]
+
+Total overlap length: 27  |  chr: 3 |  genes: [gene:ENSMUSG00000027606;gene:ENSMUSG00000082766]
+	Gene 1: Dnajc5b; DnaJ heat shock protein family (Hsp40) member C5 beta [Source:MGI Symbol;Acc:MGI:1913576]
+	Gene 2: 1700064H15Rik; RIKEN cDNA 1700064H15 gene [Source:MGI Symbol;Acc:MGI:1920674]
+
+Total overlap length: 27  |  chr: 10 |  genes: [gene:ENSMUSG00000006498;gene:ENSMUSG00000035835]
+	Gene 1: Ptbp1; polypyrimidine tract binding protein 1 [Source:MGI Symbol;Acc:MGI:97791]
+	Gene 2: Plppr3; phospholipid phosphatase related 3 [Source:MGI Symbol;Acc:MGI:2388640]
+
+Total overlap length: 27  |  chr: 11 |  genes: [gene:ENSMUSG00000047821;gene:ENSMUSG00000090173]
+	Gene 1: Trim16; tripartite motif-containing 16 [Source:MGI Symbol;Acc:MGI:2137356]
+	Gene 2: Fbxw10; F-box and WD-40 domain protein 10 [Source:MGI Symbol;Acc:MGI:3052463]
+
+Total overlap length: 26  |  chr: 6 |  genes: [gene:ENSMUSG00000001520;gene:ENSMUSG00000001518]
+	Gene 1: Nrip2; nuclear receptor interacting protein 2 [Source:MGI Symbol;Acc:MGI:1891884]
+	Gene 2: Itfg2; integrin alpha FG-GAP repeat containing 2 [Source:MGI Symbol;Acc:MGI:1915450]
+
+Total overlap length: 24  |  chr: 8 |  genes: [gene:ENSMUSG00000033751;gene:ENSMUSG00000003813]
+	Gene 1: Gadd45gip1; growth arrest and DNA-damage-inducible, gamma interacting protein 1 [Source:MGI Symbol;Acc:MGI:1914947]
+	Gene 2: Rad23a; RAD23 homolog A, nucleotide excision repair protein [Source:MGI Symbol;Acc:MGI:105126]
+
+Total overlap length: 23  |  chr: 7 |  genes: [gene:ENSMUSG00000030766;gene:ENSMUSG00000030763]
+	Gene 1: Arhgap17; Rho GTPase activating protein 17 [Source:MGI Symbol;Acc:MGI:1917747]
+	Gene 2: Lcmt1; leucine carboxyl methyltransferase 1 [Source:MGI Symbol;Acc:MGI:1353593]
+
+Total overlap length: 21  |  chr: 12 |  genes: [gene:ENSMUSG00000020955;gene:ENSMUSG00000035247]
+	Gene 1: Ap4s1; adaptor-related protein complex AP-4, sigma 1 [Source:MGI Symbol;Acc:MGI:1337065]
+	Gene 2: Hectd1; HECT domain E3 ubiquitin protein ligase 1 [Source:MGI Symbol;Acc:MGI:2384768]
+
+Total overlap length: 20  |  chr: 5 |  genes: [gene:ENSMUSG00000005378;gene:ENSMUSG00000061118]
+	Gene 1: Bud23; BUD23, rRNA methyltransferase and ribosome maturation factor [Source:MGI Symbol;Acc:MGI:1913388]
+	Gene 2: Dnajc30; DnaJ heat shock protein family (Hsp40) member C30 [Source:MGI Symbol;Acc:MGI:1913364]
+
+Total overlap length: 19  |  chr: 10 |  genes: [gene:ENSMUSG00000060002;gene:ENSMUSG00000020059]
+	Gene 1: Chpt1; choline phosphotransferase 1 [Source:MGI Symbol;Acc:MGI:2384841]
+	Gene 2: Sycp3; synaptonemal complex protein 3 [Source:MGI Symbol;Acc:MGI:109542]
+
+Total overlap length: 19  |  chr: 17 |  genes: [gene:ENSMUSG00000024019;gene:ENSMUSG00000024018]
+	Gene 1: Cmtr1; cap methyltransferase 1 [Source:MGI Symbol;Acc:MGI:1921407]
+	Gene 2: Ccdc167; coiled-coil domain containing 167 [Source:MGI Symbol;Acc:MGI:1915847]
+
+Total overlap length: 17  |  chr: 11 |  genes: [gene:ENSMUSG00000090266;gene:ENSMUSG00000020818]
+	Gene 1: Mettl23; methyltransferase like 23 [Source:MGI Symbol;Acc:MGI:1921569]
+	Gene 2: Mfsd11; major facilitator superfamily domain containing 11 [Source:MGI Symbol;Acc:MGI:1917150]
+
+Total overlap length: 16  |  chr: 14 |  genes: [gene:ENSMUSG00000022106;gene:ENSMUSG00000022105]
+	Gene 1: Rcbtb2; regulator of chromosome condensation (RCC1) and BTB (POZ) domain containing protein 2 [Source:MGI Symbol;Acc:MGI:1917200]
+	Gene 2: Rb1; RB transcriptional corepressor 1 [Source:MGI Symbol;Acc:MGI:97874]
+
+Total overlap length: 15  |  chr: 8 |  genes: [gene:ENSMUSG00000048967;gene:ENSMUSG00000047654]
+	Gene 1: Yjefn3; YjeF N-terminal domain containing 3 [Source:MGI Symbol;Acc:MGI:2681845]
+	Gene 2: Tssk6; testis-specific serine kinase 6 [Source:MGI Symbol;Acc:MGI:2148775]
+
+Total overlap length: 14  |  chr: 1 |  genes: [gene:ENSMUSG00000026602;gene:ENSMUSG00000026601]
+	Gene 1: Nphs2; nephrosis 2, podocin [Source:MGI Symbol;Acc:MGI:2157018]
+	Gene 2: Axdnd1; axonemal dynein light chain domain containing 1 [Source:MGI Symbol;Acc:MGI:1924602]
+
+Total overlap length: 14  |  chr: 1 |  genes: [gene:ENSMUSG00000013593;gene:ENSMUSG00000006403]
+	Gene 1: Ndufs2; NADH:ubiquinone oxidoreductase core subunit S2 [Source:MGI Symbol;Acc:MGI:2385112]
+	Gene 2: Adamts4; a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 4 [Source:MGI Symbol;Acc:MGI:1339949]
+
+Total overlap length: 13  |  chr: 1 |  genes: [gene:ENSMUSG00000048000;gene:ENSMUSG00000079436]
+	Gene 1: Gigyf2; GRB10 interacting GYF protein 2 [Source:MGI Symbol;Acc:MGI:2138584]
+	Gene 2: Kcnj13; potassium inwardly-rectifying channel, subfamily J, member 13 [Source:MGI Symbol;Acc:MGI:3781032]
+
+Total overlap length: 13  |  chr: 2 |  genes: [gene:ENSMUSG00000074627;gene:ENSMUSG00000027642]
+	Gene 1: Mroh8; maestro heat-like repeat family member 8 [Source:MGI Symbol;Acc:MGI:3603828]
+	Gene 2: Rpn2; ribophorin II [Source:MGI Symbol;Acc:MGI:98085]
+
+Total overlap length: 13  |  chr: 5 |  genes: [gene:ENSMUSG00000089798;gene:ENSMUSG00000029276]
+	Gene 1: 1700028K03Rik; RIKEN cDNA 1700028K03 gene [Source:MGI Symbol;Acc:MGI:1923671]
+	Gene 2: Glmn; glomulin, FKBP associated protein [Source:MGI Symbol;Acc:MGI:2141180]
+
+Total overlap length: 12  |  chr: 16 |  genes: [gene:ENSMUSG00000022940;gene:ENSMUSG00000040785]
+	Gene 1: Pigp; phosphatidylinositol glycan anchor biosynthesis, class P [Source:MGI Symbol;Acc:MGI:1860433]
+	Gene 2: Ttc3; tetratricopeptide repeat domain 3 [Source:MGI Symbol;Acc:MGI:1276539]
+
+Total overlap length: 11  |  chr: 3 |  genes: [gene:ENSMUSG00000028141;gene:ENSMUSG00000028140]
+	Gene 1: Oaz3; ornithine decarboxylase antizyme 3 [Source:MGI Symbol;Acc:MGI:1858170]
+	Gene 2: Mrpl9; mitochondrial ribosomal protein L9 [Source:MGI Symbol;Acc:MGI:2137211]
+
+Total overlap length: 9  |  chr: 8 |  genes: [gene:ENSMUSG00000031807;gene:ENSMUSG00000043243]
+	Gene 1: Pgls; 6-phosphogluconolactonase [Source:MGI Symbol;Acc:MGI:1913421]
+	Gene 2: Niban3; niban apoptosis regulator 3 [Source:MGI Symbol;Acc:MGI:3686743]
+
+Total overlap length: 9  |  chr: 11 |  genes: [gene:ENSMUSG00000017286;gene:ENSMUSG00000049396]
+	Gene 1: Glod4; glyoxalase domain containing 4 [Source:MGI Symbol;Acc:MGI:1914451]
+	Gene 2: Gemin4; gem nuclear organelle associated protein 4 [Source:MGI Symbol;Acc:MGI:2449313]
+
+Total overlap length: 9  |  chr: 16 |  genes: [gene:ENSMUSG00000022960;gene:ENSMUSG00000116933]
+	Gene 1: Donson; downstream neighbor of SON [Source:MGI Symbol;Acc:MGI:1890621]
+	Gene 2: Atp5o; ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit [Source:MGI Symbol;Acc:MGI:106341]
+
+Total overlap length: 8  |  chr: 9 |  genes: [gene:ENSMUSG00000032185;gene:ENSMUSG00000032182]
+	Gene 1: Carm1; coactivator-associated arginine methyltransferase 1 [Source:MGI Symbol;Acc:MGI:1913208]
+	Gene 2: Yipf2; Yip1 domain family, member 2 [Source:MGI Symbol;Acc:MGI:1922016]
+
+Total overlap length: 7  |  chr: 7 |  genes: [gene:ENSMUSG00000025467;gene:ENSMUSG00000025466]
+	Gene 1: Prap1; proline-rich acidic protein 1 [Source:MGI Symbol;Acc:MGI:893573]
+	Gene 2: Fuom; fucose mutarotase [Source:MGI Symbol;Acc:MGI:1916314]
+
+Total overlap length: 5  |  chr: 7 |  genes: [gene:ENSMUSG00000063179;gene:ENSMUSG00000040167]
+	Gene 1: Pstk; phosphoseryl-tRNA kinase [Source:MGI Symbol;Acc:MGI:2685945]
+	Gene 2: Ikzf5; IKAROS family zinc finger 5 [Source:MGI Symbol;Acc:MGI:1914393]
+
+Total overlap length: 4  |  chr: 1 |  genes: [gene:ENSMUSG00000094127;gene:ENSMUSG00000070034]
+	Gene 1: G530012D18Rik; RIKEN cDNA G530012D1 gene [Source:MGI Symbol;Acc:MGI:3642025]
+	Gene 2: Sp110; Sp110 nuclear body protein [Source:MGI Symbol;Acc:MGI:1923364]
+
+Total overlap length: 4  |  chr: 4 |  genes: [gene:ENSMUSG00000028252;gene:ENSMUSG00000028251]
+	Gene 1: Ccnc; cyclin C [Source:MGI Symbol;Acc:MGI:1858199]
+	Gene 2: Tstd3; thiosulfate sulfurtransferase (rhodanese)-like domain containing 3 [Source:MGI Symbol;Acc:MGI:1924282]
+
+Total overlap length: 4  |  chr: 4 |  genes: [gene:ENSMUSG00000048747;gene:ENSMUSG00000028565]
+	Gene 1: E130114P18Rik; RIKEN cDNA E130114P18 gene [Source:MGI Symbol;Acc:MGI:2442873]
+	Gene 2: Nfia; nuclear factor I/A [Source:MGI Symbol;Acc:MGI:108056]
+
+Total overlap length: 4  |  chr: 8 |  genes: [gene:ENSMUSG00000046691;gene:ENSMUSG00000117748]
+	Gene 1: Chtf8; CTF8, chromosome transmission fidelity factor 8 [Source:MGI Symbol;Acc:MGI:2443370]
+	Gene 2: Derpc; DERPC proline and glycine rich nuclear protein [Source:MGI Symbol;Acc:MGI:6303050]
+
+Total overlap length: 2  |  chr: 1 |  genes: [gene:ENSMUSG00000090486;gene:ENSMUSG00000012187]
+	Gene 1: BC035947; cDNA sequence BC035947 [Source:MGI Symbol;Acc:MGI:2652858]
+	Gene 2: Mogat1; monoacylglycerol O-acyltransferase 1 [Source:MGI Symbol;Acc:MGI:1915643]
+
+Total overlap length: 2  |  chr: 4 |  genes: [gene:ENSMUSG00000036822;gene:ENSMUSG00000028407]
+	Gene 1: Topors; topoisomerase I binding, arginine/serine-rich [Source:MGI Symbol;Acc:MGI:2146189]
+	Gene 2: Smim27; small integral membrane protein 27 [Source:MGI Symbol;Acc:MGI:1913684]
+
+Total overlap length: 2  |  chr: 7 |  genes: [gene:ENSMUSG00000003271;gene:ENSMUSG00000062044]
+	Gene 1: Sult2b1; sulfotransferase family, cytosolic, 2B, member 1 [Source:MGI Symbol;Acc:MGI:1926342]
+	Gene 2: Lmtk3; lemur tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:3039582]
+
+Total overlap length: 2  |  chr: 7 |  genes: [gene:ENSMUSG00000030980;gene:ENSMUSG00000073856]
+	Gene 1: Knop1; lysine rich nucleolar protein 1 [Source:MGI Symbol;Acc:MGI:1913606]
+	Gene 2: Iqck; IQ motif containing K [Source:MGI Symbol;Acc:MGI:3612188]
+
+Total overlap length: 2  |  chr: 19 |  genes: [gene:ENSMUSG00000024668;gene:ENSMUSG00000034820]
+	Gene 1: Sdhaf2; succinate dehydrogenase complex assembly factor 2 [Source:MGI Symbol;Acc:MGI:1913322]
+	Gene 2: Cpsf7; cleavage and polyadenylation specific factor 7 [Source:MGI Symbol;Acc:MGI:1917826]
+
+Total overlap length: 2  |  chr: 19 |  genes: [gene:ENSMUSG00000025041;gene:ENSMUSG00000034336]
+	Gene 1: Nt5c2; 5'-nucleotidase, cytosolic II [Source:MGI Symbol;Acc:MGI:2178563]
+	Gene 2: Ina; internexin neuronal intermediate filament protein, alpha [Source:MGI Symbol;Acc:MGI:96568]
+
+Total overlap length: 2  |  chr: 19 |  genes: [gene:ENSMUSG00000025092;gene:ENSMUSG00000048029]
+	Gene 1: Hspa12a; heat shock protein 12A [Source:MGI Symbol;Acc:MGI:1920692]
+	Gene 2: Eno4; enolase 4 [Source:MGI Symbol;Acc:MGI:2441717]
+

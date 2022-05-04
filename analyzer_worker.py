@@ -143,13 +143,13 @@ class AnalyzerData:
         total = self.nucleotide_frequency['C'] + self.nucleotide_frequency['G'] + self.nucleotide_frequency['A'] + \
                 self.nucleotide_frequency['T']
         gc = self.nucleotide_frequency['C'] + self.nucleotide_frequency['G']
-        return gc * 100 / total
+        return -1 if total == 0 else gc * 100 / total
 
     def get_mean_hd_content(self):
         total = self.degeneracy_frequency['low'] + self.degeneracy_frequency['medium'] + self.degeneracy_frequency[
             'high']
         hd = self.degeneracy_frequency['high']
-        return hd * 100 / total
+        return -1 if total == 0 else hd * 100 / total
 
     def get_regional_gc_contents(self):
         output = []
@@ -162,7 +162,7 @@ class AnalyzerData:
                 'T'] + self.nucleotide_frequency_by_subregions[i]['C'] + self.nucleotide_frequency_by_subregions[i]['G']
             sum += total_sum
             my += gc_content
-            value = gc_content * 100 / total_sum
+            value = 0 if total_sum == 0 else gc_content * 100 / total_sum
             output.append(value)
         return output
 
@@ -173,7 +173,7 @@ class AnalyzerData:
             total_sum = self.degeneracy_frequency_by_subregions[i]['low'] + self.degeneracy_frequency_by_subregions[i][
                 'high'] + self.degeneracy_frequency_by_subregions[i]['medium']
 
-            value = hd_content * 100 / total_sum
+            value = 0 if total_sum == 0 else hd_content * 100 / total_sum
             output.append(value)
         return output
 
@@ -186,7 +186,7 @@ class AnalyzerData:
         for i in range(len(sorted_dict)):
             total_sum += sorted_dict[i][1]
         for i in range(len(sorted_dict)):
-            value = float("{:.2f}".format(sorted_dict[i][1] * 100 / total_sum))
+            value = 0 if total_sum == 0 else float("{:.2f}".format(sorted_dict[i][1] * 100 / total_sum))
             sorted_dict[i] = (sorted_dict[i][0], value)
         return sorted_dict
 

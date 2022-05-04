@@ -1,0 +1,33 @@
+Total overlapped (by CDS) genes: 2 = [2]x1
+Total overlapped (by CDS) sequence length: 9
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		A - 27.78%	T - 27.78%	C - 22.22%	G - 22.22%
+
+
+	di-nucleotides:
+		AT - 12.5%	TA - 12.5%	TG - 12.5%	CA - 12.5%
+		AG - 6.25%	AC - 6.25%	TC - 6.25%	CT - 6.25%
+		CC - 6.25%	GA - 6.25%	GT - 6.25%	GG - 6.25%
+		AA - 0.0%	TT - 0.0%	CG - 0.0%	GC - 0.0%
+
+
+	amino-acids:
+		L - 16.67%	S - 16.67%	V - 16.67%	Q - 16.67%
+		Y - 16.67%	* - 16.67%	R - 0.0%	A - 0.0%
+		G - 0.0%	P - 0.0%	T - 0.0%	I - 0.0%
+		C - 0.0%	D - 0.0%	E - 0.0%	F - 0.0%
+		H - 0.0%	K - 0.0%	N - 0.0%	M - 0.0%
+		W - 0.0%
+
+	amino-acids by codon degeneracy:
+		high - 40.0%	low - 40.0%	medium - 20.0%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 9  |  chr: 4 |  genes: [gene-Dmel_CG3743;gene-Dmel_CG3911]
+	Gene 1: MTF-1; Metal response element-binding Transcription Factor-1
+	Gene 2: Bet3; Blocked early in transport 3
+

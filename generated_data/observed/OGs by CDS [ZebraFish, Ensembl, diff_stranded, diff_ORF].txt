@@ -1,0 +1,273 @@
+Total overlapped (by CDS) genes: 119 = [2]x55 + [3]x3
+Total overlapped (by CDS) sequence length: 4107
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 27.05%	G - 27.05%	A - 22.95%	T - 22.95%
+
+
+	di-nucleotides:
+		TG - 8.36%	CA - 8.36%	TC - 7.64%	GA - 7.64%
+		GC - 7.58%	AG - 7.37%	CT - 7.37%	CC - 6.47%
+		GG - 6.47%	AC - 5.36%	GT - 5.36%	AT - 5.25%
+		AA - 4.96%	TT - 4.96%	CG - 4.95%	TA - 1.91%
+
+
+	amino-acids:
+		L - 11.26%	S - 9.28%	A - 7.78%	R - 6.92%
+		G - 6.88%	V - 6.29%	E - 5.84%	Q - 5.8%
+		T - 5.46%	D - 4.56%	P - 4.41%	I - 3.93%
+		F - 3.4%	H - 3.4%	K - 2.96%	C - 2.92%
+		M - 2.73%	N - 2.43%	* - 1.5%	Y - 1.27%
+		W - 0.97%
+
+	amino-acids by codon degeneracy:
+		low - 36.84%	medium - 35.28%	high - 27.88%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 360 = 118 + 242  |  chr: 7 |  genes: [gene:ENSDARG00000088615;gene:ENSDARG00000093776]
+	Gene 1: ltb4r2a; leukotriene B4 receptor 2a [Source:ZFIN;Acc:ZDB-GENE-140106-272]
+	Gene 2: si:ch211-272h9.6; si:ch211-272h9.6 [Source:ZFIN;Acc:ZDB-GENE-070705-168]
+
+Total overlap length: 237 = 174 + 63  |  chr: 19 |  genes: [gene:ENSDARG00000093430;gene:ENSDARG00000077101]
+	Gene 1: si:dkeyp-34f6.4; si:dkeyp-34f6.4 [Source:ZFIN;Acc:ZDB-GENE-070705-539]
+	Gene 2: zbtb10; zinc finger and BTB domain containing 10 [Source:ZFIN;Acc:ZDB-GENE-030429-10]
+
+Total overlap length: 198  |  chr: 10 |  genes: [gene:ENSDARG00000087341;gene:ENSDARG00000102742]
+	Gene 1: unc5c; unc-5 netrin receptor C [Source:ZFIN;Acc:ZDB-GENE-030131-9196]
+	Gene 2: bmpr1bb; bone morphogenetic protein receptor, type IBb [Source:ZFIN;Acc:ZDB-GENE-090610-1]
+
+Total overlap length: 181  |  chr: 7 |  genes: [gene:ENSDARG00000036060;gene:ENSDARG00000054196]
+	Gene 1: exosc6; exosome component 6 [Source:NCBI gene;Acc:326786]
+	Gene 2: slc38a8b; solute carrier family 38 member 8b [Source:ZFIN;Acc:ZDB-GENE-121005-6]
+
+Total overlap length: 159  |  chr: 5 |  genes: [gene:ENSDARG00000094696;gene:ENSDARG00000013813]
+	Gene 1: si:dkey-201c13.2; si:dkey-201c13.2 [Source:ZFIN;Acc:ZDB-GENE-060526-243]
+	Gene 2: fam219ab; family with sequence similarity 219 member Ab [Source:ZFIN;Acc:ZDB-GENE-050522-213]
+
+Total overlap length: 155  |  chr: 17 |  genes: [gene:ENSDARG00000079664;gene:ENSDARG00000102715]
+	Gene 1: zgc:172341; zgc:172341 [Source:ZFIN;Acc:ZDB-GENE-080204-116]
+	Gene 2: UST; uronyl 2-sulfotransferase [Source:HGNC Symbol;Acc:HGNC:17223]
+
+Total overlap length: 152  |  chr: 9 |  genes: [gene:ENSDARG00000069134;gene:ENSDARG00000076733]
+	Gene 1: vwc2l; von Willebrand factor C domain containing 2 like [Source:NCBI gene;Acc:100148652]
+	Gene 2: bard1; BRCA1 associated RING domain 1 [Source:ZFIN;Acc:ZDB-GENE-030131-5883]
+
+Total overlap length: 152  |  chr: 23 |  genes: [gene:ENSDARG00000025147;gene:ENSDARG00000030641]
+	Gene 1: cd63; CD63 molecule [Source:ZFIN;Acc:ZDB-GENE-030131-180]
+	Gene 2: letmd1; LETM1 domain containing 1 [Source:ZFIN;Acc:ZDB-GENE-080723-8]
+
+Total overlap length: 143  |  chr: 10 |  genes: [gene:ENSDARG00000058476;gene:ENSDARG00000089340]
+	Gene 1: stc1l; stanniocalcin 1, like [Source:ZFIN;Acc:ZDB-GENE-040426-1521]
+	Gene 2: rhobtb2b; Rho related BTB domain containing 2b [Source:ZFIN;Acc:ZDB-GENE-071125-1]
+
+Total overlap length: 141 = 41 + 100  |  chr: 16 |  genes: [gene:ENSDARG00000010738;gene:ENSDARG00000097563]
+	Gene 1: zgc:101716; zgc:101716 [Source:ZFIN;Acc:ZDB-GENE-041114-135]
+	Gene 2: si:ch211-151m7.6; si:ch211-151m7.6 [Source:ZFIN;Acc:ZDB-GENE-131121-496]
+
+Total overlap length: 135 = 27 + 108  |  chr: 5 |  genes: [gene:ENSDARG00000095885;gene:ENSDARG00000067997]
+	Gene 1: si:ch211-158m24.12; si:ch211-158m24.12 [Source:ZFIN;Acc:ZDB-GENE-110411-14]
+	Gene 2: myhz1.3; myosin, heavy polypeptide 1.3, skeletal muscle [Source:ZFIN;Acc:ZDB-GENE-070705-74]
+
+Total overlap length: 130  |  chr: 12 |  genes: [gene:ENSDARG00000096782;gene:ENSDARG00000061216]
+	Gene 1: si:dkey-148d16.5; si:dkey-148d16.5 [Source:ZFIN;Acc:ZDB-GENE-130603-77]
+	Gene 2: hexdc; hexosaminidase (glycosyl hydrolase family 20, catalytic domain) containing [Source:ZFIN;Acc:ZDB-GENE-060929-448]
+
+Total overlap length: 128  |  chr: 9 |  genes: [gene:ENSDARG00000094791;gene:ENSDARG00000006383]
+	Gene 1: si:dkey-193n17.9; si:dkey-193n17.9 [Source:ZFIN;Acc:ZDB-GENE-070912-421]
+	Gene 2: stxbp5l; syntaxin binding protein 5-like [Source:NCBI gene;Acc:567605]
+
+Total overlap length: 124  |  chr: 8 |  genes: [gene:ENSDARG00000089901;gene:ENSDARG00000069696]
+	Gene 1: si:ch211-261n11.8; si:ch211-261n11.8 [Source:ZFIN;Acc:ZDB-GENE-081105-75]
+	Gene 2: si:ch211-261n11.5; si:ch211-261n11.5 [Source:ZFIN;Acc:ZDB-GENE-081104-202]
+
+Total overlap length: 110  |  chr: 8 |  genes: [gene:ENSDARG00000056090;gene:ENSDARG00000056091]
+	Gene 1: capza1b; capping actin protein of muscle Z-line subunit alpha 1b [Source:ZFIN;Acc:ZDB-GENE-031002-24]
+	Gene 2: cttnbp2nlb; CTTNBP2 N-terminal like b [Source:ZFIN;Acc:ZDB-GENE-040724-65]
+
+Total overlap length: 103  |  chr: 23 |  genes: [gene:ENSDARG00000036876;gene:ENSDARG00000036875]
+	Gene 1: zgc:153284; zgc:153284 [Source:ZFIN;Acc:ZDB-GENE-060825-317]
+	Gene 2: rps12; ribosomal protein S12 [Source:ZFIN;Acc:ZDB-GENE-030131-8951]
+
+Total overlap length: 92  |  chr: 17 |  genes: [gene:ENSDARG00000040258;gene:ENSDARG00000009949]
+	Gene 1: si:ch73-340m8.2; si:ch73-340m8.2 [Source:ZFIN;Acc:ZDB-GENE-110411-209]
+	Gene 2: fndc4b; fibronectin type III domain containing 4b [Source:ZFIN;Acc:ZDB-GENE-120711-3]
+
+Total overlap length: 86  |  chr: 14 |  genes: [gene:ENSDARG00000053684;gene:ENSDARG00000104037]
+	Gene 1: aldob; aldolase b, fructose-bisphosphate [Source:NCBI gene;Acc:321664]
+	Gene 2: si:dkey-74k8.4; si:dkey-74k8.4 [Source:ZFIN;Acc:ZDB-GENE-141219-40]
+
+Total overlap length: 72  |  chr: 2 |  genes: [gene:ENSDARG00000103226;gene:ENSDARG00000101378]
+	Gene 1: dhcr7; 7-dehydrocholesterol reductase [Source:NCBI gene;Acc:378446]
+	Gene 2: nadsyn1; NAD synthetase 1 [Source:ZFIN;Acc:ZDB-GENE-070615-22]
+
+Total overlap length: 71  |  chr: 20 |  genes: [gene:ENSDARG00000012656;gene:ENSDARG00000004697]
+	Gene 1: atf6; activating transcription factor 6 [Source:ZFIN;Acc:ZDB-GENE-041014-328]
+	Gene 2: rxrgb; retinoid X receptor, gamma b [Source:NCBI gene;Acc:436617]
+
+Total overlap length: 70  |  chr: 10 |  genes: [gene:ENSDARG00000057035;gene:ENSDARG00000057021]
+	Gene 1: stoml3b; stomatin (EPB72)-like 3b [Source:ZFIN;Acc:ZDB-GENE-050417-366]
+	Gene 2: vps36; vacuolar protein sorting 36 homolog [Source:NCBI gene;Acc:335810]
+
+Total overlap length: 66  |  chr: 14 |  genes: [gene:ENSDARG00000026926;gene:ENSDARG00000101564]
+	Gene 1: rom1b; retinal outer segment membrane protein 1b [Source:ZFIN;Acc:ZDB-GENE-040426-1073]
+	Gene 2: si:dkey-226n24.1; si:dkey-226n24.1 [Source:ZFIN;Acc:ZDB-GENE-141216-271]
+
+Total overlap length: 65  |  chr: 5 |  genes: [gene:ENSDARG00000053019;gene:ENSDARG00000078315]
+	Gene 1: rnft2; ring finger protein, transmembrane 2 [Source:NCBI gene;Acc:553554]
+	Gene 2: SPRING1; zgc:110063 [Source:NCBI gene;Acc:553772]
+
+Total overlap length: 58  |  chr: 24 |  genes: [gene:ENSDARG00000101934;gene:ENSDARG00000105185]
+	Gene 1: si:ch73-358j7.2; si:ch73-358j7.2 [Source:ZFIN;Acc:ZDB-GENE-131125-45]
+	Gene 2: snx7; sorting nexin 7 [Source:ZFIN;Acc:ZDB-GENE-040704-77]
+
+Total overlap length: 57  |  chr: 12 |  genes: [gene:ENSDARG00000025875;gene:ENSDARG00000096782]
+	Gene 1: kctd2; potassium channel tetramerization domain containing 2 [Source:ZFIN;Acc:ZDB-GENE-060825-85]
+	Gene 2: si:dkey-148d16.5; si:dkey-148d16.5 [Source:ZFIN;Acc:ZDB-GENE-130603-77]
+
+Total overlap length: 56  |  chr: 2 |  genes: [gene:ENSDARG00000093629;gene:ENSDARG00000075706]
+	Gene 1: si:ch211-106h4.4; si:ch211-106h4.4 [Source:ZFIN;Acc:ZDB-GENE-070705-14]
+	Gene 2: si:ch211-106h4.9; si:ch211-106h4.9 [Source:ZFIN;Acc:ZDB-GENE-070705-17]
+
+Total overlap length: 54  |  chr: 17 |  genes: [gene:ENSDARG00000077567;gene:ENSDARG00000041449]
+	Gene 1: angel1; angel homolog 1 (Drosophila) [Source:ZFIN;Acc:ZDB-GENE-111020-12]
+	Gene 2: spred1; sprouty related EVH1 domain containing 1 [Source:ZFIN;Acc:ZDB-GENE-040426-2338]
+
+Total overlap length: 53  |  chr: 11 |  genes: [gene:ENSDARG00000058663;gene:ENSDARG00000045298]
+	Gene 1: pimr94; Pim proto-oncogene, serine/threonine kinase, related 94 [Source:ZFIN;Acc:ZDB-GENE-141216-85]
+	Gene 2: wipf2a; WAS/WASL interacting protein family, member 2a [Source:ZFIN;Acc:ZDB-GENE-121219-6]
+
+Total overlap length: 51  |  chr: 9 |  genes: [gene:ENSDARG00000041179;gene:ENSDARG00000025943]
+	Gene 1: crygm5; crystallin, gamma M5 [Source:ZFIN;Acc:ZDB-GENE-041024-6]
+	Gene 2: crygs3; crystallin, gamma S3 [Source:ZFIN;Acc:ZDB-GENE-050223-3]
+
+Total overlap length: 47 = 40 + 7  |  chr: 7 |  genes: [gene:ENSDARG00000105583;gene:ENSDARG00000054829]
+	Gene 1: si:dkeyp-75h12.7; si:dkeyp-75h12.7 [Source:ZFIN;Acc:ZDB-GENE-160728-134]
+	Gene 2: pik3c3; phosphatidylinositol 3-kinase, catalytic subunit type 3 [Source:ZFIN;Acc:ZDB-GENE-050410-13]
+
+Total overlap length: 45  |  chr: 4 |  genes: [gene:ENSDARG00000115299;gene:ENSDARG00000104968]
+	Gene 1: si:ch211-227e10.3; si:ch211-227e10.3 [Source:ZFIN;Acc:ZDB-GENE-050420-291]
+	Gene 2: si:ch211-227e10.1; si:ch211-227e10.1 [Source:ZFIN;Acc:ZDB-GENE-050420-221]
+
+Total overlap length: 45  |  chr: 25 |  genes: [gene:ENSDARG00000062000;gene:ENSDARG00000061421]
+	Gene 1: abtb2b; ankyrin repeat and BTB (POZ) domain containing 2b [Source:ZFIN;Acc:ZDB-GENE-100422-14]
+	Gene 2: BRSK2; BR serine/threonine kinase 2a [Source:NCBI gene;Acc:100334759]
+
+Total overlap length: 41  |  chr: 22 |  genes: [gene:ENSDARG00000061602;gene:ENSDARG00000092419]
+	Gene 1: ssx2ipb; synovial sarcoma, X breakpoint 2 interacting protein b [Source:ZFIN;Acc:ZDB-GENE-050208-601]
+	Gene 2: vtg7; vitellogenin 7 [Source:ZFIN;Acc:ZDB-GENE-001201-6]
+
+Total overlap length: 39  |  chr: 5 |  genes: [gene:ENSDARG00000104733;gene:ENSDARG00000101036]
+	Gene 1: coq4; coenzyme Q4 homolog (S. cerevisiae) [Source:NCBI gene;Acc:100137123]
+	Gene 2: traf2b; Tnf receptor-associated factor 2b [Source:ZFIN;Acc:ZDB-GENE-030131-5345]
+
+Total overlap length: 39 = 14 + 25  |  chr: 9 |  genes: [gene:ENSDARG00000040959;gene:ENSDARG00000055986]
+	Gene 1: rabl3; RAB, member of RAS oncogene family-like 3 [Source:NCBI gene;Acc:403048]
+	Gene 2: gzm3.2; granzyme 3, tandem duplicate 2 [Source:ZFIN;Acc:ZDB-GENE-070912-133]
+
+Total overlap length: 35  |  chr: 1 |  genes: [gene:ENSDARG00000034785;gene:ENSDARG00000070504]
+	Gene 1: dachb; dachshund b [Source:ZFIN;Acc:ZDB-GENE-020402-4]
+	Gene 2: trpc5a; transient receptor potential cation channel, subfamily C, member 5a [Source:ZFIN;Acc:ZDB-GENE-040812-1]
+
+Total overlap length: 33  |  chr: 18 |  genes: [gene:ENSDARG00000007180;gene:ENSDARG00000061763]
+	Gene 1: slc30a4; solute carrier family 30 member 4 [Source:ZFIN;Acc:ZDB-GENE-040426-1408]
+	Gene 2: spata5l1; spermatogenesis associated 5-like 1 [Source:ZFIN;Acc:ZDB-GENE-060929-204]
+
+Total overlap length: 31  |  chr: 9 |  genes: [gene:ENSDARG00000040684;gene:ENSDARG00000061373]
+	Gene 1: plcd4b; phospholipase C, delta 4b [Source:ZFIN;Acc:ZDB-GENE-080512-3]
+	Gene 2: znf142; zinc finger protein 142 [Source:ZFIN;Acc:ZDB-GENE-080512-2]
+
+Total overlap length: 30  |  chr: 5 |  genes: [gene:ENSDARG00000094025;gene:ENSDARG00000035540]
+	Gene 1: si:dkey-237j10.2; si:dkey-237j10.2 [Source:ZFIN;Acc:ZDB-GENE-100922-206]
+	Gene 2: brwd3; bromodomain and WD repeat domain containing 3 [Source:ZFIN;Acc:ZDB-GENE-100921-43]
+
+Total overlap length: 23  |  chr: 8 |  genes: [gene:ENSDARG00000034457;gene:ENSDARG00000042899]
+	Gene 1: si:ch211-163l21.7; si:ch211-163l21.7 [Source:NCBI gene;Acc:567726]
+	Gene 2: ELAPOR1; si:ch211-163l21.8 [Source:ZFIN;Acc:ZDB-GENE-041008-93]
+
+Total overlap length: 22  |  chr: 6 |  genes: [gene:ENSDARG00000038467;gene:ENSDARG00000059818]
+	Gene 1: igsf8; immunoglobulin superfamily, member 8 [Source:ZFIN;Acc:ZDB-GENE-040426-2444]
+	Gene 2: kif5ab; kinesin family member 5A, b [Source:ZFIN;Acc:ZDB-GENE-110510-3]
+
+Total overlap length: 20  |  chr: 21 |  genes: [gene:ENSDARG00000100324;gene:ENSDARG00000098176]
+	Gene 1: AL627305.1; gastrula zinc finger protein XlCGF57.1-like [Source:NCBI gene;Acc:572670]
+	Gene 2: si:rp71-1h20.5; si:rp71-1h20.5 [Source:ZFIN;Acc:ZDB-GENE-030131-7869]
+
+Total overlap length: 19  |  chr: 4 |  genes: [gene:ENSDARG00000077205;gene:ENSDARG00000029105]
+	Gene 1: zgc:153116; zgc:153116 [Source:ZFIN;Acc:ZDB-GENE-060825-107]
+	Gene 2: ftr51; finTRIM family, member 51 [Source:ZFIN;Acc:ZDB-GENE-081104-54]
+
+Total overlap length: 19  |  chr: 20 |  genes: [gene:ENSDARG00000019355;gene:ENSDARG00000007737]
+	Gene 1: coa7; cytochrome c oxidase assembly factor 7 [Source:NCBI gene;Acc:555268]
+	Gene 2: zyg11; zyg-11 homolog (C. elegans) [Source:NCBI gene;Acc:555349]
+
+Total overlap length: 18  |  chr: 3 |  genes: [gene:ENSDARG00000100972;gene:ENSDARG00000103902]
+	Gene 1: myh11b; myosin, heavy chain 11b, smooth muscle [Source:ZFIN;Acc:ZDB-GENE-101124-2]
+	Gene 2: nde1; nudE neurodevelopment protein 1 [Source:ZFIN;Acc:ZDB-GENE-050913-61]
+
+Total overlap length: 18  |  chr: 20 |  genes: [gene:ENSDARG00000019300;gene:ENSDARG00000023002]
+	Gene 1: ints7; integrator complex subunit 7 [Source:NCBI gene;Acc:286776]
+	Gene 2: dtl; denticleless E3 ubiquitin protein ligase homolog (Drosophila) [Source:NCBI gene;Acc:192314]
+
+Total overlap length: 17  |  chr: 10 |  genes: [gene:ENSDARG00000060688;gene:ENSDARG00000028053]
+	Gene 1: trim69; tripartite motif containing 69 [Source:ZFIN;Acc:ZDB-GENE-030131-857]
+	Gene 2: bmp1b; bone morphogenetic protein 1b [Source:ZFIN;Acc:ZDB-GENE-060818-2]
+
+Total overlap length: 17  |  chr: 11 |  genes: [gene:ENSDARG00000102568;gene:ENSDARG00000025421]
+	Gene 1: si:ch73-106k19.2; si:ch73-106k19.2 [Source:ZFIN;Acc:ZDB-GENE-131121-349]
+	Gene 2: tdrd3; tudor domain containing 3 [Source:NCBI gene;Acc:402828]
+
+Total overlap length: 17 = 10 + 7  |  chr: 21 |  genes: [gene:ENSDARG00000044622;gene:ENSDARG00000088690]
+	Gene 1: polq; polymerase (DNA directed), theta [Source:ZFIN;Acc:ZDB-GENE-040724-232]
+	Gene 2: ddias; DNA damage-induced apoptosis suppressor [Source:ZFIN;Acc:ZDB-GENE-050208-281]
+
+Total overlap length: 16  |  chr: 7 |  genes: [gene:ENSDARG00000102908;gene:ENSDARG00000076117]
+	Gene 1: il16; interleukin 16 [Source:ZFIN;Acc:ZDB-GENE-130103-3]
+	Gene 2: stard5; StAR-related lipid transfer (START) domain containing 5 [Source:ZFIN;Acc:ZDB-GENE-130103-4]
+
+Total overlap length: 12  |  chr: 5 |  genes: [gene:ENSDARG00000101380;gene:ENSDARG00000101743]
+	Gene 1: cryabb; crystallin, alpha B, b [Source:ZFIN;Acc:ZDB-GENE-040718-419]
+	Gene 2: C5H11orf1; expressed sequence EH456644 [Source:ZFIN;Acc:ZDB-GENE-170331-1]
+
+Total overlap length: 9  |  chr: 21 |  genes: [gene:ENSDARG00000044622;gene:ENSDARG00000044625]
+	Gene 1: polq; polymerase (DNA directed), theta [Source:ZFIN;Acc:ZDB-GENE-040724-232]
+	Gene 2: pcf11; PCF11 cleavage and polyadenylation factor subunit [Source:ZFIN;Acc:ZDB-GENE-041114-175]
+
+Total overlap length: 8  |  chr: 12 |  genes: [gene:ENSDARG00000075909;gene:ENSDARG00000045066]
+	Gene 1: slc35f3a; solute carrier family 35 member F3a [Source:ZFIN;Acc:ZDB-GENE-080204-20]
+	Gene 2: entpd1; ectonucleoside triphosphate diphosphohydrolase 1 [Source:ZFIN;Acc:ZDB-GENE-040801-58]
+
+Total overlap length: 8  |  chr: 17 |  genes: [gene:ENSDARG00000098141;gene:ENSDARG00000040261]
+	Gene 1: supt3h; SPT3 homolog, SAGA and STAGA complex component [Source:ZFIN;Acc:ZDB-GENE-040718-370]
+	Gene 2: runx2a; RUNX family transcription factor 2a [Source:ZFIN;Acc:ZDB-GENE-040629-3]
+
+Total overlap length: 6  |  chr: 7 |  genes: [gene:ENSDARG00000035820;gene:ENSDARG00000035819]
+	Gene 1: drd4b; dopamine receptor D4b [Source:ZFIN;Acc:ZDB-GENE-070508-3]
+	Gene 2: sirt3; sirtuin 3 [Source:ZFIN;Acc:ZDB-GENE-070112-1762]
+
+Total overlap length: 4  |  chr: 5 |  genes: [gene:ENSDARG00000067752;gene:ENSDARG00000092285]
+	Gene 1: pigl; phosphatidylinositol glycan anchor biosynthesis, class L [Source:ZFIN;Acc:ZDB-GENE-050506-60]
+	Gene 2: cenpv; centromere protein V [Source:ZFIN;Acc:ZDB-GENE-060526-76]
+
+Total overlap length: 4  |  chr: 12 |  genes: [gene:ENSDARG00000061424;gene:ENSDARG00000086255]
+	Gene 1: znf646; zinc finger protein 646 [Source:ZFIN;Acc:ZDB-GENE-160627-3]
+	Gene 2: si:rp71-1c10.10; si:rp71-1c10.10 [Source:ZFIN;Acc:ZDB-GENE-130603-55]
+
+Total overlap length: 2  |  chr: 4 |  genes: [gene:ENSDARG00000004794;gene:ENSDARG00000045481]
+	Gene 1: ccdc146; coiled-coil domain containing 146 [Source:ZFIN;Acc:ZDB-GENE-041210-217]
+	Gene 2: gsap; gamma-secretase activating protein [Source:ZFIN;Acc:ZDB-GENE-041210-216]
+
+Total overlap length: 2  |  chr: 11 |  genes: [gene:ENSDARG00000007630;gene:ENSDARG00000086655]
+	Gene 1: mkrn2; makorin, ring finger protein, 2 [Source:NCBI gene;Acc:170783]
+	Gene 2: mkrn2os.1; MKRN2 opposite strand, tandem duplicate 1 [Source:ZFIN;Acc:ZDB-GENE-160114-86]
+
+Total overlap length: 1  |  chr: 9 |  genes: [gene:ENSDARG00000040959;gene:ENSDARG00000076814]
+	Gene 1: rabl3; RAB, member of RAS oncogene family-like 3 [Source:NCBI gene;Acc:403048]
+	Gene 2: gzm3.4; granzyme 3, tandem duplicate 4 [Source:ZFIN;Acc:ZDB-GENE-070912-136]
+
+Total overlap length: 1  |  chr: 12 |  genes: [gene:ENSDARG00000003167;gene:ENSDARG00000045159]
+	Gene 1: mlst8; MTOR associated protein, LST8 homolog (S. cerevisiae) [Source:NCBI gene;Acc:792689]
+	Gene 2: zdhhc4; zinc finger DHHC-type containing 4 [Source:ZFIN;Acc:ZDB-GENE-030131-9031]
+

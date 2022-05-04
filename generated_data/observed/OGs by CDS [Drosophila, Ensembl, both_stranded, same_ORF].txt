@@ -1,0 +1,61 @@
+Total overlapped (by CDS) genes: 16 = [2]x8
+Total overlapped (by CDS) sequence length: 2472
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		G - 29.81%	C - 27.39%	A - 26.07%	T - 16.73%
+
+
+	di-nucleotides:
+		GC - 9.34%	CA - 8.73%	GA - 8.1%	AG - 7.98%
+		GG - 7.86%	CG - 7.55%	AA - 6.99%	CC - 6.76%
+		TG - 6.5%	AC - 5.67%	TC - 5.67%	AT - 5.48%
+		CT - 4.45%	GT - 4.29%	TT - 2.52%	TA - 2.11%
+
+
+	amino-acids:
+		G - 12.42%	A - 8.71%	R - 8.65%	S - 8.1%
+		Q - 7.06%	E - 5.97%	D - 5.3%	L - 5.24%
+		T - 4.99%	V - 4.51%	P - 4.08%	K - 4.08%
+		N - 3.84%	I - 3.59%	H - 3.29%	F - 2.19%
+		C - 2.13%	Y - 1.83%	M - 1.52%	W - 1.28%
+		* - 1.22%
+
+	amino-acids by codon degeneracy:
+		low - 38.96%	medium - 38.78%	high - 22.26%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 1311  |  chr: 2 |  genes: [gene:FBgn0264817;gene:FBgn0283521]
+	Gene 1: pre-lola-G; pre-lola-G
+	Gene 2: lola; longitudinals lacking
+
+Total overlap length: 412 = 24 + 388  |  chr: 1 |  genes: [gene:FBgn0283440;gene:FBgn0283442]
+	Gene 1: solo; sisters on the loose
+	Gene 2: vas; vasa
+
+Total overlap length: 367  |  chr: 2 |  genes: [gene:FBgn0028991;gene:FBgn0053182]
+	Gene 1: seq; sequoia
+	Gene 2: Kdm4B; Lysine (K)-specific demethylase 4B
+
+Total overlap length: 241 = 175 + 66  |  chr: 4 |  genes: [gene:FBgn0263740;gene:FBgn0263755]
+	Gene 1: eIF2gamma; eukaryotic translation initiation factor 2 subunit gamma
+	Gene 2: Su(var)3-9; Suppressor of variegation 3-9
+
+Total overlap length: 64  |  chr: 4 |  genes: [gene:FBgn0263757;gene:FBgn0263738]
+	Gene 1: Rpb4; RNA polymerase II subunit Rpb4
+	Gene 2: Ada2a; transcriptional Adaptor 2a
+
+Total overlap length: 55  |  chr: 4 |  genes: [gene:FBgn0265190;gene:FBgn0265189]
+	Gene 1: PIG-S; Phosphatidylinositol glycan anchor biosynthesis class S
+	Gene 2: sud1; sudestada1
+
+Total overlap length: 13  |  chr: 4 |  genes: [gene:FBgn0037262;gene:FBgn0037263]
+	Gene 1: MED31; Mediator complex subunit 31
+	Gene 2: slx1; nuclease slx1
+
+Total overlap length: 9  |  chr: 3 |  genes: [gene:FBgn0040305;gene:FBgn0260859]
+	Gene 1: MTF-1; Metal response element-binding Transcription Factor-1
+	Gene 2: Bet3; Blocked early in transport 3
+

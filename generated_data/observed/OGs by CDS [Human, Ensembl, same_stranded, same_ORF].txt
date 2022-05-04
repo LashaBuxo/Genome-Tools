@@ -1,0 +1,1645 @@
+Total overlapped (by CDS) genes: 108 = [2]x28 + [3]x2 + [9]x1 + [15]x1 + [22]x1
+Total overlapped (by CDS) sequence length: 176815
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 29.13%	A - 27.52%	G - 27.32%	T - 16.02%
+
+
+	di-nucleotides:
+		CA - 10.19%	CC - 9.91%	AG - 8.5%	GC - 8.18%
+		AA - 8.1%	GG - 7.85%	GA - 7.3%	TG - 7.12%
+		AC - 6.79%	CT - 5.27%	AT - 4.09%	TC - 4.08%
+		CG - 3.97%	GT - 3.73%	TT - 3.02%	TA - 1.91%
+
+
+	amino-acids:
+		G - 11.14%	A - 8.84%	K - 8.52%	S - 8.07%
+		P - 7.42%	T - 6.91%	N - 6.05%	Q - 5.65%
+		L - 5.55%	D - 5.07%	R - 4.0%	E - 3.96%
+		V - 3.49%	I - 3.4%	F - 2.81%	Y - 2.35%
+		M - 2.28%	W - 1.68%	H - 1.66%	* - 0.67%
+		C - 0.48%
+
+	amino-acids by codon degeneracy:
+		medium - 41.46%	low - 40.8%	high - 17.74%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 1401  |  chr: 15 |  genes: [gene:ENSG00000263155;gene:ENSG00000137878]
+	Gene 1: MYZAP; myocardial zonula adherens protein [Source:HGNC Symbol;Acc:HGNC:43444]
+	Gene 2: GCOM1; GCOM1, MYZAP-POLR2M combined locus [Source:HGNC Symbol;Acc:HGNC:26424]
+
+Total overlap length: 1367  |  chr: 4 |  genes: [gene:ENSG00000271271;gene:ENSG00000173610]
+	Gene 1: UGT2A2; UDP glucuronosyltransferase family 2 member A2 [Source:HGNC Symbol;Acc:HGNC:28183]
+	Gene 2: UGT2A1; UDP glucuronosyltransferase family 2 member A1 complex locus [Source:HGNC Symbol;Acc:HGNC:12542]
+
+Total overlap length: 1182  |  chr: 2 |  genes: [gene:ENSG00000169621;gene:ENSG00000169618]
+	Gene 1: APLF; aprataxin and PNKP like factor [Source:HGNC Symbol;Acc:HGNC:28724]
+	Gene 2: PROKR1; prokineticin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4524]
+
+Total overlap length: 1021  |  chr: 4 |  genes: [gene:ENSG00000130997;gene:ENSG00000214367]
+	Gene 1: POLN; DNA polymerase nu [Source:HGNC Symbol;Acc:HGNC:18870]
+	Gene 2: HAUS3; HAUS augmin like complex subunit 3 [Source:HGNC Symbol;Acc:HGNC:28719]
+
+Total overlap length: 994  |  chr: 15 |  genes: [gene:ENSG00000137878;gene:ENSG00000255529]
+	Gene 1: GCOM1; GCOM1, MYZAP-POLR2M combined locus [Source:HGNC Symbol;Acc:HGNC:26424]
+	Gene 2: POLR2M; RNA polymerase II subunit M [Source:HGNC Symbol;Acc:HGNC:14862]
+
+Total overlap length: 951  |  chr: 15 |  genes: [gene:ENSG00000280709;gene:ENSG00000279408]
+	Gene 1: LINC02203; long intergenic non-protein coding RNA 2203 [Source:HGNC Symbol;Acc:HGNC:53069]
+	Gene 2: OR4N4C; olfactory receptor family 4 subfamily N member 4C [Source:HGNC Symbol;Acc:HGNC:55110]
+
+Total overlap length: 929  |  chr: 8 |  genes: [gene:ENSG00000171056;gene:ENSG00000258724]
+	Gene 1: SOX7; SRY-box transcription factor 7 [Source:HGNC Symbol;Acc:HGNC:18196]
+	Gene 2: PINX1; PIN2 (TERF1) interacting telomerase inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:30046]
+
+Total overlap length: 777  |  chr: 11 |  genes: [gene:ENSG00000284922;gene:ENSG00000284844]
+	Gene 1: LRTOMT; leucine rich transmembrane and O-methyltransferase domain containing [Source:HGNC Symbol;Acc:HGNC:25033]
+	Gene 2: TOMT; transmembrane O-methyltransferase [Source:HGNC Symbol;Acc:HGNC:55527]
+
+Total overlap length: 772  |  chr: 19 |  genes: [gene:ENSG00000269699;gene:ENSG00000198300]
+	Gene 1: ZIM2; zinc finger imprinted 2 [Source:HGNC Symbol;Acc:HGNC:12875]
+	Gene 2: PEG3; paternally expressed 3 [Source:HGNC Symbol;Acc:HGNC:8826]
+
+Total overlap length: 751  |  chr: 1 |  genes: [gene:ENSG00000286106;gene:ENSG00000273136]
+	Gene 1: NOTCH2NLR; notch 2 N-terminal like R (pseudogene) [Source:HGNC Symbol;Acc:HGNC:53925]
+	Gene 2: NBPF26; NBPF member 26 [Source:HGNC Symbol;Acc:HGNC:49571]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000242515]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000241119]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000244122]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000167165]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000288705]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000244474]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000288702]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242366;gene:ENSG00000241635]
+	Gene 1: UGT1A8; UDP glucuronosyltransferase family 1 member A8 [Source:HGNC Symbol;Acc:HGNC:12540]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000241119]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000244122]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000167165]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000288705]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000244474]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000288702]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000242515;gene:ENSG00000241635]
+	Gene 1: UGT1A10; UDP glucuronosyltransferase family 1 member A10 [Source:HGNC Symbol;Acc:HGNC:12531]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000244122]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000167165]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000288705]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000244474]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000288702]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000241119;gene:ENSG00000241635]
+	Gene 1: UGT1A9; UDP glucuronosyltransferase family 1 member A9 [Source:HGNC Symbol;Acc:HGNC:12541]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244122;gene:ENSG00000167165]
+	Gene 1: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+	Gene 2: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244122;gene:ENSG00000288705]
+	Gene 1: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+	Gene 2: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244122;gene:ENSG00000244474]
+	Gene 1: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244122;gene:ENSG00000288702]
+	Gene 1: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244122;gene:ENSG00000241635]
+	Gene 1: UGT1A7; UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000167165;gene:ENSG00000288705]
+	Gene 1: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+	Gene 2: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000167165;gene:ENSG00000244474]
+	Gene 1: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000167165;gene:ENSG00000288702]
+	Gene 1: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000167165;gene:ENSG00000241635]
+	Gene 1: UGT1A6; UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000288705;gene:ENSG00000244474]
+	Gene 1: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+	Gene 2: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000288705;gene:ENSG00000288702]
+	Gene 1: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000288705;gene:ENSG00000241635]
+	Gene 1: UGT1A5; UDP glucuronosyltransferase family 1 member A5 [Source:HGNC Symbol;Acc:HGNC:12537]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244474;gene:ENSG00000288702]
+	Gene 1: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+	Gene 2: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000244474;gene:ENSG00000241635]
+	Gene 1: UGT1A4; UDP glucuronosyltransferase family 1 member A4 [Source:HGNC Symbol;Acc:HGNC:12536]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 738  |  chr: 2 |  genes: [gene:ENSG00000288702;gene:ENSG00000241635]
+	Gene 1: UGT1A3; UDP glucuronosyltransferase family 1 member A3 [Source:HGNC Symbol;Acc:HGNC:12535]
+	Gene 2: UGT1A1; UDP glucuronosyltransferase family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:12530]
+
+Total overlap length: 547  |  chr: 18 |  genes: [gene:ENSG00000197632;gene:ENSG00000242550]
+	Gene 1: SERPINB2; serpin family B member 2 [Source:HGNC Symbol;Acc:HGNC:8584]
+	Gene 2: SERPINB10; serpin family B member 10 [Source:HGNC Symbol;Acc:HGNC:8942]
+
+Total overlap length: 512  |  chr: 24 |  genes: [gene:ENSG00000242875;gene:ENSG00000234414]
+	Gene 1: RBMY1B; RNA binding motif protein Y-linked family 1 member B [Source:HGNC Symbol;Acc:HGNC:23914]
+	Gene 2: RBMY1A1; RNA binding motif protein Y-linked family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:9912]
+
+Total overlap length: 477  |  chr: 1 |  genes: [gene:ENSG00000152904;gene:ENSG00000285053]
+	Gene 1: GGPS1; geranylgeranyl diphosphate synthase 1 [Source:HGNC Symbol;Acc:HGNC:4249]
+	Gene 2: TBCE; tubulin folding cofactor E [Source:HGNC Symbol;Acc:HGNC:11582]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204969]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000255408]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204967]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204965]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000081842]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204963]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204962]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000204961]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000250120]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000249158]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000251664]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000239389]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000248383]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204970;gene:ENSG00000243232]
+	Gene 1: PCDHA1; protocadherin alpha 1 [Source:HGNC Symbol;Acc:HGNC:8663]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000255408]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000204967]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000204965]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000081842]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000204963]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000204962]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000204961]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000250120]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000249158]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000251664]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000239389]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000248383]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204969;gene:ENSG00000243232]
+	Gene 1: PCDHA2; protocadherin alpha 2 [Source:HGNC Symbol;Acc:HGNC:8668]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000204967]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000204965]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000081842]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000204963]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000204962]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000204961]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000250120]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000249158]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000251664]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000239389]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000248383]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000255408;gene:ENSG00000243232]
+	Gene 1: PCDHA3; protocadherin alpha 3 [Source:HGNC Symbol;Acc:HGNC:8669]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000204965]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000081842]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000204963]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000204962]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000204961]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000250120]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000249158]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000251664]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000239389]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000248383]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204967;gene:ENSG00000243232]
+	Gene 1: PCDHA4; protocadherin alpha 4 [Source:HGNC Symbol;Acc:HGNC:8670]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000081842]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000204963]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000204962]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000204961]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000250120]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000249158]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000251664]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000239389]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000248383]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204965;gene:ENSG00000243232]
+	Gene 1: PCDHA5; protocadherin alpha 5 [Source:HGNC Symbol;Acc:HGNC:8671]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000204963]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000204962]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000204961]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000250120]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000249158]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000251664]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000239389]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000248383]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000081842;gene:ENSG00000243232]
+	Gene 1: PCDHA6; protocadherin alpha 6 [Source:HGNC Symbol;Acc:HGNC:8672]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000204962]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000204961]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000250120]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000249158]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000251664]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000239389]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000248383]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204963;gene:ENSG00000243232]
+	Gene 1: PCDHA7; protocadherin alpha 7 [Source:HGNC Symbol;Acc:HGNC:8673]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000204961]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000250120]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000249158]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000251664]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000239389]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000248383]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204962;gene:ENSG00000243232]
+	Gene 1: PCDHA8; protocadherin alpha 8 [Source:HGNC Symbol;Acc:HGNC:8674]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000250120]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000249158]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000251664]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000239389]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000248383]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000204961;gene:ENSG00000243232]
+	Gene 1: PCDHA9; protocadherin alpha 9 [Source:HGNC Symbol;Acc:HGNC:8675]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000250120;gene:ENSG00000249158]
+	Gene 1: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+	Gene 2: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000250120;gene:ENSG00000251664]
+	Gene 1: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000250120;gene:ENSG00000239389]
+	Gene 1: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000250120;gene:ENSG00000248383]
+	Gene 1: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000250120;gene:ENSG00000243232]
+	Gene 1: PCDHA10; protocadherin alpha 10 [Source:HGNC Symbol;Acc:HGNC:8664]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000249158;gene:ENSG00000251664]
+	Gene 1: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+	Gene 2: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000249158;gene:ENSG00000239389]
+	Gene 1: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000249158;gene:ENSG00000248383]
+	Gene 1: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000249158;gene:ENSG00000243232]
+	Gene 1: PCDHA11; protocadherin alpha 11 [Source:HGNC Symbol;Acc:HGNC:8665]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000251664;gene:ENSG00000239389]
+	Gene 1: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+	Gene 2: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000251664;gene:ENSG00000248383]
+	Gene 1: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000251664;gene:ENSG00000243232]
+	Gene 1: PCDHA12; protocadherin alpha 12 [Source:HGNC Symbol;Acc:HGNC:8666]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000239389;gene:ENSG00000248383]
+	Gene 1: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+	Gene 2: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000239389;gene:ENSG00000243232]
+	Gene 1: PCDHA13; protocadherin alpha 13 [Source:HGNC Symbol;Acc:HGNC:8667]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 459  |  chr: 5 |  genes: [gene:ENSG00000248383;gene:ENSG00000243232]
+	Gene 1: PCDHAC1; protocadherin alpha subfamily C, 1 [Source:HGNC Symbol;Acc:HGNC:8676]
+	Gene 2: PCDHAC2; protocadherin alpha subfamily C, 2 [Source:HGNC Symbol;Acc:HGNC:8677]
+
+Total overlap length: 441  |  chr: 7 |  genes: [gene:ENSG00000168255;gene:ENSG00000284981]
+	Gene 1: POLR2J3; RNA polymerase II subunit J3 [Source:HGNC Symbol;Acc:HGNC:33853]
+	Gene 2: UPK3BL2; uroplakin 3B like 2 [Source:HGNC Symbol;Acc:HGNC:53444]
+
+Total overlap length: 437  |  chr: 11 |  genes: [gene:ENSG00000284922;gene:ENSG00000184154]
+	Gene 1: LRTOMT; leucine rich transmembrane and O-methyltransferase domain containing [Source:HGNC Symbol;Acc:HGNC:25033]
+	Gene 2: LRRC51; leucine rich repeat containing 51 [Source:HGNC Symbol;Acc:HGNC:55526]
+
+Total overlap length: 424  |  chr: 9 |  genes: [gene:ENSG00000283486;gene:ENSG00000180071]
+	Gene 1: FAM95C; family with sequence similarity 95 member C [Source:HGNC Symbol;Acc:HGNC:45272]
+	Gene 2: ANKRD18A; ankyrin repeat domain 18A [Source:HGNC Symbol;Acc:HGNC:23643]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000081853]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000254245]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000254221]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000262576]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253910]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253485]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000262209]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253731]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253537]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253953]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253767]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000276547]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000261934]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253305]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253846]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000254122]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253873]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000253159]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000240184]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000242419]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000204956;gene:ENSG00000240764]
+	Gene 1: PCDHGA1; protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000254245]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000254221]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000262576]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253910]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253485]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000262209]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253731]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253537]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253953]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253767]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000276547]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000261934]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253305]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253846]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000254122]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253873]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000253159]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000240184]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000242419]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000081853;gene:ENSG00000240764]
+	Gene 1: PCDHGA2; protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000254221]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000262576]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253910]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253485]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000262209]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253731]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253537]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253953]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253767]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000276547]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000261934]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253305]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253846]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000254122]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253873]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000253159]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000240184]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000242419]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254245;gene:ENSG00000240764]
+	Gene 1: PCDHGA3; protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000262576]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253910]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253485]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000262209]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253731]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253537]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253953]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253767]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000276547]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000261934]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253305]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253846]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000254122]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253873]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000253159]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000240184]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000242419]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254221;gene:ENSG00000240764]
+	Gene 1: PCDHGB1; protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253910]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253485]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000262209]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253731]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253537]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253953]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253767]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000276547]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000261934]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253305]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253846]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000254122]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253873]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000253159]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000240184]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000242419]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262576;gene:ENSG00000240764]
+	Gene 1: PCDHGA4; protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253485]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000262209]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253731]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253537]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253953]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253767]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000276547]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000261934]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253305]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253846]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000254122]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253873]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000253159]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000240184]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000242419]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253910;gene:ENSG00000240764]
+	Gene 1: PCDHGB2; protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000262209]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253731]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253537]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253953]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253767]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000276547]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000261934]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253305]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253846]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000254122]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253873]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000253159]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000240184]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000242419]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253485;gene:ENSG00000240764]
+	Gene 1: PCDHGA5; protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253731]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253537]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253953]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253767]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000276547]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000261934]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253305]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253846]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000254122]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253873]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000253159]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000240184]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000242419]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000262209;gene:ENSG00000240764]
+	Gene 1: PCDHGB3; protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253537]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253953]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253767]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000276547]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000261934]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253305]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253846]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000254122]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253873]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000253159]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000240184]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000242419]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253731;gene:ENSG00000240764]
+	Gene 1: PCDHGA6; protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253953]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253767]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000276547]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000261934]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253305]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253846]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000254122]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253873]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000253159]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000240184]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000242419]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253537;gene:ENSG00000240764]
+	Gene 1: PCDHGA7; protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000253767]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000276547]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000261934]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000253305]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000253846]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000254122]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000253873]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000253159]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000240184]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000242419]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253953;gene:ENSG00000240764]
+	Gene 1: PCDHGB4; protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000276547]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000261934]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000253305]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000253846]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000254122]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000253873]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000253159]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000240184]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000242419]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253767;gene:ENSG00000240764]
+	Gene 1: PCDHGA8; protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000261934]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000253305]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000253846]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000254122]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000253873]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000253159]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000240184]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000242419]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000276547;gene:ENSG00000240764]
+	Gene 1: PCDHGB5; protocadherin gamma subfamily B, 5 [Source:HGNC Symbol;Acc:HGNC:8712]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000253305]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000253846]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000254122]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000253873]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000253159]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000240184]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000242419]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000261934;gene:ENSG00000240764]
+	Gene 1: PCDHGA9; protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000253846]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000254122]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000253873]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000253159]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000240184]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000242419]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253305;gene:ENSG00000240764]
+	Gene 1: PCDHGB6; protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000254122]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000253873]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000253159]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000240184]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000242419]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253846;gene:ENSG00000240764]
+	Gene 1: PCDHGA10; protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254122;gene:ENSG00000253873]
+	Gene 1: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+	Gene 2: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254122;gene:ENSG00000253159]
+	Gene 1: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254122;gene:ENSG00000240184]
+	Gene 1: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254122;gene:ENSG00000242419]
+	Gene 1: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000254122;gene:ENSG00000240764]
+	Gene 1: PCDHGB7; protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253873;gene:ENSG00000253159]
+	Gene 1: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+	Gene 2: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253873;gene:ENSG00000240184]
+	Gene 1: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253873;gene:ENSG00000242419]
+	Gene 1: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253873;gene:ENSG00000240764]
+	Gene 1: PCDHGA11; protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253159;gene:ENSG00000240184]
+	Gene 1: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+	Gene 2: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253159;gene:ENSG00000242419]
+	Gene 1: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000253159;gene:ENSG00000240764]
+	Gene 1: PCDHGA12; protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000240184;gene:ENSG00000242419]
+	Gene 1: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+	Gene 2: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000240184;gene:ENSG00000240764]
+	Gene 1: PCDHGC3; protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 375  |  chr: 5 |  genes: [gene:ENSG00000242419;gene:ENSG00000240764]
+	Gene 1: PCDHGC4; protocadherin gamma subfamily C, 4 [Source:HGNC Symbol;Acc:HGNC:8717]
+	Gene 2: PCDHGC5; protocadherin gamma subfamily C, 5 [Source:HGNC Symbol;Acc:HGNC:8718]
+
+Total overlap length: 373  |  chr: 1 |  genes: [gene:ENSG00000054277;gene:ENSG00000203668]
+	Gene 1: OPN3; opsin 3 [Source:HGNC Symbol;Acc:HGNC:14007]
+	Gene 2: CHML; CHM like Rab escort protein [Source:HGNC Symbol;Acc:HGNC:1941]
+
+Total overlap length: 350  |  chr: 1 |  genes: [gene:ENSG00000121933;gene:ENSG00000282608]
+	Gene 1: TMIGD3; transmembrane and immunoglobulin domain containing 3 [Source:HGNC Symbol;Acc:HGNC:51375]
+	Gene 2: ADORA3; adenosine A3 receptor [Source:HGNC Symbol;Acc:HGNC:268]
+
+Total overlap length: 309  |  chr: 22 |  genes: [gene:ENSG00000185721;gene:ENSG00000198089]
+	Gene 1: DRG1; developmentally regulated GTP binding protein 1 [Source:HGNC Symbol;Acc:HGNC:3029]
+	Gene 2: SFI1; SFI1 centrin binding protein [Source:HGNC Symbol;Acc:HGNC:29064]
+
+Total overlap length: 266  |  chr: 4 |  genes: [gene:ENSG00000164038;gene:ENSG00000164039]
+	Gene 1: SLC9B2; solute carrier family 9 member B2 [Source:HGNC Symbol;Acc:HGNC:25143]
+	Gene 2: BDH2; 3-hydroxybutyrate dehydrogenase 2 [Source:HGNC Symbol;Acc:HGNC:32389]
+
+Total overlap length: 238  |  chr: 10 |  genes: [gene:ENSG00000075407;gene:ENSG00000283930]
+	Gene 1: ZNF37A; zinc finger protein 37A [Source:HGNC Symbol;Acc:HGNC:13102]
+	Gene 2: PLD5P1; PLD5 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:55072]
+
+Total overlap length: 201  |  chr: 4 |  genes: [gene:ENSG00000145476;gene:ENSG00000164344]
+	Gene 1: CYP4V2; cytochrome P450 family 4 subfamily V member 2 [Source:HGNC Symbol;Acc:HGNC:23198]
+	Gene 2: KLKB1; kallikrein B1 [Source:HGNC Symbol;Acc:HGNC:6371]
+
+Total overlap length: 164  |  chr: 11 |  genes: [gene:ENSG00000173465;gene:ENSG00000176973]
+	Gene 1: ZNRD2; zinc ribbon domain containing 2 [Source:HGNC Symbol;Acc:HGNC:11328]
+	Gene 2: FAM89B; family with sequence similarity 89 member B [Source:HGNC Symbol;Acc:HGNC:16708]
+
+Total overlap length: 160  |  chr: 22 |  genes: [gene:ENSG00000100084;gene:ENSG00000242259]
+	Gene 1: HIRA; histone cell cycle regulator [Source:HGNC Symbol;Acc:HGNC:4916]
+	Gene 2: C22orf39; chromosome 22 open reading frame 39 [Source:HGNC Symbol;Acc:HGNC:27012]
+
+Total overlap length: 114  |  chr: 12 |  genes: [gene:ENSG00000250510;gene:ENSG00000110811]
+	Gene 1: GPR162; G protein-coupled receptor 162 [Source:HGNC Symbol;Acc:HGNC:16693]
+	Gene 2: P3H3; prolyl 3-hydroxylase 3 [Source:HGNC Symbol;Acc:HGNC:19318]
+
+Total overlap length: 97  |  chr: 17 |  genes: [gene:ENSG00000035862;gene:ENSG00000178404]
+	Gene 1: TIMP2; TIMP metallopeptidase inhibitor 2 [Source:HGNC Symbol;Acc:HGNC:11821]
+	Gene 2: CEP295NL; CEP295 N-terminal like [Source:HGNC Symbol;Acc:HGNC:44659]
+
+Total overlap length: 90  |  chr: 1 |  genes: [gene:ENSG00000168765;gene:ENSG00000213366]
+	Gene 1: GSTM4; glutathione S-transferase mu 4 [Source:HGNC Symbol;Acc:HGNC:4636]
+	Gene 2: GSTM2; glutathione S-transferase mu 2 [Source:HGNC Symbol;Acc:HGNC:4634]
+
+Total overlap length: 31  |  chr: 11 |  genes: [gene:ENSG00000278615;gene:ENSG00000162194]
+	Gene 1: C11orf98; chromosome 11 open reading frame 98 [Source:HGNC Symbol;Acc:HGNC:51238]
+	Gene 2: LBHD1; LBH domain containing 1 [Source:HGNC Symbol;Acc:HGNC:28351]
+
+Total overlap length: 18  |  chr: 4 |  genes: [gene:ENSG00000196616;gene:ENSG00000248144]
+	Gene 1: ADH1B; alcohol dehydrogenase 1B (class I), beta polypeptide [Source:HGNC Symbol;Acc:HGNC:250]
+	Gene 2: ADH1C; alcohol dehydrogenase 1C (class I), gamma polypeptide [Source:HGNC Symbol;Acc:HGNC:251]
+
+Total overlap length: 16  |  chr: 8 |  genes: [gene:ENSG00000197275;gene:ENSG00000265817]
+	Gene 1: RAD54B; RAD54 homolog B [Source:HGNC Symbol;Acc:HGNC:17228]
+	Gene 2: FSBP; fibrinogen silencer binding protein [Source:HGNC Symbol;Acc:HGNC:43653]
+
+Total overlap length: 15  |  chr: 22 |  genes: [gene:ENSG00000128383;gene:ENSG00000179750]
+	Gene 1: APOBEC3A; apolipoprotein B mRNA editing enzyme catalytic subunit 3A [Source:HGNC Symbol;Acc:HGNC:17343]
+	Gene 2: APOBEC3B; apolipoprotein B mRNA editing enzyme catalytic subunit 3B [Source:HGNC Symbol;Acc:HGNC:17352]
+
+Total overlap length: 2  |  chr: 3 |  genes: [gene:ENSG00000186792;gene:ENSG00000243477]
+	Gene 1: HYAL3; hyaluronidase 3 [Source:HGNC Symbol;Acc:HGNC:5322]
+	Gene 2: NAA80; N-alpha-acetyltransferase 80, NatH catalytic subunit [Source:HGNC Symbol;Acc:HGNC:30252]
+

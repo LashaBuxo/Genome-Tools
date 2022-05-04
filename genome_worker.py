@@ -481,39 +481,34 @@ class GenomeWorker:
         if fragment_a.strand != fragment_b.strand:  # diff-strand overlap
             sense_fragment = fragment_a if fragment_a.strand == '+' else fragment_b
             anti_sense_fragment = fragment_b if fragment_a.strand == '+' else fragment_a
-            return (interval[0], interval[1], int(sense_fragment.frame), int(anti_sense_fragment.frame))
+            x = (3 + int(sense_fragment.frame) - (interval[0] - sense_fragment.start) % 3) % 3
+            y = (3 + int(anti_sense_fragment.frame) - (anti_sense_fragment.end - interval[1]) % 3) % 3
+            return (interval[0], interval[1], x, y)
         if fragment_a.strand == '+':
-            return (interval[0], interval[1], int(fragment_a.frame), int(fragment_b.frame))
+            x = (3 + int(fragment_a.frame) - (interval[0] - fragment_a.start) % 3) % 3
+            y = (3 + int(fragment_b.frame) - (interval[0] - fragment_b.start) % 3) % 3
+            return (interval[0], interval[1], x, y)
         else:
-            return (interval[0], interval[1], int(fragment_a.frame), int(fragment_b.frame))
+            x = (3 + int(fragment_a.frame) - (fragment_a.end - interval[1]) % 3) % 3
+            y = (3 + int(fragment_b.frame) - (fragment_b.end - interval[1]) % 3) % 3
+            return (interval[0], interval[1], x, y)
 
     # between each pairs of fragments from each transcript (mRNA) finds fragments overlapped by CDS
-    def __get_fragments_overlap_between_transcripts(self, mRNA_transcript_a: Feature, mRNA_transcript_b: Feature,
-                                                    ORF_similarity):
-        overlap_length = 0
+    def get_fragments_overlap_between_transcripts(self, mRNA_transcript_a: Feature, mRNA_transcript_b: Feature,
+                                                  ORF_similarity):
         overlaps = []
 
-        if mRNA_transcript_a is None or mRNA_transcript_b is None: return (overlaps, overlap_length)
+        if mRNA_transcript_a is None or mRNA_transcript_b is None: return overlaps
 
         fragments_A = self.get_transcript_all_fragments_sorted(mRNA_transcript_a)
-        fragments_B = self.get_transcript_all_fragments_sorted(mRNA_transcript_a)
+        fragments_B = self.get_transcript_all_fragments_sorted(mRNA_transcript_b)
 
-        if len(fragments_B) == 0 or len(fragments_B) == 0: return (overlaps, overlap_length)
+        if len(fragments_B) == 0 or len(fragments_B) == 0: return overlaps
 
-        ind1 = 0
         for fragment_a in fragments_A:
             assert fragment_a.featuretype == 'CDS'
-            ind1 += 1
-            ind2 = 0
             for fragment_b in fragments_B:
                 assert fragment_b.featuretype == 'CDS'
-                ind2 += 1
-
-                cds1_index_from_utr5 = ind1 if fragment_a.strand == '+' else len(fragments_A) - ind1 + 1
-                cds2_index_from_utr5 = ind2 if fragment_b.strand == '+' else len(fragments_B) - ind2 + 1
-
-                # if cds1_index_from_utr5 == 1 or cds2_index_from_utr5 == 1: continue
-                # if cds1_index_from_utr5 == len(fragments_A) or cds2_index_from_utr5 == len(fragments_B): continue
 
                 if ORF_similarity == 'diff_ORF' and self.are_features_same_framed(fragment_a,
                                                                                   fragment_b): continue
@@ -533,39 +528,26 @@ class GenomeWorker:
                         overlap = (fragment_b.start, fragment_a.end)
 
                 overlap = self.__attach_frames_to_interval(fragment_a, fragment_b, overlap)
-
-                comm1 = f'{cds1_index_from_utr5}/{len(fragments_A)}'
-                comm2 = f'{cds2_index_from_utr5}/{len(fragments_B)}'
-                print(f'{comm1} & {comm2}   ')
-                # overlap = (overlap[0], overlap[1], overlap[2], overlap[3], comm1, comm2)
                 overlaps.append(overlap)
-                overlap_length += overlap[1] - overlap[0] + 1
 
-        return (overlaps, overlap_length)
+        return overlaps
 
-    # between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
-    # and returns overlapped intervals which has maximum total overlapped length
-    def get_fragments_overlap_between_genes(self, gene_A: Feature, gene_B: Feature, ORF_similarity,
-                                            criteria: TRANSCRIPT_CRITERIA):
-        if criteria != TRANSCRIPT_CRITERIA.NONE:
-            mRNA_transcript_a = self.find_gene_transcript_by_criteria(gene_A, criteria)
-            mRNA_transcript_b = self.find_gene_transcript_by_criteria(gene_B, criteria)
-            return self.__get_fragments_overlap_between_transcripts(mRNA_transcript_a, mRNA_transcript_b,
-                                                                    ORF_similarity)[0]
-
-        transcripts_A = self.__gene_transcripts[gene_A.id] if self.__gene_transcripts.__contains__(gene_A.id) else []
-        transcripts_B = self.__gene_transcripts[gene_B.id] if self.__gene_transcripts.__contains__(gene_B.id) else []
-
-        max_overlap_length = 0
-        max_overlaps = []
-        for transcript_a in transcripts_A:
-            for transcript_b in transcripts_B:
-                result = self.__get_fragments_overlap_between_transcripts(transcript_a, transcript_b, ORF_similarity)
-                if max_overlap_length < result[1]:
-                    max_overlap_length = result[1]
-                    max_overlaps = result[0]
-
-        return max_overlaps
+    # # between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
+    # # and returns overlapped intervals which has maximum total overlapped length
+    # def get_fragments_overlap_between_genes(self, gene_A: Feature, gene_B: Feature, ORF_similarity,
+    #                                         criteria: TRANSCRIPT_CRITERIA):
+    #
+    #
+    #     max_overlap_length = 0
+    #     max_overlaps = []
+    #     for transcript_a in transcripts_A:
+    #         for transcript_b in transcripts_B:
+    #             result = self.__get_fragments_overlap_between_transcripts(transcript_a, transcript_b, ORF_similarity)
+    #             if max_overlap_length < result[1]:
+    #                 max_overlap_length = result[1]
+    #                 max_overlaps = result[0]
+    #
+    #     return max_overlaps
 
     def get_gene_all_transcripts(self, gene: Feature) -> list[Feature]:
         return self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
@@ -606,12 +588,12 @@ class GenomeWorker:
         return gene.attributes['description'][0]
 
     @staticmethod
-    def are_features_overlapped(gene_feature_A: Feature, gene_feature_B: Feature) -> bool:
+    def are_segments_overlapped(segment1, segment2) -> bool:
         # if gene_feature_A is None or gene_feature_B is None: return False
-        l_a = gene_feature_A.start
-        r_a = gene_feature_A.end
-        l_b = gene_feature_B.start
-        r_b = gene_feature_B.end
+        l_a = segment1[0]
+        r_a = segment1[1]
+        l_b = segment2[0]
+        r_b = segment2[1]
         if l_a <= l_b <= r_a: return True
         if l_a <= r_b <= r_a: return True
         if l_b <= l_a <= r_b: return True

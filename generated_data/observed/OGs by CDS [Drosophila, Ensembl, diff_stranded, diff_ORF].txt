@@ -1,0 +1,45 @@
+Total overlapped (by CDS) genes: 8 = [2]x4
+Total overlapped (by CDS) sequence length: 236
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 26.69%	G - 26.69%	A - 23.31%	T - 23.31%
+
+
+	di-nucleotides:
+		TG - 8.84%	CA - 8.84%	GC - 8.19%	AG - 7.11%
+		CT - 7.11%	TC - 6.25%	CC - 6.25%	GA - 6.25%
+		GG - 6.25%	AT - 6.03%	AC - 5.6%	GT - 5.6%
+		CG - 4.74%	AA - 4.53%	TT - 4.53%	TA - 3.88%
+
+
+	amino-acids:
+		L - 13.73%	G - 9.15%	S - 8.5%	A - 8.5%
+		V - 8.5%	R - 7.19%	H - 5.88%	Q - 5.23%
+		* - 5.23%	P - 4.58%	T - 4.58%	E - 4.58%
+		I - 2.61%	D - 2.61%	C - 1.96%	K - 1.96%
+		Y - 1.96%	N - 1.31%	F - 0.65%	M - 0.65%
+		W - 0.65%
+
+	amino-acids by codon degeneracy:
+		medium - 40.0%	high - 31.03%	low - 28.97%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 102  |  chr: 3 |  genes: [gene:FBgn0025807;gene:FBgn0085284]
+	Gene 1: Rad9; Rad9
+	Gene 2: Blos3; Biogenesis of lysosome-related organelles complex 1, subunit 3
+
+Total overlap length: 80  |  chr: 2 |  genes: [gene:FBgn0020370;gene:FBgn0085468]
+	Gene 1: TppII; tripeptidyl-peptidase II
+	Gene 2: ND-MWFE; NADH dehydrogenase (ubiquinone) MWFE subunit
+
+Total overlap length: 37  |  chr: 4 |  genes: [gene:FBgn0037535;gene:FBgn0266598]
+	Gene 1: PIG-H; Phosphatidylinositol glycan anchor biosynthesis class H
+	Gene 2: Kmn2; kinetochore Mis12-Ndc80 network component 2
+
+Total overlap length: 17  |  chr: 6 |  genes: [gene:FBgn0010240;gene:FBgn0053180]
+	Gene 1: Lcch3; Ligand-gated chloride channel homolog 3
+	Gene 2: Ranbp16; Ranbp16
+

@@ -1,0 +1,201 @@
+Total overlapped (by CDS) genes: 86 = [2]x43
+Total overlapped (by CDS) sequence length: 1955
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 28.16%	G - 28.16%	A - 21.84%	T - 21.84%
+
+
+	di-nucleotides:
+		GC - 8.7%	TG - 8.38%	CA - 8.38%	AG - 7.99%
+		CT - 7.99%	CC - 7.83%	GG - 7.83%	TC - 6.99%
+		GA - 6.99%	AC - 4.64%	GT - 4.64%	AT - 4.56%
+		AA - 4.53%	TT - 4.53%	CG - 4.3%	TA - 1.73%
+
+
+	amino-acids:
+		L - 11.55%	S - 9.0%	R - 8.05%	A - 7.65%
+		G - 7.65%	P - 7.01%	Q - 6.61%	V - 6.45%
+		E - 4.54%	H - 4.22%	I - 3.51%	D - 3.43%
+		K - 3.43%	C - 3.35%	T - 3.19%	F - 2.95%
+		M - 2.39%	N - 1.67%	W - 1.43%	* - 1.2%
+		Y - 0.72%
+
+	amino-acids by codon degeneracy:
+		medium - 35.89%	low - 35.16%	high - 28.95%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 373 = 169 + 204  |  chr: 13 |  genes: [gene-LOC100366054;gene-Hsd17b7]
+	Gene 1: LOC100366054; Da1-10-like
+	Gene 2: Hsd17b7; hydroxysteroid (17-beta) dehydrogenase 7
+
+Total overlap length: 200  |  chr: 10 |  genes: [gene-Thra;gene-Nr1d1]
+	Gene 1: Thra; thyroid hormone receptor alpha
+	Gene 2: Nr1d1; nuclear receptor subfamily 1, group D, member 1
+
+Total overlap length: 134  |  chr: 10 |  genes: [gene-Oxld1;gene-Ccdc137]
+	Gene 1: Oxld1; oxidoreductase-like domain containing 1
+	Gene 2: Ccdc137; coiled-coil domain containing 137
+
+Total overlap length: 96  |  chr: 8 |  genes: [gene-Aste1;gene-Atp2c1]
+	Gene 1: Aste1; asteroid homolog 1
+	Gene 2: Atp2c1; ATPase secretory pathway Ca2+ transporting 1
+
+Total overlap length: 91  |  chr: 2 |  genes: [gene-Fxr1;gene-Dnajc19]
+	Gene 1: Fxr1; FMR1 autosomal homolog 1
+	Gene 2: Dnajc19; DnaJ heat shock protein family (Hsp40) member C19
+
+Total overlap length: 86  |  chr: 1 |  genes: [gene-Tfb1m;gene-Cldn20]
+	Gene 1: Tfb1m; transcription factor B1, mitochondrial
+	Gene 2: Cldn20; claudin 20
+
+Total overlap length: 84  |  chr: 21 |  genes: [gene-Gk;gene-LOC100363193]
+	Gene 1: Gk; glycerol kinase
+	Gene 2: LOC100363193; LRRGT00076-like
+
+Total overlap length: 74 = 16 + 58  |  chr: 15 |  genes: [gene-LOC100360244;gene-Sugt1]
+	Gene 1: LOC100360244; LRRGT00053-like
+	Gene 2: Sugt1; SGT1 homolog, MIS12 kinetochore complex assembly cochaperone
+
+Total overlap length: 68  |  chr: 1 |  genes: [gene-Oprm1;gene-Ipcef1]
+	Gene 1: Oprm1; opioid receptor, mu 1
+	Gene 2: Ipcef1; interaction protein for cytohesin exchange factors 1
+
+Total overlap length: 53  |  chr: 5 |  genes: [gene-Ncbp1;gene-Xpa]
+	Gene 1: Ncbp1; nuclear cap binding protein subunit 1
+	Gene 2: Xpa; XPA, DNA damage recognition and repair factor
+
+Total overlap length: 45  |  chr: 13 |  genes: [gene-LOC498231;gene-Snrpe]
+	Gene 1: LOC498231; LRRGT00144
+	Gene 2: Snrpe; small nuclear ribonucleoprotein polypeptide E
+
+Total overlap length: 43  |  chr: 15 |  genes: [gene-Gmpr2;gene-Tinf2]
+	Gene 1: Gmpr2; guanosine monophosphate reductase 2
+	Gene 2: Tinf2; TERF1 interacting nuclear factor 2
+
+Total overlap length: 41  |  chr: 1 |  genes: [gene-Zfp428;gene-Srrm5]
+	Gene 1: Zfp428; zinc finger protein 428
+	Gene 2: Srrm5; serine/arginine repetitive matrix 5
+
+Total overlap length: 41  |  chr: 7 |  genes: [gene-Letmd1;gene-Csrnp2]
+	Gene 1: Letmd1; LETM1 domain containing 1
+	Gene 2: Csrnp2; cysteine and serine rich nuclear protein 2
+
+Total overlap length: 41  |  chr: 8 |  genes: [gene-Nt5e;gene-Snx14]
+	Gene 1: Nt5e; 5' nucleotidase, ecto
+	Gene 2: Snx14; sorting nexin 14
+
+Total overlap length: 40  |  chr: 21 |  genes: [gene-Cox7b;gene-LOC100363531]
+	Gene 1: Cox7b; cytochrome c oxidase subunit 7B
+	Gene 2: LOC100363531; LRRGT00182-like
+
+Total overlap length: 37  |  chr: 1 |  genes: [gene-Tlcd3b;gene-RGD1563217]
+	Gene 1: Tlcd3b; TLC domain containing 3B
+	Gene 2: RGD1563217; similar to RIKEN cDNA 4930451I11
+
+Total overlap length: 36  |  chr: 3 |  genes: [gene-Ndufa8;gene-Morn5]
+	Gene 1: Ndufa8; NADH:ubiquinone oxidoreductase subunit A8
+	Gene 2: Morn5; MORN repeat containing 5
+
+Total overlap length: 36  |  chr: 20 |  genes: [gene-LOC499407;gene-Ilrun]
+	Gene 1: LOC499407; LRRGT00097
+	Gene 2: Ilrun; inflammation and lipid regulator with UBA-like and NBR1-like domains
+
+Total overlap length: 35  |  chr: 1 |  genes: [gene-Tmem262;gene-Zfpl1]
+	Gene 1: Tmem262; transmembrane protein 262
+	Gene 2: Zfpl1; zinc finger protein-like 1
+
+Total overlap length: 35  |  chr: 19 |  genes: [gene-Cdk10;gene-Spata2L]
+	Gene 1: Cdk10; cyclin-dependent kinase 10
+	Gene 2: Spata2L; spermatogenesis associated 2-like
+
+Total overlap length: 33  |  chr: 1 |  genes: [gene-Fkrp;gene-Strn4]
+	Gene 1: Fkrp; fukutin related protein
+	Gene 2: Strn4; striatin 4
+
+Total overlap length: 29  |  chr: 16 |  genes: [gene-Ddx49;gene-Homer3]
+	Gene 1: Ddx49; DEAD-box helicase 49
+	Gene 2: Homer3; homer scaffold protein 3
+
+Total overlap length: 28 = 6 + 22  |  chr: 12 |  genes: [gene-Gtf2ird2;gene-Rcc1l]
+	Gene 1: Gtf2ird2; GTF2I repeat domain containing 2
+	Gene 2: Rcc1l; RCC1 like
+
+Total overlap length: 24  |  chr: 3 |  genes: [gene-Kbtbd4;gene-Ptpmt1]
+	Gene 1: Kbtbd4; kelch repeat and BTB domain containing 4
+	Gene 2: Ptpmt1; protein tyrosine phosphatase, mitochondrial 1
+
+Total overlap length: 19  |  chr: 7 |  genes: [gene-Chpt1;gene-Sycp3]
+	Gene 1: Chpt1; choline phosphotransferase 1
+	Gene 2: Sycp3; synaptonemal complex protein 3
+
+Total overlap length: 18  |  chr: 8 |  genes: [gene-LOC100363289;gene-Cox7a2]
+	Gene 1: LOC100363289; LRRGT00022-like
+	Gene 2: Cox7a2; cytochrome c oxidase subunit 7A2
+
+Total overlap length: 17  |  chr: 19 |  genes: [gene-RGD621098;gene-Tradd]
+	Gene 1: RGD621098; similar to RIKEN cDNA D230025D16Rik
+	Gene 2: Tradd; TNFRSF1A-associated via death domain
+
+Total overlap length: 16  |  chr: 7 |  genes: [gene-Avil;gene-Tsfm]
+	Gene 1: Avil; advillin
+	Gene 2: Tsfm; Ts translation elongation factor, mitochondrial
+
+Total overlap length: 15  |  chr: 16 |  genes: [gene-Dph3;gene-Oxnad1]
+	Gene 1: Dph3; diphthamide biosynthesis 3
+	Gene 2: Oxnad1; oxidoreductase NAD-binding domain containing 1
+
+Total overlap length: 11  |  chr: 1 |  genes: [gene-Tulp2;gene-Nucb1]
+	Gene 1: Tulp2; TUB like protein 2
+	Gene 2: Nucb1; nucleobindin 1
+
+Total overlap length: 11  |  chr: 18 |  genes: [gene-Kif20a;gene-Cdc23]
+	Gene 1: Kif20a; kinesin family member 20A
+	Gene 2: Cdc23; cell division cycle 23
+
+Total overlap length: 10  |  chr: 18 |  genes: [gene-Stard6;gene-Poli]
+	Gene 1: Stard6; StAR-related lipid transfer domain containing 6
+	Gene 2: Poli; DNA polymerase iota
+
+Total overlap length: 9  |  chr: 10 |  genes: [gene-Thoc6;gene-Hcfc1r1]
+	Gene 1: Thoc6; THO complex 6
+	Gene 2: Hcfc1r1; host cell factor C1 regulator 1
+
+Total overlap length: 6  |  chr: 19 |  genes: [gene-Agt;gene-Capn9]
+	Gene 1: Agt; angiotensinogen
+	Gene 2: Capn9; calpain 9
+
+Total overlap length: 4  |  chr: 4 |  genes: [gene-Pyroxd1;gene-Recql]
+	Gene 1: Pyroxd1; pyridine nucleotide-disulphide oxidoreductase domain 1
+	Gene 2: Recql; RecQ like helicase
+
+Total overlap length: 3  |  chr: 10 |  genes: [gene-Vmo1;gene-Gltpd2]
+	Gene 1: Vmo1; vitelline membrane outer layer 1 homolog
+	Gene 2: Gltpd2; glycolipid transfer protein domain containing 2
+
+Total overlap length: 3  |  chr: 20 |  genes: [gene-Vps52;gene-Rps18]
+	Gene 1: Vps52; VPS52 subunit of GARP complex
+	Gene 2: Rps18; ribosomal protein S18
+
+Total overlap length: 2  |  chr: 1 |  genes: [gene-Brd9;gene-Trip13]
+	Gene 1: Brd9; bromodomain containing 9
+	Gene 2: Trip13; thyroid hormone receptor interactor 13
+
+Total overlap length: 2  |  chr: 1 |  genes: [gene-Hspa12a;gene-Eno4]
+	Gene 1: Hspa12a; heat shock protein family A (Hsp70) member 12A
+	Gene 2: Eno4; enolase 4
+
+Total overlap length: 2  |  chr: 5 |  genes: [gene-Dnai4;gene-Mier1]
+	Gene 1: Dnai4; dynein axonemal intermediate chain 4
+	Gene 2: Mier1; MIER1 transcriptional regulator
+
+Total overlap length: 2  |  chr: 10 |  genes: [gene-Zswim7;gene-Ttc19]
+	Gene 1: Zswim7; zinc finger, SWIM-type containing 7
+	Gene 2: Ttc19; tetratricopeptide repeat domain 19
+
+Total overlap length: 2  |  chr: 18 |  genes: [gene-Afg3l2;gene-Prelid3a]
+	Gene 1: Afg3l2; AFG3 like matrix AAA peptidase subunit 2
+	Gene 2: Prelid3a; PRELI domain containing 3A
+

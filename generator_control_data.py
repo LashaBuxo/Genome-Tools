@@ -39,7 +39,6 @@ for specie_ind in range(len(species_list)):
     hd_line_x, hd_line_y = [], []
 
     for chr_id in range(1, genome.chromosomes_count() + 1):
-        print(chr_id)
         genes_cnt = genome.genes_count_on_chr(chr_id)
         for gene_ind in range(0, genes_cnt):
             gene = genome.gene_by_ind(chr_id, gene_ind)

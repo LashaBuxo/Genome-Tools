@@ -1,0 +1,65 @@
+Total overlapped (by CDS) genes: 18 = [2]x9
+Total overlapped (by CDS) sequence length: 834
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 30.64%	G - 29.32%	A - 20.5%	T - 19.54%
+
+
+	di-nucleotides:
+		CG - 9.59%	GC - 9.59%	GG - 8.62%	CC - 7.89%
+		CA - 7.04%	TC - 6.92%	CT - 6.49%	TG - 6.31%
+		AC - 6.19%	GA - 6.19%	AG - 5.16%	AT - 5.1%
+		GT - 4.85%	AA - 3.58%	TA - 3.28%	TT - 3.22%
+
+
+	amino-acids:
+		A - 10.62%	R - 9.89%	G - 9.52%	L - 9.34%
+		S - 8.06%	V - 6.41%	P - 5.31%	T - 5.31%
+		D - 5.13%	Q - 5.13%	H - 4.4%	I - 3.48%
+		Y - 3.11%	E - 2.56%	F - 2.56%	K - 1.65%
+		N - 1.65%	M - 1.65%	W - 1.65%	* - 1.47%
+		C - 1.1%
+
+	amino-acids by codon degeneracy:
+		medium - 41.26%	low - 31.04%	high - 27.7%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 556 = 252 + 304  |  chr: 5 |  genes: [gene-Dmel_CG4241;gene-Dmel_CG33488]
+	Gene 1: DPCoAC; Dephosphocoenzyme A carrier
+	Gene 2: att-ORFB; alternative testis transcripts open reading frame B
+
+Total overlap length: 104  |  chr: 5 |  genes: [gene-Dmel_CG6783;gene-Dmel_CG6782]
+	Gene 1: fabp; fatty acid binding protein
+	Gene 2: sea; scheggia
+
+Total overlap length: 80  |  chr: 3 |  genes: [gene-Dmel_CG3991;gene-Dmel_CG34439]
+	Gene 1: TppII; tripeptidyl-peptidase II
+	Gene 2: ND-MWFE; NADH dehydrogenase (ubiquinone) MWFE subunit
+
+Total overlap length: 37  |  chr: 5 |  genes: [gene-Dmel_CG14463;gene-Dmel_CG42550]
+	Gene 1: PIG-H; Phosphatidylinositol glycan anchor biosynthesis class H
+	Gene 2: Kmn2; kinetochore Mis12-Ndc80 network component 2
+
+Total overlap length: 29  |  chr: 3 |  genes: [gene-Dmel_CG33182;gene-Dmel_CG32904]
+	Gene 1: Kdm4B; Lysine (K)-specific demethylase 4B
+	Gene 2: seq; sequoia
+
+Total overlap length: 19  |  chr: 5 |  genes: [gene-Dmel_CG33100;gene-Dmel_CG31136]
+	Gene 1: eIF4EHP; eukaryotic translation initiation factor 4E homologous protein
+	Gene 2: Syx1A; Syntaxin 1A
+
+Total overlap length: 4  |  chr: 2 |  genes: [gene-Dmel_CG33650;gene-Dmel_CG33649]
+	Gene 1: DNApol-gamma35; DNA polymerase gamma 35kD subunit
+	Gene 2: GatC; Glutamyl-tRNA amidotransferase, subunit C
+
+Total overlap length: 4  |  chr: 5 |  genes: [gene-Dmel_CG42350;gene-Dmel_CG44890]
+	Gene 1: moi; modigliani
+	Gene 2: Tgs1; Trimethylguanosine synthase 1
+
+Total overlap length: 1  |  chr: 5 |  genes: [gene-Dmel_CG42599;gene-Dmel_CG33720]
+	Gene 1: Pif1A; PFTAIRE-interacting factor 1A
+	Gene 2: Pif1B; PFTAIRE-interacting factor 1B
+

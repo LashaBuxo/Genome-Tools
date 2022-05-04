@@ -1,0 +1,77 @@
+Total overlapped (by CDS) genes: 24 = [2]x12
+Total overlapped (by CDS) sequence length: 1869
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		G - 30.98%	C - 27.29%	A - 24.51%	T - 17.23%
+
+
+	di-nucleotides:
+		GC - 9.34%	GG - 9.23%	CG - 8.31%	CA - 7.83%
+		GA - 7.61%	AG - 7.29%	TG - 6.37%	CC - 6.31%
+		AA - 6.21%	AC - 5.88%	TC - 5.83%	CT - 5.07%
+		AT - 5.02%	GT - 4.53%	TT - 2.7%	TA - 2.48%
+
+
+	amino-acids:
+		G - 14.27%	A - 9.41%	R - 8.35%	S - 7.87%
+		Q - 6.24%	D - 6.0%	L - 5.68%	T - 5.35%
+		V - 5.11%	E - 4.38%	I - 3.81%	P - 3.65%
+		N - 3.57%	K - 3.24%	F - 2.76%	H - 2.51%
+		Y - 2.35%	M - 2.03%	C - 1.3%	W - 1.22%
+		* - 0.89%
+
+	amino-acids by codon degeneracy:
+		medium - 41.98%	low - 35.92%	high - 22.09%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 556 = 252 + 304  |  chr: 5 |  genes: [gene-Dmel_CG4241;gene-Dmel_CG33488]
+	Gene 1: DPCoAC; Dephosphocoenzyme A carrier
+	Gene 2: att-ORFB; alternative testis transcripts open reading frame B
+
+Total overlap length: 412 = 24 + 388  |  chr: 2 |  genes: [gene-Dmel_CG46283;gene-Dmel_CG46282]
+	Gene 1: vas; vasa
+	Gene 2: solo; sisters on the loose
+
+Total overlap length: 396 = 29 + 367  |  chr: 3 |  genes: [gene-Dmel_CG33182;gene-Dmel_CG32904]
+	Gene 1: Kdm4B; Lysine (K)-specific demethylase 4B
+	Gene 2: seq; sequoia
+
+Total overlap length: 241 = 175 + 66  |  chr: 5 |  genes: [gene-Dmel_CG43665;gene-Dmel_CG43664]
+	Gene 1: eIF2gamma; eukaryotic translation initiation factor 2 subunit gamma
+	Gene 2: Su(var)3-9; Suppressor of variegation 3-9
+
+Total overlap length: 104  |  chr: 5 |  genes: [gene-Dmel_CG6783;gene-Dmel_CG6782]
+	Gene 1: fabp; fatty acid binding protein
+	Gene 2: sea; scheggia
+
+Total overlap length: 64  |  chr: 5 |  genes: [gene-Dmel_CG43663;gene-Dmel_CG43662]
+	Gene 1: Ada2a; transcriptional Adaptor 2a
+	Gene 2: Rpb4; RNA polymerase II subunit Rpb4
+
+Total overlap length: 55  |  chr: 5 |  genes: [gene-Dmel_CG44255;gene-Dmel_CG44254]
+	Gene 1: PIG-S; Phosphatidylinositol glycan anchor biosynthesis class S
+	Gene 2: sud1; sudestada1
+
+Total overlap length: 19  |  chr: 5 |  genes: [gene-Dmel_CG33100;gene-Dmel_CG31136]
+	Gene 1: eIF4EHP; eukaryotic translation initiation factor 4E homologous protein
+	Gene 2: Syx1A; Syntaxin 1A
+
+Total overlap length: 13  |  chr: 5 |  genes: [gene-Dmel_CG18271;gene-Dmel_CG1057]
+	Gene 1: slx1; nuclease slx1
+	Gene 2: MED31; Mediator complex subunit 31
+
+Total overlap length: 4  |  chr: 2 |  genes: [gene-Dmel_CG33650;gene-Dmel_CG33649]
+	Gene 1: DNApol-gamma35; DNA polymerase gamma 35kD subunit
+	Gene 2: GatC; Glutamyl-tRNA amidotransferase, subunit C
+
+Total overlap length: 4  |  chr: 5 |  genes: [gene-Dmel_CG42350;gene-Dmel_CG44890]
+	Gene 1: moi; modigliani
+	Gene 2: Tgs1; Trimethylguanosine synthase 1
+
+Total overlap length: 1  |  chr: 5 |  genes: [gene-Dmel_CG42599;gene-Dmel_CG33720]
+	Gene 1: Pif1A; PFTAIRE-interacting factor 1A
+	Gene 2: Pif1B; PFTAIRE-interacting factor 1B
+

@@ -1,0 +1,1321 @@
+Total overlapped (by CDS) genes: 93 = [2]x16 + [3]x1 + [4]x1 + [6]x1 + [7]x1 + [12]x1 + [14]x1 + [15]x1
+Total overlapped (by CDS) sequence length: 147689
+
+-----------------------------Overlapped Sequence Composition-----------------------------
+
+	nucleotides:
+		C - 29.46%	A - 26.66%	G - 25.9%	T - 17.99%
+
+
+	di-nucleotides:
+		CC - 10.55%	AG - 9.06%	CA - 8.88%	GC - 7.76%
+		AA - 7.73%	GA - 7.36%	TG - 6.67%	CT - 6.5%
+		GG - 6.47%	AC - 5.87%	TC - 5.2%	AT - 4.05%
+		GT - 3.94%	CG - 3.71%	TT - 3.56%	TA - 2.68%
+
+
+	amino-acids:
+		P - 11.67%	A - 11.02%	K - 7.76%	G - 7.25%
+		Q - 7.13%	S - 6.0%	T - 5.89%	L - 5.86%
+		V - 5.39%	E - 5.29%	N - 4.06%	R - 4.01%
+		D - 3.9%	I - 3.13%	F - 2.73%	Y - 2.18%
+		M - 2.07%	W - 1.69%	H - 1.58%	C - 0.71%
+		* - 0.68%
+
+	amino-acids by codon degeneracy:
+		medium - 44.65%	low - 39.36%	high - 15.99%
+
+------------------------------------Overlapped Gene------------------------------------
+
+Total overlap length: 2868 = 275 + 98 + 59 + 2436  |  chr: 14 |  genes: [gene-pcdh2g28;gene-pcdh2g29]
+	Gene 1: pcdh2g28; protocadherin 2 gamma 28
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 1749 = 275 + 98 + 59 + 1317  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g7]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g7; protocadherin 2 gamma 7
+
+Total overlap length: 1596  |  chr: 18 |  genes: [gene-ugt5c2;gene-ugt5c1]
+	Gene 1: ugt5c2; UDP glucuronosyltransferase 5 family, polypeptide C2
+	Gene 2: ugt5c1; UDP glucuronosyltransferase 5 family, polypeptide C1
+
+Total overlap length: 1323 = 162 + 196 + 127 + 120 + 120 + 117 + 123 + 219 + 49 + 90  |  chr: 21 |  genes: [gene-fibpb;gene-efemp2b]
+	Gene 1: fibpb; fibroblast growth factor (acidic) intracellular binding protein b
+	Gene 2: efemp2b; EGF containing fibulin-like extracellular matrix protein 2b
+
+Total overlap length: 1314 = 275 + 98 + 59 + 882  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g6]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g6; protocadherin 2 gamma 6
+
+Total overlap length: 1011 = 55 + 357 + 599  |  chr: 22 |  genes: [gene-zgc:173693;gene-si:dkey-4c15.14]
+	Gene 1: zgc:173693; zgc:173693
+	Gene 2: si:dkey-4c15.14; si:dkey-4c15.14
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a1;gene-ugt2a2]
+	Gene 1: ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1
+	Gene 2: ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a1;gene-ugt2a3]
+	Gene 1: ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1
+	Gene 2: ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a1;gene-ugt2a4]
+	Gene 1: ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1
+	Gene 2: ugt2a4; UDP glucuronosyltransferase 2 family, polypeptide A4
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a2;gene-ugt2a3]
+	Gene 1: ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2
+	Gene 2: ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a2;gene-ugt2a4]
+	Gene 1: ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2
+	Gene 2: ugt2a4; UDP glucuronosyltransferase 2 family, polypeptide A4
+
+Total overlap length: 887 = 298 + 220 + 88 + 132 + 149  |  chr: 5 |  genes: [gene-ugt2a3;gene-ugt2a4]
+	Gene 1: ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3
+	Gene 2: ugt2a4; UDP glucuronosyltransferase 2 family, polypeptide A4
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1a5]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1a4]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1ab]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1a2]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1a1]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a6;gene-ugt1a7]
+	Gene 1: ugt1a6; UDP glucuronosyltransferase 1 family, polypeptide A6
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a5;gene-ugt1a4]
+	Gene 1: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+	Gene 2: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a5;gene-ugt1ab]
+	Gene 1: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+	Gene 2: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a5;gene-ugt1a2]
+	Gene 1: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+	Gene 2: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a5;gene-ugt1a1]
+	Gene 1: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+	Gene 2: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a5;gene-ugt1a7]
+	Gene 1: ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a4;gene-ugt1ab]
+	Gene 1: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+	Gene 2: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a4;gene-ugt1a2]
+	Gene 1: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+	Gene 2: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a4;gene-ugt1a1]
+	Gene 1: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+	Gene 2: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a4;gene-ugt1a7]
+	Gene 1: ugt1a4; UDP glucuronosyltransferase 1 family, polypeptide A4
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1ab;gene-ugt1a2]
+	Gene 1: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+	Gene 2: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1ab;gene-ugt1a1]
+	Gene 1: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+	Gene 2: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1ab;gene-ugt1a7]
+	Gene 1: ugt1ab; UDP glucuronosyltransferase 1 family a, b
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a2;gene-ugt1a1]
+	Gene 1: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+	Gene 2: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a2;gene-ugt1a7]
+	Gene 1: ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 280 + 220 + 88 + 132  |  chr: 9 |  genes: [gene-ugt1a1;gene-ugt1a7]
+	Gene 1: ugt1a1; UDP glucuronosyltransferase 1 family polypeptide a1
+	Gene 2: ugt1a7; UDP glucuronosyltransferase 1 family, polypeptide A7
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b7;gene-ugt1b5]
+	Gene 1: ugt1b7; UDP glucuronosyltransferase 1 family, polypeptide B7
+	Gene 2: ugt1b5; UDP glucuronosyltransferase 1 family, polypeptide B5
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b7;gene-ugt1b4]
+	Gene 1: ugt1b7; UDP glucuronosyltransferase 1 family, polypeptide B7
+	Gene 2: ugt1b4; UDP glucuronosyltransferase 1 family, polypeptide B4
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b7;gene-ugt1b3]
+	Gene 1: ugt1b7; UDP glucuronosyltransferase 1 family, polypeptide B7
+	Gene 2: ugt1b3; UDP glucuronosyltransferase 1 family, polypeptide B3
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b7;gene-ugt1b2]
+	Gene 1: ugt1b7; UDP glucuronosyltransferase 1 family, polypeptide B7
+	Gene 2: ugt1b2; UDP glucuronosyltransferase 1 family, polypeptide B2
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b7;gene-ugt1b1]
+	Gene 1: ugt1b7; UDP glucuronosyltransferase 1 family, polypeptide B7
+	Gene 2: ugt1b1; UDP glucuronosyltransferase 1 family, polypeptide B1
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b5;gene-ugt1b4]
+	Gene 1: ugt1b5; UDP glucuronosyltransferase 1 family, polypeptide B5
+	Gene 2: ugt1b4; UDP glucuronosyltransferase 1 family, polypeptide B4
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b5;gene-ugt1b3]
+	Gene 1: ugt1b5; UDP glucuronosyltransferase 1 family, polypeptide B5
+	Gene 2: ugt1b3; UDP glucuronosyltransferase 1 family, polypeptide B3
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b5;gene-ugt1b2]
+	Gene 1: ugt1b5; UDP glucuronosyltransferase 1 family, polypeptide B5
+	Gene 2: ugt1b2; UDP glucuronosyltransferase 1 family, polypeptide B2
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b5;gene-ugt1b1]
+	Gene 1: ugt1b5; UDP glucuronosyltransferase 1 family, polypeptide B5
+	Gene 2: ugt1b1; UDP glucuronosyltransferase 1 family, polypeptide B1
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b4;gene-ugt1b3]
+	Gene 1: ugt1b4; UDP glucuronosyltransferase 1 family, polypeptide B4
+	Gene 2: ugt1b3; UDP glucuronosyltransferase 1 family, polypeptide B3
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b4;gene-ugt1b2]
+	Gene 1: ugt1b4; UDP glucuronosyltransferase 1 family, polypeptide B4
+	Gene 2: ugt1b2; UDP glucuronosyltransferase 1 family, polypeptide B2
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b4;gene-ugt1b1]
+	Gene 1: ugt1b4; UDP glucuronosyltransferase 1 family, polypeptide B4
+	Gene 2: ugt1b1; UDP glucuronosyltransferase 1 family, polypeptide B1
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b3;gene-ugt1b2]
+	Gene 1: ugt1b3; UDP glucuronosyltransferase 1 family, polypeptide B3
+	Gene 2: ugt1b2; UDP glucuronosyltransferase 1 family, polypeptide B2
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b3;gene-ugt1b1]
+	Gene 1: ugt1b3; UDP glucuronosyltransferase 1 family, polypeptide B3
+	Gene 2: ugt1b1; UDP glucuronosyltransferase 1 family, polypeptide B1
+
+Total overlap length: 720 = 132 + 88 + 220 + 280  |  chr: 11 |  genes: [gene-ugt1b2;gene-ugt1b1]
+	Gene 1: ugt1b2; UDP glucuronosyltransferase 1 family, polypeptide B2
+	Gene 2: ugt1b1; UDP glucuronosyltransferase 1 family, polypeptide B1
+
+Total overlap length: 636 = 90 + 158 + 312 + 76  |  chr: 3 |  genes: [gene-nmrk1;gene-si:ch211-165d12.4]
+	Gene 1: nmrk1; nicotinamide riboside kinase 1
+	Gene 2: si:ch211-165d12.4; si:ch211-165d12.4
+
+Total overlap length: 459 = 59 + 89 + 311  |  chr: 10 |  genes: [gene-pcdh1a3;gene-pcdh1a4]
+	Gene 1: pcdh1a3; protocadherin 1 alpha 3
+	Gene 2: pcdh1a4; protocadherin 1 alpha 4
+
+Total overlap length: 459 = 59 + 89 + 311  |  chr: 10 |  genes: [gene-pcdh1a3;gene-pcdh1a6]
+	Gene 1: pcdh1a3; protocadherin 1 alpha 3
+	Gene 2: pcdh1a6; protocadherin 1 alpha 6
+
+Total overlap length: 459 = 59 + 89 + 311  |  chr: 10 |  genes: [gene-pcdh1a4;gene-pcdh1a6]
+	Gene 1: pcdh1a4; protocadherin 1 alpha 4
+	Gene 2: pcdh1a6; protocadherin 1 alpha 6
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2aa3]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2aa3; protocadherin 2 alpha a 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2aa15]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2aa15; protocadherin 2 alpha a 15
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab1]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab1; protocadherin 2 alpha b 1
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab2]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab2; protocadherin 2 alpha b2
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab3]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab3; protocadherin 2 alpha b 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab5]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab8]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab9]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab10]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ab12]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa1;gene-pcdh2ac]
+	Gene 1: pcdh2aa1; protocadherin 2 alpha a 1
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2aa15]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2aa15; protocadherin 2 alpha a 15
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab1]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab1; protocadherin 2 alpha b 1
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab2]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab2; protocadherin 2 alpha b2
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab3]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab3; protocadherin 2 alpha b 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab5]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab8]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab9]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab10]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ab12]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa3;gene-pcdh2ac]
+	Gene 1: pcdh2aa3; protocadherin 2 alpha a 3
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab1]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab1; protocadherin 2 alpha b 1
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab2]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab2; protocadherin 2 alpha b2
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab3]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab3; protocadherin 2 alpha b 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab5]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab8]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab9]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab10]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ab12]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2aa15;gene-pcdh2ac]
+	Gene 1: pcdh2aa15; protocadherin 2 alpha a 15
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab2]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab2; protocadherin 2 alpha b2
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab3]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab3; protocadherin 2 alpha b 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab5]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab8]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab9]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab10]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ab12]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab1;gene-pcdh2ac]
+	Gene 1: pcdh2ab1; protocadherin 2 alpha b 1
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab3]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab3; protocadherin 2 alpha b 3
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab5]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab8]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab9]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab10]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ab12]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab2;gene-pcdh2ac]
+	Gene 1: pcdh2ab2; protocadherin 2 alpha b2
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ab5]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ab5; protocadherin 2 alpha b 5
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ab8]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ab9]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ab10]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ab12]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab3;gene-pcdh2ac]
+	Gene 1: pcdh2ab3; protocadherin 2 alpha b 3
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab5;gene-pcdh2ab8]
+	Gene 1: pcdh2ab5; protocadherin 2 alpha b 5
+	Gene 2: pcdh2ab8; protocadherin 2 alpha b 8
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab5;gene-pcdh2ab9]
+	Gene 1: pcdh2ab5; protocadherin 2 alpha b 5
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab5;gene-pcdh2ab10]
+	Gene 1: pcdh2ab5; protocadherin 2 alpha b 5
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab5;gene-pcdh2ab12]
+	Gene 1: pcdh2ab5; protocadherin 2 alpha b 5
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab5;gene-pcdh2ac]
+	Gene 1: pcdh2ab5; protocadherin 2 alpha b 5
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab8;gene-pcdh2ab9]
+	Gene 1: pcdh2ab8; protocadherin 2 alpha b 8
+	Gene 2: pcdh2ab9; protocadherin 2 alpha b 9
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab8;gene-pcdh2ab10]
+	Gene 1: pcdh2ab8; protocadherin 2 alpha b 8
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab8;gene-pcdh2ab12]
+	Gene 1: pcdh2ab8; protocadherin 2 alpha b 8
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab8;gene-pcdh2ac]
+	Gene 1: pcdh2ab8; protocadherin 2 alpha b 8
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab9;gene-pcdh2ab10]
+	Gene 1: pcdh2ab9; protocadherin 2 alpha b 9
+	Gene 2: pcdh2ab10; protocadherin 2 alpha b 10
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab9;gene-pcdh2ab12]
+	Gene 1: pcdh2ab9; protocadherin 2 alpha b 9
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab9;gene-pcdh2ac]
+	Gene 1: pcdh2ab9; protocadherin 2 alpha b 9
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab10;gene-pcdh2ab12]
+	Gene 1: pcdh2ab10; protocadherin 2 alpha b 10
+	Gene 2: pcdh2ab12; protocadherin 2 alpha b 12
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab10;gene-pcdh2ac]
+	Gene 1: pcdh2ab10; protocadherin 2 alpha b 10
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 444 = 299 + 86 + 59  |  chr: 14 |  genes: [gene-pcdh2ab12;gene-pcdh2ac]
+	Gene 1: pcdh2ab12; protocadherin 2 alpha b 12
+	Gene 2: pcdh2ac; protocadherin 2 alpha c
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g2]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g2; protocadherin 2 gamma 2
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g5]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g5; protocadherin 2 gamma 5
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g6]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g6; protocadherin 2 gamma 6
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g7]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g7; protocadherin 2 gamma 7
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g8]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g8; protocadherin 2 gamma 8
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g9]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g10]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g12]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g16]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g17]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g28]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g29]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g5]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g5; protocadherin 2 gamma 5
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g8]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g8; protocadherin 2 gamma 8
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g9]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g10]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g12]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g16]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g17]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g28]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g29]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g6]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g6; protocadherin 2 gamma 6
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g7]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g7; protocadherin 2 gamma 7
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g8]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g8; protocadherin 2 gamma 8
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g9]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g10]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g12]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g16]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g17]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g28]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g29]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g7]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g7; protocadherin 2 gamma 7
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g8]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g8; protocadherin 2 gamma 8
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g9]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g10]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g12]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g16]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g17]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g28]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g29]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g8]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g8; protocadherin 2 gamma 8
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g9]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g10]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g12]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g16]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g17]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g28]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g29]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g9]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g9; protocadherin 2 gamma 9
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g10]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g12]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g16]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g17]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g28]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g29]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g10]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g10; protocadherin 2 gamma 10
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g12]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g16]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g17]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g28]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g29]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g12]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g12; protocadherin 2 gamma 12
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g16]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g17]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g28]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g29]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g12;gene-pcdh2g16]
+	Gene 1: pcdh2g12; protocadherin 2 gamma 12
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g12;gene-pcdh2g17]
+	Gene 1: pcdh2g12; protocadherin 2 gamma 12
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g12;gene-pcdh2g28]
+	Gene 1: pcdh2g12; protocadherin 2 gamma 12
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g12;gene-pcdh2g29]
+	Gene 1: pcdh2g12; protocadherin 2 gamma 12
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g16;gene-pcdh2g17]
+	Gene 1: pcdh2g16; protocadherin 2 gamma 16
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g16;gene-pcdh2g28]
+	Gene 1: pcdh2g16; protocadherin 2 gamma 16
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g16;gene-pcdh2g29]
+	Gene 1: pcdh2g16; protocadherin 2 gamma 16
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g17;gene-pcdh2g28]
+	Gene 1: pcdh2g17; protocadherin 2 gamma 17
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 432 = 275 + 98 + 59  |  chr: 14 |  genes: [gene-pcdh2g17;gene-pcdh2g29]
+	Gene 1: pcdh2g17; protocadherin 2 gamma 17
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g1;gene-pcdh2g13]
+	Gene 1: pcdh2g1; protocadherin 2 gamma 1
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g2;gene-pcdh2g13]
+	Gene 1: pcdh2g2; protocadherin 2 gamma 2
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g5;gene-pcdh2g13]
+	Gene 1: pcdh2g5; protocadherin 2 gamma 5
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g6;gene-pcdh2g13]
+	Gene 1: pcdh2g6; protocadherin 2 gamma 6
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g7;gene-pcdh2g13]
+	Gene 1: pcdh2g7; protocadherin 2 gamma 7
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g8;gene-pcdh2g13]
+	Gene 1: pcdh2g8; protocadherin 2 gamma 8
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g9;gene-pcdh2g13]
+	Gene 1: pcdh2g9; protocadherin 2 gamma 9
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g10;gene-pcdh2g13]
+	Gene 1: pcdh2g10; protocadherin 2 gamma 10
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g12;gene-pcdh2g13]
+	Gene 1: pcdh2g12; protocadherin 2 gamma 12
+	Gene 2: pcdh2g13; protocadherin 2 gamma 13
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g13;gene-pcdh2g16]
+	Gene 1: pcdh2g13; protocadherin 2 gamma 13
+	Gene 2: pcdh2g16; protocadherin 2 gamma 16
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g13;gene-pcdh2g17]
+	Gene 1: pcdh2g13; protocadherin 2 gamma 13
+	Gene 2: pcdh2g17; protocadherin 2 gamma 17
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g13;gene-pcdh2g28]
+	Gene 1: pcdh2g13; protocadherin 2 gamma 13
+	Gene 2: pcdh2g28; protocadherin 2 gamma 28
+
+Total overlap length: 430 = 275 + 98 + 57  |  chr: 14 |  genes: [gene-pcdh2g13;gene-pcdh2g29]
+	Gene 1: pcdh2g13; protocadherin 2 gamma 13
+	Gene 2: pcdh2g29; protocadherin 2 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g2]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g2; protocadherin 1 gamma 2
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g3]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g3; protocadherin 1 gamma 3
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1gb2]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1gb2; protocadherin 1 gamma b 2
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1gb9]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g18]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g26]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1gc5]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1gc6]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g29]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g30]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g31]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g32]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g3]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g3; protocadherin 1 gamma 3
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1gb2]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1gb2; protocadherin 1 gamma b 2
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1gb9]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g18]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g26]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1gc5]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1gc6]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g29]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g30]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g31]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g32]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1gb2]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1gb2; protocadherin 1 gamma b 2
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1gb9]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g18]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g26]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1gc5]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1gc6]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g29]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g30]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g31]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g32]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1gb9]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g18]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g26]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1gc5]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1gc6]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g29]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g30]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g31]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g32]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g18]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g26]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1gc5]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1gc6]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g29]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g30]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g31]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gb9;gene-pcdh1g32]
+	Gene 1: pcdh1gb9; protocadherin 1 gamma b 9
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1g26]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1gc5]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1gc6]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1g29]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1g30]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1g31]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g18;gene-pcdh1g32]
+	Gene 1: pcdh1g18; protocadherin 1 gamma 18
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1gc5]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1gc6]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1g29]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1g30]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1g31]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g26;gene-pcdh1g32]
+	Gene 1: pcdh1g26; protocadherin 1 gamma 26
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc5;gene-pcdh1gc6]
+	Gene 1: pcdh1gc5; protocadherin 1 gamma c 5
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc5;gene-pcdh1g29]
+	Gene 1: pcdh1gc5; protocadherin 1 gamma c 5
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc5;gene-pcdh1g30]
+	Gene 1: pcdh1gc5; protocadherin 1 gamma c 5
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc5;gene-pcdh1g31]
+	Gene 1: pcdh1gc5; protocadherin 1 gamma c 5
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc5;gene-pcdh1g32]
+	Gene 1: pcdh1gc5; protocadherin 1 gamma c 5
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc6;gene-pcdh1g29]
+	Gene 1: pcdh1gc6; protocadherin 1 gamma c 6
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc6;gene-pcdh1g30]
+	Gene 1: pcdh1gc6; protocadherin 1 gamma c 6
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc6;gene-pcdh1g31]
+	Gene 1: pcdh1gc6; protocadherin 1 gamma c 6
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1gc6;gene-pcdh1g32]
+	Gene 1: pcdh1gc6; protocadherin 1 gamma c 6
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g29;gene-pcdh1g30]
+	Gene 1: pcdh1g29; protocadherin 1 gamma 29
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g29;gene-pcdh1g31]
+	Gene 1: pcdh1g29; protocadherin 1 gamma 29
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g29;gene-pcdh1g32]
+	Gene 1: pcdh1g29; protocadherin 1 gamma 29
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g30;gene-pcdh1g31]
+	Gene 1: pcdh1g30; protocadherin 1 gamma 30
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g30;gene-pcdh1g32]
+	Gene 1: pcdh1g30; protocadherin 1 gamma 30
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 408 = 59 + 119 + 230  |  chr: 10 |  genes: [gene-pcdh1g31;gene-pcdh1g32]
+	Gene 1: pcdh1g31; protocadherin 1 gamma 31
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 222 = 59 + 119 + 37 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g11]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g11; protocadherin 1 gamma 11
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g9]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g9; protocadherin 1 gamma 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g1;gene-pcdh1g11]
+	Gene 1: pcdh1g1; protocadherin 1 gamma 1
+	Gene 2: pcdh1g11; protocadherin 1 gamma 11
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g9]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g9; protocadherin 1 gamma 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g2;gene-pcdh1g11]
+	Gene 1: pcdh1g2; protocadherin 1 gamma 2
+	Gene 2: pcdh1g11; protocadherin 1 gamma 11
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g9]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g9; protocadherin 1 gamma 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g3;gene-pcdh1g11]
+	Gene 1: pcdh1g3; protocadherin 1 gamma 3
+	Gene 2: pcdh1g11; protocadherin 1 gamma 11
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g9]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g9; protocadherin 1 gamma 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1gb2;gene-pcdh1g11]
+	Gene 1: pcdh1gb2; protocadherin 1 gamma b 2
+	Gene 2: pcdh1g11; protocadherin 1 gamma 11
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1gb9]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g18]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g26]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1gc5]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1gc6]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g29]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g30]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g31]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g9;gene-pcdh1g32]
+	Gene 1: pcdh1g9; protocadherin 1 gamma 9
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1gb9]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1gb9; protocadherin 1 gamma b 9
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g18]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g18; protocadherin 1 gamma 18
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g26]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g26; protocadherin 1 gamma 26
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1gc5]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1gc5; protocadherin 1 gamma c 5
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1gc6]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1gc6; protocadherin 1 gamma c 6
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g29]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g29; protocadherin 1 gamma 29
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g30]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g30; protocadherin 1 gamma 30
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g31]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g31; protocadherin 1 gamma 31
+
+Total overlap length: 185 = 59 + 119 + 7  |  chr: 10 |  genes: [gene-pcdh1g11;gene-pcdh1g32]
+	Gene 1: pcdh1g11; protocadherin 1 gamma 11
+	Gene 2: pcdh1g32; protocadherin 1 gamma 32
+
+Total overlap length: 149  |  chr: 5 |  genes: [gene-ugt2b1;gene-ugt2b3]
+	Gene 1: ugt2b1; UDP glucuronosyltransferase 2 family, polypeptide B1
+	Gene 2: ugt2b3; UDP glucuronosyltransferase 2 family, polypeptide B3
+
+Total overlap length: 85  |  chr: 23 |  genes: [gene-zgc:153284;gene-rps12]
+	Gene 1: zgc:153284; zgc:153284
+	Gene 2: rps12; ribosomal protein S12
+
+Total overlap length: 65  |  chr: 5 |  genes: [gene-rnft2;gene-zgc:110063]
+	Gene 1: rnft2; ring finger protein, transmembrane 2
+	Gene 2: zgc:110063; zgc:110063
+
+Total overlap length: 41  |  chr: 21 |  genes: [gene-sumf2;gene-phkg1b]
+	Gene 1: sumf2; sulfatase modifying factor 2
+	Gene 2: phkg1b; phosphorylase kinase, gamma 1b (muscle)
+
+Total overlap length: 16  |  chr: 15 |  genes: [gene-ap1s3a;gene-flj13639]
+	Gene 1: ap1s3a; adaptor-related protein complex 1, sigma 3 subunit, a
+	Gene 2: flj13639; flj13639
+
+Total overlap length: 16  |  chr: 20 |  genes: [gene-henmt1;gene-fam102bb]
+	Gene 1: henmt1; HEN1 methyltransferase homolog 1 (Arabidopsis)
+	Gene 2: fam102bb; family with sequence similarity 102, member B, b
+
+Total overlap length: 14  |  chr: 22 |  genes: [gene-ccnd3;gene-med20]
+	Gene 1: ccnd3; cyclin D3
+	Gene 2: med20; mediator complex subunit 20
+
+Total overlap length: 11  |  chr: 10 |  genes: [gene-lhx6;gene-morn5]
+	Gene 1: lhx6; LIM homeobox 6
+	Gene 2: morn5; MORN repeat containing 5
+
+Total overlap length: 11  |  chr: 10 |  genes: [gene-gabrr3a;gene-hhla2a.1]
+	Gene 1: gabrr3a; gamma-aminobutyric acid (GABA) A receptor, rho 3a
+	Gene 2: hhla2a.1; HERV-H LTR-associating 2a, tandem duplicate 1
+
+Total overlap length: 6  |  chr: 7 |  genes: [gene-drd4b;gene-sirt3]
+	Gene 1: drd4b; dopamine receptor D4b
+	Gene 2: sirt3; sirtuin 3
+
+Total overlap length: 6  |  chr: 17 |  genes: [gene-il17a/f1;gene-il17a/f2]
+	Gene 1: il17a/f1; interleukin 17a/f1
+	Gene 2: il17a/f2; interleukin 17a/f2
+
+Total overlap length: 3  |  chr: 2 |  genes: [gene-adcy1b;gene-zgc:154086]
+	Gene 1: adcy1b; adenylate cyclase 1b
+	Gene 2: zgc:154086; zgc:154086
+
