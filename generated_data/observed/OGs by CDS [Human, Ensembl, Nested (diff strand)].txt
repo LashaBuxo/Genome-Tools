@@ -1,0 +1,334 @@
+Total overlapped (by CDS) genes: 46 = 23x[2]
+Total overlapped (by CDS) sequence length: 5264
+
+--------------------------overall mean parameters---------------------------------
+
+	nucleotides:
+		C - 29.48%	G - 29.48%	A - 20.52%	T - 20.52%
+
+
+	di-nucleotides:
+		GC - 8.98%	CC - 8.69%	GG - 8.69%	TG - 8.19%
+		CA - 8.19%	AG - 7.56%	CT - 7.56%	TC - 6.72%
+		GA - 6.72%	CG - 5.14%	AC - 5.07%	GT - 5.07%
+		AT - 3.95%	AA - 3.86%	TT - 3.86%	TA - 1.77%
+
+
+	amino-acids:
+		L - 10.13%	S - 9.73%	G - 8.86%	A - 8.05%
+		P - 7.76%	R - 7.59%	V - 5.62%	E - 5.15%
+		T - 4.98%	Q - 4.86%	I - 3.47%	D - 3.42%
+		H - 3.3%	F - 3.18%	C - 3.13%	N - 2.32%
+		W - 2.26%	K - 2.03%	M - 1.8%	* - 1.22%
+		Y - 1.16%
+
+	amino-acids by codon degeneracy:
+		medium - 39.21%	low - 33.0%	high - 27.78%
+
+	amino-acids by type:
+		non-polar - 54.92%	polar - 23.33%	+ - 13.07%	- - 8.68%
+
+	expression profile [nTPM]:
+
+
+--------------------------clusters and their parameters-----------------------------------
+
+cluster #1  |  size: 2  |  total overlapped sequence: 38 
+	GC content: 42.11%
+	HD content: 27.27%
+
+	Gene 1: DNAJC16 | DnaJ heat shock protein family (Hsp40) member C16 [Source:HGNC Symbol;Acc:HGNC:29157] | gene:ENSG00000116138
+		expression profile [nTPM]:
+
+
+	Gene 2: AGMAT | agmatinase [Source:HGNC Symbol;Acc:HGNC:18407] | gene:ENSG00000116771
+		expression profile [nTPM]:
+
+
+
+cluster #2  |  size: 2  |  total overlapped sequence: 100 
+	GC content: 54.00%
+	HD content: 35.48%
+
+	Gene 1: NTRK1 | neurotrophic receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:8031] | gene:ENSG00000198400
+		expression profile [nTPM]:
+
+
+	Gene 2: INSRR | insulin receptor related receptor [Source:HGNC Symbol;Acc:HGNC:6093] | gene:ENSG00000027644
+		expression profile [nTPM]:
+
+
+
+cluster #3  |  size: 2  |  total overlapped sequence: 440 
+	GC content: 76.36%
+	HD content: 28.97%
+
+	Gene 1: ANKMY1 | ankyrin repeat and MYND domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20987] | gene:ENSG00000144504
+		expression profile [nTPM]:
+
+
+	Gene 2: DUSP28 | dual specificity phosphatase 28 [Source:HGNC Symbol;Acc:HGNC:33237] | gene:ENSG00000188542
+		expression profile [nTPM]:
+
+
+
+cluster #4  |  size: 2  |  total overlapped sequence: 164 
+	GC content: 58.54%
+	HD content: 38.46%
+
+	Gene 1: OGG1 | 8-oxoguanine DNA glycosylase [Source:HGNC Symbol;Acc:HGNC:8125] | gene:ENSG00000114026
+		expression profile [nTPM]:
+
+
+	Gene 2: CAMK1 | calcium/calmodulin dependent protein kinase I [Source:HGNC Symbol;Acc:HGNC:1459] | gene:ENSG00000134072
+		expression profile [nTPM]:
+
+
+
+cluster #5  |  size: 2  |  total overlapped sequence: 234 
+	GC content: 66.67%
+	HD content: 27.27%
+
+	Gene 1: ABHD14B | abhydrolase domain containing 14B [Source:HGNC Symbol;Acc:HGNC:28235] | gene:ENSG00000114779
+		expression profile [nTPM]:
+
+
+	Gene 2: ABHD14A | abhydrolase domain containing 14A [Source:HGNC Symbol;Acc:HGNC:24538] | gene:ENSG00000248487
+		expression profile [nTPM]:
+
+
+
+cluster #6  |  size: 2  |  total overlapped sequence: 90 
+	GC content: 44.44%
+	HD content: 10.00%
+
+	Gene 1: GFM1 | G elongation factor mitochondrial 1 [Source:HGNC Symbol;Acc:HGNC:13780] | gene:ENSG00000168827
+		expression profile [nTPM]:
+
+
+	Gene 2: LXN | latexin [Source:HGNC Symbol;Acc:HGNC:13347] | gene:ENSG00000079257
+		expression profile [nTPM]:
+
+
+
+cluster #7  |  size: 2  |  total overlapped sequence: 230 
+	GC content: 58.26%
+	HD content: 30.67%
+
+	Gene 1: ARL10 | ADP ribosylation factor like GTPase 10 [Source:HGNC Symbol;Acc:HGNC:22042] | gene:ENSG00000175414
+		expression profile [nTPM]:
+
+
+	Gene 2: NOP16 | NOP16 nucleolar protein [Source:HGNC Symbol;Acc:HGNC:26934] | gene:ENSG00000048162
+		expression profile [nTPM]:
+
+
+
+cluster #8  |  size: 2  |  total overlapped sequence: 146 
+	GC content: 63.01%
+	HD content: 46.81%
+
+	Gene 1: C2 | complement C2 [Source:HGNC Symbol;Acc:HGNC:1248] | gene:ENSG00000166278
+		expression profile [nTPM]:
+
+
+	Gene 2: ZBTB12 | zinc finger and BTB domain containing 12 [Source:HGNC Symbol;Acc:HGNC:19066] | gene:ENSG00000204366
+		expression profile [nTPM]:
+
+
+
+cluster #9  |  size: 2  |  total overlapped sequence: 416 
+	GC content: 49.04%
+	HD content: 23.91%
+
+	Gene 1: LEPROTL1 | leptin receptor overlapping transcript like 1 [Source:HGNC Symbol;Acc:HGNC:6555] | gene:ENSG00000104660
+		expression profile [nTPM]:
+
+
+	Gene 2: MBOAT4 | membrane bound O-acyltransferase domain containing 4 [Source:HGNC Symbol;Acc:HGNC:32311] | gene:ENSG00000177669
+		expression profile [nTPM]:
+
+
+
+cluster #10  |  size: 2  |  total overlapped sequence: 440 
+	GC content: 61.36%
+	HD content: 23.24%
+
+	Gene 1: MRPL43 | mitochondrial ribosomal protein L43 [Source:HGNC Symbol;Acc:HGNC:14517] | gene:ENSG00000055950
+		expression profile [nTPM]:
+
+
+	Gene 2: SEMA4G | semaphorin 4G [Source:HGNC Symbol;Acc:HGNC:10735] | gene:ENSG00000095539
+		expression profile [nTPM]:
+
+
+
+cluster #11  |  size: 2  |  total overlapped sequence: 228 
+	GC content: 65.79%
+	HD content: 35.62%
+
+	Gene 1: FADS2 | fatty acid desaturase 2 [Source:HGNC Symbol;Acc:HGNC:3575] | gene:ENSG00000134824
+		expression profile [nTPM]:
+
+
+	Gene 2: FADS1 | fatty acid desaturase 1 [Source:HGNC Symbol;Acc:HGNC:3574] | gene:ENSG00000149485
+		expression profile [nTPM]:
+
+
+
+cluster #12  |  size: 2  |  total overlapped sequence: 386 
+	GC content: 59.07%
+	HD content: 25.78%
+
+	Gene 1: PDGFD | platelet derived growth factor D [Source:HGNC Symbol;Acc:HGNC:30620] | gene:ENSG00000170962
+		expression profile [nTPM]:
+
+
+	Gene 2: DDI1 | DNA damage inducible 1 homolog 1 [Source:HGNC Symbol;Acc:HGNC:18961] | gene:ENSG00000170967
+		expression profile [nTPM]:
+
+
+
+cluster #13  |  size: 2  |  total overlapped sequence: 118 
+	GC content: 45.76%
+	HD content: 15.79%
+
+	Gene 1: DAZAP2 | DAZ associated protein 2 [Source:HGNC Symbol;Acc:HGNC:2684] | gene:ENSG00000183283
+		expression profile [nTPM]:
+
+
+	Gene 2: SMAGP | small cell adhesion glycoprotein [Source:HGNC Symbol;Acc:HGNC:26918] | gene:ENSG00000170545
+		expression profile [nTPM]:
+
+
+
+cluster #14  |  size: 2  |  total overlapped sequence: 38 
+	GC content: 31.58%
+	HD content: 18.18%
+
+	Gene 1: CHPT1 | choline phosphotransferase 1 [Source:HGNC Symbol;Acc:HGNC:17852] | gene:ENSG00000111666
+		expression profile [nTPM]:
+
+
+	Gene 2: SYCP3 | synaptonemal complex protein 3 [Source:HGNC Symbol;Acc:HGNC:18130] | gene:ENSG00000139351
+		expression profile [nTPM]:
+
+
+
+cluster #15  |  size: 2  |  total overlapped sequence: 242 
+	GC content: 62.81%
+	HD content: 20.25%
+
+	Gene 1: SERF2 | small EDRK-rich factor 2 [Source:HGNC Symbol;Acc:HGNC:10757] | gene:ENSG00000140264
+		expression profile [nTPM]:
+
+
+	Gene 2: SERINC4 | serine incorporator 4 [Source:HGNC Symbol;Acc:HGNC:32237] | gene:ENSG00000184716
+		expression profile [nTPM]:
+
+
+
+cluster #16  |  size: 2  |  total overlapped sequence: 860 
+	GC content: 60.00%
+	HD content: 25.89%
+
+	Gene 1: AMDHD2 | amidohydrolase domain containing 2 [Source:HGNC Symbol;Acc:HGNC:24262] | gene:ENSG00000162066
+		expression profile [nTPM]:
+
+
+	Gene 2: CEMP1 | cementum protein 1 [Source:HGNC Symbol;Acc:HGNC:32553] | gene:ENSG00000205923
+		expression profile [nTPM]:
+
+
+
+cluster #17  |  size: 2  |  total overlapped sequence: 166 
+	GC content: 54.22%
+	HD content: 18.87%
+
+	Gene 1: SLC25A35 | solute carrier family 25 member 35 [Source:HGNC Symbol;Acc:HGNC:31921] | gene:ENSG00000125434
+		expression profile [nTPM]:
+
+
+	Gene 2: RANGRF | RAN guanine nucleotide release factor [Source:HGNC Symbol;Acc:HGNC:17679] | gene:ENSG00000108961
+		expression profile [nTPM]:
+
+
+
+cluster #18  |  size: 2  |  total overlapped sequence: 118 
+	GC content: 61.02%
+	HD content: 25.71%
+
+	Gene 1: SLC5A10 | solute carrier family 5 member 10 [Source:HGNC Symbol;Acc:HGNC:23155] | gene:ENSG00000154025
+		expression profile [nTPM]:
+
+
+	Gene 2: FAM83G | family with sequence similarity 83 member G [Source:HGNC Symbol;Acc:HGNC:32554] | gene:ENSG00000188522
+		expression profile [nTPM]:
+
+
+
+cluster #19  |  size: 2  |  total overlapped sequence: 106 
+	GC content: 43.40%
+	HD content: 36.36%
+
+	Gene 1: DHX8 | DEAH-box helicase 8 [Source:HGNC Symbol;Acc:HGNC:2749] | gene:ENSG00000067596
+		expression profile [nTPM]:
+
+
+	Gene 2: ETV4 | ETS variant transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:3493] | gene:ENSG00000175832
+		expression profile [nTPM]:
+
+
+
+cluster #20  |  size: 2  |  total overlapped sequence: 136 
+	GC content: 41.18%
+	HD content: 32.56%
+
+	Gene 1: MEIOC | meiosis specific with coiled-coil domain [Source:HGNC Symbol;Acc:HGNC:26670] | gene:ENSG00000180336
+		expression profile [nTPM]:
+
+
+	Gene 2: CCDC43 | coiled-coil domain containing 43 [Source:HGNC Symbol;Acc:HGNC:26472] | gene:ENSG00000180329
+		expression profile [nTPM]:
+
+
+
+cluster #21  |  size: 2  |  total overlapped sequence: 58 
+	GC content: 51.72%
+	HD content: 41.18%
+
+	Gene 1: ARL17B | ADP ribosylation factor like GTPase 17B [Source:HGNC Symbol;Acc:HGNC:32387] | gene:ENSG00000228696
+		expression profile [nTPM]:
+
+
+	Gene 2: LRRC37A | leucine rich repeat containing 37A [Source:HGNC Symbol;Acc:HGNC:29069] | gene:ENSG00000176681
+		expression profile [nTPM]:
+
+
+
+cluster #22  |  size: 2  |  total overlapped sequence: 342 
+	GC content: 61.40%
+	HD content: 35.71%
+
+	Gene 1: ABHD8 | abhydrolase domain containing 8 [Source:HGNC Symbol;Acc:HGNC:23759] | gene:ENSG00000127220
+		expression profile [nTPM]:
+
+
+	Gene 2: MRPL34 | mitochondrial ribosomal protein L34 [Source:HGNC Symbol;Acc:HGNC:14488] | gene:ENSG00000130312
+		expression profile [nTPM]:
+
+
+
+cluster #23  |  size: 2  |  total overlapped sequence: 168 
+	GC content: 53.57%
+	HD content: 27.78%
+
+	Gene 1: ZNF814 | zinc finger protein 814 [Source:HGNC Symbol;Acc:HGNC:33258] | gene:ENSG00000204514
+		expression profile [nTPM]:
+
+
+	Gene 2: ZNF587 | zinc finger protein 587 [Source:HGNC Symbol;Acc:HGNC:30955] | gene:ENSG00000198466
+		expression profile [nTPM]:
+
+
+

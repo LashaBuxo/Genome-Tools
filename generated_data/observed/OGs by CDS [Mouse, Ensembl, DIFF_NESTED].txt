@@ -1,0 +1,243 @@
+Total overlapped (by CDS) genes: 32 = 16x[2]
+Total overlapped (by CDS) sequence length: 3962
+
+--------------------------overall mean parameters---------------------------------
+
+	nucleotides:
+		G - 31.37%	C - 31.25%	A - 19.08%	T - 18.3%
+
+
+	di-nucleotides:
+		GC - 11.28%	GG - 9.14%	CC - 9.02%	CG - 8.35%
+		CA - 7.44%	TG - 7.11%	AG - 6.95%	CT - 6.65%
+		GA - 6.14%	TC - 6.06%	AC - 4.84%	GT - 4.71%
+		AA - 3.72%	AT - 3.57%	TT - 3.34%	TA - 1.68%
+
+
+	amino-acids:
+		A - 10.8%	S - 9.57%	G - 9.57%	L - 9.49%
+		R - 8.88%	P - 6.81%	V - 5.67%	E - 4.98%
+		Q - 4.36%	T - 3.83%	D - 3.6%	H - 3.6%
+		K - 3.14%	F - 2.76%	C - 2.68%	I - 2.6%
+		W - 1.91%	N - 1.76%	M - 1.61%	Y - 1.45%
+		* - 0.92%
+
+	amino-acids by codon degeneracy:
+		medium - 39.64%	low - 32.15%	high - 28.21%
+
+	amino-acids by type:
+		non-polar - 54.4%	polar - 21.17%	+ - 15.77%	- - 8.66%
+
+	expression profile:
+
+
+--------------------------clusters and their parameters-----------------------------------
+
+cluster size: 2 | total overlapped sequence: 26 
+	GC content: 46.15%
+	HD content: 28.57%
+
+	Gene 1: Gigyf2 | GRB10 interacting GYF protein 2 [Source:MGI Symbol;Acc:MGI:2138584] | gene:ENSMUSG00000048000
+		expression profile:
+
+
+	Gene 2: Kcnj13 | potassium inwardly-rectifying channel, subfamily J, member 13 [Source:MGI Symbol;Acc:MGI:3781032] | gene:ENSMUSG00000079436
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 80 
+	GC content: 62.50%
+	HD content: 26.92%
+
+	Gene 1: Sh2d3c | SH2 domain containing 3C [Source:MGI Symbol;Acc:MGI:1351631] | gene:ENSMUSG00000059013
+		expression profile:
+
+
+	Gene 2: 6330409D20Rik | RIKEN cDNA 6330409D20 gene [Source:MGI Symbol;Acc:MGI:1917980] | gene:ENSMUSG00000009551
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 442 
+	GC content: 74.21%
+	HD content: 26.90%
+
+	Gene 1: Ttc16 | tetratricopeptide repeat domain 16 [Source:MGI Symbol;Acc:MGI:2443048] | gene:ENSMUSG00000039021
+		expression profile:
+
+
+	Gene 2: Tor2a | torsin family 2, member A [Source:MGI Symbol;Acc:MGI:1353596] | gene:ENSMUSG00000009563
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 78 
+	GC content: 61.54%
+	HD content: 26.92%
+
+	Gene 1: Adamts9 | a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 9 [Source:MGI Symbol;Acc:MGI:1916320] | gene:ENSMUSG00000030022
+		expression profile:
+
+
+	Gene 2: A730049H05Rik | RIKEN cDNA A730049H05 gene [Source:MGI Symbol;Acc:MGI:1921766] | gene:ENSMUSG00000048636
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 714 
+	GC content: 70.03%
+	HD content: 38.98%
+
+	Gene 1: Sdhaf1 | succinate dehydrogenase complex assembly factor 1 [Source:MGI Symbol;Acc:MGI:1915582] | gene:ENSMUSG00000074211
+		expression profile:
+
+
+	Gene 2: E130208F15Rik | RIKEN cDNA E130208F15 gene [Source:MGI Symbol;Acc:MGI:3767226] | gene:ENSMUSG00000074210
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 50 
+	GC content: 56.00%
+	HD content: 35.71%
+
+	Gene 1: Ttc23 | tetratricopeptide repeat domain 23 [Source:MGI Symbol;Acc:MGI:1914259] | gene:ENSMUSG00000030555
+		expression profile:
+
+
+	Gene 2: Synm | synemin, intermediate filament protein [Source:MGI Symbol;Acc:MGI:2661187] | gene:ENSMUSG00000030554
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 274 
+	GC content: 60.58%
+	HD content: 24.44%
+
+	Gene 1: Nfix | nuclear factor I/X [Source:MGI Symbol;Acc:MGI:97311] | gene:ENSMUSG00000001911
+		expression profile:
+
+
+	Gene 2: G430095P16Rik | RIKEN cDNA G430095P16 gene [Source:MGI Symbol;Acc:MGI:3588227] | gene:ENSMUSG00000074203
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 54 
+	GC content: 48.15%
+	HD content: 29.41%
+
+	Gene 1: Pate2 | prostate and testis expressed 2 [Source:MGI Symbol;Acc:MGI:2685692] | gene:ENSMUSG00000074452
+		expression profile:
+
+
+	Gene 2: Pate1 | prostate and testis expressed 1 [Source:MGI Symbol;Acc:MGI:4936886] | gene:ENSMUSG00000091215
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 38 
+	GC content: 31.58%
+	HD content: 40.00%
+
+	Gene 1: Chpt1 | choline phosphotransferase 1 [Source:MGI Symbol;Acc:MGI:2384841] | gene:ENSMUSG00000060002
+		expression profile:
+
+
+	Gene 2: Sycp3 | synaptonemal complex protein 3 [Source:MGI Symbol;Acc:MGI:109542] | gene:ENSMUSG00000020059
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 700 
+	GC content: 49.29%
+	HD content: 25.00%
+
+	Gene 1: Commd1 | COMM domain containing 1 [Source:MGI Symbol;Acc:MGI:109474] | gene:ENSMUSG00000051355
+		expression profile:
+
+
+	Gene 2: Zrsr1 | zinc finger (CCCH type), RNA binding motif and serine/arginine rich 1 [Source:MGI Symbol;Acc:MGI:98885] | gene:ENSMUSG00000044068
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 8 
+	GC content: 75.00%
+	HD content: 0.00%
+
+	Gene 1: Arhgap23 | Rho GTPase activating protein 23 [Source:MGI Symbol;Acc:MGI:3697726] | gene:ENSMUSG00000049807
+		expression profile:
+
+
+	Gene 2: 4933428G20Rik | RIKEN cDNA 4933428G20 gene [Source:MGI Symbol;Acc:MGI:1918475] | gene:ENSMUSG00000047988
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 704 
+	GC content: 71.31%
+	HD content: 22.84%
+
+	Gene 1: A530084C06Rik | RIKEN cDNA A530084C06 gene [Source:MGI Symbol;Acc:MGI:3704402] | gene:ENSMUSG00000090863
+		expression profile:
+
+
+	Gene 2: Foxq1 | forkhead box Q1 [Source:MGI Symbol;Acc:MGI:1298228] | gene:ENSMUSG00000038415
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 280 
+	GC content: 54.29%
+	HD content: 27.78%
+
+	Gene 1: A630023A22Rik | RIKEN cDNA A630023A22 gene [Source:MGI Symbol;Acc:MGI:2145657] | gene:ENSMUSG00000095493
+		expression profile:
+
+
+	Gene 2: Antxrl | anthrax toxin receptor-like [Source:MGI Symbol;Acc:MGI:1925726] | gene:ENSMUSG00000047441
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 294 
+	GC content: 63.27%
+	HD content: 30.93%
+
+	Gene 1: Nefm | neurofilament, medium polypeptide [Source:MGI Symbol;Acc:MGI:97314] | gene:ENSMUSG00000022054
+		expression profile:
+
+
+	Gene 2: Nefl | neurofilament, light polypeptide [Source:MGI Symbol;Acc:MGI:97313] | gene:ENSMUSG00000022055
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 140 
+	GC content: 54.29%
+	HD content: 20.00%
+
+	Gene 1: Matn2 | matrilin 2 [Source:MGI Symbol;Acc:MGI:109613] | gene:ENSMUSG00000022324
+		expression profile:
+
+
+	Gene 2: 9430069I07Rik | RIKEN cDNA 9430069I07 gene [Source:MGI Symbol;Acc:MGI:1924608] | gene:ENSMUSG00000094447
+		expression profile:
+
+
+
+cluster size: 2 | total overlapped sequence: 80 
+	GC content: 55.00%
+	HD content: 28.00%
+
+	Gene 1: Nrxn2 | neurexin II [Source:MGI Symbol;Acc:MGI:1096362] | gene:ENSMUSG00000033768
+		expression profile:
+
+
+	Gene 2: Slc22a12 | solute carrier family 22 (organic anion/cation transporter), member 12 [Source:MGI Symbol;Acc:MGI:1195269] | gene:ENSMUSG00000061742
+		expression profile:
+
+
+

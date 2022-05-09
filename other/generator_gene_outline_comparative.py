@@ -80,7 +80,7 @@ for specie_ind in range(TOTAL_SPECIES):
         genes_cnt = genome.genes_count_on_chr(chr_id)
 
         for i in range(0, genes_cnt):
-            gene = genome.gene_by_ind(chr_id, i)
+            gene = genome.gene_by_indexes(chr_id, i)
             gene_occurrences = genome.analyze_gene_occurrences_by_parts(chr_id, gene, k, procession_length,
                                                                         TRANSCRIPT_CRITERIA.NONE)
             add_matrix(total_occurrences, specie_ind, gene_occurrences, k)

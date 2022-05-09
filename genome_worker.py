@@ -1,12 +1,16 @@
 import gc
 import random
 from os.path import exists
-
+import time
 import gffutils
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from gffutils import Feature
+import random
 
+import xlrd
+from openpyxl import load_workbook
+import urllib.request, json
 # Author: "Lasha Bukhnikashvili"
 #
 # Common Methods for working with Genome Worker data:
@@ -26,78 +30,56 @@ from genome_worker_enums import *
 
 class GenomeWorker:
     def __init__(self, species: SPECIES, annotation_source: ANNOTATIONS, annotation_load_type: ANNOTATION_LOAD,
-                 sequence_load_type: SEQUENCE_LOAD):
+                 sequence_load_type: SEQUENCE_LOAD, expression_load_type: EXPRESSIONS_LOAD):
 
         assert annotation_source == ANNOTATIONS.ENSEMBL or annotation_source == ANNOTATIONS.NCBI
 
-        print("loading data for species: " + str(species))
+        print(f"loading data for {species} ({annotation_source.name}):")
 
         self.species = species
-        self.__genes_on_chr = [None] * (self.chromosomes_count() + 1)
-        self.__sequences = [None] * (self.chromosomes_count() + 1)
-
         self.annotation_source = annotation_source
         self.annotation_load_type = annotation_load_type
         self.sequence_load_type = sequence_load_type
+        self.expression_load_type = expression_load_type
+
+        self.imported_protein_coding_genes = 0
+        self.ignored_protein_coding_genes = 0
+
+        self.__loaded_feature_by_id = {}  # storage for gene or transcript features to access by id
+
+        # gene features clustered by chromosome, they are on.
+        self.__genes_on_chr = [None] * (self.chromosomes_count() + 1)
+        self.__gene_symbols_set = {}
+        self.__gene_accessions_set = {}
+
+        self.__sequences = [None] * (self.chromosomes_count() + 1)  # {chr_id,DNA sequence of chromosome with id chr_id}
+
+        self.__gene_transcripts = {}  # {gene_id, [list of mRNA features/isoforms whose parent is gene_id]}
+
+        self.__transcript_tissue_expressions = {}  # {transcript_id, [list of 'CDS' and/or 'UTR(3'/5')' and/or exons]]
+
+        self.__transcript_fragments = {}
+        self.__transcript_fragments_is_sorted = {}  # optimizes speed, if we are not sorting it if we don't need
+
+        self.__gene_transcript_by_criteria = {}  # {gene_id, representative mRNA features whose parent is gene_id}
 
         self.__load_requested_features()
+        self.__load_requested_expressions()
         self.__load_requested_sequences()
 
-    def release_memory(self):
-        keys3 = []
-        for key in self.__gene_transcript_by_criteria:
-            keys3.append(key)
-        for key in keys3:
-            del self.__gene_transcript_by_criteria[key]
+    # region easy retriever methods
 
-        keys = []
-        for key in self.__transcript_fragments:
-            keys.append(key)
-        for key in keys:
-            del self.__transcript_fragments[key]
+    def get_transcript_median_expression(self, transcript_id):
+        expression_data = self.get_transcript_expression_values(transcript_id)
 
-        keys2 = []
-        for key in self.__gene_transcripts:
-            keys2.append(key)
-        for key in keys2:
-            del self.__gene_transcripts[key]
+    def get_transcript_expression_values(self, transcript_id):
+        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # gene expression data is only available for Ensembl
+        assert self.species == SPECIES.Homo_sapiens  # gene expression data is only available for Homo Sapiens
 
-        del keys
-        del keys2
-        del keys3
-        del self.__genes_on_chr
-        del self.__sequences
+        if not self.__transcript_tissue_expressions.__contains__(transcript_id):
+            return {}
 
-        self.__gene_names_set.clear()
-        self.__gene_accessions_set.clear()
-        self.__transcript_fragments_is_sorted.clear()
-
-        gc.collect()
-
-    # region Variables and Retrievers
-
-    imported_protein_coding_genes = 0
-    ignored_protein_coding_genes = 0
-
-    # gene features clustered by chromosome, they are on.
-    # Example: genes_on_chr[22] = ['gene' features on chromosome 22]
-    __genes_on_chr = []
-
-    # {chr_id,DNA sequence of chromosome with id chr_id}
-    __sequences = []
-
-    #   {gene_id, [list of mRNA features whose parent is gene_id]}
-    __gene_transcripts = {}
-
-    #   {transcript_id, [list of 'CDS' and/or 'UTR(3'/5')' and/or 'exons' features whose parent is mRNA_transcript_id]}
-    __transcript_fragments = {}
-    __transcript_fragments_is_sorted = {}
-
-    #   {gene_id, [list of 'best' mRNA features whose parent is gene_id]}
-    __gene_transcript_by_criteria = {}
-
-    __gene_names_set = {}
-    __gene_accessions_set = {}
+        return self.__transcript_tissue_expressions[transcript_id]
 
     def chromosomes_count(self):
         return NUMBER_OF_CHROMOSOMES[self.species.value]
@@ -106,9 +88,12 @@ class GenomeWorker:
         assert chr_id <= self.chromosomes_count()
         return len(self.__genes_on_chr[chr_id])
 
-    def gene_by_ind(self, chr_id, index) -> Feature:
+    def gene_by_indexes(self, chr_id, index) -> Feature:
         assert chr_id <= self.chromosomes_count()
         return self.__genes_on_chr[chr_id][index]
+
+    def feature_by_id(self, feature_id) -> Feature:
+        return self.__loaded_feature_by_id[feature_id]
 
     def __get_annotation_file_path(self):
         if self.annotation_source != ANNOTATIONS.ENSEMBL:
@@ -118,7 +103,6 @@ class GenomeWorker:
     def __get_annotation_db_path(self):
         added_name = self.__get_annotation_file_path().replace('/', '_')
         generated_path = WORKING_DATABASES_DIRECTORY + self.species.name + "_" + self.annotation_source.name + "_" + added_name
-
         return generated_path + '.db'
 
     def __get_sequence_file_path(self):
@@ -126,25 +110,77 @@ class GenomeWorker:
             return ENSEMBL_SEQUENCES[self.species.value]
         return NCBI_SEQUENCES[self.species.value]
 
+    def get_transcripts_from_gene(self, gene_id) -> list[Feature]:
+        return self.__gene_transcripts[gene_id] if self.__gene_transcripts.__contains__(gene_id) else []
+
+    def get_fragments_from_transcript(self, transcript_id) -> list[Feature]:
+        if transcript_id not in self.__transcript_fragments: return []
+
+        fragments = self.__transcript_fragments[transcript_id]
+        if self.__transcript_fragments_is_sorted.__contains__(transcript_id):
+            return fragments
+
+        fragments.sort(key=lambda x: x.start)
+
+        self.__transcript_fragments_is_sorted[transcript_id] = True
+        self.__transcript_fragments[transcript_id] = fragments
+
+        return fragments
+
     # endregion
 
-    # region Load methods for Features (from annotation) and Sequences (from assembly)
+    # region load methods for Annotation, Assembly(sequence) and Expression values
+
+    sample_tissues = []
+
+    def __load_requested_expressions(self):
+        if self.expression_load_type != EXPRESSIONS_LOAD.LOAD:
+            return
+
+        assert exists(EXPRESSION_DATA_PATH)
+
+        file = open(EXPRESSION_DATA_PATH, 'r')
+        headers = file.readline().split('\t')
+
+        for header in headers:
+            if header != 'ensgid' and header != 'enstid' and header != 'gene_name' and header != 'transcript_biotype':
+                sample_name = header.split('.')[1]
+                self.sample_tissues.append(sample_name)
+
+        expression_records = file.readlines()
+
+        for record_line in expression_records:
+            record_data = record_line.replace('\n', '').split('\t')
+            if record_data[3] != 'protein_coding': continue
+
+            transcript_id = f"transcript:{record_data[0]}"  # convert transcript to Ensembl format id
+            if not self.__transcript_fragments.__contains__(transcript_id): continue
+
+            transcript_expression = {}
+            for i in range(0, len(self.sample_tissues)):
+                tissue_name = self.sample_tissues[i].split('_')[0]
+                if not transcript_expression.__contains__(tissue_name):
+                    transcript_expression[tissue_name] = 0
+                value = float(record_data[i + 4]) if record_data[i + 4] != 'NA' else 0
+                transcript_expression[tissue_name] += value
+            self.__transcript_tissue_expressions[transcript_id] = transcript_expression
+
+        print(f"\t{len(self.__transcript_tissue_expressions)} mRNA's expression values loaded successfully!")
 
     def __load_requested_sequences(self):
-        if self.sequence_load_type == SEQUENCE_LOAD.LOAD:
-            sequence_file_path = self.__get_sequence_file_path()
-            for record in SeqIO.parse(sequence_file_path, 'fasta'):
-                chr_id = self.chr_id_from_seq_id(self.annotation_source, record.id)
-                if chr_id == -1: continue
-                self.__sequences[chr_id] = record
-            loaded_chromosomes = 0
-            for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
-                loaded_chromosomes += 1 if self.__sequences[chr_id] is not None and len(
-                    self.__sequences[chr_id]) > 0 else 0
-            print(
-                "    Using " + self.annotation_source.name + ": sequence data loaded from chromosomes " + str(
-                    loaded_chromosomes) + "/" +
-                str(NUMBER_OF_CHROMOSOMES[self.species.value]))
+        if self.sequence_load_type != SEQUENCE_LOAD.LOAD:
+            return
+
+        sequence_file_path = self.__get_sequence_file_path()
+        for record in SeqIO.parse(sequence_file_path, 'fasta'):
+            chr_id = self.chr_id_from_seq_id(self.annotation_source, record.id)
+            if chr_id == -1: continue
+            self.__sequences[chr_id] = record
+        loaded_chromosomes = 0
+        for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
+            loaded_chromosomes += 1 if self.__sequences[chr_id] is not None and len(self.__sequences[chr_id]) > 0 else 0
+
+        print(f"\tDNA chromosomes loaded {loaded_chromosomes}/{NUMBER_OF_CHROMOSOMES[self.species.value]}!")
 
     def __check_gene_for_Ensembl_filters(self, gene: Feature):
         # ignore genes without description
@@ -158,8 +194,8 @@ class GenomeWorker:
         if description.__contains__('readthrough'): return (False, "is_readthrough")
 
         # ignore genes with duplicate Names if it has Name
-        gene_name = GenomeWorker.get_gene_name(gene)
-        if gene_name != 'no_name' and self.__gene_names_set.__contains__(gene_name):
+        gene_symbol = GenomeWorker.get_gene_symbol(gene)
+        if gene_symbol != 'no_name' and self.__gene_symbols_set.__contains__(gene_symbol):
             return (False, "name_duplicated")
 
         # ignore genes if gene with same NCBI accession already imported
@@ -184,8 +220,8 @@ class GenomeWorker:
         if description.__contains__('readthrough'): return (False, "is_readthrough")
 
         # ignore genes with duplicate Names if it has Name
-        gene_name = GenomeWorker.get_gene_name(gene)
-        if gene_name != 'no_name' and self.__gene_names_set.__contains__(gene_name):
+        gene_name = GenomeWorker.get_gene_symbol(gene)
+        if gene_name != 'no_name' and self.__gene_symbols_set.__contains__(gene_name):
             return (False, "name_duplicated")
 
         # ignore genes if gene with same NCBI accession already imported
@@ -234,49 +270,47 @@ class GenomeWorker:
                 if gene.attributes[attribute_filter][0] == attribute_value:
                     chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
                     if chr_id != -1:
-                        check_result = self.__check_gene_for_filters(gene)
-                        if check_result[0]:
+                        is_valid, status = self.__check_gene_for_filters(gene)
+                        if is_valid:
                             if self.__genes_on_chr[chr_id] is None:
                                 self.__genes_on_chr[chr_id] = []
 
                             self.imported_protein_coding_genes += 1
-                            self.__genes_on_chr[chr_id].append(gene)
+
+                            self.__genes_on_chr[chr_id].append(gene)  # store gene feature on chromosome list
+                            self.__loaded_feature_by_id[gene.id] = gene  # store gene feature to access by id
 
                             # store these values, for filtering upcoming genes
-                            self.__gene_names_set[GenomeWorker.get_gene_name(gene)] = len(self.__genes_on_chr[chr_id])
-                            self.__gene_accessions_set[GenomeWorker.get_gene_accession(gene)] = len(
-                                self.__genes_on_chr[chr_id])
+                            self.__gene_symbols_set[GenomeWorker.get_gene_symbol(gene)] = gene.id
+                            self.__gene_accessions_set[GenomeWorker.get_gene_accession(gene)] = gene.id
                         else:
-                            if not ignored_genes_by_types.__contains__(check_result[1]):
-                                ignored_genes_by_types[check_result[1]] = 0
-                            ignored_genes_by_types[check_result[1]] += 1
+                            if not ignored_genes_by_types.__contains__(status):
+                                ignored_genes_by_types[status] = 0
+                            ignored_genes_by_types[status] += 1
                             self.ignored_protein_coding_genes += 1
-        print("    Filtered out Genes: " + str(ignored_genes_by_types))
+
         loaded_chromosomes = 0
         for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
             if self.__genes_on_chr[chr_id] is not None and len(self.__genes_on_chr[chr_id]) > 0:
                 loaded_chromosomes += 1
             else:
-                print(chr_id)
-        print("    Using " + self.annotation_source.name + ": " + str(
-            self.imported_protein_coding_genes) + " genes loaded (" + str(
-            self.ignored_protein_coding_genes) + " filtered out) from chromosomes " + str(
-            loaded_chromosomes) + "/" + str(NUMBER_OF_CHROMOSOMES[self.species.value]))
+                print(f'WARNING: Chromosome {chr_id} is not loaded!')
+
+        print(f"\t{self.imported_protein_coding_genes} genes loaded "
+              f"({self.ignored_protein_coding_genes} filtered out) "
+              f"from chromosomes {loaded_chromosomes}/{NUMBER_OF_CHROMOSOMES[self.species.value]}")
+        print(f"\t\tFiltered out Genes: {str(ignored_genes_by_types)}")
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES:
             return
 
-        # load preferred transcripts and link them to genes in dictionaries
-        # preprocess_feature_by_type(__gene_transcripts, feature, 'unconfirmed_transcript')
-        # preprocess_feature_by_type(__gene_transcripts, feature, 'V_gene_segment')
-        # preprocess_feature_by_type(__gene_transcripts, feature, 'J_gene_segment')
-        # preprocess_feature_by_type(__gene_transcripts, feature, 'C_gene_segment')
         features_generator = features_db.features_of_type('mRNA')
         features_mRNA = list(features_generator)
+        loaded_transcripts = 0
         for mRNA in features_mRNA:
-            self.__load_feature_by_type(self.__gene_transcripts, mRNA, 'mRNA')
+            if self.__load_feature_by_type(self.__gene_transcripts, mRNA, 'mRNA'): loaded_transcripts += 1
 
-        print("    Using " + self.annotation_source.name + ": mRNAs loaded successfully!")
+        print(f"\t{loaded_transcripts} mRNAs loaded successfully!")
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS:
             return
@@ -284,47 +318,56 @@ class GenomeWorker:
         # load preferred fragments and link them to transcripts in dictionaries
         features_generator = features_db.features_of_type('CDS')
         features_CDSs = list(features_generator)
+        loaded_CDSs = 0
         for CDS in features_CDSs:
-            self.__load_feature_by_type(self.__transcript_fragments, CDS, 'CDS')
+            if self.__load_feature_by_type(self.__transcript_fragments, CDS, 'CDS'): loaded_CDSs += 1
 
-        print("    Using " + self.annotation_source.name + ": CDSs loaded successfully!")
+        print(f"\t{loaded_CDSs} CDSs loaded successfully!")
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_CDS:
             return
 
         features_generator = features_db.features_of_type('exon')
         features_exons = list(features_generator)
+        loaded_exons = 0
         for exon in features_exons:
-            self.__load_feature_by_type(self.__transcript_fragments, exon, 'exon')
-        print("    Using " + self.annotation_source.name + ": EXONs loaded successfully!")
+            if self.__load_feature_by_type(self.__transcript_fragments, exon, 'exon'): loaded_exons += 1
+        print(f"\t{loaded_exons} EXONs loaded successfully!")
 
         features_generator = features_db.features_of_type('three_prime_UTR')
         features_UTR3s = list(features_generator)
         for utr3 in features_UTR3s:
             self.__load_feature_by_type(self.__transcript_fragments, utr3, 'three_prime_UTR')
-        print("    Using " + self.annotation_source.name + ": UTR3s loaded successfully!")
+        print(f"\tUTR3s loaded successfully!")
 
         features_generator = features_db.features_of_type('five_prime_UTR')
         features_UTR5s = list(features_generator)
         for utr5 in features_UTR5s:
             self.__load_feature_by_type(self.__transcript_fragments, utr5, 'five_prime_UTR')
-        print("    Using " + self.annotation_source.name + ": UTR5s loaded successfully!")
+        print(f"\tUTR5s loaded successfully!")
 
     def __load_feature_by_type(self, dict_to_fill, feature: Feature, feature_type):
-        if feature.featuretype != feature_type: return
+        if feature.featuretype != feature_type: return False
 
-        if not feature.attributes.__contains__('Parent'):
-            print("Lasha some issue found!")
-        if len(feature.attributes['Parent']) != 1:
-            print("Lasha some issue found!")
+        assert feature.attributes.__contains__('Parent') and len(feature.attributes['Parent']) == 1
+        assert len(feature.attributes['Parent']) == 1
 
         # parent_gene_id for mRNA and parent_transcript_id for CDS/UTR5'/UTR3'/Exon
         parent_id = feature.attributes['Parent'][0]
+
+        # for mRNA parent is gene, and for CDS,Exon,UTR's it is transcript.
+        parent_is_loaded = self.__loaded_feature_by_id.__contains__(parent_id)
+
+        if not parent_is_loaded:
+            return False  # it seems feature belongs to transcript or gene, which was filtered out
 
         if not dict_to_fill.__contains__(parent_id):
             dict_to_fill[parent_id] = []
 
         dict_to_fill[parent_id].append(feature)
+        self.__loaded_feature_by_id[feature.id] = feature
+
+        return True
 
     def chr_id_from_seq_id(self, annotation_source, id):
         if annotation_source == ANNOTATIONS.ENSEMBL:
@@ -394,6 +437,8 @@ class GenomeWorker:
 
     # endregion
 
+    # region choose representative transcript by criteria
+
     def __get_transcript_score_by_criteria(self, mRNA_transcript: Feature, criteria: TRANSCRIPT_CRITERIA):
         if criteria == TRANSCRIPT_CRITERIA.LONGEST: return mRNA_transcript.end - mRNA_transcript.start + 1
 
@@ -413,7 +458,6 @@ class GenomeWorker:
 
         return score
 
-    # region Find necessary feature (transcript/mRNA) from a Gene
     def find_gene_transcript_by_criteria(self, gene_feature: Feature, criteria) -> Feature:
         if self.__gene_transcript_by_criteria.__contains__(gene_feature.id):
             # if 'best' gene transcript for a gene already found
@@ -451,7 +495,7 @@ class GenomeWorker:
 
     # endregion
 
-    # region Get sequence of a Gene
+    # region sequence retriever methods
 
     # if sequence for specific chromosome is not loaded then loads it.
     # if its already loaded retrieves it.
@@ -475,45 +519,33 @@ class GenomeWorker:
 
     # endregion
 
-    # region Additional Methods
+    # region overlap findings between transcript coding sequences (CDS)
+
+    def __calculate_frame_of_fragment_interval(self, fragment: Feature, interval):
+        if fragment.strand == '+':
+            return (3 + int(fragment.frame) - (interval[0] - fragment.start) % 3) % 3
+        return (3 + int(fragment.frame) - (interval[0] - fragment.start) % 3) % 3
 
     def __attach_frames_to_interval(self, fragment_a: Feature, fragment_b: Feature, interval):
-        if fragment_a.strand != fragment_b.strand:  # diff-strand overlap
-            sense_fragment = fragment_a if fragment_a.strand == '+' else fragment_b
-            anti_sense_fragment = fragment_b if fragment_a.strand == '+' else fragment_a
-            x = (3 + int(sense_fragment.frame) - (interval[0] - sense_fragment.start) % 3) % 3
-            y = (3 + int(anti_sense_fragment.frame) - (anti_sense_fragment.end - interval[1]) % 3) % 3
-            return (interval[0], interval[1], x, y)
-        if fragment_a.strand == '+':
-            x = (3 + int(fragment_a.frame) - (interval[0] - fragment_a.start) % 3) % 3
-            y = (3 + int(fragment_b.frame) - (interval[0] - fragment_b.start) % 3) % 3
-            return (interval[0], interval[1], x, y)
-        else:
-            x = (3 + int(fragment_a.frame) - (fragment_a.end - interval[1]) % 3) % 3
-            y = (3 + int(fragment_b.frame) - (fragment_b.end - interval[1]) % 3) % 3
-            return (interval[0], interval[1], x, y)
+        frame1 = self.__calculate_frame_of_fragment_interval(fragment_a, interval)
+        frame2 = self.__calculate_frame_of_fragment_interval(fragment_b, interval)
+        return interval, (frame1, frame2)
 
-    # between each pairs of fragments from each transcript (mRNA) finds fragments overlapped by CDS
-    def get_fragments_overlap_between_transcripts(self, mRNA_transcript_a: Feature, mRNA_transcript_b: Feature,
-                                                  ORF_similarity):
+        # between each pairs of fragments from each transcript (mRNA) finds fragments overlapped by CDS
+
+    def get_fragments_overlap_between_transcripts(self, transcript1_id, transcript2_id):
         overlaps = []
 
-        if mRNA_transcript_a is None or mRNA_transcript_b is None: return overlaps
+        fragments_a = self.get_fragments_from_transcript(transcript1_id)
+        fragments_b = self.get_fragments_from_transcript(transcript2_id)
 
-        fragments_A = self.get_transcript_all_fragments_sorted(mRNA_transcript_a)
-        fragments_B = self.get_transcript_all_fragments_sorted(mRNA_transcript_b)
+        if len(fragments_b) == 0 or len(fragments_b) == 0:
+            return overlaps
 
-        if len(fragments_B) == 0 or len(fragments_B) == 0: return overlaps
-
-        for fragment_a in fragments_A:
+        for fragment_a in fragments_a:
             assert fragment_a.featuretype == 'CDS'
-            for fragment_b in fragments_B:
+            for fragment_b in fragments_b:
                 assert fragment_b.featuretype == 'CDS'
-
-                if ORF_similarity == 'diff_ORF' and self.are_features_same_framed(fragment_a,
-                                                                                  fragment_b): continue
-                if ORF_similarity == 'same_ORF' and not self.are_features_same_framed(fragment_a,
-                                                                                      fragment_b): continue
 
                 if fragment_b.end < fragment_a.start or fragment_b.start > fragment_a.end: continue
                 if fragment_b.end <= fragment_a.end:
@@ -532,156 +564,24 @@ class GenomeWorker:
 
         return overlaps
 
-    # # between each pairs of transcripts (mRNA) from each gene, finds overlapped fragments (CDS or exons)
-    # # and returns overlapped intervals which has maximum total overlapped length
-    # def get_fragments_overlap_between_genes(self, gene_A: Feature, gene_B: Feature, ORF_similarity,
-    #                                         criteria: TRANSCRIPT_CRITERIA):
-    #
-    #
-    #     max_overlap_length = 0
-    #     max_overlaps = []
-    #     for transcript_a in transcripts_A:
-    #         for transcript_b in transcripts_B:
-    #             result = self.__get_fragments_overlap_between_transcripts(transcript_a, transcript_b, ORF_similarity)
-    #             if max_overlap_length < result[1]:
-    #                 max_overlap_length = result[1]
-    #                 max_overlaps = result[0]
-    #
-    #     return max_overlaps
-
-    def get_gene_all_transcripts(self, gene: Feature) -> list[Feature]:
-        return self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
-
-    def get_transcript_all_fragments_sorted(self, transcript: Feature) -> list[Feature]:
-        if transcript.id not in self.__transcript_fragments: return []
-
-        fragments = self.__transcript_fragments[transcript.id]
-        if self.__transcript_fragments_is_sorted.__contains__(transcript.id):
-            return fragments
-
-        fragments.sort(key=lambda x: x.start)
-        self.__transcript_fragments_is_sorted[transcript.id] = True
-        self.__transcript_fragments[transcript.id] = fragments
-
-        return fragments
-
-        # endregion
-
-    # region Static Methods
-    @staticmethod
-    def get_gene_accession(gene: Feature):
-        if not gene.attributes.__contains__('description'): return "***"
-        desc_parts = gene.attributes['description'][0].split("Acc:")
-        if len(desc_parts) != 2: return "no_acc"  # it seems record does not have NCBI ID
-        ncbi_id = desc_parts[1][0:(len(desc_parts[1]) - 1)]
-        return ncbi_id
-
-    @staticmethod
-    def get_gene_name(gene: Feature):
-        if not gene.attributes.__contains__('Name'): return "***"  # loaded genes must be filtered
-        assert len(gene.attributes['Name']) == 1
-        return gene.attributes['Name'][0]
-
-    @staticmethod
-    def get_gene_description(gene: Feature):
-        if not gene.attributes.__contains__('description'): return "***"  # loaded genes must be filtered
-        return gene.attributes['description'][0]
-
-    @staticmethod
-    def are_segments_overlapped(segment1, segment2) -> bool:
-        # if gene_feature_A is None or gene_feature_B is None: return False
-        l_a = segment1[0]
-        r_a = segment1[1]
-        l_b = segment2[0]
-        r_b = segment2[1]
-        if l_a <= l_b <= r_a: return True
-        if l_a <= r_b <= r_a: return True
-        if l_b <= l_a <= r_b: return True
-        return False
-
-    @staticmethod
-    def get_genes_overlap(gene_feature_A: Feature, gene_feature_B: Feature):
-        l_a, r_a = gene_feature_A.start, gene_feature_A.end
-        l_b, r_b = gene_feature_B.start, gene_feature_B.end
-        if l_a <= l_b <= r_a: return l_b, min(r_a, r_b)
-        if l_a <= r_b <= r_a: return max(l_a, l_b), r_b
-        if l_b <= l_a <= r_b: return l_a, l_b
-        assert False
-
-    @staticmethod
-    def are_features_same_framed(fragment_a: Feature, fragment_b: Feature) -> bool:
-        l = fragment_a.start + int(fragment_a.frame) if fragment_a.strand == '+' else fragment_a.end - int(
-            fragment_a.frame)
-        r = fragment_b.start + int(fragment_b.frame) if fragment_b.strand == '+' else fragment_b.end - int(
-            fragment_b.frame)
-        return l % 3 == r % 3
-
-    # retrieves nucleotide composition of sequence
-    # output: (C_count,G_count,A_count,T_count)
-    @staticmethod
-    def sequence_composition(sequence):
-        sequence = sequence.upper()
-        stats = [0, 0, 0, 0]
-        for char in sequence:
-            if char == 'C':
-                stats[0] += 1
-            elif char == 'G':
-                stats[1] += 1
-            elif char == 'A':
-                stats[2] += 1
-            elif char == 'T':
-                stats[3] += 1
-        return stats
-
-    @staticmethod
-    def sequence_composition_by_parts(sequence, k):
-        # sliding window with size k.
-
-        if len(sequence) % k != 0:  # place equally distanced 'N's to make it k-dividable for later smooth analyze
-            total_gaps_to_place = k - (len(sequence) % k)
-            gaps_placed = 0
-            new_seq = ""
-            length = len(sequence)
-            for index in range(length):
-                new_seq += sequence[index]
-                # index / len * gaps_to_place = gaps_placed   index*(gaps_to_place+1) // len= 15
-                if round((index + 1) * total_gaps_to_place / length) > gaps_placed:
-                    n = round((index + 1) * total_gaps_to_place / length) - gaps_placed
-                    new_seq += 'N' * n  # unknown
-                    gaps_placed += n
-            sequence = new_seq
-
-        part_length = len(sequence) // k  # it is now 100% dividable by k
-        compositions_by_parts = []
-
-        for i in range(0, k):
-            l = i * part_length
-            r = l + part_length - 1
-            compositions_by_parts.append(GenomeWorker.sequence_composition(sequence[l:(r + 1)]))
-
-        return compositions_by_parts
-
     # endregion
 
     # region Analyze Gene nucleotide composition(stranded) by fragments
 
-    # gene structure: (UTR'5-CDS1)=EXON1 - INTRON - CDS2=EXON2 - ... - CDS(n-1)=EXON(n-1) - INTRON - (CDSn-UTR'3)=EXONn
-    # subregions of interest: UTR'5_Procession, UTR'5, inner CDSs, inner Introns, UTR'3, UTR'3_Procession
-    # for each subregion calculate (C_count,G_count,A_count,T_count)
-
-    def __get_regional_merged_sequences_from_transcript(self, chr_id, transcript, procession_length):
-        fragments = self.get_transcript_all_fragments_sorted(transcript)
+    # for a transcript returns merged sequences of UTR's, CDS's, introns and tails.
+    def __get_regional_merged_sequences_from_transcript(self, chr_id, transcript, tail_length):
+        fragments = self.get_fragments_from_transcript(transcript.id)
 
         utr5_sequence = ""
         utr3_sequence = ""
         cds_sequence = ""
         intron_sequence = ""
-        utr5_procession_sequence = ""
-        utr3_procession_sequence = ""
+        upstream_sequence = ""
+        downstream_sequence = ""
 
-        if len(fragments) == 0: return [utr5_procession_sequence, utr5_sequence, cds_sequence, intron_sequence,
+        if len(fragments) == 0: return [upstream_sequence, utr5_sequence, cds_sequence, intron_sequence,
                                         utr3_sequence,
-                                        utr3_procession_sequence]
+                                        downstream_sequence]
 
         for fragment in fragments:
             if fragment.featuretype == 'five_prime_UTR':
@@ -728,42 +628,42 @@ class GenomeWorker:
             last_exon = fragment
 
         if left_fragment.strand == '+':
-            utr5_procession_sequence = self.retrieve_interval_sequence(chr_id, left_fragment.start - procession_length,
-                                                                       left_fragment.start - 1, '+')
+            upstream_sequence = self.retrieve_interval_sequence(chr_id, left_fragment.start - tail_length,
+                                                                left_fragment.start - 1, '+')
 
-            utr3_procession_sequence = self.retrieve_interval_sequence(chr_id, right_fragment.end + 1,
-                                                                       right_fragment.end + procession_length, '+')
+            downstream_sequence = self.retrieve_interval_sequence(chr_id, right_fragment.end + 1,
+                                                                  right_fragment.end + tail_length, '+')
 
         else:
-            utr3_procession_sequence = self.retrieve_interval_sequence(chr_id, left_fragment.start - procession_length,
-                                                                       left_fragment.start - 1, '-')
+            downstream_sequence = self.retrieve_interval_sequence(chr_id, left_fragment.start - tail_length,
+                                                                  left_fragment.start - 1, '-')
 
-            utr5_procession_sequence = self.retrieve_interval_sequence(chr_id, right_fragment.end + 1,
-                                                                       right_fragment.end + procession_length, '-')
+            upstream_sequence = self.retrieve_interval_sequence(chr_id, right_fragment.end + 1,
+                                                                right_fragment.end + tail_length, '-')
 
-        return [utr5_procession_sequence, utr5_sequence, cds_sequence, intron_sequence, utr3_sequence,
-                utr3_procession_sequence]
+        return [upstream_sequence, utr5_sequence, cds_sequence, intron_sequence, utr3_sequence,
+                downstream_sequence]
 
-    def __get_transcript_occurrences_by_parts(self, chr_id, transcript: Feature, k, procession_length):
-        regional_sequences = self.__get_regional_merged_sequences_from_transcript(chr_id, transcript, procession_length)
+    # subregions of interest: upstream tail, UTR'5, inner CDSs, inner Introns, UTR'3, downstream tail
+    # each region divided into k-part
+    # for each part (a,c,g,t) is calculated
+    # occurrences[region][part][base] = [6][k][4]
+    def __get_transcript_occurrences_by_parts(self, chr_id, transcript: Feature, k, tail_length):
+        regional_sequences = self.__get_regional_merged_sequences_from_transcript(chr_id, transcript, tail_length)
 
-        utr5_procession_sequence = regional_sequences[0]
+        upstream_sequence = regional_sequences[0]
         utr5_sequence = regional_sequences[1]
         cds_sequence = regional_sequences[2]
         intron_sequence = regional_sequences[3]
         utr3_sequence = regional_sequences[4]
-        utr3_procession_sequence = regional_sequences[5]
+        downstream_sequence = regional_sequences[5]
 
-        # subregions of interest: UTR'5_Procession, UTR'5, inner CDSs, inner Introns, UTR'3, UTR'3_Procession
-        # each region divided into k-part
-        # for each part (a,c,g,t) is calculated
-        # occurrences[region][part][base] = [6][k][4]
-        occurrences = [self.sequence_composition_by_parts(utr5_procession_sequence, k),
+        occurrences = [self.sequence_composition_by_parts(upstream_sequence, k),
                        self.sequence_composition_by_parts(utr5_sequence, k),
                        self.sequence_composition_by_parts(cds_sequence, k),
                        self.sequence_composition_by_parts(intron_sequence, k),
                        self.sequence_composition_by_parts(utr3_sequence, k),
-                       self.sequence_composition_by_parts(utr3_procession_sequence, k)]
+                       self.sequence_composition_by_parts(downstream_sequence, k)]
         return occurrences
 
     def add_matrix(self, base, new, parts):
@@ -775,7 +675,7 @@ class GenomeWorker:
         return base
 
     # output: occurrences[region][part][base] = [6][k][4]
-    def analyze_gene_occurrences_by_parts(self, chr_id, gene: Feature, k, procession_length,
+    def analyze_gene_occurrences_by_parts(self, chr_id, gene: Feature, k, tail_length,
                                           criteria=TRANSCRIPT_CRITERIA.NONE):
         if criteria == TRANSCRIPT_CRITERIA.NONE:
             mRNA_transcripts = self.__gene_transcripts[gene.id] if self.__gene_transcripts.__contains__(gene.id) else []
@@ -786,9 +686,100 @@ class GenomeWorker:
         all_transcript_occurrences = []
 
         for transcript in mRNA_transcripts:
-            occurrences = self.__get_transcript_occurrences_by_parts(chr_id, transcript, k, procession_length)
+            occurrences = self.__get_transcript_occurrences_by_parts(chr_id, transcript, k, tail_length)
             all_transcript_occurrences = self.add_matrix(all_transcript_occurrences, occurrences, k)
 
         return all_transcript_occurrences
+
+    # endregion
+
+    # region static Methods
+    @staticmethod
+    def get_gene_accession(gene: Feature):
+        if not gene.attributes.__contains__('description'): return "***"
+        desc_parts = gene.attributes['description'][0].split("Acc:")
+        if len(desc_parts) != 2: return "no_acc"  # it seems record does not have NCBI ID
+        ncbi_id = desc_parts[1][0:(len(desc_parts[1]) - 1)]
+        return ncbi_id
+
+    @staticmethod
+    def get_gene_symbol(gene: Feature):
+        if not gene.attributes.__contains__('Name'): return "***"  # loaded genes must be filtered
+        assert len(gene.attributes['Name']) == 1
+        return gene.attributes['Name'][0]
+
+    @staticmethod
+    def get_gene_description(gene: Feature):
+        if not gene.attributes.__contains__('description'): return "***"  # loaded genes must be filtered
+        return gene.attributes['description'][0]
+
+    @staticmethod
+    def get_overlap_type(segment1: Feature, segment2: Feature) -> OVERLAP_TYPE:
+        assert segment1 is not None and segment2 is not None
+
+        l_a = segment1.start
+        r_a = segment1.end
+        l_b = segment2.start
+        r_b = segment2.end
+
+        if (l_a <= l_b <= r_a and l_a <= r_b <= r_a) or (l_b <= l_a <= r_b and l_b <= r_a <= r_b):
+            return OVERLAP_TYPE.SAME_NESTED if segment1.strand == segment2.strand else OVERLAP_TYPE.DIFF_NESTED
+
+        if l_a <= l_b <= r_a or l_a <= r_b <= r_a:
+            if segment1.strand == segment2.strand:
+                return OVERLAP_TYPE.SAME_TANDEM
+            if l_a <= l_b <= r_a and segment1.strand == '+':
+                return OVERLAP_TYPE.DIFF_CONVERGENT
+            if l_a <= l_b <= r_a and segment1.strand == '-':
+                return OVERLAP_TYPE.DIFF_DIVERGENT
+            if segment1.strand == '+': return OVERLAP_TYPE.DIFF_DIVERGENT
+            return OVERLAP_TYPE.DIFF_CONVERGENT
+
+        return OVERLAP_TYPE.NONE
+
+    # retrieves nucleotide composition of sequence
+    # output: (C_count,G_count,A_count,T_count)
+    @staticmethod
+    def sequence_composition(sequence):
+        sequence = sequence.upper()
+        stats = [0, 0, 0, 0]
+        for char in sequence:
+            if char == 'C':
+                stats[0] += 1
+            elif char == 'G':
+                stats[1] += 1
+            elif char == 'A':
+                stats[2] += 1
+            elif char == 'T':
+                stats[3] += 1
+        return stats
+
+    @staticmethod
+    def sequence_composition_by_parts(sequence, k):
+        # sliding window with size k.
+
+        if len(sequence) % k != 0:  # place equally distanced 'N's to make it k-dividable for later smooth analyze
+            total_gaps_to_place = k - (len(sequence) % k)
+            gaps_placed = 0
+            new_seq = ""
+            length = len(sequence)
+            for index in range(length):
+                new_seq += sequence[index]
+                # index / len * gaps_to_place = gaps_placed   index*(gaps_to_place+1) // len= 15
+                if round((index + 1) * total_gaps_to_place / length) > gaps_placed:
+                    n = round((index + 1) * total_gaps_to_place / length) - gaps_placed
+                    new_seq += 'N' * n  # unknown
+                    gaps_placed += n
+            sequence = new_seq
+
+        part_length = len(sequence) // k  # it is now 100% dividable by k
+        compositions_by_parts = []
+
+        for i in range(0, k):
+            l = i * part_length
+            r = l + part_length - 1
+            compositions_by_parts.append(GenomeWorker.sequence_composition(sequence[l:(r + 1)]))
+
+        return compositions_by_parts
 
     # endregion

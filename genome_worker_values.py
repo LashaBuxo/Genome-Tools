@@ -1,6 +1,13 @@
 # region Paths
 WORKING_DATABASES_DIRECTORY = './databases/'
 
+EXPRESSION_DATA_PATH = './expression_data/transcripts_all_ens75.tsv'
+
+
+def EXPRESSION_DOWNLOAD_URL(gene_id: str):
+    return f'https://www.proteinatlas.org/{gene_id}.json'
+
+
 ENSEMBL_ANNOTATIONS = ['./genome_data/Ensembl/Homo sapiens/106/Homo_sapiens.GRCh38.106.chr.gff3',
                        './genome_data/Ensembl/Mus musculus/106/Mus_musculus.GRCm39.106.chr.gff3',
                        './genome_data/Ensembl/Rattus norvegicus/106/Rattus_norvegicus.mRatBN7.2.106.gff3',

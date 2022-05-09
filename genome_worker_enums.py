@@ -2,12 +2,36 @@
 import enum
 
 
-class TRANSCRIPT_CRITERIA(enum.Enum):
+class OVERLAP_TYPE(enum.Enum):
     NONE = 0
-    LONGEST = 1
-    LONGEST_CDS = 2
-    LONGEST_CDS_AND_UTRs = 3  # similar to exons
-    RANDOM = 4
+    DIFF_CONVERGENT = 1  # different strand + convergent
+    DIFF_NESTED = 2  # different strand + nested
+    DIFF_DIVERGENT = 3  # different strand + divergent
+    SAME_NESTED = 4  # one of the gene entirely located into others boundaries on same strand
+    SAME_TANDEM = 5  # genes located on same strand and neither is nested
+
+    def short_name(self):
+        if self == OVERLAP_TYPE.DIFF_CONVERGENT:
+            return "Convergent"
+        elif self == OVERLAP_TYPE.DIFF_NESTED:
+            return "Nested (diff strand)"
+        elif self == OVERLAP_TYPE.DIFF_DIVERGENT:
+            return "Divergent"
+        elif self == OVERLAP_TYPE.SAME_NESTED:
+            return "Nested (same strand)"
+        elif self == OVERLAP_TYPE.SAME_TANDEM:
+            return "Tandem"
+        else:
+            assert False
+
+    @staticmethod
+    def get_overlap_types():
+        return [OVERLAP_TYPE.DIFF_CONVERGENT, OVERLAP_TYPE.DIFF_NESTED, OVERLAP_TYPE.DIFF_DIVERGENT,
+                OVERLAP_TYPE.SAME_NESTED, OVERLAP_TYPE.SAME_TANDEM]
+
+    @staticmethod
+    def count():
+        return 5
 
 
 class ANNOTATIONS(enum.Enum):
@@ -35,6 +59,10 @@ class ANNOTATION_LOAD(enum.Enum):
 
 
 class SEQUENCE_LOAD(enum.Enum):
+    LOAD = 1
+    NOT_LOAD = 2
+
+class EXPRESSIONS_LOAD(enum.Enum):
     LOAD = 1
     NOT_LOAD = 2
 
@@ -122,3 +150,11 @@ class SPECIES(enum.Enum):
 
     def __str__(self):
         return str(self.name).replace('_', ' ')
+
+
+class TRANSCRIPT_CRITERIA(enum.Enum):
+    NONE = 0
+    LONGEST = 1
+    LONGEST_CDS = 2
+    LONGEST_CDS_AND_UTRs = 3  # similar to exons
+    RANDOM = 4

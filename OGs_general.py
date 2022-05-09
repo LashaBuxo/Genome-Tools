@@ -23,6 +23,7 @@
 import sys
 import time
 
+from genome_worker import GenomeWorker
 from genome_worker_enums import *
 
 start_time = time.time()
@@ -56,7 +57,7 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
 
     # count genes by strand for another statistical purposes
     for i in range(0, genes_cnt):
-        gene = genome.gene_by_ind(chr_id, i)
+        gene = genome.gene_by_indexes(chr_id, i)
         if gene.strand == '+':
             positive_genes = positive_genes + 1
         if gene.strand == '-':
@@ -70,8 +71,8 @@ for chr_id in range(1, genome.chromosomes_count() + 1):
     # for every different pair of genes
     for i in range(0, genes_cnt):
         for j in range(i + 1, genes_cnt):
-            gene_a = genome.gene_by_ind(chr_id, i)
-            gene_b = genome.gene_by_ind(chr_id, j)
+            gene_a = genome.gene_by_indexes(chr_id, i)
+            gene_b = genome.gene_by_indexes(chr_id, j)
 
             if GenomeWorker.are_segments_overlapped(gene_a, gene_b):
 

@@ -5,13 +5,15 @@ control_data_prefix = ".\generated_data\control\CDS mean values"
 observed_data_prefix = ".\generated_data\observed\OGs by CDS"
 summarized_data_prefix = ".\generated_data\summarized\summary"
 
-overlaps_by_strands = ['diff_stranded', 'same_stranded', 'both_stranded']
+overlaps_by_strands = ['diff_stranded', 'same_stranded']
 overlaps_by_ORF = ['diff_ORF', 'same_ORF', 'both_ORF']
 annotations = [
     'NCBI',
     'Ensembl'
 ]
-species_list = ['Human', 'Mouse', 'Rat', 'Drosophila', 'ZebraFish', ]
+species_list = ['Human', 'Mouse',
+               # 'Rat', 'Drosophila', 'ZebraFish',
+                ]
 
 
 # region hard-coded methods
@@ -106,8 +108,7 @@ def read_necessary_control_data(file_path):
 for annotation in annotations:
     for species in species_list:
 
-        values = [['<b>out-of-phase</b>', '<b>in-phase</b>', '<b>any phase</b>'], ['', '', ''], ['', '', ''],
-                  ['', '', '']]
+        values = [['<b>out-of-phase</b>', '<b>in-phase</b>', '<b>any phase</b>'], ['', '', ''], ['', '', '']]
 
         control_file_path = f'{control_data_prefix} [{species}, {annotation}].txt'
         control_data = read_necessary_control_data(control_file_path)
@@ -127,29 +128,28 @@ for annotation in annotations:
 
         fig = go.Figure(data=[go.Table(
             # columnorder=[1, 2, 3, 4],
-            columnwidth=[40, 100, 100, 100],
+            columnwidth=[40, 100, 100],
             header=dict(
                 values=[[f'<b>OGs by CDS<br>{species}</b> <b>({annotation})</b>'],
                         ['<b>diff stranded</b>'],
-                        ['<b>same strands</b>'],
-                        ['<b>any stranded</b>']],
+                        ['<b>same strands</b>']],
                 line_color='darkslategray',
-                fill=dict(color=['royalblue', 'paleturquoise', 'paleturquoise', 'paleturquoise']),
-                align=['center', 'center', 'center', 'center'],
+                fill=dict(color=['royalblue', 'paleturquoise', 'paleturquoise']),
+                align=['center', 'center', 'center'],
                 font=dict(color='black', size=12),
                 # height=40
             ),
             cells=dict(
                 values=values,
                 line_color='darkslategray',
-                fill=dict(color=['paleturquoise', 'white', 'white', 'white']),
-                align=['center', 'left', 'left', 'left'],
-                font=dict(size=[12, 10, 10, 10], color=['black', 'black', 'black', 'black']),
+                fill=dict(color=['paleturquoise', 'white', 'white']),
+                align=['center', 'left', 'left'],
+                font=dict(size=[12, 10, 10], color=['black', 'black', 'black']),
                 height=30
             )
         )
         ])
         summarized_data_path = f'{summarized_data_prefix} [{species}, {annotation}].png'
         fig.write_image(summarized_data_path,
-                        width=1400, height=500,
+                        width=1000, height=500,
                         scale=2.0)

@@ -25,6 +25,9 @@ Total overlapped (by CDS) sequence length: 2648
 	amino-acids by codon degeneracy:
 		medium - 36.55%	low - 33.55%	high - 29.9%
 
+	amino-acids by type:
+		non-polar - 54.03%	polar - 22.48%	+ - 14.66%	- - 8.83%
+
 ------------------------------------Overlapped Gene------------------------------------
 
 Total overlap length: 422  |  chr: 19 |  genes: [gene-4430402I18Rik;gene-Plpp6]

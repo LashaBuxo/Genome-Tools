@@ -5,6 +5,9 @@ __pycache__
 *.gff3
 *.fa
 *.db
+*.tsv
+*.xlsx
+expression_data/
 genome_data/NCBI/Caenorhabditis\ elegans
 genome_data/NCBI/Danio\ rerio
 genome_data/NCBI/Drosophila melanogaster

@@ -15,15 +15,18 @@ Total overlapped (by CDS) sequence length: 7669
 
 
 	amino-acids:
-		S - 9.97%	L - 9.67%	R - 8.94%	A - 8.74%
-		G - 8.14%	P - 8.14%	V - 5.43%	E - 4.75%
-		Q - 4.57%	T - 4.43%	D - 3.71%	C - 3.63%
-		H - 3.21%	F - 3.09%	K - 2.93%	I - 2.57%
-		N - 2.05%	W - 1.7%	M - 1.66%	* - 1.36%
-		Y - 1.3%
+		L - 9.88%	S - 9.8%	A - 9.33%	R - 8.45%
+		G - 8.07%	P - 7.55%	V - 6.19%	E - 5.39%
+		Q - 4.45%	T - 4.27%	D - 4.15%	F - 3.29%
+		K - 3.15%	H - 2.9%	C - 2.66%	I - 2.6%
+		N - 2.2%	M - 1.8%	W - 1.46%	Y - 1.4%
+		* - 1.0%
 
 	amino-acids by codon degeneracy:
-		medium - 37.98%	low - 33.06%	high - 28.97%
+		medium - 38.41%	low - 33.18%	high - 28.41%
+
+	amino-acids by type:
+		non-polar - 53.38%	polar - 22.34%	+ - 14.65%	- - 9.63%
 
 ------------------------------------Overlapped Gene------------------------------------
 
@@ -43,7 +46,7 @@ Total overlap length: 257  |  chr: 8 |  genes: [gene:ENSMUSG00000011832;gene:ENS
 	Gene 1: Evi5l; ecotropic viral integration site 5 like [Source:MGI Symbol;Acc:MGI:2442167]
 	Gene 2: Prr36; proline rich 36 [Source:MGI Symbol;Acc:MGI:3605626]
 
-Total overlap length: 231 = 78 + 135 + 18  |  chr: 19 |  genes: [gene:ENSMUSG00000024935;gene:ENSMUSG00000064202]
+Total overlap length: 231  |  chr: 19 |  genes: [gene:ENSMUSG00000024935;gene:ENSMUSG00000064202]
 	Gene 1: Slc1a1; solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1 [Source:MGI Symbol;Acc:MGI:105083]
 	Gene 2: Spata6l; spermatogenesis associated 6 like [Source:MGI Symbol;Acc:MGI:1918036]
 
@@ -63,7 +66,7 @@ Total overlap length: 182  |  chr: 11 |  genes: [gene:ENSMUSG00000044328;gene:EN
 	Gene 1: Trp53i13; transformation related protein 53 inducible protein 13 [Source:MGI Symbol;Acc:MGI:1915125]
 	Gene 2: Abhd15; abhydrolase domain containing 15 [Source:MGI Symbol;Acc:MGI:1914727]
 
-Total overlap length: 168 = 102 + 66  |  chr: 8 |  genes: [gene:ENSMUSG00000031783;gene:ENSMUSG00000040631]
+Total overlap length: 168  |  chr: 8 |  genes: [gene:ENSMUSG00000031783;gene:ENSMUSG00000040631]
 	Gene 1: Polr2c; polymerase (RNA) II (DNA directed) polypeptide C [Source:MGI Symbol;Acc:MGI:109299]
 	Gene 2: Dok4; docking protein 4 [Source:MGI Symbol;Acc:MGI:2148865]
 
@@ -87,11 +90,11 @@ Total overlap length: 147  |  chr: 14 |  genes: [gene:ENSMUSG00000022054;gene:EN
 	Gene 1: Nefm; neurofilament, medium polypeptide [Source:MGI Symbol;Acc:MGI:97314]
 	Gene 2: Nefl; neurofilament, light polypeptide [Source:MGI Symbol;Acc:MGI:97313]
 
-Total overlap length: 140 = 107 + 33  |  chr: 14 |  genes: [gene:ENSMUSG00000095493;gene:ENSMUSG00000047441]
+Total overlap length: 140  |  chr: 14 |  genes: [gene:ENSMUSG00000095493;gene:ENSMUSG00000047441]
 	Gene 1: A630023A22Rik; RIKEN cDNA A630023A22 gene [Source:MGI Symbol;Acc:MGI:2145657]
 	Gene 2: Antxrl; anthrax toxin receptor-like [Source:MGI Symbol;Acc:MGI:1925726]
 
-Total overlap length: 138 = 4 + 134  |  chr: 3 |  genes: [gene:ENSMUSG00000027951;gene:ENSMUSG00000027950]
+Total overlap length: 138  |  chr: 3 |  genes: [gene:ENSMUSG00000027951;gene:ENSMUSG00000027950]
 	Gene 1: Adar; adenosine deaminase, RNA-specific [Source:MGI Symbol;Acc:MGI:1889575]
 	Gene 2: Chrnb2; cholinergic receptor, nicotinic, beta polypeptide 2 (neuronal) [Source:MGI Symbol;Acc:MGI:87891]
 

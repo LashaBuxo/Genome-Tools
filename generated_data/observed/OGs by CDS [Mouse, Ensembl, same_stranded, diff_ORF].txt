@@ -25,6 +25,9 @@ Total overlapped (by CDS) sequence length: 4427
 	amino-acids by codon degeneracy:
 		medium - 40.83%	low - 38.42%	high - 20.75%
 
+	amino-acids by type:
+		non-polar - 50.5%	polar - 27.05%	+ - 15.08%	- - 7.37%
+
 ------------------------------------Overlapped Gene------------------------------------
 
 Total overlap length: 254  |  chr: 19 |  genes: [gene:ENSMUSG00000096740;gene:ENSMUSG00000071653]

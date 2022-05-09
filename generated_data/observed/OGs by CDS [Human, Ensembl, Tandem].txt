@@ -1,0 +1,302 @@
+Total overlapped (by CDS) genes: 48 = 13x[2] + 1x[3] + 1x[19]
+Total overlapped (by CDS) sequence length: 23552
+
+--------------------------overall mean parameters---------------------------------
+
+	nucleotides:
+		C - 28.84%	G - 27.54%	A - 26.8%	T - 16.82%
+
+
+	di-nucleotides:
+		CA - 9.81%	CC - 9.56%	GC - 8.68%	AG - 8.63%
+		GA - 7.5%	GG - 7.46%	TG - 7.42%	AA - 7.4%
+		AC - 6.23%	CT - 5.58%	AT - 4.5%	TC - 4.24%
+		CG - 4.11%	GT - 3.61%	TT - 3.24%	TA - 2.02%
+
+
+	amino-acids:
+		G - 10.02%	A - 9.21%	S - 7.82%	K - 7.28%
+		L - 7.04%	T - 6.82%	Q - 6.33%	P - 5.99%
+		N - 5.83%	D - 5.21%	R - 4.9%	E - 4.59%
+		V - 3.74%	I - 2.99%	F - 2.99%	Y - 2.71%
+		M - 2.58%	H - 1.28%	W - 1.28%	C - 0.76%
+		* - 0.61%
+
+	amino-acids by codon degeneracy:
+		low - 41.1%	medium - 39.02%	high - 19.89%
+
+	amino-acids by type:
+		non-polar - 46.9%	polar - 29.7%	+ - 13.54%	- - 9.87%
+
+	expression profile [nTPM]:
+
+
+--------------------------clusters and their parameters-----------------------------------
+
+cluster #1  |  size: 2  |  total overlapped sequence: 180 
+	GC content: 53.33%
+	HD content: 24.14%
+
+	Gene 1: GSTM4 | glutathione S-transferase mu 4 [Source:HGNC Symbol;Acc:HGNC:4636] | gene:ENSG00000168765
+		expression profile [nTPM]:
+
+
+	Gene 2: GSTM2 | glutathione S-transferase mu 2 [Source:HGNC Symbol;Acc:HGNC:4634] | gene:ENSG00000213366
+		expression profile [nTPM]:
+
+
+
+cluster #2  |  size: 2  |  total overlapped sequence: 2364 
+	GC content: 54.65%
+	HD content: 19.90%
+
+	Gene 1: APLF | aprataxin and PNKP like factor [Source:HGNC Symbol;Acc:HGNC:28724] | gene:ENSG00000169621
+		expression profile [nTPM]:
+
+
+	Gene 2: PROKR1 | prokineticin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4524] | gene:ENSG00000169618
+		expression profile [nTPM]:
+
+
+
+cluster #3  |  size: 2  |  total overlapped sequence: 4 
+	GC content: 0.00%
+	HD content: -1.00%
+
+	Gene 1: HYAL3 | hyaluronidase 3 [Source:HGNC Symbol;Acc:HGNC:5322] | gene:ENSG00000186792
+		expression profile [nTPM]:
+
+
+	Gene 2: NAA80 | N-alpha-acetyltransferase 80, NatH catalytic subunit [Source:HGNC Symbol;Acc:HGNC:30252] | gene:ENSG00000243477
+		expression profile [nTPM]:
+
+
+
+cluster #4  |  size: 2  |  total overlapped sequence: 124 
+	GC content: 40.32%
+	HD content: 25.00%
+
+	Gene 1: GXYLT2 | glucoside xylosyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:33383] | gene:ENSG00000172986
+		expression profile [nTPM]:
+
+
+	Gene 2: PPP4R2 | protein phosphatase 4 regulatory subunit 2 [Source:HGNC Symbol;Acc:HGNC:18296] | gene:ENSG00000163605
+		expression profile [nTPM]:
+
+
+
+cluster #5  |  size: 2  |  total overlapped sequence: 2 
+	GC content: 0.00%
+	HD content: -1.00%
+
+	Gene 1: PLCXD2 | phosphatidylinositol specific phospholipase C X domain containing 2 [Source:HGNC Symbol;Acc:HGNC:26462] | gene:ENSG00000240891
+		expression profile [nTPM]:
+
+
+	Gene 2: PHLDB2 | pleckstrin homology like domain family B member 2 [Source:HGNC Symbol;Acc:HGNC:29573] | gene:ENSG00000144824
+		expression profile [nTPM]:
+
+
+
+cluster #6  |  size: 2  |  total overlapped sequence: 402 
+	GC content: 52.74%
+	HD content: 15.38%
+
+	Gene 1: CYP4V2 | cytochrome P450 family 4 subfamily V member 2 [Source:HGNC Symbol;Acc:HGNC:23198] | gene:ENSG00000145476
+		expression profile [nTPM]:
+
+
+	Gene 2: KLKB1 | kallikrein B1 [Source:HGNC Symbol;Acc:HGNC:6371] | gene:ENSG00000164344
+		expression profile [nTPM]:
+
+
+
+cluster #7  |  size: 19  |  total overlapped sequence: 13500 
+	GC content: 61.60%
+	HD content: 17.21%
+
+	Gene 1: PCDHGA1 | protocadherin gamma subfamily A, 1 [Source:HGNC Symbol;Acc:HGNC:8696] | gene:ENSG00000204956
+		expression profile [nTPM]:
+
+
+	Gene 2: PCDHGC3 | protocadherin gamma subfamily C, 3 [Source:HGNC Symbol;Acc:HGNC:8716] | gene:ENSG00000240184
+		expression profile [nTPM]:
+
+
+	Gene 3: PCDHGA2 | protocadherin gamma subfamily A, 2 [Source:HGNC Symbol;Acc:HGNC:8700] | gene:ENSG00000081853
+		expression profile [nTPM]:
+
+
+	Gene 4: PCDHGA3 | protocadherin gamma subfamily A, 3 [Source:HGNC Symbol;Acc:HGNC:8701] | gene:ENSG00000254245
+		expression profile [nTPM]:
+
+
+	Gene 5: PCDHGB1 | protocadherin gamma subfamily B, 1 [Source:HGNC Symbol;Acc:HGNC:8708] | gene:ENSG00000254221
+		expression profile [nTPM]:
+
+
+	Gene 6: PCDHGA4 | protocadherin gamma subfamily A, 4 [Source:HGNC Symbol;Acc:HGNC:8702] | gene:ENSG00000262576
+		expression profile [nTPM]:
+
+
+	Gene 7: PCDHGB2 | protocadherin gamma subfamily B, 2 [Source:HGNC Symbol;Acc:HGNC:8709] | gene:ENSG00000253910
+		expression profile [nTPM]:
+
+
+	Gene 8: PCDHGA5 | protocadherin gamma subfamily A, 5 [Source:HGNC Symbol;Acc:HGNC:8703] | gene:ENSG00000253485
+		expression profile [nTPM]:
+
+
+	Gene 9: PCDHGB3 | protocadherin gamma subfamily B, 3 [Source:HGNC Symbol;Acc:HGNC:8710] | gene:ENSG00000262209
+		expression profile [nTPM]:
+
+
+	Gene 10: PCDHGA6 | protocadherin gamma subfamily A, 6 [Source:HGNC Symbol;Acc:HGNC:8704] | gene:ENSG00000253731
+		expression profile [nTPM]:
+
+
+	Gene 11: PCDHGA7 | protocadherin gamma subfamily A, 7 [Source:HGNC Symbol;Acc:HGNC:8705] | gene:ENSG00000253537
+		expression profile [nTPM]:
+
+
+	Gene 12: PCDHGB4 | protocadherin gamma subfamily B, 4 [Source:HGNC Symbol;Acc:HGNC:8711] | gene:ENSG00000253953
+		expression profile [nTPM]:
+
+
+	Gene 13: PCDHGA8 | protocadherin gamma subfamily A, 8 [Source:HGNC Symbol;Acc:HGNC:8706] | gene:ENSG00000253767
+		expression profile [nTPM]:
+
+
+	Gene 14: PCDHGA9 | protocadherin gamma subfamily A, 9 [Source:HGNC Symbol;Acc:HGNC:8707] | gene:ENSG00000261934
+		expression profile [nTPM]:
+
+
+	Gene 15: PCDHGB6 | protocadherin gamma subfamily B, 6 [Source:HGNC Symbol;Acc:HGNC:8713] | gene:ENSG00000253305
+		expression profile [nTPM]:
+
+
+	Gene 16: PCDHGA10 | protocadherin gamma subfamily A, 10 [Source:HGNC Symbol;Acc:HGNC:8697] | gene:ENSG00000253846
+		expression profile [nTPM]:
+
+
+	Gene 17: PCDHGB7 | protocadherin gamma subfamily B, 7 [Source:HGNC Symbol;Acc:HGNC:8714] | gene:ENSG00000254122
+		expression profile [nTPM]:
+
+
+	Gene 18: PCDHGA11 | protocadherin gamma subfamily A, 11 [Source:HGNC Symbol;Acc:HGNC:8698] | gene:ENSG00000253873
+		expression profile [nTPM]:
+
+
+	Gene 19: PCDHGA12 | protocadherin gamma subfamily A, 12 [Source:HGNC Symbol;Acc:HGNC:8699] | gene:ENSG00000253159
+		expression profile [nTPM]:
+
+
+
+cluster #8  |  size: 2  |  total overlapped sequence: 88 
+	GC content: 47.73%
+	HD content: 38.46%
+
+	Gene 1: OR2AE1 | olfactory receptor family 2 subfamily AE member 1 [Source:HGNC Symbol;Acc:HGNC:15087] | gene:ENSG00000244623
+		expression profile [nTPM]:
+
+
+	Gene 2: TRIM4 | tripartite motif containing 4 [Source:HGNC Symbol;Acc:HGNC:16275] | gene:ENSG00000146833
+		expression profile [nTPM]:
+
+
+
+cluster #9  |  size: 2  |  total overlapped sequence: 240 
+	GC content: 70.83%
+	HD content: 33.33%
+
+	Gene 1: LOXL2 | lysyl oxidase like 2 [Source:HGNC Symbol;Acc:HGNC:6666] | gene:ENSG00000134013
+		expression profile [nTPM]:
+
+
+	Gene 2: ENTPD4 | ectonucleoside triphosphate diphosphohydrolase 4 [Source:HGNC Symbol;Acc:HGNC:14573] | gene:ENSG00000197217
+		expression profile [nTPM]:
+
+
+
+cluster #10  |  size: 2  |  total overlapped sequence: 328 
+	GC content: 59.76%
+	HD content: 16.98%
+
+	Gene 1: ZNRD2 | zinc ribbon domain containing 2 [Source:HGNC Symbol;Acc:HGNC:11328] | gene:ENSG00000173465
+		expression profile [nTPM]:
+
+
+	Gene 2: FAM89B | family with sequence similarity 89 member B [Source:HGNC Symbol;Acc:HGNC:16708] | gene:ENSG00000176973
+		expression profile [nTPM]:
+
+
+
+cluster #11  |  size: 3  |  total overlapped sequence: 4596 
+	GC content: 46.39%
+	HD content: 26.77%
+
+	Gene 1: MYZAP | myocardial zonula adherens protein [Source:HGNC Symbol;Acc:HGNC:43444] | gene:ENSG00000263155
+		expression profile [nTPM]:
+
+
+	Gene 2: GCOM1 | GCOM1, MYZAP-POLR2M combined locus [Source:HGNC Symbol;Acc:HGNC:26424] | gene:ENSG00000137878
+		expression profile [nTPM]:
+
+
+	Gene 3: POLR2M | RNA polymerase II subunit M [Source:HGNC Symbol;Acc:HGNC:14862] | gene:ENSG00000255529
+		expression profile [nTPM]:
+
+
+
+cluster #12  |  size: 2  |  total overlapped sequence: 58 
+	GC content: 58.62%
+	HD content: 22.22%
+
+	Gene 1: SPESP1 | sperm equatorial segment protein 1 [Source:HGNC Symbol;Acc:HGNC:15570] | gene:ENSG00000258484
+		expression profile [nTPM]:
+
+
+	Gene 2: NOX5 | NADPH oxidase 5 [Source:HGNC Symbol;Acc:HGNC:14874] | gene:ENSG00000255346
+		expression profile [nTPM]:
+
+
+
+cluster #13  |  size: 2  |  total overlapped sequence: 1094 
+	GC content: 42.96%
+	HD content: 21.55%
+
+	Gene 1: SERPINB2 | serpin family B member 2 [Source:HGNC Symbol;Acc:HGNC:8584] | gene:ENSG00000197632
+		expression profile [nTPM]:
+
+
+	Gene 2: SERPINB10 | serpin family B member 10 [Source:HGNC Symbol;Acc:HGNC:8942] | gene:ENSG00000242550
+		expression profile [nTPM]:
+
+
+
+cluster #14  |  size: 2  |  total overlapped sequence: 146 
+	GC content: 65.75%
+	HD content: 21.74%
+
+	Gene 1: RAD21L1 | RAD21 cohesin complex component like 1 [Source:HGNC Symbol;Acc:HGNC:16271] | gene:ENSG00000244588
+		expression profile [nTPM]:
+
+
+	Gene 2: SNPH | syntaphilin [Source:HGNC Symbol;Acc:HGNC:15931] | gene:ENSG00000101298
+		expression profile [nTPM]:
+
+
+
+cluster #15  |  size: 2  |  total overlapped sequence: 426 
+	GC content: 40.38%
+	HD content: 15.71%
+
+	Gene 1: RBMY1B | RNA binding motif protein Y-linked family 1 member B [Source:HGNC Symbol;Acc:HGNC:23914] | gene:ENSG00000242875
+		expression profile [nTPM]:
+
+
+	Gene 2: RBMY1A1 | RNA binding motif protein Y-linked family 1 member A1 [Source:HGNC Symbol;Acc:HGNC:9912] | gene:ENSG00000234414
+		expression profile [nTPM]:
+
+
+

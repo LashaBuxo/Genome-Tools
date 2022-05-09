@@ -25,6 +25,9 @@ Total overlapped (by CDS) sequence length: 634
 	amino-acids by codon degeneracy:
 		low - 38.48%	medium - 34.18%	high - 27.34%
 
+	amino-acids by type:
+		non-polar - 49.62%	polar - 24.81%	+ - 15.44%	- - 10.13%
+
 ------------------------------------Overlapped Gene------------------------------------
 
 Total overlap length: 153  |  chr: 16 |  genes: [gene-Muc4;gene-Muc20]

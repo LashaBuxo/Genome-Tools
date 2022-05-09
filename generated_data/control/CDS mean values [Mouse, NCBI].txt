@@ -19,3 +19,6 @@ amino-acids:
 
 amino-acids by codon degeneracy:
 	low - 40.58%	medium - 35.13%	high - 24.28%
+
+amino-acids by type:
+	non-polar - 48.13%	polar - 25.57%	+ - 14.13%	- - 12.17%

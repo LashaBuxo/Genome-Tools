@@ -25,6 +25,9 @@ Total overlapped (by CDS) sequence length: 159624
 	amino-acids by codon degeneracy:
 		medium - 41.55%	low - 40.78%	high - 17.67%
 
+	amino-acids by type:
+		non-polar - 47.58%	polar - 28.97%	+ - 14.35%	- - 9.09%
+
 ------------------------------------Overlapped Gene------------------------------------
 
 Total overlap length: 1880  |  chr: 7 |  genes: [gene-Il4i1b;gene-Il4i1]
