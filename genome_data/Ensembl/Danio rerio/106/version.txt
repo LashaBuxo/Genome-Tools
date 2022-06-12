@@ -1,9 +1,0 @@
-Genome Reference Assembly:
-	#!genome-build GRCz11
-
-Genome Primary Assembly:
-	GenBank Assembly ID 
-	#!genome-build-accession GCA_000002035.4
-
-Genome Annotation:
-	Ensembl Release 106 (Apr 2022)

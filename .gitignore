@@ -8,7 +8,7 @@ __pycache__
 *.tsv
 *.xlsx
 expression_data/
-genome_data/NCBI/Caenorhabditis\ elegans
-genome_data/NCBI/Danio\ rerio
-genome_data/NCBI/Drosophila melanogaster
-genome_data/NCBI/Mus musculus
+used_data/genome_data/NCBI/Caenorhabditis\ elegans
+used_data/genome_data/NCBI/Danio\ rerio
+used_data/genome_data/NCBI/Drosophila melanogaster
+used_data/genome_data/NCBI/Mus musculus
