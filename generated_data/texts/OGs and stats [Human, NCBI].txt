@@ -1,0 +1,73 @@
+Organism: Homo sapiens
+Annotation: NCBI
+--------------------------Genome General data-----------------------------------
+
+protein coding genes: 19226 (4023 filtered out)
+	Filtered out Genes: {'no_desc': 492, 'is_readthrough': 101, 'is_pseudogene': 22, 'located_on_miscellaneous_scaffold': 3390, 'name_duplicated': 18}
+
+Genes on Positive(+) Strand: 9743
+Genes on Negative(-) Strand: 9483
+
+isoforms per gene (mean, std, median, interquartile): (6.69, 9.39, 4.0, 6.0)
+gene length estimation (mean, std, median, interquartile): (66383.36, 132450.31, 25322.0, 58073.25)
+
+--------------------------Overlapping Genes by boundaries-----------------------------------
+
+Overlapping Genes: 3849
+	mito proteome coding genes: 287 = 287 (nuclear DNA) + 0 (mtDNA)
+
+Overlapping Gene clusters (>1 gene): 1687
+	2-length clusters: 1404
+	3-length clusters: 221
+	4-length clusters: 33
+	5-length clusters: 8
+	6-length clusters: 7
+	7-length clusters: 5
+	8-length clusters: 1
+	9-length clusters: 1
+	11-length clusters: 1
+	12-length clusters: 1
+	14-length clusters: 1
+	15-length clusters: 1
+	17-length clusters: 1
+	21-length clusters: 1
+	22-length clusters: 1
+
+Overlapping Genes by type of overlap: 1687
+	Divergent	969
+	Convergent	1880
+	Nested (diff strand)	736
+	Tandem	245
+	Nested (same strand)	353
+
+--------------------------EXCEL EXPORT DATA-----------------------------------
+
+chr	size	genes	OGs	mito_genes	mito_OGs
+1	248956422	1994	369	106	28
+2	242193529	1216	244	85	18
+3	198295559	1033	232	65	22
+4	190214555	738	111	43	9
+5	181538259	861	197	51	13
+6	170805979	1000	222	57	20
+7	159345973	886	160	53	11
+8	145138636	668	87	41	5
+9	138394717	749	149	40	7
+10	133797422	709	135	51	12
+11	135086622	1257	257	62	17
+12	133275309	994	232	59	18
+13	114364328	314	54	16	4
+14	107043718	586	154	40	18
+15	101991189	568	123	28	4
+16	90338345	814	212	54	11
+17	83257441	1134	279	70	24
+18	80373285	259	27	16	2
+19	58617616	1386	250	64	12
+20	64444167	520	91	24	6
+21	46709983	224	41	9	3
+22	50818468	423	89	39	11
+X	156040895	835	127	40	12
+Y	57227415	45	2	0	0
+MT	16569	13	5	0	0
+
+------------------------------------------------------------------------------
+
