@@ -140,12 +140,12 @@ def write_excel_formatted_general_data(file, genome: GenomeWorker, gene_clusters
         file.write(
             f'{chr_name}\t{chr_size}\t{genes_cnt}\t{OGs.get(chr_id, 0)}\t{mito_genes.get(chr_id, 0)}\t{OGs_mito.get(chr_id, 0)}\n')
 
-    file.write('\nmito_genes list\n')
-    for gene_sym in mito_genes_list:
-        file.write(gene_sym + "\n")
-    file.write('\nmito_OGs list\n')
-    for gene_sym in mito_OGs_list:
-        file.write(gene_sym + "\n")
+    # file.write('\nmito_genes list\n')
+    # for gene_sym in mito_genes_list:
+    #     file.write(gene_sym + "\n")
+    # file.write('\nmito_OGs list\n')
+    # for gene_sym in mito_OGs_list:
+    #     file.write(gene_sym + "\n")
     file.write('\n------------------------------------------------------------------------------\n\n')
 
 
