@@ -18,7 +18,7 @@ in [worker_genome_values.py](worker_genome_values.py) as well, for which files a
 _Note:_ NCBI .gff files lacks UTR 5' and UTR 3' features. In order to add these features run script add_ustrs_to_gff.py
 after that use any converter tool to change the text format to the ANSII Unicode.
 [add_ustrs_to_gff.py](used_data/genome_data/NCBI/add_utrs_to_gff.py)
-is written by "David Managadze" (NCBI worker) and this script was suggested for use in
+is written by "David Managadze" (works at NCBI) and this script was suggested for use in
 NCBI's [readme files](https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt).
 
 ### Genome Load
