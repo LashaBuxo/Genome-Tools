@@ -1,8 +1,8 @@
 GENOME_DATABASES_DIRECTORY = './built_databases/genome_data/'
 PROTEIN_FEATURES_DIRECTORY = './built_databases/protein_features/'
 
-MITOCARTA_DATA = ['used_data/mitoCarta_data/Homo sapiens/Human MitoCarta3.0.html',
-                  'used_data/mitoCarta_data/Mus musculus/Mouse MitoCarta3.0.html']
+MITOCARTA_DATA = ['used_data/mitoCarta_data/Homo sapiens/Human MitoCarta3.0.txt',
+                  'used_data/mitoCarta_data/Mus musculus/Mouse MitoCarta3.0.txt']
 
 APPRIS_DATA_DIRECTORY = ['used_data/APPRIS_data/Homo sapiens/',
                          'used_data/APPRIS_data/Mus musculus/']
