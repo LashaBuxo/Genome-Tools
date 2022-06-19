@@ -52,6 +52,8 @@ class OverlapRecord:
         self.seq1_stats = AnalyzerData()
         self.seq2_stats = AnalyzerData()
 
+        self.max_record_length_in_siblings = -1
+
     def get_overlapped_sequence(self):
         if not self.is_fully_analyzed: self.analyze_record()
         if self.gene1.strand != self.gene2.strand:
@@ -66,9 +68,15 @@ class OverlapRecord:
         return min(self.get_transcript_conservation_score(self.transcript1.id),
                    self.get_transcript_conservation_score(self.transcript2.id))
 
-    def get_record_length(self, max_overlapped_sequence=False):
+    def get_record_length(self, max_in_siblings=False):
         if not self.is_fully_analyzed: self.analyze_record()
-        if max_overlapped_sequence: return self.seq1_stats.max_analyzed_sequence_length
+
+        if max_in_siblings:
+            if self.max_record_length_in_siblings != -1:
+                return self.max_record_length_in_siblings
+            else:
+                return self.seq1_stats.total_analyzed_sequence_length
+
         return self.seq1_stats.total_analyzed_sequence_length
 
     def get_record_GC_content(self):

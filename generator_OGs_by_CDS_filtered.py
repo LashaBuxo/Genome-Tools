@@ -31,6 +31,12 @@ def most_conserved_CDS_overlap(record_A: OverlapRecord, record_B: OverlapRecord)
     consB_1 = record_B.get_transcript_conservation_score(record_B.transcript1.id)
     consB_2 = record_B.get_transcript_conservation_score(record_B.transcript2.id)
 
+    # make sure that, record returned from this compare function
+    # knows, what is maximum overlapped CDS length in all siblings
+    max_CDS_length = max(record_A.get_record_length(), record_B.get_record_length())
+    record_A.max_record_length_in_siblings = max_CDS_length
+    record_B.max_record_length_in_siblings = max_CDS_length
+
     if min(consA_1, consA_2) == min(consB_1, consB_2):
         if max(consA_1, consA_2) == max(consB_1, consB_2):
             return record_A if record_A.get_record_length() > record_B.get_record_length() else record_B

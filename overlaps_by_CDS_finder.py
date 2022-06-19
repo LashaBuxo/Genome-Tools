@@ -57,7 +57,7 @@ def overlaps_finder(genome: GenomeWorker, method: SEARCH_METHOD, min_length=1, r
                             record = OverlapRecord(transcript_a, transcript_b, chr_id, genome, non_ati_segments)
 
                             # if overlap is below our desired number, then we should not connect genes
-                            if record.get_record_length(max_overlapped_sequence=True) < min_length:
+                            if record.get_record_length() < min_length:
                                 continue
                             genes_overlapped_except_ATI = True
 

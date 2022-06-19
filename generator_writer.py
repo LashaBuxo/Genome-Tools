@@ -27,7 +27,7 @@ def write_excel_OGs_by_CDS_data(file, genome: GenomeWorker, mouse: GenomeWorker,
                                 ):
     file.write('\n--------------------------EXCEL EXPORT DATA-----------------------------------\n\n')
     file.write(
-        'gene1\tgene2\tt1\tt2\tt_ov\tex_ov\tov_len\tGC\tCONS1\tCONS2\tt_ov\tex_ov\tov_len\tGC\tCONS1\tCONS2\thas_mM?\tov_mM?\tov_len(mM)\tmatch_score\n')
+        'gene1\tgene2\tt1\tt2\tt_ov\tex_ov\tov_len\tGC\tCONS1\tCONS2\tt_ov\tex_ov\tmax_ov_len\tov_len\tGC\tCONS1\tCONS2\thas_mM?\tov_mM?\tov_len(mM)\tmatch_score\n')
 
     for index in range(0, len(OGs_records)):
         record = OGs_records[index]
@@ -69,10 +69,11 @@ def write_excel_OGs_by_CDS_data(file, genome: GenomeWorker, mouse: GenomeWorker,
                                      random_record.get_transcript_conservation_score(random_record.transcript2.id)
         random_trans_ov_type, random_exon_ov_type = random_record.transcriptic_overlap_type.short_name(), \
                                                     random_record.exonic_overlap_type.short_name()
+        max_ov_len = record.get_record_length(max_in_siblings=True)
         file.write(
             f"{sym1}\t{sym2}\t{transcript1.id.replace('transcript:', '')}\t{transcript2.id.replace('transcript:', '')}\t"
             f"{random_trans_ov_type}\t{random_exon_ov_type}\t{random_length}\t{random_GC}\t{random_cons1}\t{random_cons2}"
-            f"\t{trans_ov_type}\t{exon_ov_type}\t{ov_length}\t{gc}\t{cons1}\t{cons2}\t{presentedMM}\t{overlappedMM}\t"
+            f"\t{trans_ov_type}\t{exon_ov_type}\t{max_ov_len}\t{ov_length}\t{gc}\t{cons1}\t{cons2}\t{presentedMM}\t{overlappedMM}\t"
             f"{co_overlapped_len}\t{score}\n")
 
     file.write('\n\n')

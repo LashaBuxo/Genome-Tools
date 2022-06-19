@@ -104,6 +104,11 @@ class GenomeWorker:
         assert chr_id <= self.chromosomes_count()
         return self.__genes_on_chr[chr_id][index]
 
+    def gene_by_symbol(self, symbol) -> Feature:
+        if self.__gene_symbols_set.__contains__(symbol):
+            return self.feature_by_id(self.__gene_symbols_set[symbol])
+        return None
+
     def get_transcript_parent(self, transcript_id):
         feature = self.feature_by_id(transcript_id)
         return self.feature_by_id(feature.attributes['Parent'][0])
@@ -168,6 +173,18 @@ class GenomeWorker:
         score = float(self.__transcript_APPRIS_data[transcript_id]['conservation_score'])
         n_score = score
         return n_score
+
+    def get_gene_conservation_score(self, gene_id):
+        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
+        transcripts = self.get_transcripts_from_gene(gene_id)
+        arrs = []
+        for transcript in transcripts:
+            arrs.append(  self.get_transcript_conservation_info(transcript.id) )
+        arrs.sort( reverse=True)
+        if len(arrs) == 0:
+            return -1
+        else:
+            return arrs[0]
 
     def get_transcript_homologue_species(self, transcript_id):
         assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
