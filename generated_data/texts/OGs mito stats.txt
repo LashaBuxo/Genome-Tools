@@ -1,9 +1,0 @@
-mito genes human - 1128; mouse - 1134
-mito common genes - 1065
-mito overlapped genes: human - 408; mouse - 326
-mito common overlapped genes - 202
-mito common overlapped genes and paired - 171
-
-mito overlapped to mito genes: human - 49; mouse - 53
-mito common overlapped to mito genes - 21
-mito common overlapped to mito genes and paired - 21
