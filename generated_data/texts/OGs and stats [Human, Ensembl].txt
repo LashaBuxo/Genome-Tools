@@ -1,0 +1,71 @@
+Organism: Homo sapiens
+Annotation: Ensembl
+--------------------------Genome General data-----------------------------------
+
+protein coding genes: 19176 (818 filtered out)
+	Filtered out Genes: {'no_symbol': 605, 'is_readthrough': 121, 'is_pseudogene': 58, 'name_duplicated': 9, 'no_desc': 1, 'located_on_miscellaneous_scaffold': 24}
+
+Genes on Positive(+) Strand: 9707
+Genes on Negative(-) Strand: 9469
+
+isoforms per gene (mean, std, median, interquartile): (5.56, 6.07, 4.0, 5.0)
+gene length estimation (mean, std, median, interquartile): (68919.16, 133857.69, 27277.5, 61747.5)
+
+--------------------------Overlapping Genes by boundaries-----------------------------------
+
+Overlapping Genes: 5153
+	mito proteome coding genes: 408 = 403 (nuclear DNA) + 5 (mtDNA)
+
+Overlapping Gene clusters (>1 gene): 2160
+	2-length clusters: 1639
+	3-length clusters: 358
+	4-length clusters: 109
+	5-length clusters: 31
+	6-length clusters: 7
+	7-length clusters: 6
+	8-length clusters: 2
+	9-length clusters: 1
+	11-length clusters: 3
+	14-length clusters: 1
+	15-length clusters: 1
+	17-length clusters: 1
+	22-length clusters: 1
+
+Overlapping Genes by type of overlap: 2160
+	Divergent	1663
+	Convergent	2287
+	Nested (diff strand)	977
+	Tandem	628
+	Nested (same strand)	357
+
+--------------------------EXCEL EXPORT DATA-----------------------------------
+
+chr	size	genes	OGs	mito_genes	mito_OGs
+1	248956422	1993	451	106	36
+2	242193529	1213	323	85	29
+3	198295559	1034	342	65	28
+4	190214555	738	168	43	14
+5	181538259	861	257	51	20
+6	170805979	999	256	57	22
+7	159345973	883	252	53	21
+8	145138636	654	162	41	16
+9	138394717	745	170	40	11
+10	133797422	706	153	51	14
+11	135086622	1260	348	62	21
+12	133275309	993	324	59	24
+13	114364328	312	56	16	4
+14	107043718	587	204	40	20
+15	101991189	567	171	28	8
+16	90338345	812	291	54	23
+17	83257441	1132	346	71	29
+18	80373285	259	45	17	3
+19	58617616	1380	366	64	20
+20	64444167	521	123	24	9
+21	46709983	213	53	9	2
+22	50818468	423	110	39	17
+X	156040895	834	173	40	12
+Y	57227415	44	4	0	0
+MT	16569	13	5	13	5
+
+------------------------------------------------------------------------------
+
