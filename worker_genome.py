@@ -1,28 +1,9 @@
-import gc
-import random
-from math import log2
 from os.path import exists
-import time
 import gffutils
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from gffutils import Feature
 import random
-
-import xlrd
-from openpyxl import load_workbook
-import urllib.request, json
-# Author: "Lasha Bukhnikashvili"
-#
-# Common Methods for working with Genome Worker data:
-#   1) Creating database based on NCBI, Ensembl Genome Worker annotation
-#   2) Import annotation features from created database
-#   3) Filter specific features
-#   4) calculate overlapping intervals
-#   and so on...
-#
-# Other codes, which does specific calculations on Genome Worker use this script
-# for working with Ensembl or NCBI annotation (with corresponding sequence data if necessary)
 
 # Specific tools for working with Ensembl annotation and with sequence data
 from worker_genome_values import *
@@ -31,17 +12,16 @@ from worker_analyzer import *
 
 
 class GenomeWorker:
-    def __init__(self, species: SPECIES, annotation_source: ANNOTATIONS, annotation_load_type: ANNOTATION_LOAD,
-                 sequence_load_type: SEQUENCE_LOAD):
+    def __init__(self, species: SPECIES, annotation_load_type: ANNOTATION_LOAD,
+                 sequence_load_type: SEQUENCE_LOAD, load_APPRIS=False, load_MitoCARTA=False):
 
-        assert annotation_source == ANNOTATIONS.ENSEMBL or annotation_source == ANNOTATIONS.NCBI
-
-        print(f"loading data for {species} ({annotation_source.name}):")
+        print(f"loading data for {species}:")
 
         self.species = species
-        self.annotation_source = annotation_source
         self.annotation_load_type = annotation_load_type
         self.sequence_load_type = sequence_load_type
+        self.load_APPRIS = load_APPRIS
+        self.load_MitoCARTA = load_MitoCARTA
 
         self.imported_protein_coding_genes = 0
         self.ignored_protein_coding_genes = 0
@@ -51,14 +31,12 @@ class GenomeWorker:
         self.__loaded_feature_by_id = {}
 
         # gene features clustered by chromosome, they are on.
-        self.__genes_on_chr = [None] * (self.chromosomes_count() + 1)
+        self.chromosome_name2index = {}
+        self.__genes_on_chr = [None]
         self.__gene_symbols_set = {}
         self.__gene_accessions_set = {}
 
         self.__gene_transcripts = {}  # {gene_id, [list of mRNA features/isoforms whose parent is gene_id]}
-
-        self.__transcript_APPRIS_data = {}
-        self.__gene_mitoCarta_data = {}
 
         self.__transcript_fragments = {}
         self.__transcript_fragments_is_sorted = {}  # optimizes speed, if we are not sorting it if we don't need
@@ -66,14 +44,9 @@ class GenomeWorker:
         self.__gene_transcript_by_criteria = {}  # {gene_id, representative mRNA features whose parent is gene_id}
 
         # {chr_id,DNA sequence of chromosome with id chr_id}
-        self.__sequences = [None] * (self.chromosomes_count() + 1)
+        self.__sequences = [None]
 
         self.__load_requested_features()
-        self.__load_mitoCarta_data()
-
-        # we only have APPRIS data for Ensembl
-        if annotation_source == ANNOTATIONS.ENSEMBL: self.__load_APPRIS_data()
-
         self.__load_requested_sequences()
 
     # region easy retriever methods
@@ -83,7 +56,7 @@ class GenomeWorker:
 
     def get_feature_chromosomal_position(self, feature_id):
         feature = self.feature_by_id(feature_id)
-        chr_id = self.chr_id_from_seq_id(self.annotation_source, feature.chrom)
+        chr_id = self.seq_id2_chr_index(feature.chrom)
 
         if self.sequence_load_type == SEQUENCE_LOAD.NOT_LOAD:
             return chr_id, ''
@@ -91,7 +64,7 @@ class GenomeWorker:
         return chr_id, f"{chr_id} ({int(feature.start / chr_len * 100)}%)"
 
     def chromosomes_count(self):
-        return NUMBER_OF_CHROMOSOMES[self.species.value]
+        return len(self.chromosome_name2index)
 
     def chromosome_length(self, chr_id):
         return len(self.__sequences[chr_id])
@@ -117,22 +90,41 @@ class GenomeWorker:
         return self.__loaded_feature_by_id[feature_id] if self.__loaded_feature_by_id.__contains__(feature_id) else None
 
     def __get_annotation_file_path(self):
-        if self.annotation_source != ANNOTATIONS.ENSEMBL:
-            return NCBI_ANNOTATIONS[self.species.value]
         return ENSEMBL_ANNOTATIONS[self.species.value]
 
     def __get_annotation_db_path(self):
         added_name = self.__get_annotation_file_path().replace('/', '_')
-        generated_path = GENOME_DATABASES_DIRECTORY + self.species.name + "_" + self.annotation_source.name + "_" + added_name
+        annotation_name = "ENSEMBL"
+        generated_path = GENOME_DATABASES_DIRECTORY + self.species.name + "_" + annotation_name + "_" + added_name
         return generated_path + '.db'
 
     def __get_sequence_file_path(self):
-        if self.annotation_source == ANNOTATIONS.ENSEMBL:
-            return ENSEMBL_SEQUENCES[self.species.value]
-        return NCBI_SEQUENCES[self.species.value]
+        return ENSEMBL_SEQUENCES[self.species.value]
 
     def get_transcripts_from_gene(self, gene_id) -> list[Feature]:
         return self.__gene_transcripts[gene_id] if self.__gene_transcripts.__contains__(gene_id) else []
+
+    def get_gene_incomplete_level(self, gene_id):
+        transcripts = self.get_transcripts_from_gene(gene_id)
+        complete_cnt = 0
+        protein_coding_isoforms = 0
+        for transcript in transcripts:
+            frags = self.get_fragments_from_transcript(transcript.id)
+            utr5_found = False
+            utr3_found = False
+            CDS_found = False
+
+            for frag in frags:
+                if frag.featuretype == 'three_prime_UTR':
+                    utr3_found = True
+                if frag.featuretype == 'CDS':
+                    CDS_found = True
+                if frag.featuretype == 'five_prime_UTR':
+                    utr5_found = True
+            if CDS_found:
+                protein_coding_isoforms += 1
+                complete_cnt += 1 if utr3_found and utr5_found else 0
+        return (protein_coding_isoforms - complete_cnt) / protein_coding_isoforms
 
     def get_transcript_CDS_length(self, transcript_id):
         frags = self.__transcript_fragments[transcript_id]
@@ -166,123 +158,9 @@ class GenomeWorker:
 
         return fragments
 
-    def get_transcript_conservation_info(self, transcript_id):
-        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
-        transcript_id = transcript_id.replace('transcript:', '')
-        if not self.__transcript_APPRIS_data.__contains__(transcript_id): return 0
-        score = float(self.__transcript_APPRIS_data[transcript_id]['conservation_score'])
-        n_score = score
-        return n_score
-
-    def get_gene_conservation_score(self, gene_id):
-        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
-        transcripts = self.get_transcripts_from_gene(gene_id)
-        arrs = []
-        for transcript in transcripts:
-            arrs.append(  self.get_transcript_conservation_info(transcript.id) )
-        arrs.sort( reverse=True)
-        if len(arrs) == 0:
-            return -1
-        else:
-            return arrs[0]
-
-    def get_transcript_homologue_species(self, transcript_id):
-        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
-        transcript_id = transcript_id.replace('transcript:', '')
-        if not self.__transcript_APPRIS_data.__contains__(transcript_id): return 0
-        if not self.__transcript_APPRIS_data[transcript_id].__contains__('homologue'): return []
-        return self.__transcript_APPRIS_data[transcript_id]['homologue']
-
-    def get_gene_max_conserved_homologue_species(self, gene_id):
-        assert self.annotation_source == ANNOTATIONS.ENSEMBL  # we only have APPRIS data for Ensembl
-        transcripts = self.get_transcripts_from_gene(gene_id)
-        arrs = []
-        for transcript in transcripts:
-            arrs.append((transcript.id, self.get_transcript_conservation_info(transcript.id)))
-        arrs.sort(key=lambda x: x[1], reverse=True)
-        transcript_id = arrs[0][0]
-        transcript_id = transcript_id.replace('transcript:', '')
-        if not self.__transcript_APPRIS_data.__contains__(transcript_id): return 0
-        if not self.__transcript_APPRIS_data[transcript_id].__contains__('homologue'): return []
-        return self.__transcript_APPRIS_data[transcript_id]['homologue']
-
-    def is_gene_MITO(self, gene_id):
-        feature = self.feature_by_id(gene_id)
-        gene_sym = self.get_gene_symbol(feature)
-        return self.__gene_mitoCarta_data.__contains__(gene_sym)
-
     # endregion
 
-    # region load methods for Annotation, Assembly(sequence), APPRIS and mitoCarta
-
-    def __load_mitoCarta_data(self):
-        file = open(MITOCARTA_DATA[self.species.value], 'r')
-        lines = file.readlines()
-        total = 0
-        for line in lines:
-            if not line.__contains__('<tr><td>'): continue
-            total += 1
-            gene_name = line.split('<tr><td>')[1].split('</td><td')[0].upper()
-            if not self.__gene_symbols_set.__contains__(gene_name):
-                continue
-            self.__gene_mitoCarta_data[gene_name] = True
-        print(f"\t{len(self.__gene_mitoCarta_data)}/{total} genes status loaded from mitoCarta!")
-
-    def __load_APPRIS_data(self):
-        scores_file = APPRIS_DATA_DIRECTORY[self.species.value] + 'appris_data.appris.txt'
-        assert exists(scores_file)
-        x = {}
-        file = open(scores_file, 'r')
-        lines = file.readlines()
-        for index in range(1, len(lines)):
-            line_data = lines[index].split('\t')
-            transcript_id = line_data[2]
-
-            if self.feature_by_id('transcript:' + transcript_id) is None: continue
-
-            # if self.get_transcript_APPRIS_status(transcript_id) is None: continue
-            residues, structure, conservation, domains, helices, signals, trifid_score, mapped_peptides, appris_score, appris_annotation = \
-                line_data[10], line_data[11], line_data[12], line_data[13], line_data[14], line_data[15], line_data[16], \
-                line_data[17], line_data[18], line_data[19]
-
-            not_found_tag = line_data[6]
-
-            trifid_score = 0 if trifid_score == '' else float(trifid_score)
-            if not self.__transcript_APPRIS_data.__contains__(transcript_id):
-                self.__transcript_APPRIS_data[transcript_id] = {}
-            self.__transcript_APPRIS_data[transcript_id]['functional_residues'] = residues
-            self.__transcript_APPRIS_data[transcript_id]['structure_score'] = structure
-            self.__transcript_APPRIS_data[transcript_id]['domain_residues'] = domains
-            self.__transcript_APPRIS_data[transcript_id]['conservation_score'] = conservation
-            self.__transcript_APPRIS_data[transcript_id]['Trifid_Score'] = trifid_score
-            self.__transcript_APPRIS_data[transcript_id]['APPRIS_score'] = appris_score
-            self.__transcript_APPRIS_data[transcript_id]['APPRIS_annotation'] = appris_annotation
-            self.__transcript_APPRIS_data[transcript_id]['transcript_incomplete'] = not_found_tag
-
-            x[not_found_tag] = 1
-        print(f"\t{len(self.__transcript_APPRIS_data)}/{len(lines) - 1} transcripts scores loaded from APPRIS!")
-
-        if self.species != SPECIES.Homo_sapiens: return
-        corsair_file = APPRIS_DATA_DIRECTORY[self.species.value] + 'corsair.txt'
-        assert exists(corsair_file)
-        file = open(corsair_file, 'r')
-        lines = file.readlines()
-        cnt = 0
-        transcript_id = ''
-        for index in range(0, len(lines)):
-            line = lines[index].replace('"', '')
-            if line.startswith('>'):
-                transcript_id = line.replace('>', '').split('\t')[0]
-                continue
-            if len(line) < 3: continue
-            # if transcript_id is filtered, then ignore record
-            if not self.__transcript_APPRIS_data.__contains__(transcript_id):
-                continue
-            if not self.__transcript_APPRIS_data[transcript_id].__contains__('homologue'):
-                self.__transcript_APPRIS_data[transcript_id]['homologue'] = []
-            species = line.split('\t')[0]
-            self.__transcript_APPRIS_data[transcript_id]['homologue'].append(species)
-        print(f"\t{cnt}/{len(lines)} homologue (CORSAIR) cross-species loaded from APPRIS!")
+    # region load methods for Annotation, Assembly(sequence)
 
     def __load_requested_sequences(self):
         if self.sequence_load_type != SEQUENCE_LOAD.LOAD:
@@ -290,98 +168,112 @@ class GenomeWorker:
 
         sequence_file_path = self.__get_sequence_file_path()
         for record in SeqIO.parse(sequence_file_path, 'fasta'):
-            chr_id = self.chr_id_from_seq_id(self.annotation_source, record.id)
+            chr_id = self.seq_id2_chr_index(record.id)
             if chr_id == -1: continue
             self.__sequences[chr_id] = record
 
         loaded_chromosomes = 0
-        for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
-            loaded_chromosomes += 1 if self.__sequences[chr_id] is not None and len(self.__sequences[chr_id]) > 0 else 0
+        for _, chr_index in self.chromosome_name2index.items():
+            loaded_chromosomes += 1 if self.__sequences[chr_index] is not None and len(
+                self.__sequences[chr_index]) > 0 else 0
 
-        print(f"\tDNA chromosomes loaded {loaded_chromosomes}/{NUMBER_OF_CHROMOSOMES[self.species.value]}!")
+        print(f"\tDNA chromosomes loaded {loaded_chromosomes}/{self.chromosomes_count()}!")
 
-    def __check_gene_for_Ensembl_filters(self, gene: Feature):
+    def __check_gene_for_Ensembl_filters(self, gene: Feature, feature_ids, feature_syms, feature_accs):
+        # https: // www.biostars.org / p / 5304 /  # 9521037
         # ignore genes with miscellaneous chromosome/scaffold names
-        chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
+        chr_id = self.seq_id2_chr_index(gene.chrom)
         if chr_id == -1: return False, "located_on_miscellaneous_scaffold"
+
+        gene_symbol = GenomeWorker.get_gene_symbol(gene)
+        gene_accession = GenomeWorker.get_gene_accession(gene)
+        description = GenomeWorker.get_gene_description(gene)
 
         # ignore genes without description or gene_symbol
-        if not gene.attributes.__contains__('description'): return False, "no_desc"
-        gene_symbol = GenomeWorker.get_gene_symbol(gene)
-        if gene_symbol == "***": return False, "no_symbol"
+        # if description == "no_desc": return False, "no_desc"
+        # if gene_symbol == "no_sym": return False, "no_symbol"
+        # if gene_accession == "no_acc": return False, "no_accession"
 
-        description = gene.attributes['description'][0]
-
-        # ignore genes if they are readthrough
-        if description.__contains__('readthrough'): return False, "is_readthrough"
-
-        # ignore genes with duplicate Names or accessions
-        if self.__gene_symbols_set.__contains__(gene_symbol):
-            return False, "name_duplicated"
-        # ignore genes if gene with same NCBI accession already imported
-        gene_accession = GenomeWorker.get_gene_accession(gene)
-        if gene_accession != 'no_acc' and self.__gene_accessions_set.__contains__(gene_accession):
-            return False, "acc_duplicated"
-
-        # ignore genes if they are pseudogene, novel or predicted
+        # ignore genes if they are pseudogene, novel or predicted, readthrough
+        if description.__contains__('readthrough'):
+            return False, "is_readthrough"
         if description.__contains__('pseudogene') or description.__contains__('pseudogene'):
-            # print(f"{description} {gene.id}\n")
-            return (False, "is_pseudogene")
+            return False, "is_pseudogene"
         if description.__contains__('novel') or description.__contains__('Novel'):
-            # print(f"{description} {gene.id}\n")
             return False, "is_novel"
         if description.__contains__('predicted') or description.__contains__('Predicted'):
-            # print(f"{description} {gene.id}\n")
-            return (False, "is_predicted")
+            return False, "is_predicted"
 
-        # for any annotation, there must not be 2 gene record with same id
-        assert not self.__loaded_feature_by_id.__contains__(gene.id)
-
-        return True, "passed_filter"
-
-    def __check_gene_for_NCBI_filters(self, gene: Feature):
-        # ignore genes with miscellaneous chromosome/scaffold names
-        chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
-        if chr_id == -1: return False, "located_on_miscellaneous_scaffold"
-
-        # ignore genes without Name
-        if not gene.attributes.__contains__('Name'): return False, "no_name"
-
-        if chr_id != NUMBER_OF_CHROMOSOMES[self.species.value]:
-            # ignore genes without description
-            if not gene.attributes.__contains__('description'): return False, "no_desc"
-
-            # ignore genes if they are novel, predicted or readthrough
-            description = gene.attributes['description'][0]
-            if description.__contains__('pseudogene') or description.__contains__('pseudogene'): return (
-                False, "is_pseudogene")
-            if description.__contains__('novel') or description.__contains__('Novel'): return False, "is_novel"
-            if description.__contains__('predicted') or description.__contains__('Predicted'): return (
-                False, "is_predicted")
-            if description.__contains__('readthrough'): return False, "is_readthrough"
-
-        # for any annotation, there must not be 2 gene record with same id
-        assert not self.__loaded_feature_by_id.__contains__(gene.id)
-
-        # ignore genes with duplicate Names if it has Name
-        gene_name = GenomeWorker.get_gene_symbol(gene)
-        if gene_name != 'no_name' and self.__gene_symbols_set.__contains__(gene_name):
+        # ignore genes with duplicate Names or accessions
+        if gene_symbol != "no_sym" and feature_syms.__contains__(gene_symbol):
             return False, "name_duplicated"
+        # ignore genes if gene with same NCBI accession already imported
+        if gene_accession != 'no_acc' and feature_accs.__contains__(gene_accession):
+            return False, "acc_duplicated"
 
-        if chr_id != NUMBER_OF_CHROMOSOMES[self.species.value]:
-            # ignore genes if gene with same NCBI accession already imported
-            gene_accession = GenomeWorker.get_gene_accession(gene)
-            if gene_accession != 'no_acc' and self.__gene_accessions_set.__contains__(gene_accession):
-                return False, "acc_duplicated"
+        # for any annotation, there must not be 2 gene record with same id
+        assert not feature_ids.__contains__(gene.id)
 
         return True, "passed_filter"
 
-    def __check_gene_for_filters(self, gene: Feature):
-        # https: // www.biostars.org / p / 5304 /  # 9521037
-        if self.annotation_source == ANNOTATIONS.NCBI:
-            return self.__check_gene_for_NCBI_filters(gene)
-        else:
-            return self.__check_gene_for_Ensembl_filters(gene)
+    def filter_by_ensembl_attributes(self):
+        feature_ids = {}
+        feature_syms = {}
+        feature_accs = {}
+        for chr_index in range(1, self.chromosomes_count() + 1):
+            genes_on_chr = self.__genes_on_chr[chr_index]
+            new_genes_on_chr = []
+            cnt = len(genes_on_chr)
+            for i in range(0, cnt):
+                gene = genes_on_chr[i]
+                is_valid, status = self.__check_gene_for_Ensembl_filters(gene, feature_ids, feature_syms, feature_accs)
+                if is_valid:
+                    new_genes_on_chr.append(gene)
+                    feature_ids[gene.id] = True
+                    feature_syms[GenomeWorker.get_gene_symbol(gene)] = True
+                    feature_accs[GenomeWorker.get_gene_accession(gene)] = True
+                else:
+                    self.filter_gene_by_reason(status)
+
+            self.__genes_on_chr[chr_index] = new_genes_on_chr
+
+    def filter_gene_by_reason(self, status):
+        if not self.ignored_genes_by_types.__contains__(status):
+            self.ignored_genes_by_types[status] = 0
+        self.ignored_genes_by_types[status] += 1
+        self.ignored_protein_coding_genes += 1
+        self.imported_protein_coding_genes -= 1
+
+    def filter_nested_genes(self):
+        self.ignored_genes_by_types["nested"] = 0
+        for chr_index in range(1, self.chromosomes_count() + 1):
+            genes_on_chr = self.__genes_on_chr[chr_index]
+            new_genes_on_chr = []
+            cnt = len(genes_on_chr)
+            for i in range(0, cnt):
+                gene1 = genes_on_chr[i]
+                flag = False
+                for j in range(0, cnt):
+                    if i == j: continue
+                    gene2 = genes_on_chr[j]
+                    if self._is_gene_semi_nested_on_same_strand(gene1, gene2):
+                        flag = True
+                        break
+
+                if not flag:
+                    new_genes_on_chr.append(gene1)
+                else:
+                    self.filter_gene_by_reason("nested")
+
+            self.__genes_on_chr[chr_index] = new_genes_on_chr
+
+    threshold = 0.9
+
+    def _is_gene_semi_nested_on_same_strand(self, nested_gene: Feature, parent_gene: Feature):
+        if nested_gene.strand != parent_gene.strand: return False
+        len = self.get_overlap_length(nested_gene, parent_gene)
+        if len > (nested_gene.end - nested_gene.start + 1) * self.threshold: return True
+        return False
 
     # if database does not exists for specific chromosome, then
     # builds database from annotation file and fills/loads all
@@ -390,54 +282,67 @@ class GenomeWorker:
     # if database exists, then fills/loads all necessary data structures
     def __load_requested_features(self):
         if not exists(self.__get_annotation_db_path()):
-            print("Creating database for " + self.annotation_source.name + " only for first RUN it takes that long!")
+            print("Creating database for " + self.species.name + " only for first RUN it takes that long!")
             gffutils.create_db(self.__get_annotation_file_path(),
                                dbfn=self.__get_annotation_db_path(),
                                verbose=True, force=False, keep_order=False, merge_strategy='create_unique',
                                sort_attribute_values=False)
 
         features_db = gffutils.FeatureDB(self.__get_annotation_db_path(), keep_order=False)
-
         features_generator = features_db.features_of_type('gene')
         feature_genes = list(features_generator)
-        # choose genes who has protein_coding attribute and additional filter values
 
+        file = open(self.__get_annotation_file_path(), 'r')
+
+        lines = file.readlines()
+        chr_index = 0
+        for line in lines:
+            if line.__contains__("#!genome-build"): break
+            if line.__contains__("##sequence-region"):
+                arr = line.split(' ')
+                chr_index += 1
+                self.chromosome_name2index[arr[3]] = chr_index
+
+        self.__genes_on_chr = [None] * (self.chromosomes_count() + 1)
+        self.__sequences = [None] * (self.chromosomes_count() + 1)
+
+        # choose genes who has protein_coding attribute and additional filter values
         for gene in feature_genes:
-            attribute_filter = 'gene_biotype' if self.annotation_source == ANNOTATIONS.NCBI else 'biotype'
+            attribute_filter = 'biotype'
             attribute_value = 'protein_coding'
             if gene.attributes.__contains__(attribute_filter):
                 assert len(gene.attributes[attribute_filter]) == 1
                 if gene.attributes[attribute_filter][0] == attribute_value:
-                    is_valid, status = self.__check_gene_for_filters(gene)
-                    if is_valid:
-                        chr_id = self.chr_id_from_seq_id(self.annotation_source, gene.chrom)
-                        if self.__genes_on_chr[chr_id] is None:
-                            self.__genes_on_chr[chr_id] = []
+                    chr_id = self.seq_id2_chr_index(gene.chrom)
+                    if self.__genes_on_chr[chr_id] is None:
+                        self.__genes_on_chr[chr_id] = []
 
-                        self.imported_protein_coding_genes += 1
+                    self.imported_protein_coding_genes += 1
+                    self.__genes_on_chr[chr_id].append(gene)  # store gene feature on chromosome list
 
-                        self.__genes_on_chr[chr_id].append(gene)  # store gene feature on chromosome list
-                        self.__loaded_feature_by_id[gene.id] = gene  # store gene feature to access by id
+        self.filter_nested_genes()
+        self.filter_by_ensembl_attributes()
 
-                        # store these values, for filtering upcoming genes
-                        self.__gene_symbols_set[GenomeWorker.get_gene_symbol(gene)] = gene.id
-                        self.__gene_accessions_set[GenomeWorker.get_gene_accession(gene)] = gene.id
-                    else:
-                        if not self.ignored_genes_by_types.__contains__(status):
-                            self.ignored_genes_by_types[status] = 0
-                        self.ignored_genes_by_types[status] += 1
-                        self.ignored_protein_coding_genes += 1
+        # store gene feature->id, id->symbol, id->accession
+        for chr_index in range(1, self.chromosomes_count() + 1):
+            genes_on_chr = self.__genes_on_chr[chr_index]
+            cnt = len(genes_on_chr)
+            for i in range(0, cnt):
+                gene = genes_on_chr[i]
+                self.__loaded_feature_by_id[gene.id] = gene
+                self.__gene_symbols_set[GenomeWorker.get_gene_symbol(gene)] = gene.id
+                self.__gene_accessions_set[GenomeWorker.get_gene_accession(gene)] = gene.id
 
         loaded_chromosomes = 0
-        for chr_id in range(1, NUMBER_OF_CHROMOSOMES[self.species.value] + 1):
-            if self.__genes_on_chr[chr_id] is not None and len(self.__genes_on_chr[chr_id]) > 0:
+        for _, chr_index in self.chromosome_name2index.items():
+            if self.__genes_on_chr[chr_index] is not None and len(self.__genes_on_chr[chr_index]) > 0:
                 loaded_chromosomes += 1
             else:
-                print(f'WARNING: Chromosome {chr_id} is not loaded!')
+                print(f'WARNING: Chromosome {chr_index} is not loaded!')
 
         print(f"\t{self.imported_protein_coding_genes} genes loaded "
               f"({self.ignored_protein_coding_genes} filtered out) "
-              f"from chromosomes {loaded_chromosomes}/{NUMBER_OF_CHROMOSOMES[self.species.value]}")
+              f"from chromosomes {loaded_chromosomes}/{self.chromosomes_count()}")
         print(f"\t\tFiltered out Genes: {str(self.ignored_genes_by_types)}")
 
         if self.annotation_load_type == ANNOTATION_LOAD.GENES:
@@ -511,40 +416,16 @@ class GenomeWorker:
 
         return True
 
-    def chr_id_from_seq_id(self, annotation_source, id):
-        if annotation_source == ANNOTATIONS.ENSEMBL:
-            if id == 'MT': return NUMBER_OF_CHROMOSOMES[self.species.value]
-            if id == 'Y': return NUMBER_OF_CHROMOSOMES[self.species.value] - 1
-            if id == 'X': return NUMBER_OF_CHROMOSOMES[self.species.value] - 2
-
-            try:
-                index = int(id)
-            except ValueError:
-                index = -1
-
-            return index if 1 <= index <= NUMBER_OF_CHROMOSOMES[self.species.value] else -1
-
-        # NCBI 1st column rules: accession number instead of chromosome number
-        if not id.__contains__('.'): return -1
-        parts = id.split('.')
-
-        if not parts[0][0:3] == 'NC_': return -1
-        num = parts[0][3:len(parts[0])]
-        x = int(num)
-
-        if self.species == SPECIES.Homo_sapiens:
-            if x == 12920: return 25
-            if x < 1 or x > 24: return -1
-            return x
-        elif self.species == SPECIES.Mus_musculus:
-            if x == 5089: return 22
-            base = 66
-            x = x - base
-            if x < 1 or x > 21: return -1
-            return x
-        else:
-            print("NCBI chrid needs conversation to index!!!!!!!!!!!!!")
+    def seq_id2_chr_index(self, chr_name):
+        if not self.chromosome_name2index.__contains__(chr_name):
             return -1
+        assert self.chromosome_name2index.__contains__(chr_name)
+        return self.chromosome_name2index[chr_name]
+
+    def chr_index2_seq_id(self, index):
+        for chr_label, ind in self.chromosome_name2index.items():
+            if ind == index: return chr_label
+        assert False
 
     # endregion
 
@@ -824,7 +705,7 @@ class GenomeWorker:
 
     @staticmethod
     def get_gene_accession(gene: Feature):
-        if not gene.attributes.__contains__('description'): return "***"
+        if not gene.attributes.__contains__('description'): return "no_acc"
         desc_parts = gene.attributes['description'][0].split("Acc:")
         if len(desc_parts) != 2: return "no_acc"  # it seems record does not have NCBI ID
         ncbi_id = desc_parts[1][0:(len(desc_parts[1]) - 1)]
@@ -832,13 +713,13 @@ class GenomeWorker:
 
     @staticmethod
     def get_gene_symbol(gene: Feature):
-        if not gene.attributes.__contains__('Name'): return "***"  # loaded genes must be filtered
+        if not gene.attributes.__contains__('Name'): return "no_sym"  # loaded genes must be filtered
         assert len(gene.attributes['Name']) == 1
         return gene.attributes['Name'][0].upper()
 
     @staticmethod
     def get_gene_description(gene: Feature):
-        if not gene.attributes.__contains__('description'): return "***"  # loaded genes must be filtered
+        if not gene.attributes.__contains__('description'): return "no_desc"  # loaded genes must be filtered
         return gene.attributes['description'][0]
 
     @staticmethod
@@ -857,6 +738,25 @@ class GenomeWorker:
         gene2 = self.feature_by_id(self.__gene_symbols_set[sym2])
         if gene1.chrom != gene2.chrom: return False
         return self.are_segments_overlapped((gene1.start, gene1.end), (gene2.start, gene2.end))
+
+    @staticmethod
+    def get_overlap_length(gene_feature_A: Feature, gene_feature_B: Feature):
+        if gene_feature_A.chrom != gene_feature_B.chrom: return 0
+        l_a, r_a = gene_feature_A.start, gene_feature_A.end
+        l_b, r_b = gene_feature_B.start, gene_feature_B.end
+        if l_a <= l_b <= r_a: return min(r_a, r_b) - l_b + 1
+        if l_a <= r_b <= r_a: return r_b - max(l_a, l_b) + 1
+        if l_b <= l_a <= r_b: return r_a - l_a + 1
+        return 0
+
+    @staticmethod
+    def get_features_distance(segment1: Feature, segment2: Feature):
+        if GenomeWorker.get_overlap_type(segment1, segment2) != OVERLAP_TYPE.NONE: return 0
+        if segment1.chrom != segment2.chrom: return 1000
+        if segment1.end > segment2.end:
+            return segment1.start - segment2.end
+        else:
+            return segment2.start - segment1.end
 
     @staticmethod
     def get_overlap_type(segment1: Feature, segment2: Feature) -> OVERLAP_TYPE:

@@ -1,0 +1,262 @@
+FANCG	vcp	ficolin-1-rich granule lumen (GO:1904813)	pigo	Unknown	
+FANCA	znf276	Unknown	
+RAD1	brix1	Unknown	
+RAD17	ak6	nucleoplasm (GO:0005654)	
+RECQL5	smim5	Unknown	
+CDK1	rhobtb1	endosome membrane (GO:0010008)	
+LIG1	zswim9	Unknown	
+RECQL	golt1b	Unknown	pyroxd1	Unknown	
+SUMO1	kiaa2012	Unknown	nop58	nucleoplasm (GO:0005654)	
+XPC	tmem43	Unknown	
+RAD51	rmdn3	Unknown	
+GTF2H3	eif2b1	cytosol (GO:0005829)	
+SMC1A	ribc1	Unknown	hsd17b10	mitochondrial matrix (GO:0005759)	
+CHD1L	fmo5	Unknown	prkab2	signal transduction (GO:0007165)	
+DDB2	acp2	integral component of membrane (GO:0016021)	pacsin3	Unknown	
+RAD54L	lrrc41	cytosol (GO:0005829)	
+RAD9A	ppp1ca	cytosol (GO:0005829)	
+TREX2	haus7	cytosol (GO:0005829)	
+FBXO6	fbxo2	proteolysis (GO:0006508)	mad2l2	nucleoplasm (GO:0005654)	
+TREX1	atrip	nucleoplasm (GO:0005654)	
+POLK	ankdd1b	Unknown	
+POLH	xpo5	RNA binding (GO:0003723)	
+USP1	dock7		
+USP43	dhrs7c	Unknown	
+REV1	eif5b	cytosol (GO:0005829)	
+MPG	nprl3	lysosomal membrane (GO:0005765)	hbz		
+TDG	glt8d2	Unknown	
+NTHL1	tsc2	vesicle-mediated transport (GO:0016192)	
+NEIL2	fdft1	endoplasmic reticulum membrane (GO:0005789)	
+NEIL1	commd4	Unknown	
+APEX1	osgep	Unknown	
+PNKP	ptov1	Unknown	
+ADPRS	tekt2	Unknown	
+RAD23A	gadd45gip1	mitochondrial matrix (GO:0005759)	
+ERCC2	klc3	Unknown	ppp1r13l	nucleoplasm (GO:0005654)	
+PMS1	osgepl1	Unknown	ormdl1	Unknown	c2orf88	Unknown	
+PMS2	eif2ak1	Unknown	aimp2	cytosol (GO:0005829)	
+MLH3	eif2b2	cytosol (GO:0005829)	
+BRCA1	nbr1		vat1	integral component of membrane (GO:0016021)	
+RAD52	wnk1	protein serine/threonine kinase activity (GO:0004674)	erc1		
+KAT5	rnaseh2c	Unknown	
+DCLRE1C	suv39h2	nucleoplasm (GO:0005654)	
+ALKBH2	usp30		
+POLN	nat8l	mitochondrial matrix (GO:0005759)	haus3	cytosol (GO:0005829)	
+MGME1	snx5	Unknown	
+
+
+SDHD	TIMM8B		
+BCKDK	znf646	Unknown	vkorc1	endoplasmic reticulum membrane (GO:0005789)	prss53	Unknown	
+CYP27B1	marchf9	Unknown	mettl1	Unknown	
+HTRA2	loxl3	nucleus (GO:0005634)	
+SCO2	ncaph2	nucleoplasm (GO:0005654)	
+IDH3B	nop56	RNA binding (GO:0003723)	
+CDK1	rhobtb1	endosome membrane (GO:0010008)	
+PDHA1	map3k15	Unknown	
+DLD	lamb1	cell adhesion (GO:0007155)	
+FDX1	rdx	Unknown	
+MAPT	kansl1	nucleoplasm (GO:0005654)	
+DBT	rtca	RNA binding (GO:0003723)	
+MTHFD1	zbtb25	DNA-binding transcription factor activity (GO:0003700)	
+ATP5PF	gabpa	DNA-binding transcription factor activity (GO:0003700)	
+COX7A1	capns1	plasma membrane (GO:0005886)	
+MAPK3	gdpd3	Unknown	
+ECHS1	fuom	cytosol (GO:0005829)	
+TSFM	avil	nervous system development (GO:0007399)	
+MTIF2	RPS27A	endocytic vesicle membrane (GO:0030666)	
+POLG	fanci	nucleoplasm (GO:0005654)	
+HMGCS2	phgdh	cytosol (GO:0005829)	
+BID	bcl2l13	Unknown	
+ARG2	plekhh1	Unknown	vti1b	vesicle-mediated transport (GO:0016192)	
+MAP2K1	snapc5	nucleoplasm (GO:0005654)	
+FPGS	eng	regulation of cell population proliferation (GO:0042127)	
+ME3	fzd4	plasma membrane (GO:0005886)	prss23	endoplasmic reticulum lumen (GO:0005788)	
+SUPV3L1	hkdc1	Unknown	
+GCDH	syce2	Unknown	
+SDHC	cfap126	Unknown	
+ACO2	polr3h	nucleoplasm (GO:0005654)	
+MICU1	dnajb12	Unknown	
+AGMAT	dnajc16	Unknown	
+BCO2	il18	cell-cell signaling (GO:0007267)	tex12	Unknown	pts	cytosol (GO:0005829)	
+NT5M	cops3	signal transduction (GO:0007165)	
+GLS2	spryd4	Unknown	rbms2	RNA processing (GO:0006396)	
+ATP5IF1	dnajc8	nucleoplasm (GO:0005654)	
+HADHB	adgrf3	G protein-coupled receptor activity (GO:0004930)	HADHA	mitochondrial inner membrane (GO:0005743)	
+SOD1	scaf4	Unknown	
+STAR	bag4	cytosol (GO:0005829)	ash2l	nucleoplasm (GO:0005654)	
+PPOX	b4galt3	Golgi membrane (GO:0000139)	
+PINK1	cda	ficolin-1-rich granule lumen (GO:1904813)	
+PRELID1	mxd3	Unknown	
+CYB5B	terf2	nucleoplasm (GO:0005654)	nip7	Unknown	
+RAF1	mkrn2	Unknown	
+ACSL1	helt	Unknown	
+ATP5MC3	atf2	nucleoplasm (GO:0005654)	
+MCL1	ensa	signaling receptor binding (GO:0005102)	
+USP30	alkbh2	nucleoplasm (GO:0005654)	
+BAD	gpr137	Unknown	
+MYO19	znhit3	regulation of transcription, DNA-templated (GO:0006355)	pigw	endoplasmic reticulum membrane (GO:0005789)	
+PGAM5	pxmp2	cytosol (GO:0005829)	
+AIFM2	macroh2a2	Unknown	
+QTRT2	ccdc191	Unknown	
+GPAM	tectb	extracellular region (GO:0005576)	
+ABCB6	zfand2b	Unknown	
+STARD7	tmem127	Unknown	
+TOMM7	rapgef5	guanyl-nucleotide exchange factor activity (GO:0005085)	
+MRPS12	fbxo17	cytosol (GO:0005829)	
+NDUFA2	tmco6	Unknown	
+MRPS14	cacybp	Unknown	
+ABCB7	nexmif	Unknown	
+PMPCB	dnajc2	nucleoplasm (GO:0005654)	
+GCAT	ankrd54	Unknown	galr3	chemical synaptic transmission (GO:0007268)	
+SLC25A12	hat1	chromosome organization (GO:0051276)	
+ATP5MG	ube4a		cd3g	plasma membrane (GO:0005886)	
+NDUFB6	aptx	Unknown	tmem215	Unknown	
+NDUFB2	braf	protein phosphorylation (GO:0006468)	
+NDUFC2	thrsp	lipid metabolic process (GO:0006629)	
+CDS2	pcna	nucleoplasm (GO:0005654)	
+SLC25A27	cyp39a1	endoplasmic reticulum membrane (GO:0005789)	
+NDUFB10	rpl3l	translation (GO:0006412)	
+COX6A1	srsf9	nucleoplasm (GO:0005654)	
+COX4I1	irf8	immune response (GO:0006955)	gins2	nucleoplasm (GO:0005654)	
+SLC25A16	dna2	nucleoplasm (GO:0005654)	
+UQCRC2	pdzd9	Unknown	
+COX7B	atp7a	plasma membrane (GO:0005886)	
+ATP5PB	wdr77	nucleoplasm (GO:0005654)	
+SHMT2	ndufa4l2	Unknown	
+MRPL19	gcfc2	nucleoplasm (GO:0005654)	
+DAP3	msto1	Unknown	
+MRPL12	mafg	nucleoplasm (GO:0005654)	sirt7	Unknown	pcyt2	endoplasmic reticulum membrane (GO:0005789)	alyref	nucleoplasm (GO:0005654)	arhgdia	cytoskeleton (GO:0005856)	p4hb	endoplasmic reticulum lumen (GO:0005788)	ppp1r27	Unknown	mcrip1	Unknown	actg1	cytoskeleton (GO:0005856)	
+UCP2	paaf1	Unknown	dnajb13	Unknown	
+MRPS22	copb2	transport vesicle (GO:0030133)	
+MRPS25	nr2c2	DNA-binding transcription factor activity (GO:0003700)	
+MRPS35	mansc4	Unknown	
+MRPS34	eme2	Unknown	nme3	apoptotic process (GO:0006915)	mapk8ip3	Unknown	
+SLC25A11	pfn1	cytosol (GO:0005829)	
+MRPL28	pgap6	Unknown	
+MRPL49	capn1	ficolin-1-rich granule lumen (GO:1904813)	spdyc	Unknown	syvn1	endoplasmic reticulum membrane (GO:0005789)	
+NDUFA5	iqub	Unknown	slc13a1	plasma membrane (GO:0005886)	
+PGS1	dnah17	Unknown	
+MRPL51	ncapd2	cytosol (GO:0005829)	
+ACAD11	ackr4	chemotaxis (GO:0006935)	uba5	Unknown	
+SLC25A26	lrig1	plasma membrane (GO:0005886)	
+COX15	entpd7	endocytic vesicle membrane (GO:0030666)	
+MRPL55	c1orf35	Unknown	guk1	cytosol (GO:0005829)	
+MRPL10	osbpl7	cytosol (GO:0005829)	
+MRPL52	slc7a7	integral component of plasma membrane (GO:0005887)	
+NDUFA11	vmac	Unknown	
+MRPL50	znf189	Unknown	
+MRPL43	slf2	Unknown	sema4g	Unknown	TWNK	mitochondrial matrix (GO:0005759)	
+RDH13	eps8l1	Unknown	
+CHDH	actr8	nucleoplasm (GO:0005654)	selenok	Unknown	
+MRPS27	map1b		ptcd2	Unknown	
+MRPL24	hdgf	extracellular space (GO:0005615)	mettl25b	Unknown	
+PTCD3	immt	Unknown	polr1a	nucleoplasm (GO:0005654)	
+PHB2	lpcat3	endoplasmic reticulum membrane (GO:0005789)	
+DMAC2L	L2HGDH	mitochondrial inner membrane (GO:0005743)	cdkl1	protein phosphorylation (GO:0006468)	
+MRPL34	dda1	nucleoplasm (GO:0005654)	
+ECSIT	znf653	Unknown	
+SLC25A21	pax9	Unknown	
+NDUFAF3	qrich1	Unknown	
+MRPL20	ube2j2	endoplasmic reticulum membrane (GO:0005789)	
+MRPL9	oaz3	cytosol (GO:0005829)	
+MRPL18	tcp1	cytosol (GO:0005829)	
+SMDT1	naga		
+SLC25A22	rplp2	cytosol (GO:0005829)	
+MRS2	gpld1	extracellular region (GO:0005576)	
+MRPL47	actl6a	signal transduction (GO:0007165)	
+MRPS18A	rsph9	Unknown	
+MCUB	casp6	proteolysis (GO:0006508)	
+AURKAIP1	ube2j2	endoplasmic reticulum membrane (GO:0005789)	
+NDUFB11	rbm10	Unknown	
+MRPL39	jam2	plasma membrane (GO:0005886)	
+MRPL15	lypla1	cytosol (GO:0005829)	
+NDUFA13	yjefn3	Unknown	
+CRLS1	trmt6	nucleoplasm (GO:0005654)	
+SLC25A13	dync1i1	cytosol (GO:0005829)	
+HIGD1A	ackr2	intracellular signal transduction (GO:0035556)	
+MRPS7	gga3	endosome membrane (GO:0010008)	mif4gd	Unknown	
+MRPS16	fam149b1	Unknown	dnajc9	Unknown	
+MRPS18C	abraxas1	nucleoplasm (GO:0005654)	helq	Unknown	
+MRPS18B	atat1	cytosol (GO:0005829)	
+NDUFB9	mtss1	endocytic vesicle (GO:0030139)	tatdn1	Unknown	
+HYKK	psma4	nucleoplasm (GO:0005654)	
+NDUFS8	tcirg1	lysosomal membrane (GO:0005765)	unc93b1	Golgi membrane (GO:0000139)	
+PDHX	apip	cytosol (GO:0005829)	
+POLRMT	hcn2	cell-cell signaling (GO:0007267)	
+GSTZ1	pomt2	endoplasmic reticulum membrane (GO:0005789)	
+NDUFS2	fcer1g	plasma membrane (GO:0005886)	adamts4	proteolysis (GO:0006508)	
+CS	coq10a	Unknown	
+NDUFS3	kbtbd4	Unknown	
+GLS	stat1	regulation of apoptotic process (GO:0042981)	
+SOD2	wtap	nucleoplasm (GO:0005654)	
+CYP11A1	ubl7	Unknown	
+PC	lrfn4	plasma membrane (GO:0005886)	
+MTHFD2	mob1a	cytosol (GO:0005829)	
+ALAS2	apex2	Unknown	page2b	Unknown	
+ME2	mro	Unknown	
+MPST	TST	mitochondrial matrix (GO:0005759)	
+IVD	disp2	plasma membrane (GO:0005886)	
+NDUFS1	eef1b2	cytosol (GO:0005829)	
+PRDX5	trmt112	nucleoplasm (GO:0005654)	esrra	nucleoplasm (GO:0005654)	
+ATP5F1D	cbarp	Unknown	
+HMGCL	lypla2	cytosol (GO:0005829)	gale	cytosol (GO:0005829)	
+DLST	rps6kl1	Unknown	
+MDH2	styxl1	intracellular signal transduction (GO:0035556)	
+BTD	hacl1	cytosol (GO:0005829)	
+IDH2	znf710	Unknown	
+ALDH7A1	phax	nucleoplasm (GO:0005654)	
+HARS2	wdr55	Unknown	zmat2	Unknown	
+ACADVL	dvl2	cytosol (GO:0005829)	
+IDH3A	acsbg1	cytosol (GO:0005829)	
+IDH3G	srpk3	Unknown	ssr4	Unknown	
+HTD2	pxk	Unknown	
+ALDH6A1	bbof1	Unknown	
+RNASEL	rgsl1	Unknown	
+C1QBP	rpain	Unknown	
+KARS1	terf2ip	nucleoplasm (GO:0005654)	
+OXA1L	slc7a7	integral component of plasma membrane (GO:0005887)	
+PDK2	samd14	Unknown	
+ETFDH	ppid	nucleoplasm (GO:0005654)	
+NDUFA9	akap3		
+ALDH1L2	nopchap1	Unknown	
+PITRM1	pfkp	cytosol (GO:0005829)	
+RARS2	slc35a1	carbohydrate metabolic process (GO:0005975)	orc3	nucleoplasm (GO:0005654)	
+PDSS1	abi1	endoplasmic reticulum (GO:0005783)	
+HIBCH	c2orf88	Unknown	
+TRMT10C	pcnp	Unknown	
+NDUFAF7	prkd3	protein phosphorylation (GO:0006468)	
+NUDT13	p4ha1	endoplasmic reticulum lumen (GO:0005788)	ecd	Unknown	
+HOGA1	ankrd2	Unknown	c10orf62	Unknown	
+PDSS2	bend3	Unknown	
+PHYKPL	col23a1	endoplasmic reticulum lumen (GO:0005788)	
+NAXD	cars2	Unknown	
+CBR4	palld		
+NAT8L	poln	nucleoplasm (GO:0005654)	
+NAXE	gpatch4	Unknown	
+GADD45GIP1	rad23a	nucleoplasm (GO:0005654)	
+TFB1M	tiam2	guanyl-nucleotide exchange factor activity (GO:0005085)	
+GFM2	hexb	extracellular region (GO:0005576)	
+ACSF2	chad	Unknown	rsad1	Unknown	
+MRRF	rbm18	Unknown	
+MMAB	mvk	cytosol (GO:0005829)	
+DHTKD1	nudt5	nucleobase-containing small molecule metabolic process (GO:0055086)	sec61a2	Unknown	
+MCEE	mphosph10	nucleoplasm (GO:0005654)	
+TRNT1	crbn	cytosol (GO:0005829)	
+GFM1	lxn	Unknown	
+MCCC1	mcf2l2	Unknown	
+HSD17B10	smc1a	DNA repair (GO:0006281)	ribc1	Unknown	
+ELAC2	arhgap44	regulation of small GTPase mediated signal transduction (GO:0051056)	
+TRMT61B	spdya	Unknown	
+ACSS3	ppfia2	cytosol (GO:0005829)	
+TXNRD2	comt	plasma membrane (GO:0005886)	
+ACSS2	gss	nervous system development (GO:0007399)	
+IARS2	rab3gap2	enzyme activator activity (GO:0008047)	
+SIRT3	ric8a	Unknown	psmd13	ficolin-1-rich granule lumen (GO:1904813)	
+ADPRS	tekt2	Unknown	
+WARS2	hao2	cytosol (GO:0005829)	
+POLG2	ddx5	nucleoplasm (GO:0005654)	pecam1	secretory granule membrane (GO:0030667)	
+DMGDH	arsb	ficolin-1-rich granule lumen (GO:1904813)	bhmt	cytosol (GO:0005829)	
+MRM2	snx8	Unknown	nudt1	cytosol (GO:0005829)	
+AK3	cdc37l1	extracellular region (GO:0005576)	
+ARL2BP	pllp	Unknown	
+ACOT9	sat1	cytosol (GO:0005829)	apoo	Unknown	
