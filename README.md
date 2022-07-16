@@ -68,6 +68,26 @@ print(f'{genes_greater_1000000} genes from {total_genes}')
 14227 genes from 19176
 ```
 
+How many RNA transcript starts with _ATGGGG_ in human?
+```Python
+genome = GenomeWorker(SPECIES.Homo_sapiens, ANNOTATIONS.ENSEMBL,
+                      ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_CDS, SEQUENCE_LOAD.LOAD)
+
+count = 0
+for chr_id in range(1, genome.chromosomes_count() + 1):
+    genes_cnt = genome.genes_count_on_chr(chr_id)
+    for i in range(0, genes_cnt):
+        gene = genome.gene_by_indexes(chr_id, i)
+        transcript = genome.get_transcript_from_gene_by_criteria(gene.id, criteria=TRANSCRIPT_CRITERIA.LONGEST_CDS,
+                                                                 tie_breaker_criteria=TRANSCRIPT_CRITERIA.RANDOM)
+        seq = genome.retrieve_feature_sequence(chr_id, transcript)
+        count += 1 if seq.startswith("ATGGGG") else 0
+```
+
+```Console
+16 transcripts starts with ATGGGG
+```
+
 Based on all protein-coding genes, it can be used to outline gene GC content, by calculating GC content in specific
 regions of the gene and taking average value from all the gene. Regions are divided here into k=50 sub-regional parts.
 
