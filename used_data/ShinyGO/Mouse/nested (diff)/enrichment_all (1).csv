@@ -1,0 +1,5 @@
+"Enrichment FDR","nGenes","Pathway Genes","Fold Enrichment","Pathway","URL","Genes"
+0.0217942657989472,32,485,2.0947929962363,"External encapsulating structure "," http://amigo.geneontology.org/amigo/term/GO:0030312"," Timp1  Angptl2  Htra1  Timp3  Aspn  Ogn  Matn2  Gsto1  Lamb3  Ptx3  Thbs3  Angptl3  Angptl7  Adamts9  Wnt5b  Timp4  Fgfr2  Cask  Amelx  Angpt2  Angptl1  Lrrn3  Fgf1  Chad  Col10a1  Lrrc17  Fgl2  Lrrtm3  Ecm2  Omd  Serpinb6a  Lrrtm1"
+0.0217942657989472,32,483,2.10346708731802,"Extracellular matrix "," http://amigo.geneontology.org/amigo/term/GO:0031012"," Timp1  Angptl2  Htra1  Timp3  Aspn  Ogn  Matn2  Gsto1  Lamb3  Ptx3  Thbs3  Angptl3  Angptl7  Adamts9  Wnt5b  Timp4  Fgfr2  Cask  Amelx  Angpt2  Angptl1  Lrrn3  Fgf1  Chad  Col10a1  Lrrc17  Fgl2  Lrrtm3  Ecm2  Omd  Serpinb6a  Lrrtm1"
+0.172567294080819,7,52,4.27393162393162,"Synaptonemal complex "," http://amigo.geneontology.org/amigo/term/GO:0000795"," Sycp3  Tex12  Syn1  Xlr5a  Xlr4b  Xlr5b  Xlr3b"
+0.172567294080819,7,52,4.27393162393162,"Synaptonemal structure "," http://amigo.geneontology.org/amigo/term/GO:0099086"," Sycp3  Tex12  Syn1  Xlr5a  Xlr4b  Xlr5b  Xlr3b"

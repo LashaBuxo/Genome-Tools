@@ -1,8 +1,4 @@
-from worker_genome import *
-import matplotlib.pyplot as plt
-import networkx as nx
-import pydot
-from networkx.drawing.nx_pydot import graphviz_layout
+from worker_genome import * 
 import numpy
 
 
@@ -36,9 +32,13 @@ class GOGraph:
         # self.genome = genome
 
         self.GO_nodes = {}
+        self.alt_term_to_current = {}
+
         self.inner_edges = {}
         self.outer_edges = {}
+
         self.root_nodes = []
+
         self._load_OG_graph()
 
         self.GENE_annotations = {}
@@ -69,6 +69,29 @@ class GOGraph:
         #
         # nx.draw(G, with_labels=False, arrows=False)
         # plt.show()
+
+    def get_term_namespace(self, term):
+        term = self.get_current_term(term)
+        assert term is not None
+        return self.GO_nodes[term].namespace
+
+    def get_current_term(self, term):
+        if self.GO_nodes.__contains__(term):
+            return term
+        return None if not self.alt_term_to_current.__contains__(term) else self.alt_term_to_current[term]
+
+    def is_term_found(self, term):
+        return self.get_current_term(term) is not None
+
+    def is_first_term_child_of_second(self, term1, term2):
+        term1, term2 = self.get_current_term(term1), self.get_current_term(term2)
+        assert term1 is not None and term2 is not None
+        if term1 == term2: return True
+        for lower_term, relationship in self.inner_edges[term2]:
+            lower_node = self.GO_nodes[lower_term]
+            if self.is_first_term_child_of_second(term1, lower_node.id):
+                return True
+        return False
 
     def get_term_gene_list(self, genome: GenomeWorker, term):
         arr = []
@@ -183,10 +206,15 @@ class GOGraph:
                 lower_namespace = lines[index].split('namespace: ')[1]
                 self.__add_node(lower_term, lower_name, lower_namespace)
 
+            if lines[index].startswith("alt_id:"):
+                alt_term = lines[index].split('alt_id: ')[1]
+                self.alt_term_to_current[alt_term] = lower_term
+
             if lines[index].startswith("is_a:"):
                 relationship = "is_a"
                 upper_term = lines[index].split(' ')[1]
                 self.__add_edges(lower_term, upper_term, relationship)
+
             if lines[index].startswith("relationship:"):
                 relationship = lines[index].split(' ')[1]
                 upper_term = lines[index].split(' ')[2]

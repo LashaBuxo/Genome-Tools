@@ -236,7 +236,7 @@ for index in range(0, len(species_data[SPECIES.Homo_sapiens].OGs)):
     OGs_file.write(f"\n")
 OGs_file.close()
 
-file = open("generated_data/general_stats.txt", 'w')
+file = open("generated_data/old2/general_stats.txt", 'w')
 for species in specie_list:
     file.write(f'{species.short_name()}\t{species_data[species].filtered_genes}\t{species_data[species].loaded_genes}\t'
                f'{species_data[species].median_iso}\t'
