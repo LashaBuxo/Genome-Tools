@@ -101,7 +101,7 @@ min_number_of_organisms = 3
 GO_graph = GOGraph()
 
 gene_set_types = ["convergent", "nested (diff)", "divergent",
-                  "promotor", "OGs"]
+                   "OGs"]
 
 ontology_types = ["enrichment_all.csv", "enrichment_all (1).csv", "enrichment_all (2).csv"]
 

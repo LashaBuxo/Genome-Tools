@@ -24,25 +24,22 @@ total = {}
 
 observed_OGs = {}
 observed_OGs_conv = {}
-observed_OGs_nested = {}
+observed_OGs_nested_shorter = {}
+observed_OGs_nested_longer = {}
 observed_OGs_div = {}
-observed_OGs_div_large = {}
-observed_OGs_prom = {}
 
 expected_OGs = {}
 expected_OGs_conv = {}
-expected_OGs_nested = {}
+expected_OGs_nested_shorter = {}
+expected_OGs_nested_longer = {}
 expected_OGs_div = {}
-expected_OGs_div_large = {}
-expected_OGs_prom = {}
 
 for species in specie_list:
     OGs = {}
     OGs_conv = {}
-    OGs_nested = {}
+    OGs_nested_shorter = {}
+    OGs_nested_longer = {}
     OGs_div = {}
-    OGs_div_large = {}
-    OGs_prom = {}
     genome = GenomeWorker(species, ANNOTATION_LOAD.GENES, SEQUENCE_LOAD.LOAD)
 
     total[species] = 0
@@ -58,8 +55,7 @@ for species in specie_list:
                 gene2 = genome.gene_by_indexes(chr_index, j)
                 segment1, segment2 = boundaries_standard(gene1), boundaries_standard(gene2)
                 ov_type = genome.get_segments_overlap_type(segment1, segment2, including_PO=True)
-                if ov_type == OVERLAP_TYPE.CONVERGENT or ov_type == OVERLAP_TYPE.NEAR_DIVERGENT or ov_type == OVERLAP_TYPE.FAR_DIVERGENT\
-                        or ov_type == OVERLAP_TYPE.PROMOTOR or ov_type == OVERLAP_TYPE.DIFF_NESTED:
+                if ov_type != OVERLAP_TYPE.NONE and gene1.strand != gene2.strand:
                     OGs[gene1.id] = True
                     OGs[gene2.id] = True
 
@@ -68,32 +64,28 @@ for species in specie_list:
                     OGs_conv[gene2.id] = True
 
                 if ov_type == OVERLAP_TYPE.DIFF_NESTED:
-                    OGs_nested[gene1.id] = True
-                    OGs_nested[gene2.id] = True
+                    if gene1.end - gene1.start < gene2.end - gene2.start:
+                        OGs_nested_shorter[gene1.id] = True
+                        OGs_nested_longer[gene2.id] = True
+                    else:
+                        OGs_nested_shorter[gene2.id] = True
+                        OGs_nested_longer[gene1.id] = True
 
-                if ov_type == OVERLAP_TYPE.NEAR_DIVERGENT:
-                        OGs_div[gene1.id] = True
-                        OGs_div[gene2.id] = True
-                if ov_type == OVERLAP_TYPE.FAR_DIVERGENT:
-                        OGs_div_large[gene1.id] = True
-                        OGs_div_large[gene2.id] = True
-                if ov_type == OVERLAP_TYPE.PROMOTOR:
-                    OGs_prom[gene1.id] = True
-                    OGs_prom[gene2.id] = True
+                if ov_type == OVERLAP_TYPE.DIVERGENT:
+                    OGs_div[gene1.id] = True
+                    OGs_div[gene2.id] = True
 
     observed_OGs[species] = len(OGs)
     observed_OGs_conv[species] = len(OGs_conv)
-    observed_OGs_nested[species] = len(OGs_nested)
+    observed_OGs_nested_shorter[species] = len(OGs_nested_shorter)
+    observed_OGs_nested_longer[species] = len(OGs_nested_longer)
     observed_OGs_div[species] = len(OGs_div)
-    observed_OGs_div_large[species] = len(OGs_div_large)
-    observed_OGs_prom[species] = len(OGs_prom)
 
     expected_OGs[species] = []
     expected_OGs_conv[species] = []
-    expected_OGs_nested[species] = []
+    expected_OGs_nested_shorter[species] = []
+    expected_OGs_nested_longer[species] = []
     expected_OGs_div[species] = []
-    expected_OGs_div_large[species] = []
-    expected_OGs_prom[species] = []
 
     turns = 3
 
@@ -113,10 +105,9 @@ for species in specie_list:
 
         OGs = {}
         OGs_conv = {}
-        OGs_nested = {}
+        OGs_nested_shorter = {}
+        OGs_nested_longer = {}
         OGs_div = {}
-        OGs_div_large = {}
-        OGs_prom = {}
 
         for chr_index in range(1, genome.chromosomes_count() + 1):
             genes_cnt = genome.genes_count_on_chr(chr_index)
@@ -126,8 +117,7 @@ for species in specie_list:
                     gene2 = genome.gene_by_indexes(chr_index, j)
                     segment1, segment2 = boundaries_randomized(gene1), boundaries_randomized(gene2)
                     ov_type = genome.get_segments_overlap_type(segment1, segment2, including_PO=True)
-                    if ov_type == OVERLAP_TYPE.CONVERGENT or ov_type == OVERLAP_TYPE.FAR_DIVERGENT or ov_type == OVERLAP_TYPE.NEAR_DIVERGENT\
-                            or ov_type == OVERLAP_TYPE.PROMOTOR or ov_type == OVERLAP_TYPE.DIFF_NESTED:
+                    if ov_type != OVERLAP_TYPE.NONE and segment1[2] != segment2[2]:
                         OGs[gene1.id] = True
                         OGs[gene2.id] = True
 
@@ -136,27 +126,22 @@ for species in specie_list:
                         OGs_conv[gene2.id] = True
 
                     if ov_type == OVERLAP_TYPE.DIFF_NESTED:
-                        OGs_nested[gene1.id] = True
-                        OGs_nested[gene2.id] = True
+                        if gene1.end - gene1.start < gene2.end - gene2.start:
+                            OGs_nested_shorter[gene1.id] = True
+                            OGs_nested_longer[gene2.id] = True
+                        else:
+                            OGs_nested_shorter[gene2.id] = True
+                            OGs_nested_longer[gene1.id] = True
 
-                    if ov_type == OVERLAP_TYPE.NEAR_DIVERGENT:
+                    if ov_type == OVERLAP_TYPE.DIVERGENT:
                         OGs_div[gene1.id] = True
                         OGs_div[gene2.id] = True
 
-                    if ov_type == OVERLAP_TYPE.FAR_DIVERGENT:
-                        OGs_div_large[gene1.id] = True
-                        OGs_div_large[gene2.id] = True
-
-                    if ov_type == OVERLAP_TYPE.PROMOTOR:
-                        OGs_prom[gene1.id] = True
-                        OGs_prom[gene2.id] = True
-
         expected_OGs[species].append(len(OGs))
         expected_OGs_conv[species].append(len(OGs_conv))
-        expected_OGs_nested[species].append(len(OGs_nested))
+        expected_OGs_nested_shorter[species].append(len(OGs_nested_shorter))
+        expected_OGs_nested_longer[species].append(len(OGs_nested_longer))
         expected_OGs_div[species].append(len(OGs_div))
-        expected_OGs_div_large[species].append(len(OGs_div_large))
-        expected_OGs_prom[species].append(len(OGs_prom))
 
 file = open("generated_data/Expected_OGs_counts.txt", "w")
 
@@ -174,11 +159,18 @@ for species in specie_list:
         file.write(f"\t{expected_OGs_conv[species][i]}")
     file.write("\n")
 
-file.write("\nExpected Diff Nested Count:\n")
+file.write("\nExpected Diff Nested Shorter Count:\n")
 for species in specie_list:
-    file.write(f"{species.short_name()}\t{total[species]}\t{observed_OGs_nested[species]}")
-    for i in range(len(expected_OGs_nested[species])):
-        file.write(f"\t{expected_OGs_nested[species][i]}")
+    file.write(f"{species.short_name()}\t{total[species]}\t{observed_OGs_nested_shorter[species]}")
+    for i in range(len(expected_OGs_nested_shorter[species])):
+        file.write(f"\t{expected_OGs_nested_shorter[species][i]}")
+    file.write("\n")
+
+file.write("\nExpected Diff Nested Longer Count:\n")
+for species in specie_list:
+    file.write(f"{species.short_name()}\t{total[species]}\t{observed_OGs_nested_longer[species]}")
+    for i in range(len(expected_OGs_nested_longer[species])):
+        file.write(f"\t{expected_OGs_nested_longer[species][i]}")
     file.write("\n")
 
 file.write("\nExpected Divergent Count:\n")
@@ -187,19 +179,4 @@ for species in specie_list:
     for i in range(len(expected_OGs_div[species])):
         file.write(f"\t{expected_OGs_div[species][i]}")
     file.write("\n")
-
-file.write("\nExpected Divergent (Large) Count:\n")
-for species in specie_list:
-    file.write(f"{species.short_name()}\t{total[species]}\t{observed_OGs_div_large[species]}")
-    for i in range(len(expected_OGs_div_large[species])):
-        file.write(f"\t{expected_OGs_div_large[species][i]}")
-    file.write("\n")
-
-file.write("\nExpected Promotor sharing Count:\n")
-for species in specie_list:
-    file.write(f"{species.short_name()}\t{total[species]}\t{observed_OGs_prom[species]}")
-    for i in range(len(expected_OGs_prom[species])):
-        file.write(f"\t{expected_OGs_prom[species][i]}")
-    file.write("\n")
-
 file.close()

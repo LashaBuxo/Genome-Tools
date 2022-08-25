@@ -35,22 +35,22 @@ for chr_index in range(1, genome1.chromosomes_count() + 1):
             gene2 = genome1.gene_by_indexes(chr_index, j)
             ov_type = genome1.get_features_overlap_type(gene1, gene2)
             if ov_type == OVERLAP_TYPE.DIFF_NESTED:
-                main_nested_gene_pairs.append((gene1.id.replace("gene:", ""), gene2.id.replace("gene:", "")))
+                if gene1.end - gene1.start > gene2.end - gene2.start:
+                    main_nested_gene_pairs.append((gene1.id.replace("gene:", ""), gene2.id.replace("gene:", "")))
+                else:
+                    main_nested_gene_pairs.append((gene2.id.replace("gene:", ""), gene1.id.replace("gene:", "")))
 
-none_conserved, one_conserved, both_conserved, both_conserved_only_1to1, both_conserved_only1to1_and_same = 0, 0, 0, 0, 0
-counts_by_overlap_type = {OVERLAP_TYPE.PROMOTOR: 0,
-                          OVERLAP_TYPE.DIVERGENT: 0,
+none_conserved, one_conserved, one_and_longer_conserved, both_conserved, both_conserved_only_1to1, both_conserved_only1to1_and_same = 0, 0,0, 0, 0, 0
+counts_by_overlap_type = {OVERLAP_TYPE.DIVERGENT: 0,
                           OVERLAP_TYPE.DIFF_NESTED: 0,
-                          OVERLAP_TYPE.CONVERGENT: 0,
-                          OVERLAP_TYPE.TANDEM: 0}
+                          OVERLAP_TYPE.CONVERGENT: 0}
 no_overlap_and_same_chr = 0
 no_overlap_and_diff_chr = 0
 
-evidence_genes = {OVERLAP_TYPE.PROMOTOR: [],
-                  OVERLAP_TYPE.DIVERGENT: [],
-                  OVERLAP_TYPE.DIFF_NESTED: [],
-                  OVERLAP_TYPE.CONVERGENT: [],
-                  OVERLAP_TYPE.TANDEM: []}
+evidence_genes = {
+    OVERLAP_TYPE.DIVERGENT: [],
+    OVERLAP_TYPE.DIFF_NESTED: [],
+    OVERLAP_TYPE.CONVERGENT: [], }
 
 for gene1_id, gene2_id in main_nested_gene_pairs:
     if not orth_data.__contains__(gene1_id) and not orth_data.__contains__(gene2_id):
@@ -88,17 +88,17 @@ for gene1_id, gene2_id in main_nested_gene_pairs:
 
     if orth_data.__contains__(gene1_id) or orth_data.__contains__(gene2_id):
         one_conserved += 1
+        if orth_data.__contains__(gene1_id):
+            one_and_longer_conserved += 1
 
 results = open("movement.txt", "w")
 
 results.write(f"{len(main_nested_gene_pairs)}\t"
-              f"{none_conserved}\t{one_conserved}\t{both_conserved}\t"
+              f"{none_conserved}\t{one_conserved}\t{one_and_longer_conserved}\t{both_conserved}\t"
               f"{both_conserved_only_1to1}\t{both_conserved_only1to1_and_same}\t"
-              f"{counts_by_overlap_type[OVERLAP_TYPE.PROMOTOR]}\t"
               f"{counts_by_overlap_type[OVERLAP_TYPE.DIVERGENT]}\t"
               f"{counts_by_overlap_type[OVERLAP_TYPE.DIFF_NESTED]}\t"
               f"{counts_by_overlap_type[OVERLAP_TYPE.CONVERGENT]}\t"
-              f"{counts_by_overlap_type[OVERLAP_TYPE.TANDEM]}\t"
               f"{no_overlap_and_same_chr}\t"
               f"{no_overlap_and_diff_chr}\t")
 

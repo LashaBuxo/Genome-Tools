@@ -18,19 +18,23 @@ class OVERLAP_TYPE(IntEnum):
     # Specific classification of overlaps
     CONVERGENT = 1  # different strand + convergent
     DIFF_NESTED = 2  # different strand + nested
-    NEAR_DIVERGENT = 3  # different strand + divergent
-    FAR_DIVERGENT = 4  # different strand + divergent
-    SAME_NESTED = 5  # one of the gene entirely located into others boundaries on same strand
-    TANDEM = 6  # genes located on same strand and neither is nested
-    PROMOTOR = 7,  # genes located within 0-1000 nucleotide, on diff strand and diff orientation
+    DIFF_NESTED_SHORTER = 3  # different strand + nested
+    DIFF_NESTED_LONGER = 4  # different strand + nested
+    DIVERGENT = 5
+    SAME_NESTED = 6  # one of the gene entirely located into others boundaries on same strand
+    TANDEM = 7  # genes located on same strand and neither is nested
 
-    MULTI = 7  # for set of genes
+    MULTI = 8  # for set of genes
 
     def short_name(self):
         if self == OVERLAP_TYPE.CONVERGENT:
             return "Convergent"
         elif self == OVERLAP_TYPE.DIFF_NESTED:
             return "Nested (diff strand)"
+        elif self == OVERLAP_TYPE.DIFF_NESTED_SHORTER:
+            return "Nested (diff strand, shorter)"
+        elif self == OVERLAP_TYPE.DIFF_NESTED_LONGER:
+            return "Nested (diff strand, longer)"
         elif self == OVERLAP_TYPE.DIVERGENT:
             return "Divergent"
         elif self == OVERLAP_TYPE.SAME_NESTED:

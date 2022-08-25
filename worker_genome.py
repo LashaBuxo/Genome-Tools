@@ -13,12 +13,11 @@ from worker_analyzer import *
 
 class GenomeWorker:
     def __init__(self, species: SPECIES, annotation_load_type: ANNOTATION_LOAD,
-                 sequence_load_type: SEQUENCE_LOAD, load_MitoCARTA=False,promotor_range=500,near_divergence_range=500):
+                 sequence_load_type: SEQUENCE_LOAD, load_MitoCARTA=False, promotor_range=500):
 
         print(f"loading data for {species}:")
 
         self.promotor_range = promotor_range
-        self.near_divergence_range = near_divergence_range
 
         self.species = species
         self.annotation_load_type = annotation_load_type
@@ -580,39 +579,47 @@ class GenomeWorker:
     #     if gene1.chrom != gene2.chrom: return False
     #     return self.are_segments_overlapped((gene1.start, gene1.end), (gene2.start, gene2.end))
 
-    @staticmethod
-    def get_features_overlap_length(segment1: Feature, segment2: Feature):
+    def get_features_overlap_length(self, segment1: Feature, segment2: Feature, including_PO=False):
         if segment1.chrom != segment2.chrom: return 0
-        return GenomeWorker.get_segments_overlap_length((segment1.start, segment1.end, segment1.strand),
-                                                        (segment2.start, segment2.end, segment2.strand))
+        return self.get_segments_overlap_length((segment1.start, segment1.end, segment1.strand),
+                                                (segment2.start, segment2.end, segment2.strand), including_PO)
 
-    @staticmethod
-    def get_segments_overlap_length(segment1, segment2):
+    def get_segments_overlap_length(self, segment1, segment2, including_PO=False):
         l_a, r_a, strand_a, = segment1
         l_b, r_b, strand_b = segment2
+        if including_PO is True and self.get_segments_overlap_type(segment1, segment2, True) == OVERLAP_TYPE.DIVERGENT:
+            if strand_a == '+':
+                l_a -= self.promotor_range
+            else:
+                r_a += self.promotor_range
+            if strand_b == '+':
+                l_b -= self.promotor_range
+            else:
+                r_b += self.promotor_range
         if l_a <= l_b <= r_a: return min(r_a, r_b) - l_b + 1
         if l_a <= r_b <= r_a: return r_b - max(l_a, l_b) + 1
         if l_b <= l_a <= r_b: return r_a - l_a + 1
         return 0
 
-    ########################################Distance################################################
-    @staticmethod
-    def get_features_distance(segment1: Feature, segment2: Feature):
-        if segment1.chrom != segment2.chrom: return 1000000000
-        return GenomeWorker.get_segments_distance((segment1.start, segment1.end, segment1.strand),
-                                                  (segment2.start, segment2.end, segment2.strand))
-
-    # must be assumption that segments located on same chromosome
-    @staticmethod
-    def get_segments_distance(segment1, segment2):
-        l_a, r_a, strand_a, = segment1
-        l_b, r_b, strand_b = segment2
-
-        if GenomeWorker.get_segments_overlap_type(segment1, segment2) != OVERLAP_TYPE.NONE: return 0
-        if r_a > r_b:
-            return l_a - r_b
-        else:
-            return l_b - r_a
+    #
+    # ########################################Distance################################################
+    # @staticmethod
+    # def get_features_distance(segment1: Feature, segment2: Feature):
+    #     if segment1.chrom != segment2.chrom: return 1000000000
+    #     return GenomeWorker.get_segments_distance((segment1.start, segment1.end, segment1.strand),
+    #                                               (segment2.start, segment2.end, segment2.strand))
+    #
+    # # must be assumption that segments located on same chromosome
+    # @staticmethod
+    # def get_segments_distance(segment1, segment2):
+    #     l_a, r_a, strand_a, = segment1
+    #     l_b, r_b, strand_b = segment2
+    #
+    #     if GenomeWorker.get_segments_overlap_type(segment1, segment2) != OVERLAP_TYPE.NONE: return 0
+    #     if r_a > r_b:
+    #         return l_a - r_b
+    #     else:
+    #         return l_b - r_a
 
     ####################################################################################################
 
@@ -643,11 +650,12 @@ class GenomeWorker:
         if l_a <= l_b <= r_a:
             return OVERLAP_TYPE.CONVERGENT
 
-        if l_a <= r_b <= r_a:
-            return OVERLAP_TYPE.NEAR_DIVERGENT if r_b - l_a < self.near_divergence_range else OVERLAP_TYPE.FAR_DIVERGENT
+        if including_PO:
+            l_a -= self.promotor_range
+            r_b += self.promotor_range
 
-        if including_PO and 0< l_a - r_b < self.promotor_range:
-            return OVERLAP_TYPE.PROMOTOR
+        if l_a <= r_b <= r_a:
+            return OVERLAP_TYPE.DIVERGENT
 
         return OVERLAP_TYPE.NONE
 

@@ -15,10 +15,9 @@ class Collected_Data:
             self.label = label
             self.genes_cnt = genes_cnt
             self.OGs_by_Reviewed_TYPE = {OVERLAP_TYPE.CONVERGENT: {},
-                                         OVERLAP_TYPE.DIFF_NESTED: {},
-                                         OVERLAP_TYPE.FAR_DIVERGENT: {},
-                                         OVERLAP_TYPE.NEAR_DIVERGENT: {},
-                                         OVERLAP_TYPE.PROMOTOR: {}}
+                                         OVERLAP_TYPE.DIFF_NESTED_SHORTER: {},
+                                         OVERLAP_TYPE.DIFF_NESTED_LONGER: {},
+                                         OVERLAP_TYPE.DIVERGENT: {}}
 
     def __init__(self, genome: GenomeWorker):
         self.loaded_genes = 0
@@ -36,14 +35,13 @@ class Collected_Data:
             self.chrs_data.append(Collected_Data.Chromosome_Data(chr_label, genes_cnt))
 
         self.pearson_tests = {OVERLAP_TYPE.CONVERGENT: (0, 0),
-                              OVERLAP_TYPE.DIFF_NESTED: (0, 0),
-                              OVERLAP_TYPE.FAR_DIVERGENT: (0, 0),
-                              OVERLAP_TYPE.NEAR_DIVERGENT: (0, 0),
-                              OVERLAP_TYPE.PROMOTOR: (0, 0)}
+                              OVERLAP_TYPE.DIFF_NESTED_SHORTER: (0, 0),
+                              OVERLAP_TYPE.DIFF_NESTED_LONGER: (0, 0),
+                              OVERLAP_TYPE.DIVERGENT: (0, 0), }
 
         self.background_genes = []
 
-        self.overlap_distances = {OVERLAP_TYPE.PROMOTOR: []}
+        self.overlap_distances = {OVERLAP_TYPE.CONVERGENT: [], OVERLAP_TYPE.DIVERGENT: []}
 
     def get_OGs_by_type(self, ov_type: OVERLAP_TYPE, detailed_chr_data=False):
         label_arr = []
@@ -94,10 +92,7 @@ class Collected_Data:
 species_data = {}
 max_sets_in_species = 0
 for species in specie_list:
-    promotor_range=500 #if species==SPECIES.Homo_sapiens or species==SPECIES.Mus_musculus else 500
-    near_divergence_range = 500 #if species == SPECIES.Homo_sapiens or species == SPECIES.Mus_musculus else 250
-    genome = GenomeWorker(species, ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS, SEQUENCE_LOAD.NOT_LOAD,
-                          promotor_range=promotor_range,near_divergence_range=near_divergence_range)
+    genome = GenomeWorker(species, ANNOTATION_LOAD.GENES_AND_TRANSCRIPTS_AND_FRAGMENTS, SEQUENCE_LOAD.NOT_LOAD)
 
     data = Collected_Data(genome)
 
@@ -125,18 +120,26 @@ for species in specie_list:
                 gene2 = genome.gene_by_indexes(chr_index, j)
                 ov_type = genome.get_features_overlap_type(gene1, gene2, including_PO=True)
                 if ov_type != OVERLAP_TYPE.NONE and gene1.strand != gene2.strand:
-                    data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[ov_type][gene1.id] = True
-                    data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[ov_type][gene2.id] = True
+                    if ov_type == OVERLAP_TYPE.DIFF_NESTED:
+                        if gene1.end - gene1.start < gene2.end - gene2.start:
+                            data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[OVERLAP_TYPE.DIFF_NESTED_SHORTER][
+                                gene1.id] = True
+                            data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[OVERLAP_TYPE.DIFF_NESTED_LONGER][
+                                gene2.id] = True
+                        else:
+                            data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[OVERLAP_TYPE.DIFF_NESTED_SHORTER][
+                                gene2.id] = True
+                            data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[OVERLAP_TYPE.DIFF_NESTED_LONGER][
+                                gene1.id] = True
+                    else:
+                        data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[ov_type][
+                            gene2.id] = True
+                        data.chrs_data[chr_index - 1].OGs_by_Reviewed_TYPE[ov_type][
+                            gene1.id] = True
 
-                    if ov_type == OVERLAP_TYPE.PROMOTOR:
-                        l_a, r_a, strand_a = gene1.start, gene1.end, gene1.strand
-                        l_b, r_b, strand_b = gene2.start, gene2.end, gene2.strand
-
-                        if strand_a == '-':
-                            l_a, r_a, strand_a = gene2.start, gene2.end, gene2.strand
-                            l_b, r_b, strand_b = gene1.start, gene1.end, gene1.strand
-
-                        data.overlap_distances[ov_type].append(l_a - r_b)
+                    if ov_type == OVERLAP_TYPE.CONVERGENT or ov_type == OVERLAP_TYPE.DIVERGENT:
+                        data.overlap_distances[ov_type].append(
+                            genome.get_features_overlap_length(gene1, gene2, including_PO=True))
 
     # Perform Pearson Correlation Tests
     for ov_type, _ in data.pearson_tests.items():
@@ -188,20 +191,15 @@ for species in specie_list:
 
     gene_sets = [data.get_OR_union_sets(),
                  data.get_OGs_by_type(OVERLAP_TYPE.CONVERGENT),
-                 data.get_OGs_by_type(OVERLAP_TYPE.DIFF_NESTED),
-                 data.get_OGs_by_type(OVERLAP_TYPE.FAR_DIVERGENT),
-                 data.get_OGs_by_type(OVERLAP_TYPE.NEAR_DIVERGENT),
-                 data.get_OGs_by_type(OVERLAP_TYPE.PROMOTOR),
-                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.DIFF_NESTED),
-                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.FAR_DIVERGENT),
-                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.NEAR_DIVERGENT),
-                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.PROMOTOR),
-                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED, OVERLAP_TYPE.FAR_DIVERGENT),
-                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED, OVERLAP_TYPE.NEAR_DIVERGENT),
-                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED, OVERLAP_TYPE.PROMOTOR),
-                 data.get_AND_union_sets(OVERLAP_TYPE.FAR_DIVERGENT, OVERLAP_TYPE.NEAR_DIVERGENT),
-                 data.get_AND_union_sets(OVERLAP_TYPE.FAR_DIVERGENT, OVERLAP_TYPE.PROMOTOR),
-                 data.get_AND_union_sets(OVERLAP_TYPE.NEAR_DIVERGENT, OVERLAP_TYPE.PROMOTOR),
+                 data.get_OGs_by_type(OVERLAP_TYPE.DIFF_NESTED_SHORTER),
+                 data.get_OGs_by_type(OVERLAP_TYPE.DIFF_NESTED_LONGER),
+                 data.get_OGs_by_type(OVERLAP_TYPE.DIVERGENT),
+                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.DIFF_NESTED_SHORTER),
+                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.DIFF_NESTED_LONGER),
+                 data.get_AND_union_sets(OVERLAP_TYPE.CONVERGENT, OVERLAP_TYPE.DIVERGENT),
+                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED_SHORTER, OVERLAP_TYPE.DIFF_NESTED_LONGER),
+                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED_SHORTER, OVERLAP_TYPE.DIVERGENT),
+                 data.get_AND_union_sets(OVERLAP_TYPE.DIFF_NESTED_LONGER, OVERLAP_TYPE.DIVERGENT),
                  ]
 
     all_gene_sets[species] = gene_sets
@@ -221,7 +219,7 @@ file = open("generated_data/OGs_by_types.txt", "w")
 gene_row_index = 0
 while True:
     flag = False
-    for set_index in range(0, 6):
+    for set_index in range(0, 5):
         for species in specie_list:
             if len(all_gene_sets[species][set_index]) <= gene_row_index:
                 gene_id = ""
